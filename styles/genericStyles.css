@@ -21,6 +21,10 @@ body {
   font-size: var(--font-size);
 }
 
+.search-page-view {
+  text-align: left;
+}
+
 .header-image,
 .footer-image {
   width: 100%;

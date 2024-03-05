@@ -1,4 +1,4 @@
-import filtersData from "/docserv/res/search-embed-resources/dataStore.js";
+import filtersData from "/search-embed-resources/dataStore.js";
 
 function SearchApp() {
   var searchElement;
