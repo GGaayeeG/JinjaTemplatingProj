@@ -1,15 +1,14 @@
 //Global search functionality
-const form = document.getElementById("searchform");
-const search_input = document.getElementById("search-input");
-const hidden_input = document.getElementById("hidden-input");
-form.addEventListener("submit", function (oEvent) {
-  if (search_input.value) {
-    hidden_input.value =
-      search_input.value + " inurl:/html/ -inurl:/single-html/";
+function onGlobalSearch(oEvent) {
+  var searchInput = oEvent.target.querySelector("#search-input");
+  var hiddenInput = oEvent.target.querySelector("#hidden-input");
+  if (searchInput.value) {
+    hiddenInput.value =
+      searchInput.value + " inurl:/html/ -inurl:/single-html/";
   } else {
     oEvent.preventDefault();
   }
-});
+}
 
 // Home page menu tab change
 function onTabChange(oEvent, tabId) {
