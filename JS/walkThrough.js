@@ -118,7 +118,10 @@ function getWalkthroughDialogCoordinates(targetElementID, dialog) {
   const targetElement = document.querySelector(targetElementID);
   const elementRect = targetElement.getBoundingClientRect();
 
-  if (elementRect.top > document.documentElement.clientHeight) {
+  if (
+    elementRect.top > document.documentElement.clientHeight ||
+    elementRect.top < 0
+  ) {
     targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
