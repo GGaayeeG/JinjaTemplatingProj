@@ -9,7 +9,7 @@ function SearchApp() {
 
   React.useEffect(() => {
     const gcse_script = document.createElement("script");
-    gcse_script.src = "https://cse.google.com/cse.js?cx=f6270758188e345e2";
+    gcse_script.src = "https://cse.google.com/cse.js?cx=5650d6830ffd54dcc";
     gcse_script.async = true;
     gcse_script.onload = function () {
       checkGoogleCSEAvailability();
