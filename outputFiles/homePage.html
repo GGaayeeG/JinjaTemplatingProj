@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSE Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../styles/genericStyles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    <div class="view">
+        
+        <header class="App-header">
+            <img src='../assets/Header_SUSE.png' alt=" SUSE Header" class="header-image">
+        </header>
+
+        <div>
+            <div class="main-container">
+                
+<form id="searchform" action="/documentation.suse.com/search.html" method="get" accept-charset="utf-8" method="get"
+    class="formHeader standaloneSearch">
+    <input type="text" name="" id="search-input" class="searchInput" size="80"
+        placeholder="Explore SUSE documentation : Refine your search with filters" />
+    <input id="hidden-input" name="q" style="display:none" />
+    <button type="submit" value="Search" title="Search" class="searchButton">
+        <i class="fa fa-search"></i>
+    </button>
+</form>
+
+                
+<ul class="menu-bar" id="homepage-menu">
+    <li id="prod_solution_tab">
+        <a class="selectedTab" onclick="onTabChange(event, 'products')">
+            Products & Solutions
+        </a>
+        <div class="sortingOptions">
+            <i class="fa fa-light fa-fire fa-lg selectedSorting" title="Sort by Popularity"
+                onclick="sortProductsByPopularity(event)"></i>
+            <i class="fa fa-sort-alpha-asc fa-lg" title="Sort A-Z" onclick="sortProductsAsc(event)"></i>
+            <i class="fa fa-sort-alpha-desc fa-lg" title="Sort Z-A" onclick="sortProductsDesc(event)"></i>
+        </div>
+    </li>
+    <li id="sbp_tab">
+        <a onclick="onTabChange(event, 'sbp')">
+            Best Practices
+        </a>
+    </li>
+    <li id="trd_tab">
+        <a onclick="onTabChange(event, 'trd')">
+            Technical References
+        </a>
+    </li>
+    <li id="newest_tab">
+        <a onclick="onTabChange(event, 'newest')">
+            Newest
+        </a>
+    </li>
+    <li id="popular_tab">
+        <a onclick="onTabChange(event, 'mostPopular')">
+            Most Popular
+        </a>
+    </li>
+</ul>
+
+
+                <div id="products-content" class="active-content tab-content">
+                    <div class="productsContainer">
+                        
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[]' data-pointingUrl=https://documentation.suse.com/alp/dolomite/>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_ALP.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">Adaptable Linux Platform</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SUSE Enterprise Storage 7.1", "pointingUrl": "https://documentation.suse.com/ses/7.1/", "productName": "SUSE Enterprise Storage", "productParam": "/ses/", "type": "version", "urlParam": "/ses/7\\.1/"}, {"label": "SUSE Enterprise Storage 7", "pointingUrl": "https://documentation.suse.com/ses/7/", "productName": "SUSE Enterprise Storage", "productParam": "/ses/", "type": "version", "urlParam": "/ses/7/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_generic.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SUSE Enterprise Storage</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SUSE Liberty Linux 9", "pointingUrl": "https://documentation.suse.com/liberty/9/", "productName": "SUSE Liberty Linux", "productParam": "/liberty/", "type": "version", "urlParam": "/liberty/9/"}, {"label": "SUSE Liberty Linux 8", "pointingUrl": "https://documentation.suse.com/liberty/8/", "productName": "SUSE Liberty Linux", "productParam": "/liberty/", "type": "version", "urlParam": "/liberty/8/"}, {"label": "SUSE Liberty Linux 7", "pointingUrl": "https://documentation.suse.com/liberty/7/", "productName": "SUSE Liberty Linux", "productParam": "/liberty/", "type": "version", "urlParam": "/liberty/7/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_Liberty_Linux.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SUSE Liberty Linux</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SLE HA 15 SP5", "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP5/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/15-SP5/"}, {"label": "SLE HA 15 SP4", "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP4/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/15-SP4/"}, {"label": "SLE HA 15 SP3", "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP3/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/15-SP3/"}, {"label": "SLE HA 15 SP2", "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP2/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/15-SP2/"}, {"label": "SLE HA 15 SP1", "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP1/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/15-SP1/"}, {"label": "SLE HA 12 SP5", "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP5/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/12-SP5/"}, {"label": "SLE HA 12 SP4", "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP4/", "productName": "SLE HA", "productParam": "/sle-ha/", "type": "version", "urlParam": "/sle-ha/12-SP4/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_HAE.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLE HA</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[]' data-pointingUrl=https://documentation.suse.com/sle-public-cloud/all>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SLE_for_public_cloud.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLE in Public Clouds</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SLE Micro 5.4", "pointingUrl": "https://documentation.suse.com/sle-micro/5.4/", "productName": "SLE Micro", "productParam": "/sle-micro/", "type": "version", "urlParam": "/sle-micro/5\\.4/"}, {"label": "SLE Micro 5.3", "pointingUrl": "https://documentation.suse.com/sle-micro/5.3/", "productName": "SLE Micro", "productParam": "/sle-micro/", "type": "version", "urlParam": "/sle-micro/5\\.3/"}, {"label": "SLE Micro 5.2", "pointingUrl": "https://documentation.suse.com/sle-micro/5.2/", "productName": "SLE Micro", "productParam": "/sle-micro/", "type": "version", "urlParam": "/sle-micro/5\\.2/"}, {"label": "SLE Micro 5.1", "pointingUrl": "https://documentation.suse.com/sle-micro/5.1/", "productName": "SLE Micro", "productParam": "/sle-micro/", "type": "version", "urlParam": "/sle-micro/5\\.1/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SLE_Micro.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLE Micro</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SLE Point of Service 11 SP3", "pointingUrl": "https://documentation.suse.com/sle-pos/11-SP3/", "productName": "SLE Point of Service", "productParam": "/sle-micro/", "type": "version", "urlParam": "/sle-pos/11-SP3/"}]' data-pointingUrl=https://documentation.suse.com/sle-pos/11-SP3/>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_generic.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLE Point of Service</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile " onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SLE Real Time 15 SP5", "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP5/", "productName": "SLE Real Time", "productParam": "/sle-rt/", "type": "version", "urlParam": "/sle-rt/15-SP5/"}, {"label": "SLE Real Time 15 SP4", "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP4/", "productName": "SLE Real Time", "productParam": "/sle-rt/", "type": "version", "urlParam": "/sle-rt/15-SP4/"}, {"label": "SLE Real Time 15 SP3", "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP3/", "productName": "SLE Real Time", "productParam": "/sle-rt/", "type": "version", "urlParam": "/sle-rt/15-SP3/"}, {"label": "SLE Real Time 12 SP5", "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP5/", "productName": "SLE Real Time", "productParam": "/sle-rt/", "type": "version", "urlParam": "/sle-rt/12-SP5/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SLE_RealTime.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLE Real Time</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile  hiddenTile" onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SLES 15 SP5", "pointingUrl": "https://documentation.suse.com/sles/15-SP5/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/15-SP5/"}, {"label": "SLES 15 SP4", "pointingUrl": "https://documentation.suse.com/sles/15-SP4/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/15-SP4/"}, {"label": "SLES 15 SP3", "pointingUrl": "https://documentation.suse.com/sles/15-SP3/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/15-SP3/"}, {"label": "SLES 15 SP2", "pointingUrl": "https://documentation.suse.com/sles/15-SP2/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/15-SP2/"}, {"label": "SLES 15 SP1", "pointingUrl": "https://documentation.suse.com/sles/15-SP1/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/15-SP1/"}, {"label": "SLES 12 SP5", "pointingUrl": "https://documentation.suse.com/sles/12-SP5/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/12-SP5/"}, {"label": "SLES 12 SP4", "pointingUrl": "https://documentation.suse.com/sles/12-SP4/", "productName": "SLES", "productParam": "/sles/", "type": "version", "urlParam": "/sles/12-SP4/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SLES.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLES</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile  hiddenTile" onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SLES for SAP 15 SP5", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP5/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP5/"}, {"label": "SLES for SAP 15 SP4", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP4/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP4/"}, {"label": "SLES for SAP 15 SP3", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP3/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP3/"}, {"label": "SLES for SAP 15 SP2", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP2/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP2/"}, {"label": "SLES for SAP 15 SP1", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP1/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP1/"}, {"label": "SLES for SAP 12 SP5", "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP5/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/12-SP5/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SLES_for_SAP.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SLES for SAP</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile  hiddenTile" onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SUSE Manager 4.3", "pointingUrl": "https://documentation.suse.com/suma/4.3/", "productName": "SUSE Manager", "productParam": "/suma/", "type": "version", "urlParam": "/suma/4\\.3/"}, {"label": "SUSE Manager 4.2", "pointingUrl": "https://documentation.suse.com/suma/4.2/", "productName": "SUSE Manager", "productParam": "/suma/", "type": "version", "urlParam": "/suma/4\\.2/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_Manager.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SUSE Manager</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+ 
+                         
+
+
+
+
+<div class="tile  hiddenTile" onclick="showVersionPopover(event)"
+    data-versions='[{"label": "SUSE Manager for Retail 4.3", "pointingUrl": "https://documentation.suse.com/suma-retail/4.3/", "productName": "SUSE Manager for Retail", "productParam": "/suma-retail/", "type": "version", "urlParam": "/suma-retail/4\\.3/"}, {"label": "SUSE Manager for Retail 4.2", "pointingUrl": "https://documentation.suse.com/suma-retail/4.2/", "productName": "SUSE Manager for Retail", "productParam": "/suma-retail/", "type": "version", "urlParam": "/suma-retail/4\\.2/"}]' data-pointingUrl=>
+    <div class="tile-pic">
+        
+        <img src=../assets/productIcons/SUSE_Manager_Retail.svg alt="Product icon" class="productIcon">
+        
+    </div>
+    <label class="tile-header">SUSE Manager for Retail</label>
+    <p class="tile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  </div>
+                            <button class="explore-list-button" onclick='onShowAllProducts(event)'>
+                                Explore more products
+                                <i class="fa fa-solid fa-angle-down fa-2x"></i>
+                            </button>
+                            <button class="explore-list-button hideButton" onclick='onHideAllProducts(event)'>
+                                Show fewer products
+                                <i class="fa fa-solid fa-angle-up fa-2x"></i>
+                            </button>
+                    </div>
+
+                    <div id="sbp-content" class="tab-content">
+                        <div class="categoriesContainer">
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Storage</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='[{"label": "SLES for SAP 15", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP5/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP5/"}, {"label": "SLES for SAP 12", "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP2/", "productName": "SLES for SAP", "productParam": "/sles-sap/", "type": "version", "urlParam": "/sles-sap/15-SP2/"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">SAP Applications</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Linux Server</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Linux Desktop</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Containers & Virtualization</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Cloud Computing</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Building & managing packages</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Kubernetes</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Linux</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Virtualization & Cloud</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">System Tuning & Performance</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Network</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Deployment & Upgrade</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Containerization</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                            
+<div class="tile "
+    data-versions='' data-pointingUrl='./indexPage.html'
+    onclick=" onTileClick(event,isTRD=false,isSBP=true)">
+    <label class="tile-header">Systems Management</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div id="trd-content" class="tab-content">
+                        <div class="trdContainer">
+                            
+                            <ul class="alphabeticalSelector">
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="selectedAlphabet">
+                                        A
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        B
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        C
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        D
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        E
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        F
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        G
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        H
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        I
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        J
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        K
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        L
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        M
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        N
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        O
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        P
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        Q
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        R
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        S
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        T
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        U
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        V
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        W
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        X
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        Y
+                                    </button>
+                                </li>
+                                
+                                <li>
+                                    <button onclick="onAlphabetSelect(event)"
+                                        class="">
+                                        Z
+                                    </button>
+                                </li>
+                                
+                            </ul>
+
+                            
+                            
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Ampere</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">AWS</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Azure</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Cisco</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Dell</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">GCP</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">HPE</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile "
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">HPQ</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile  hiddenTile"
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">IBM</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile  hiddenTile"
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Kubecost</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile  hiddenTile"
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Lenovo</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+  
+                             
+<div class="tile  hiddenTile"
+    data-versions='[{"label": "All", "pointingUrl": "./indexPageTRDAll.html"}, {"label": "Getting started", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Implementation", "pointingUrl": "./indexPageTRD.html"}, {"label": "Reference Configuration", "pointingUrl": "./indexPageTRD.html"}, {"label": "Enterprise Architecture", "pointingUrl": "./indexPageTRD.html"}]' data-pointingUrl=''
+    onclick=" onTileClick(event,isTRD=true,isSBP=false)">
+    <label class="tile-header">Supermicro</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    
+</div>
+   </div>
+                        </div>
+
+                        <div id="newest-content" class="tab-content">
+                            <div class="newestContainer">
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 1</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 2</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 3</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 4</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 5</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 6</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 7</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Newest Article Title 8</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                            </div>
+                        </div>
+
+                        <div id="mostPopular-content" class="tab-content">
+                            <div class="popularContainer">
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 1</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 2</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 3</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 4</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 5</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 6</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 7</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                                
+<div class="tile "
+    data-versions='' data-pointingUrl='https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html'
+    onclick=" onTileClick(event,isTRD=,isSBP=)">
+    <label class="tile-header">Popular Article Title 8</label>
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+</div>
+
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <label class="section-header" id="featured_tab">Featured</label>
+                    <div class="featuredContainer">
+                        
+                        
+
+
+
+
+
+
+<a class="tile featuredTile" href=https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html target="_self">
+    <div class="featuredImageTile">
+        <img src=../assets/featuredImages/people-office.png alt="featured image" class="featuredImage">
+    </div>
+    <div class="featured-tile-text">
+        <label class="tile-header">
+            Featured title 1 Lorem ipsum dolor sit do amet
+        </label>
+    </div>
+</a>
+
+                        
+                        
+
+
+
+
+
+
+<a class="tile featuredTile" href=https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html target="_self">
+    <div class="featuredImageTile">
+        <img src=../assets/featuredImages/analytics.png alt="featured image" class="featuredImage">
+    </div>
+    <div class="featured-tile-text">
+        <label class="tile-header">
+            Featured title 2 Lorem ipsum dolor sit do amet
+        </label>
+    </div>
+</a>
+
+                        
+                        
+
+
+
+
+
+
+<a class="tile featuredTile" href=https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html target="_self">
+    <div class="featuredImageTile">
+        <img src=../assets/featuredImages/development.png alt="featured image" class="featuredImage">
+    </div>
+    <div class="featured-tile-text">
+        <label class="tile-header">
+            Featured title 3 Lorem ipsum dolor sit do amet
+        </label>
+    </div>
+</a>
+
+                        
+                        
+
+
+
+
+
+
+<a class="tile featuredTile" href=https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html target="_self">
+    <div class="featuredImageTile">
+        <img src=../assets/featuredImages/development2.png alt="featured image" class="featuredImage">
+    </div>
+    <div class="featured-tile-text">
+        <label class="tile-header">
+            Featured title 4 Lorem ipsum dolor sit do amet
+        </label>
+    </div>
+</a>
+
+                        
+                    </div>
+
+                    
+<button onclick="onPressGoToTop()" title="Go to top" class="go-to-top-button">
+    <i class="fa fa-solid fa-angle-up fa-3x"></i>
+</button>
+
+
+
+                </div>
+
+                <div id="customPopover" class="popover" style="display: none;">
+                    <img alt="SUSE Logo" src="" id="popoverLogo" class="suseLogo-in-popup" />
+                    <label id="popoverLabel"></label>
+                    <ul id="popoverList"></ul>
+                </div>
+                
+                <footer>
+                    <img src='../assets/Footer_SUSE.png' alt="SUSE Footer" class="footer-image">
+                </footer>
+
+            </div>
+            <dialog id="walkThroughDialog" data-step="0">
+                <div className="tooltip-content">
+                    <div class="dialog-header">
+                        <img alt="SUSE Logo" src="../assets/SUSELogo.png" class="suseLogo-in-popup" />
+                        <label>Walk-Through</label>
+                        <button onclick="closeWalkThroughDialog(event)"> <i class="fa fa-times"
+                                title="Close"></i></button>
+                    </div>
+                    <p></p>
+                    <div class="dialog-footer">
+                        <button id="dialogPrevButton" onclick="showPreviousWalkthroughStep(event)"> <i
+                                class="fa fa-angle-left"></i>
+                            Previous</button>
+                        <button id="dialogNextButton" onclick="showNextWalkthroughStep(event)"> Next <i
+                                class="fa fa-angle-right"></i></button>
+                    </div>
+
+                </div>
+            </dialog>
+            <script src="../JS/genericScript.js"></script>
+            <script src="../JS/homePage.js"></script>
+            <script src="../JS/walkThrough.js"></script>
+            
+</body>
+
+</html>

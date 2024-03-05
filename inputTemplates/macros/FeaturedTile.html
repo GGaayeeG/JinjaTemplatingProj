@@ -1,0 +1,24 @@
+{% macro FeaturedTile(imageName,pointingUrl,title) %}
+
+
+{% set featuredImages = {
+'analyticsImage': '../assets/featuredImages/analytics.png',
+'developmentImage': '../assets/featuredImages/development.png',
+'developmentImage2': '../assets/featuredImages/development2.png',
+'peopleOfficeImage': '../assets/featuredImages/people-office.png',
+'polishImage': '../assets/featuredImages/polish.png'
+} %}
+
+{% set imageName = imageName | default('polishImage') %}
+
+<a class="tile featuredTile" href={{ pointingUrl }} target="_self">
+    <div class="featuredImageTile">
+        <img src={{ featuredImages[imageName]}} alt="featured image" class="featuredImage">
+    </div>
+    <div class="featured-tile-text">
+        <label class="tile-header">
+            {{title}}
+        </label>
+    </div>
+</a>
+{% endmacro %}

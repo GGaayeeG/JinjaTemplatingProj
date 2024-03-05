@@ -1,0 +1,46 @@
+{% macro Accordion(title, articleList) %}
+
+{% from 'macros/Dropdown.html' import Dropdown %}
+
+{% set articleList = articleList|list %}
+
+<div class="accordion-item">
+    <div class="accordion-title" onclick="onAccordionTileClick(event)">
+        <label>{{ title }}</label>
+        <div class="accordionTileActions">
+
+            <input type="search" class="accordionFilterBar" placeholder="Search by title or version"
+                onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)">
+
+            <button class="accordion-button">
+
+                <i class="fa fa-solid fa-angle-down expanded"></i>
+
+                <i class="fa fa-solid fa-angle-right collapsed"></i>
+
+            </button>
+        </div>
+    </div>
+
+    {# Divider() #}
+
+    <div class="accordion-content">
+
+        <p class="no-match-text">No matching articles found</p>
+
+        <!-- {% if articleList|length > 0 %} -->
+        {% for articleData in articleList %}
+        <div class="articleRow">
+            <p class="articleText">
+                <a href={{articleData.links.html}}>
+                    {{ articleData.title }}
+                </a>
+            </p>
+            {{ Dropdown(articleData.links) }}
+        </div>
+        {% endfor %}
+        <!-- {% endif %} -->
+    </div>
+
+</div>
+{% endmacro %}

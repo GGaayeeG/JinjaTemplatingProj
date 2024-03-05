@@ -1,0 +1,11 @@
+{% macro GlobalSearch() %}
+<form id="searchform" action="/documentation.suse.com/search.html" method="get" accept-charset="utf-8" method="get"
+    class="formHeader standaloneSearch">
+    <input type="text" name="" id="search-input" class="searchInput" size="80"
+        placeholder="Explore SUSE documentation : Refine your search with filters" />
+    <input id="hidden-input" name="q" style="display:none" />
+    <button type="submit" value="Search" title="Search" class="searchButton">
+        <i class="fa fa-search"></i>
+    </button>
+</form>
+{% endmacro %}

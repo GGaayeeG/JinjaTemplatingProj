@@ -1,0 +1,35 @@
+{% macro ProductTile(icon, title, description, popoverItems, pointingUrl, hidden) %}
+
+{% set productIcons = {
+"SUSE_ALP": "../assets/productIcons/SUSE_ALP.svg",
+"SLE_HPC": "../assets/productIcons/SLE_HPC.svg",
+"SLE_HAE": "../assets/productIcons/SUSE_HAE.svg",
+"SLE_Micro": "../assets/productIcons/SLE_Micro.svg",
+"SLE_Desktop": "../assets/productIcons/SLE_Desktop.svg" ,
+"SLE_RealTime": "../assets/productIcons/SLE_RealTime.svg" ,
+"SLES_for_SAP": "../assets/productIcons/SLES_for_SAP.svg",
+"SLES": "../assets/productIcons/SLES.svg",
+"SUSE_Manager": "../assets/productIcons/SUSE_Manager.svg",
+"SUSE_Manager_Retail": "../assets/productIcons/SUSE_Manager_Retail.svg",
+"SUSE_generic": "../assets/productIcons/SUSE_generic.svg",
+"SUSE_Liberty_Linux": "../assets/productIcons/SUSE_Liberty_Linux.svg" ,
+"SLE_for_public_cloud":"../assets/productIcons/SLE_for_public_cloud.svg"
+} %}
+
+
+<div class="tile {% if hidden %} hiddenTile{% endif %}" onclick="showVersionPopover(event)"
+    data-versions='{{popoverItems|tojson|safe}}' data-pointingUrl={{pointingUrl}}>
+    <div class="tile-pic">
+        {% if icon %}
+        <img src={{ productIcons[icon] }} alt="Product icon" class="productIcon">
+        {% endif %}
+    </div>
+    <label class="tile-header">{{ title }}</label>
+    <p class="tile-info">{{description}}</p>
+    {% if popoverItems|length> 0 %}
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    {% endif %}
+</div>
+{% endmacro %}

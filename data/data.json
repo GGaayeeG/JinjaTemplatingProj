@@ -1,0 +1,999 @@
+{
+  "page_title": "Jinja template",
+  "greeting": "Hello 3G!",
+  "topic_template": "Index Page",
+  "topic_description": "Lorem ipsum...",
+
+  "productsList": [
+    {
+      "label": "Adaptable Linux Platform",
+      "urlParam": "/alp/micro/",
+      "icon": "SUSE_ALP",
+      "type": "product",
+      "versions": [],
+      "pointingUrl": "https://documentation.suse.com/alp/dolomite/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SUSE Enterprise Storage",
+      "urlParam": "/ses/",
+      "icon": "SUSE_generic",
+      "type": "product",
+      "versions": [
+        {
+          "label": "SUSE Enterprise Storage 7.1",
+          "urlParam": "/ses/7\\.1/",
+          "productParam": "/ses/",
+          "productName": "SUSE Enterprise Storage",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/ses/7.1/"
+        },
+        {
+          "label": "SUSE Enterprise Storage 7",
+          "urlParam": "/ses/7/",
+          "productParam": "/ses/",
+          "productName": "SUSE Enterprise Storage",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/ses/7/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SUSE Liberty Linux",
+      "urlParam": "/liberty/",
+      "type": "product",
+      "icon": "SUSE_Liberty_Linux",
+      "versions": [
+        {
+          "label": "SUSE Liberty Linux 9",
+          "urlParam": "/liberty/9/",
+          "productParam": "/liberty/",
+          "productName": "SUSE Liberty Linux",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/liberty/9/"
+        },
+        {
+          "label": "SUSE Liberty Linux 8",
+          "urlParam": "/liberty/8/",
+          "productParam": "/liberty/",
+          "productName": "SUSE Liberty Linux",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/liberty/8/"
+        },
+        {
+          "label": "SUSE Liberty Linux 7",
+          "urlParam": "/liberty/7/",
+          "productParam": "/liberty/",
+          "productName": "SUSE Liberty Linux",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/liberty/7/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+
+    {
+      "label": "SLE HA",
+      "urlParam": "/sle-ha/",
+      "type": "product",
+      "icon": "SLE_HAE",
+      "versions": [
+        {
+          "label": "SLE HA 15 SP5",
+          "urlParam": "/sle-ha/15-SP5/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP5/"
+        },
+        {
+          "label": "SLE HA 15 SP4",
+          "urlParam": "/sle-ha/15-SP4/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP4/"
+        },
+        {
+          "label": "SLE HA 15 SP3",
+          "urlParam": "/sle-ha/15-SP3/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP3/"
+        },
+        {
+          "label": "SLE HA 15 SP2",
+          "urlParam": "/sle-ha/15-SP2/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP2/"
+        },
+        {
+          "label": "SLE HA 15 SP1",
+          "urlParam": "/sle-ha/15-SP1/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP1/"
+        },
+        {
+          "label": "SLE HA 12 SP5",
+          "urlParam": "/sle-ha/12-SP5/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP5/"
+        },
+        {
+          "label": "SLE HA 12 SP4",
+          "urlParam": "/sle-ha/12-SP4/",
+          "productParam": "/sle-ha/",
+          "productName": "SLE HA",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP4/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SLE in Public Clouds",
+      "urlParam": "/sle-public-cloud/",
+      "type": "product",
+      "icon": "SLE_for_public_cloud",
+      "versions": [],
+      "pointingUrl": "https://documentation.suse.com/sle-public-cloud/all",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SLE Micro",
+      "urlParam": "/sle-micro/",
+      "type": "product",
+      "icon": "SLE_Micro",
+      "versions": [
+        {
+          "label": "SLE Micro 5.4",
+          "urlParam": "/sle-micro/5\\.4/",
+          "productParam": "/sle-micro/",
+          "productName": "SLE Micro",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-micro/5.4/"
+        },
+        {
+          "label": "SLE Micro 5.3",
+          "urlParam": "/sle-micro/5\\.3/",
+          "productParam": "/sle-micro/",
+          "productName": "SLE Micro",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-micro/5.3/"
+        },
+        {
+          "label": "SLE Micro 5.2",
+          "urlParam": "/sle-micro/5\\.2/",
+          "productParam": "/sle-micro/",
+          "productName": "SLE Micro",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-micro/5.2/"
+        },
+        {
+          "label": "SLE Micro 5.1",
+          "urlParam": "/sle-micro/5\\.1/",
+          "productParam": "/sle-micro/",
+          "productName": "SLE Micro",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-micro/5.1/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SLE Point of Service",
+      "urlParam": "/sle-pos/",
+      "type": "product",
+      "icon": "SUSE_generic",
+      "pointingUrl": "https://documentation.suse.com/sle-pos/11-SP3/",
+      "versions": [
+        {
+          "label": "SLE Point of Service 11 SP3",
+          "urlParam": "/sle-pos/11-SP3/",
+          "productParam": "/sle-micro/",
+          "productName": "SLE Point of Service",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-pos/11-SP3/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SLE Real Time",
+      "urlParam": "/sle-rt/",
+      "type": "product",
+      "icon": "SLE_RealTime",
+      "versions": [
+        {
+          "label": "SLE Real Time 15 SP5",
+          "urlParam": "/sle-rt/15-SP5/",
+          "productParam": "/sle-rt/",
+          "productName": "SLE Real Time",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP5/"
+        },
+        {
+          "label": "SLE Real Time 15 SP4",
+          "urlParam": "/sle-rt/15-SP4/",
+          "productParam": "/sle-rt/",
+          "productName": "SLE Real Time",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP4/"
+        },
+        {
+          "label": "SLE Real Time 15 SP3",
+          "urlParam": "/sle-rt/15-SP3/",
+          "productParam": "/sle-rt/",
+          "productName": "SLE Real Time",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP3/"
+        },
+        {
+          "label": "SLE Real Time 12 SP5",
+          "urlParam": "/sle-rt/12-SP5/",
+          "productParam": "/sle-rt/",
+          "productName": "SLE Real Time",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP5/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SLES",
+      "urlParam": "/sles/",
+      "type": "product",
+      "icon": "SLES",
+      "versions": [
+        {
+          "label": "SLES 15 SP5",
+          "urlParam": "/sles/15-SP5/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/15-SP5/"
+        },
+        {
+          "label": "SLES 15 SP4",
+          "urlParam": "/sles/15-SP4/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/15-SP4/"
+        },
+        {
+          "label": "SLES 15 SP3",
+          "urlParam": "/sles/15-SP3/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/15-SP3/"
+        },
+        {
+          "label": "SLES 15 SP2",
+          "urlParam": "/sles/15-SP2/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/15-SP2/"
+        },
+        {
+          "label": "SLES 15 SP1",
+          "urlParam": "/sles/15-SP1/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/15-SP1/"
+        },
+        {
+          "label": "SLES 12 SP5",
+          "urlParam": "/sles/12-SP5/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/12-SP5/"
+        },
+        {
+          "label": "SLES 12 SP4",
+          "urlParam": "/sles/12-SP4/",
+          "productParam": "/sles/",
+          "productName": "SLES",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles/12-SP4/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SLES for SAP",
+      "urlParam": "/sles-sap/",
+      "type": "product",
+      "icon": "SLES_for_SAP",
+      "versions": [
+        {
+          "label": "SLES for SAP 15 SP5",
+          "urlParam": "/sles-sap/15-SP5/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP5/"
+        },
+        {
+          "label": "SLES for SAP 15 SP4",
+          "urlParam": "/sles-sap/15-SP4/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP4/"
+        },
+        {
+          "label": "SLES for SAP 15 SP3",
+          "urlParam": "/sles-sap/15-SP3/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP3/"
+        },
+        {
+          "label": "SLES for SAP 15 SP2",
+          "urlParam": "/sles-sap/15-SP2/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP2/"
+        },
+        {
+          "label": "SLES for SAP 15 SP1",
+          "urlParam": "/sles-sap/15-SP1/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP1/"
+        },
+        {
+          "label": "SLES for SAP 12 SP5",
+          "urlParam": "/sles-sap/12-SP5/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP5/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SUSE Manager",
+      "urlParam": "/suma/",
+      "type": "product",
+      "icon": "SUSE_Manager",
+      "versions": [
+        {
+          "label": "SUSE Manager 4.3",
+          "urlParam": "/suma/4\\.3/",
+          "productParam": "/suma/",
+          "productName": "SUSE Manager",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/suma/4.3/"
+        },
+        {
+          "label": "SUSE Manager 4.2",
+          "urlParam": "/suma/4\\.2/",
+          "productParam": "/suma/",
+          "productName": "SUSE Manager",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/suma/4.2/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "label": "SUSE Manager for Retail",
+      "urlParam": "/suma-retail/",
+      "type": "product",
+      "icon": "SUSE_Manager_Retail",
+      "versions": [
+        {
+          "label": "SUSE Manager for Retail 4.3",
+          "urlParam": "/suma-retail/4\\.3/",
+          "productParam": "/suma-retail/",
+          "productName": "SUSE Manager for Retail",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/suma-retail/4.3/"
+        },
+        {
+          "label": "SUSE Manager for Retail 4.2",
+          "urlParam": "/suma-retail/4\\.2/",
+          "productParam": "/suma-retail/",
+          "productName": "SUSE Manager for Retail",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/suma-retail/4.2/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }
+  ],
+
+  "categoriesList": [
+    {
+      "label": "Storage",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/sbp/storage/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "SAP Applications",
+      "urlParam": "/sbp/sap/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "versions": [
+        {
+          "label": "SLES for SAP 15",
+          "urlParam": "/sles-sap/15-SP5/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP5/"
+        },
+        {
+          "label": "SLES for SAP 12",
+          "urlParam": "/sles-sap/15-SP2/",
+          "productParam": "/sles-sap/",
+          "productName": "SLES for SAP",
+          "type": "version",
+          "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP2/"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Linux Server",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/sbp/server-linux/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Linux Desktop",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/sbp/desktop-linux/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Containers & Virtualization",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/sbp/container-virtualization/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Cloud Computing",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/sbp/cloud-computing/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Building & managing packages",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/sbp/building-managing-packages/",
+      "type": "category",
+      "docTypeParam": "/sbp/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Kubernetes",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/trd/kubernetes/",
+      "type": "category",
+      "docTypeParam": "/trd/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Linux",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/trd/linux/",
+      "type": "category",
+      "docTypeParam": "/trd/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Virtualization & Cloud",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/smart/virtualization-cloud/",
+      "type": "category",
+      "docTypeParam": "/smart/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "System Tuning & Performance",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/smart/systemtuning-performance/",
+      "type": "category",
+      "docTypeParam": "/smart/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Network",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/smart/network/",
+      "type": "category",
+      "docTypeParam": "/smart/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Deployment & Upgrade",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/smart/deploy-upgrade/",
+      "type": "category",
+      "docTypeParam": "/smart/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Containerization",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": "/smart/container/",
+      "type": "category",
+      "docTypeParam": "/smart/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "label": "Systems Management",
+      "pointingUrl": "./indexPage.html",
+      "urlParam": ["/sbp/systems-management/", "/smart/systems-management/"],
+      "type": "category",
+      "docTypeParam": ["/sbp/", "/smart/"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  ],
+
+  "trdList": [
+    {
+      "label": "Ampere",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "Cisco",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "Dell",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "Azure",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": " SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "IBM",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "Lenovo",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "Kubecost",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "Supermicro",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "HPE",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "HPQ",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "AWS",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    },
+    {
+      "label": "GCP",
+      "pointingUrl": "https://documentation.suse.com/trd/linux/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "products": [
+        { "label": "SLE Micro" },
+        { "label": "SUSE Manager" },
+        { "label": "SLES" },
+        { "label": "SUSE Rancher" }
+      ],
+      "docTypes": [
+        { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
+        { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
+        {
+          "label": "Reference Implementation",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Reference Configuration",
+          "pointingUrl": "./indexPageTRD.html"
+        },
+        {
+          "label": "Enterprise Architecture",
+          "pointingUrl": "./indexPageTRD.html"
+        }
+      ]
+    }
+  ],
+
+  "featuredData": [
+    {
+      "title": "Featured title 1 Lorem ipsum dolor sit do amet",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html",
+      "imageName": "peopleOfficeImage"
+    },
+    {
+      "title": "Featured title 2 Lorem ipsum dolor sit do amet",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html",
+      "imageName": "analyticsImage"
+    },
+    {
+      "title": "Featured title 3 Lorem ipsum dolor sit do amet",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html",
+      "imageName": "developmentImage"
+    },
+    {
+      "title": "Featured title 4 Lorem ipsum dolor sit do amet",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html",
+      "imageName": "developmentImage2"
+    }
+  ],
+
+  "newestArticles": [
+    {
+      "title": "Newest Article Title 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 6",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 7",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Newest Article Title 8",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    }
+  ],
+
+  "mostPopular": [
+    {
+      "title": "Popular Article Title 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 6",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 7",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    },
+    {
+      "title": "Popular Article Title 8",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "pointingUrl": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/index.html"
+    }
+  ]
+}

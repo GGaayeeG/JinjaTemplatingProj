@@ -1,0 +1,10 @@
+{% macro Dropdown(links) %}
+<div class="formatDropdown" onclick="event.stopPropagation();">
+    <button class="dropdown-toggle" onclick="toggleDropdown(event)">HTML</button>
+    <div class="dropdown-menu">
+        <a href={{links.pdf}} class="dropdown-item">PDF</a>
+        <a href={{links.singleHTML}} class="dropdown-item">Single-HTML</a>
+    </div>
+</div>
+
+{% endmacro %}

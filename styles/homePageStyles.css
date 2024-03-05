@@ -1,0 +1,250 @@
+:root {
+  --primary-pine-green: #0c322c;
+  --primary-jungle-green: #30ba78;
+  --secondary-midnight-blue: #192072;
+  --secondary-waterhole-blue: #2453ff;
+  --tertiary-mint: #90ebcd;
+  --tertiary-persimmon: #fe7c3f;
+  --font-size: 16px;
+}
+
+/* Sections */
+
+.section-header {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 2.5rem;
+}
+
+/* Tiles */
+.tile {
+  width: 13rem;
+  height: 12rem;
+  margin: 1.5rem;
+  padding: 1rem;
+
+  line-height: 1.6rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.tile:not(.featuredTile) {
+  border: 2px solid var(--tertiary-mint);
+  box-shadow: none;
+}
+
+.tile:hover {
+  border-color: black;
+}
+
+a.tile {
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tile .sub-content {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.tile-info {
+  font-size: 14px;
+}
+
+.hiddenTile {
+  display: none !important;
+}
+
+/* .hiddenTile * {
+  display: none !important;
+} */
+
+.productsContainer,
+.categoriesContainer,
+.trdContainer,
+.newestContainer,
+.popularContainer,
+.featuredContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 12rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.explore-list-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  color: #fe7c3f;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 50ms;
+  margin-inline: auto;
+  position: relative;
+  top: -12px;
+}
+
+.explore-list-button:hover {
+  font-weight: 600;
+}
+
+.productIcon {
+  height: 2.8rem;
+  margin: auto;
+}
+
+.version-pointer {
+  position: relative;
+  margin-left: 96%;
+  bottom: 3rem;
+  font-size: 1.2rem;
+}
+
+.productsContainer .version-pointer {
+  position: static;
+}
+
+.alphabeticalSelector {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1.5rem;
+  width: 90%;
+}
+
+.alphabeticalSelector li {
+  list-style: none;
+}
+
+.alphabeticalSelector button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #30ba78;
+  /* flex-grow: 1; */
+}
+
+.alphabeticalSelector button:hover {
+  font-weight: bold;
+}
+
+.featuredTile {
+  height: 14rem;
+  width: 15rem;
+  padding: 0;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.featuredImageTile {
+  background-image: linear-gradient(45deg, #f1f1f1, #fefefe);
+  height: 50%;
+  margin-bottom: 1rem;
+}
+
+.featuredImage {
+  filter: brightness(1.1);
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.featured-tile-text {
+  margin-inline: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tile-header {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* Popover */
+.popover {
+  display: flex;
+  min-height: 10rem;
+  max-height: 25rem;
+  min-width: 10rem;
+  max-width: 18rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 15px #90ebcd;
+  background: white;
+  font-size: 1.05rem;
+  padding-top: 1.5rem;
+  border: none;
+  font-size: 14px;
+}
+
+.popover label {
+  font-weight: 600;
+}
+
+.suseLogo-in-popup {
+  height: 1.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.popover ul {
+  list-style: none;
+  padding-inline: 0;
+}
+
+.popover ul a {
+  text-decoration: none;
+  line-height: 2rem;
+  color: #0c322c;
+  transition: font-weight 100ms ease-in;
+}
+
+.popover ul a:hover {
+  font-weight: 500;
+}
+
+/* .popover::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0;
+  border-color: #fff transparent transparent transparent;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.alphabeticalSelector .selectedAlphabet {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary-jungle-green);
+}
+
+.fa.selectedSorting {
+  border: 1px solid #30ba78;
+}
+
+@media (max-width: 850px) {
+  .searchInput,
+  .searchInput:focus {
+    max-width: 80%;
+  }
+}

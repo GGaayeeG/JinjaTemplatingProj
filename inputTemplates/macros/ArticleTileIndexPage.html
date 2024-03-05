@@ -1,0 +1,23 @@
+{% from 'macros/Dropdown.html' import Dropdown %}
+
+{% macro ArticleTileIndexPage(articleData) %}
+<div class="articleTileIndexPage" onclick="onArticleTileClick('{{articleData.links.html}}')">
+    <div class="textContent">
+        <label class="">
+            {{articleData.title}}
+        </label>
+    </div>
+
+    <div class="tags_Format_Content">
+        <div class="tags">
+            {% for tag in articleData.tags %}
+            <label>{{tag}}</label>
+            {% endfor %}
+        </div>
+        <div onclick="event.stopPropagation()">
+            {{ Dropdown(articleData.links) }}
+        </div>
+    </div>
+</div>
+</script>
+{% endmacro %}

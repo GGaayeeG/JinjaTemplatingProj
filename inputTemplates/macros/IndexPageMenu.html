@@ -1,0 +1,17 @@
+{% macro IndexPageMenu(isTRD) %}
+<div>
+    <ul class="menu-bar indexPageMenu">
+        <li><a onclick="onTabChange(event,'allArticles')" class="selectedTab">All Articles</a></li>
+        <li><a onclick="onTabChange(event,'newest')">Newest</a></li>
+        <!-- <li><a onclick="onTabChange(event,'allArticles')">Most Popular</a></li> -->
+
+        {% if not isTRD %}
+        <li><a onclick="onTabChange(event,'groupedArticles')">Filter by Task</a></li>
+        {% endif %}
+
+        {% if isTRD%}
+        <li><a onclick="onTabChange(event,'groupedArticles')">Filter by Products</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endmacro %}

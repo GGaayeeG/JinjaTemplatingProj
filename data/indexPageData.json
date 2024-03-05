@@ -1,0 +1,199 @@
+{
+  "title": "Product/Category title",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+  "articles": [
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Install",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Configure",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Upgrade",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Monitor",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Troubleshoot",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Configure",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Deploy",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Secure",
+      "lastUpdated": "",
+      "docType": "",
+      "links": [
+        {
+          "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html"
+        },
+        {
+          "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf"
+        },
+        {
+          "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+        }
+      ],
+      "products": []
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Package",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": []
+    }
+  ],
+  "newest": [
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Install",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": [],
+      "tags": ["SUSE Best Practices", "tag2", "tag3"]
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Configure",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": [],
+      "tags": ["SUSE Best Practices", "tag2", "tag3"]
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Upgrade",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": [],
+      "tags": ["SUSE Best Practices", "tag2", "tag3"]
+    },
+    {
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
+      "description": "",
+      "task": "Monitor",
+      "lastUpdated": "",
+      "docType": "",
+      "links": {
+        "html": "https://documentation.suse.com/ses/7.1/html/ses-all/book-storage-deployment.html",
+        "pdf": "https://documentation.suse.com/ses/7.1/pdf/book-storage-deployment_en.pdf",
+        "singleHTML": "https://documentation.suse.com/ses/7.1/single-html/ses-deployment/#book-storage-deployment"
+      },
+      "products": [],
+      "tags": ["SUSE Best Practices", "tag2", "tag3"]
+    }
+  ],
+  "taskList": [
+    "Install",
+    "Configure",
+    "Monitor",
+    "Troubleshoot",
+    "Upgrade",
+    "Deploy",
+    "Secure",
+    "Package"
+  ],
+
+  "productList": ["SLE Micro", "SLES", "SUSE Manager", "SUSE Rancher"]
+}

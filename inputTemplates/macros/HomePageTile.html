@@ -1,0 +1,14 @@
+{% macro Tile(pointingUrl, title, description, popoverItems, isSBP, isTRD,hidden) %}
+<div class="tile {% if hidden %} hiddenTile{% endif %}"
+    data-versions='{% if popoverItems %}{{ popoverItems|tojson|safe }}{% endif %}' data-pointingUrl='{{ pointingUrl }}'
+    onclick=" onTileClick(event,isTRD={{isTRD}},isSBP={{isSBP}})">
+    <label class="tile-header">{{ title }}</label>
+    <p class="tile-info"> {{description}}</p>
+    {% if popoverItems|length> 0 %}
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    {% endif %}
+</div>
+{% endmacro %}
+<!-- Used for SBPs , TRDs, newest and most popular articles -->

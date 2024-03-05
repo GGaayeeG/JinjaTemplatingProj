@@ -1,0 +1,236 @@
+:root {
+  --primary-pine-green: #0c322c;
+  --primary-jungle-green: #30ba78;
+  --secondary-midnight-blue: #192072;
+  --secondary-waterhole-blue: #2453ff;
+  --tertiary-mint: #90ebcd;
+  --tertiary-persimmon: #fe7c3f;
+  --font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: poppins, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.view {
+  height: 100vh;
+  font-family: Poppins, Roboto, Verdana, sans-serif !important;
+  text-align: center;
+  font-size: var(--font-size);
+}
+
+.header-image,
+.footer-image {
+  width: 100%;
+}
+
+.main-container {
+  min-height: 80vh;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Global search */
+.formHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.standaloneSearch {
+  margin-top: 1.5rem;
+  width: 90%;
+  margin-inline: auto;
+}
+
+.searchInput,
+.searchInput:focus {
+  flex-grow: 1;
+  padding: 0.8rem;
+  margin-block: 1.5rem;
+  font-size: var (--font-size);
+  border: 2px solid var(--tertiary-persimmon);
+  outline: none;
+}
+
+.filterInput,
+.filterInput:focus {
+  border: 2px solid var(--primary-pine-green);
+}
+
+.searchButton {
+  padding: 0.8rem;
+  color: white;
+  background: var(--tertiary-persimmon);
+  border: 2px solid var(--tertiary-persimmon);
+  font-size: 1rem;
+  margin-block: 1.5rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.filterButton {
+  border: 2px solid var(--primary-pine-green);
+  background: var(--primary-pine-green);
+}
+
+.searchInput {
+  letter-spacing: 1px;
+}
+
+/* Menubar */
+.menu-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 2.5rem;
+  padding-inline: 0;
+  width: 100%;
+  line-height: 3rem;
+  align-items: center;
+}
+
+.menu-bar li {
+  width: default;
+}
+
+.menu-bar a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  color: #0c322c;
+  cursor: pointer !important;
+}
+
+.menu-bar a:hover {
+  border-bottom: 2px solid #90ebcd;
+  color: black;
+}
+
+.menu-bar .selectedTab {
+  color: #0c322c;
+  border-bottom: 4px solid #fe7c3f;
+  font-weight: 600;
+}
+
+.menu-bar .selectedTab:hover {
+  border-bottom: 4px solid #fe7c3f;
+  /* border-bottom: 5px solid #0c322c; */
+}
+
+.menu-bar .fa {
+  margin-left: 0.2rem;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  color: #30ba78;
+  cursor: pointer;
+  width: 1.2rem;
+}
+
+.menu-bar .sortingOptions {
+  display: inline;
+  font-size: 1px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active-content {
+  display: block;
+}
+
+.section-header {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 2.5rem;
+  line-height: 3;
+}
+
+.go-to-top-button {
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 50%;
+  bottom: 3rem;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  height: 3.4rem;
+  padding-bottom: 5px;
+  position: fixed;
+  right: 3rem;
+  width: 3.4rem;
+}
+
+.go-to-top-button:hover {
+  height: 3.5rem;
+  height: 3.5rem;
+}
+
+.hideButton {
+  display: none !important;
+}
+
+/* Walkthrough dialog */
+dialog#walkThroughDialog {
+  border: none;
+  background: transparent;
+  margin: 0;
+  position: absolute;
+}
+dialog#walkThroughDialog .dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0.5rem;
+}
+
+dialog#walkThroughDialog .dialog-header img {
+  margin: 0;
+}
+
+dialog#walkThroughDialog .dialog-header button {
+  background: transparent;
+  border: none;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+dialog#walkThroughDialog .dialog-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+dialog#walkThroughDialog .dialog-footer button {
+  background: transparent;
+  border: none;
+  color: var(--primary-jungle-green);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+dialog#walkThroughDialog .tooltip-content {
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 0;
+  width: 14rem;
+  position: relative;
+}
+
+dialog#walkThroughDialog .tooltip-content::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #fff transparent;
+}

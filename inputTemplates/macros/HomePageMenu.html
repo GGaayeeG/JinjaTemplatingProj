@@ -1,0 +1,35 @@
+{% macro HomePageMenuBar() %}
+<ul class="menu-bar" id="homepage-menu">
+    <li id="prod_solution_tab">
+        <a class="selectedTab" onclick="onTabChange(event, 'products')">
+            Products & Solutions
+        </a>
+        <div class="sortingOptions">
+            <i class="fa fa-light fa-fire fa-lg selectedSorting" title="Sort by Popularity"
+                onclick="sortProductsByPopularity(event)"></i>
+            <i class="fa fa-sort-alpha-asc fa-lg" title="Sort A-Z" onclick="sortProductsAsc(event)"></i>
+            <i class="fa fa-sort-alpha-desc fa-lg" title="Sort Z-A" onclick="sortProductsDesc(event)"></i>
+        </div>
+    </li>
+    <li id="sbp_tab">
+        <a onclick="onTabChange(event, 'sbp')">
+            Best Practices
+        </a>
+    </li>
+    <li id="trd_tab">
+        <a onclick="onTabChange(event, 'trd')">
+            Technical References
+        </a>
+    </li>
+    <li id="newest_tab">
+        <a onclick="onTabChange(event, 'newest')">
+            Newest
+        </a>
+    </li>
+    <li id="popular_tab">
+        <a onclick="onTabChange(event, 'mostPopular')">
+            Most Popular
+        </a>
+    </li>
+</ul>
+{% endmacro %}

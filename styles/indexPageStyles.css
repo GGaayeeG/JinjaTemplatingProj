@@ -1,0 +1,267 @@
+:root {
+  --primary-pine-green: #0c322c;
+  --primary-jungle-green: #30ba78;
+  --secondary-midnight-blue: #192072;
+  --secondary-waterhole-blue: #2453ff;
+  --tertiary-mint: #90ebcd;
+  --tertiary-persimmon: #fe7c3f;
+  --font-size: 16px;
+}
+
+.indexPage {
+  padding-block: 2rem;
+  padding-inline: 4rem;
+  text-align: left;
+}
+
+.indexPage p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.indexPageMenu {
+  justify-content: space-between;
+}
+
+.indexPageMenu a {
+  font-size: 1rem;
+}
+
+.articleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* cursor: pointer; */
+}
+
+.articleRow a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.articleRow:hover {
+  color: #0c322c;
+}
+
+.articleText {
+  max-width: 76%;
+  margin-block: 0.5rem;
+  cursor: pointer;
+}
+
+.formatOptions {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.formatOptions button {
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.formatDropdown {
+  position: relative;
+}
+
+.formatDropdown button,
+.formatDropdown button:hover {
+  width: 7.5rem;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  background: transparent;
+  color: black;
+  border: 2px solid #fe7c3f;
+  border-radius: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 6.8rem;
+  font-size: 0.9rem;
+  top: 100%; /* Position below the button */
+  left: 0;
+  background-color: #fff; /* Adjust background color as needed */
+  border: 1px solid #ccc; /* Add border for styling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+  padding: 8px;
+  z-index: 1000; /* Ensure the menu appears above other elements */
+  inset: -2px auto auto 0px;
+  transform: translate3d(0px, 30.2222px, 0px);
+}
+
+.dropdown-item {
+  display: block;
+  padding: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 3rem;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Article tiles index page */
+.articlesContainerIP {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articleTileIndexPage {
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  width: 44%;
+  cursor: pointer;
+}
+
+.articleTileIndexPage .tags_Format_Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.articleTileIndexPage a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.articleTileIndexPage .tags {
+  display: flex;
+}
+
+.articleTileIndexPage .tags label {
+  margin-top: 0.5rem;
+  margin-right: 1.2rem;
+  padding: 0.3rem;
+  padding-inline: 0.6rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  background-color: #f2f2f2;
+}
+
+/* Grouped articles */
+.groupedAriclesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.groupedAriclesHeader button {
+  padding: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.accordion-item {
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  margin-block: 1rem;
+  font-size: 1rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.accordion-button {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #90ebcd;
+  cursor: pointer;
+}
+
+.accordion-button .fa {
+  font-size: 1.5rem;
+}
+
+.accordion-content {
+  padding-top: 1rem;
+  text-align: left;
+  display: none;
+}
+
+.accordion-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.accordion-title:not(.active) .expanded,
+.accordion-title:not(.active) .accordionFilterBar {
+  display: none;
+}
+
+.accordion-title.active .expanded,
+.accordion-title.active .accordionFilterBar {
+  display: block;
+}
+
+.accordion-title.active .collapsed {
+  display: none;
+}
+
+.expandAllButton:not(.active),
+.collapseAllButton:not(.active) {
+  display: none;
+}
+
+.accordionTileActions {
+  display: flex;
+  align-items: center;
+}
+
+.accordionFilterBar {
+  border: none;
+  border-bottom: 1px solid var(--primary-pine-green);
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.accordionFilterBar:active {
+  border: 1px solid var(--primary-pine-green);
+  /* check */
+}
+
+.no-match-text {
+  display: none;
+}

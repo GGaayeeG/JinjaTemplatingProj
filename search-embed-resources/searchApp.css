@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins, Roboto, Verdana, sans-serif;
+}
+
+.search-page-root {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.search-container {
+  padding-inline: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.search-container h4 {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 12.8px;
+}
+
+.search-container label {
+  line-height: 24px;
+  font-size: 12.8px;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.headerBar {
+  width: 100%;
+  background-color: white;
+  height: 64px;
+  padding: 16px;
+  padding-left: 312px;
+  padding-top: 32px;
+  margin-top: 8px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+
+.formHeader {
+  display: flex;
+}
+
+.searchInput,
+.searchInput:focus {
+  width: 50vw;
+  max-width: 1000px;
+  margin: 8px;
+  margin-right: 0;
+  font-size: 14px;
+  height: auto;
+  padding: 10px 20px;
+  border: 1.2px solid #fe7c3f;
+  outline: none;
+}
+
+.searchButton {
+  margin-block: 8px;
+  padding: 10px 10px;
+  color: white;
+  background: #fe7c3f;
+  border: 1.2px solid #fe7c3f;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  margin: auto;
+}
+
+.leftbar {
+  display: flex;
+  height: 80vh;
+  overflow-y: hidden;
+  min-width: 288px;
+  margin-block: 16px;
+  font-size: 14.4px;
+  line-height: 24px;
+  position: sticky;
+  top: 80px;
+  border: 0.8px solid #fe7c3f;
+  max-width: 288px;
+}
+
+.leftbar-header {
+  background-color: #fe7c3f;
+  color: white;
+  padding: 8px;
+  margin-block: 0;
+  width: 100%;
+}
+
+.leftbar-contents {
+  max-height: 72vh;
+  overflow-y: auto;
+  font-size: 12.8px;
+  padding-left: 9.6px;
+  padding-bottom: 16px;
+}
+
+.leftbar-contents label {
+  cursor: pointer;
+}
+
+.filterTypeHeader {
+  margin-bottom: 8px;
+  margin-block-start: 1.33em;
+  margin-inline: 4px;
+}
+
+input[type="checkbox"] {
+  accent-color: #90ebcd !important;
+  margin: 3px 3px 3px 3px;
+  margin-right: 8px;
+}
+
+input[type="radio"] {
+  accent-color: green !important;
+  margin-right: 8px;
+}
+
+.clearButton {
+  background: transparent;
+  padding: 4.8px;
+  margin-inline: auto;
+  margin-top: 16px;
+  border: 1.2px solid #fe7c3f;
+  border-radius: 3.2px;
+  font-size: 12.8px;
+  width: 95%;
+  cursor: pointer;
+}
+
+.search-results-conatiner {
+  flex-grow: 1;
+  padding-inline: 16px;
+}
+
+/* Styling Google results container------------------------------------------------------- */
+.search-container div.gsc-control-cse {
+  padding-inline: 16px;
+}
+
+.gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b {
+  color: #0c322c !important;
+  line-height: 22.4px;
+  font-size: 14.4px;
+}
+
+.gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b {
+  color: #0c322c !important;
+  line-height: 22.4px;
+  font-size: 14.4px;
+}
+
+.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,
+.gs-fileFormatType {
+  color: #0c322c !important;
+}
+
+div.gsc-control-wrapper-cse * {
+  font-family: Poppins, Roboto, Verdana, sans-serif !important;
+}
+
+.gs-webResult div.gs-visibleUrl {
+  color: #30ba78;
+  line-height: 22.4px;
+}
+
+.gsc-selected-option-container {
+  background: transparent !important;
+  border: 1.2px solid #fe7c3f !important;
+  border-radius: 3.2px !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+}
+
+/* Media Queries ------------------------------------------------------------------------ */
+
+@media (max-width: 600px) {
+  .headerBar {
+    padding-left: 16px;
+    justify-content: center;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .leftbar {
+    height: auto;
+    max-height: 80vh;
+    position: relative;
+    top: 0px;
+    margin-inline: auto;
+  }
+
+  .search-results-conatiner {
+    padding-left: 0;
+  }
+}
+
+/* Scrollbar Styling ------------------------------------------------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 16px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c0c0c0;
+}

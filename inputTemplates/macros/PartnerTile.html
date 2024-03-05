@@ -1,0 +1,27 @@
+{% macro PartnerTile( title, description,docTypes) %}
+<div class="tile" onclick="showPopover(event,{{ docTypes }})">
+    <label class="tile-header">{{ title }}</label>
+    <!-- <p class="tile-info">{{ description }}</p> -->
+    <p class="tile-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore.</p>
+
+    <!-- <p style="font-size: 13px;">Published on : dd-mm-yyyy</p> -->
+
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+
+</div>
+
+<div class="tile" data-versions='{% if popoverItems %}{{ popoverItems|tojson|safe }}{% endif %}'
+    data-pointingUrl='{% if pointingUrl %}{{ pointingUrl }}{% endif %}' onclick="onTileClick(event)">
+    <label class="tile-header">{{ title }}</label>
+    <p class="tile-info"> {{description}}</p>
+    {% if popoverItems|length> 0 %}
+    <div class="version-pointer">
+        <i class="fa fa-angle-right"></i>
+    </div>
+    {% endif %}
+</div>
+
+{% endmacro %}
