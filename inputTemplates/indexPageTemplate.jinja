@@ -13,6 +13,7 @@
 <body>
     {% from 'macros/IndexPageMenu.html' import IndexPageMenu %}
     {% from 'macros/ScrollToTop.html' import ScrollToTop %}
+    {% from 'macros/Divider.html' import Divider %}
     {% from 'macros/Dropdown.html' import Dropdown %}
     {% from 'macros/ArticleTileIndexPage.html' import ArticleTileIndexPage%}
     {% from 'macros/Accordion.html' import Accordion%}
@@ -28,6 +29,7 @@
             <p>
                 {{description}}
             </p>
+            {{Divider()}}
             {{IndexPageMenu(isTRD)}}
 
             <div id="allArticles-content" class="tab-content active-content">

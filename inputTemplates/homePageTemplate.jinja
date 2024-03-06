@@ -14,12 +14,13 @@
 
     {% from 'macros/GlobalSearch.html' import GlobalSearch %}
     {% from 'macros/HomePageMenu.html' import HomePageMenuBar %}
-    {% from 'macros/FeaturedTile.html' import FeaturedTile %}
     {% from 'macros/ScrollToTop.html' import ScrollToTop %}
+    {% from 'macros/Divider.html' import Divider %}
 
     {% from 'macros/HomePageTile.html' import Tile %}
     {% from 'macros/ProductTile.html' import ProductTile %}
     {% from 'macros/PartnerTile.html' import PartnerTile %}
+    {% from 'macros/FeaturedTile.html' import FeaturedTile %}
 
     <div class="view">
         {# {% include '../Header.html' %} #}
@@ -109,7 +110,7 @@
                         </div>
 
                     </div>
-
+                    {{Divider()}}
                     <label class="section-header" id="featured_tab">Featured</label>
                     <div class="featuredContainer">
                         {% for featuredArticle in featuredData %}
@@ -124,7 +125,6 @@
                     </div>
 
                     {{ScrollToTop()}}
-
 
                 </div>
 
