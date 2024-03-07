@@ -15,4 +15,6 @@ jinja2 inputTemplates/indexPageTemplate.jinja data/indexPageData.json -o outputF
 jinja2 inputTemplates/indexPageTemplate.jinja data/indexPageTRDData.json -o outputFiles/indexPageTRD.html
 jinja2 inputTemplates/indexPageTRDAll.jinja data/indexPageTRDData.json -o outputFiles/indexPageTRDAll.html
 
+> jinja2 sample/sampleTemplate.jinja sample/metadata-2.json -o sample/sampleOutput.html
+
 URL clarifications--------------------------------

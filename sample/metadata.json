@@ -1,0 +1,552 @@
+{
+  "data": [
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Products & Solutions"
+      },
+      "inLanguage": "en",
+      "headline": "Introduction to SLES Minimal VM",
+      "description": "Learn what SLES Minimal VM can do for you",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product & Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "datePublished": "2024-02-09T00:00+02:00",
+      "dateModified": "2024-02-27T00:00+02:00",
+      "articleSection": ["systems-management"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Virtualization"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP5",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, IBM Z, POWER, AArch64"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Best Practices"
+      },
+      "inLanguage": "en",
+      "headline": "Introduction to SLES Minimal VM",
+      "description": "Learn what SLES Minimal VM can do for you",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product & Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "datePublished": "2024-02-09T00:00+02:00",
+      "dateModified": "2024-02-27T00:00+02:00",
+      "articleSection": ["Storage"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Virtualization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Installation"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP5",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, IBM Z, POWER, AArch64"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Product Documentation"
+      },
+      "inLanguage": "en",
+      "headline": "Administration Guide",
+      "description": "This guide describes the administration of SUSE Linux Enterprise Micro.",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product &amp; Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "dateModified": "2024-02-27T00:00+02:00",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Administration"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Micro",
+          "softwareVersion": "5.5",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Products & Solutions"
+      },
+      "inLanguage": "en",
+      "headline": "Introduction to SLES Minimal VM",
+      "description": "Learn what SLES Minimal VM can do for you",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product & Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "datePublished": "2024-02-09T00:00+02:00",
+      "dateModified": "2024-02-27T00:00+02:00",
+      "articleSection": ["systems-management"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Virtualization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Installation"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP5",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, IBM Z, POWER, AArch64"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Products & Solutions"
+      },
+      "inLanguage": "en",
+      "headline": "Introduction to SLE Micro deployment",
+      "description": "Introduction to SLE Micro deployment",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product & Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "datePublished": "2023-11-23T00:00+02:00",
+      "dateModified": "2024-02-27T00:00+02:00",
+      "articleSection": ["Systems Management"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Deployment"
+        },
+        {
+          "@type": "Thing",
+          "name": "Installation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Upgrade & Update"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Micro",
+          "softwareVersion": "1.0",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, IBM Z, AArch64"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Product & Solutions"
+      },
+      "inLanguage": "en",
+      "headline": "Deploying SLE Micro in Public Clouds",
+      "description": "Learn how to deploy SLE Micro in public clouds. Learn how to add users to suit your needs.",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product & Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "datePublished": "2023-03-29T00:00+02:00",
+      "dateModified": "2024-02-27T00:00+02:00",
+      "articleSection": ["Systems Management"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Deployment"
+        },
+        {
+          "@type": "Thing",
+          "name": "Containerization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cloud"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Micro",
+          "softwareVersion": "slemicro",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, IBM Z, POWER, AArch64"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Product Documentation"
+      },
+      "inLanguage": "en",
+      "headline": "Security and Hardening Guide",
+      "description": "The security guide focuses on using SELinux, FIPS, and gives details about the remote attestation using the Keylime agent",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product &amp; Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "dateModified": "2024-02-27T00:00+02:00",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Security"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Micro",
+          "softwareVersion": "5.5",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Product Documentation"
+      },
+      "inLanguage": "en",
+      "headline": "Upgrade Guide",
+      "description": "This book guides you through upgrades of SUSE Linux Enterprise Server. If you use SUSE Linux Enterprise Server as base system for other SLE products …",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product &amp; Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "dateModified": "2024-02-27T00:00+02:00",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Upgrade &amp; Update"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15 SP6",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": ["TechArticle"],
+      "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Product & Solutions"
+      },
+      "inLanguage": "en",
+      "headline": "Working with systemd timers",
+      "description": "A complete overview of systemd timers that covers creating, maintaining, testing, troubleshooting and migrating from cron.",
+      "author": [
+        {
+          "@type": "Corporation",
+          "name": "SUSE Product & Solution Documentation Team",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      ],
+      "datePublished": "2023-02-28T00:00+02:00",
+      "dateModified": "2024-02-27T00:00+02:00",
+      "articleSection": ["Systems Management"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Configuration"
+        },
+        {
+          "@type": "Thing",
+          "name": "Troubleshooting"
+        },
+        {
+          "@type": "Thing",
+          "name": "Maintenance"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "ALP",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP5",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP4",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP3",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP2",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-SP1",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SUSE Linux Enterprise Server",
+          "softwareVersion": "15-GA",
+          "applicationCategory": "Operating System",
+          "operatingSystem": "Linux",
+          "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/SUSEWorldwide/about",
+        "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+        "https://twitter.com/SUSE",
+        "https://www.linkedin.com/company/suse"
+      ],
+      "publisher": {
+        "@type": "Corporation",
+        "name": "SUSE",
+        "url": "https://documentation.suse.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+        }
+      }
+    }
+  ]
+}
