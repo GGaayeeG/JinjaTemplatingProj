@@ -17,6 +17,7 @@
 .indexPage p {
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .indexPageMenu {
@@ -25,6 +26,16 @@
 
 .indexPageMenu a {
   font-size: 1rem;
+}
+
+.filterInput,
+.filterInput:focus {
+  border: 2px solid var(--primary-pine-green);
+}
+
+.filterButton {
+  border: 2px solid var(--primary-pine-green);
+  background: var(--primary-pine-green);
 }
 
 .articleRow {
@@ -264,4 +275,37 @@
 
 .no-match-text {
   display: none;
+}
+
+@media (max-width: 850px) {
+  .indexPage {
+    padding-inline: 1.5rem;
+  }
+
+  .filterInput,
+  .filterInput:focus {
+    max-width: 80%;
+  }
+
+  .articleRow {
+    flex-wrap: wrap;
+    margin-block: 1rem;
+  }
+  .articleRow .articleText {
+    max-width: 100%;
+  }
+  .articleTileIndexPage {
+    width: 80%;
+    margin-inline: auto;
+  }
+  .articleTileIndexPage .tags {
+    display: none;
+  }
+  .accordionTileActions {
+    flex-grow: 1;
+    padding-top: 0.5rem;
+  }
+  .accordion-button {
+    margin-left: auto;
+  }
 }

@@ -243,8 +243,8 @@ a.tile {
 }
 
 @media (max-width: 850px) {
-  .searchInput,
-  .searchInput:focus {
-    max-width: 80%;
+  .alphabeticalSelector {
+    flex-wrap: wrap;
+    line-height: 2rem;
   }
 }
