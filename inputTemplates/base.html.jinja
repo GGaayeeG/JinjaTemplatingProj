@@ -1,0 +1,58 @@
+{#-
+    Base Jinja template
+-#}
+{% from 'macros/Dropdown.html' import Dropdown -%}
+{% from 'macros/GlobalSearch.html' import GlobalSearch -%}
+{% from 'macros/HomePageMenu.html' import HomePageMenuBar -%}
+{% from 'macros/FeaturedTile.html' import FeaturedTile -%}
+{% from 'macros/ScrollToTop.html' import ScrollToTop -%}
+{#-
+
+-#}
+{% from 'macros/HomePageTile.html' import Tile -%}
+{% from 'macros/ProductTile.html' import ProductTile -%}
+{% from 'macros/PartnerTile.html' import PartnerTile -%}
+
+<!DOCTYPE html>
+<html lang="{{ lang | default('en') }}" xml:lang="{{ lang  | default('en') }}">
+<head>
+{% block head -%}
+{% block head_charset -%}
+  <meta charset="UTF-8" />
+{% endblock head_charset -%}
+{% block head_viewport -%}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+{% endblock head_viewport -%} 
+{% block head_title -%}
+  <title>SUSE Documentation</title>
+{% endblock head_title -%}
+{% block head_link_css -%}
+  <link rel="stylesheet" type="text/css" href="../styles/genericStyles.css"/>
+  <link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+{% endblock head_link_css -%}
+{% endblock head -%}
+</head>
+{#-
+    =========================
+    Body
+    =========================
+-#}
+<body>
+
+    <div class="view">
+        {% block body_view_header -%}
+        <header class="App-header">
+            <img src='{{ assetpath }}Header_SUSE.png' alt="SUSE Header" class="header-image"/>
+        </header>
+        {% endblock body_view_header -%}
+    </div>
+
+    {% block body_main %}
+    <div class="main-container{{ body_main_class|default('') }}">
+    </div>
+    {% endblock body_main %}
+
+    {% block after_body_scripts %}{% endblock after_body_scripts -%}
+</body>
+</html>

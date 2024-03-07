@@ -1,0 +1,13 @@
+{#-
+   Jinja template for home page
+-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+    <title>Home Page SUSE Documentation</title>
+{% endblock head_title %}
+
+{% block head %}
+ {{ super() }}
+ <meta name="generator" content="{{ self._TemplateReference__context.name }}"/>
+{% endblock head %}
