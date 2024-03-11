@@ -11,15 +11,7 @@
 
 <body>
     <div>
-
-        {% macro extract_task(article) %}
-        {%- set task_list = [] %}
-        {%- for task in article.about %}
-        {%- set _ = task_list.append(task.name) %}
-        {%- endfor %}
-        {{ task_list }}
-        {% endmacro %}
-
+        <label>Product & version based filtering for Product index page</label>
         {# Filter articles based on conditions #}
         {% set articlesList = data | selectattr('isPartOf.name', 'equalto', 'Products & Solutions') |
         selectattr('mentions', 'defined') | selectattr('mentions.0.name', 'equalto', 'SUSE Linux Enterprise Server') |
@@ -28,26 +20,31 @@
         {# Map the filtered articles to a new list with desired properties #}
         {% set articlesListSanitised = [] %}
         {% for article in articlesList %}
-        {%- set sanitized_article = {'title': article.headline, 'description': article.description,
-        'task':extract_task(article)} %}
-        {%- set _ = articlesListSanitised.append(sanitized_article) %}
+
+        {% set sanitisedArticle = {} %}
+        {% set _ = sanitisedArticle.update({'title': article.headline}) %}
+        {% set _ = sanitisedArticle.update({'description': article.description}) %}
+        {% set _ = sanitisedArticle.update({'task': article.about | map(attribute='name') | list }) %}
+        {% set _ = articlesListSanitised.append(sanitisedArticle) %}
         {% endfor %}
 
-        {# Convert the map result to a list #}
         {{ articlesListSanitised }}
     </div>
 
     <div>
+        <label>SBP category based filtering</label>
         {# Filter articles based on conditions #}
-        {% set articlesListSBP = data | selectattr('isPartOf.name', 'equalto', 'Best Practices') %}
-
-        {{ articlesListSBP }}
-
-        {% set articlesListSBP = articlesListSBP | selectattr('articleSection', 'in', ['Storage']) %}
-
+        {% set articlesListSBP = data | selectattr('isPartOf.name', 'equalto', 'Best Practices') |
+        selectattr('articleSection', 'defined')%}
+        {% set articlesListSBPCategory = [] %}
+        {% for article in articlesListSBP %}
+        {% if 'Storage' in article.articleSection %}
+        {% set _ = articlesListSBPCategory.append(article) %}
+        {% endif %}
+        {% endfor %}
         {# Map the filtered articles to a new list with desired properties #}
         {% set articlesListSanitised = [] %}
-        {% for article in articlesListSBP %}
+        {% for article in articlesListSBPCategory %}
         {% set sanitisedArticle = {} %}
         {% set _ = sanitisedArticle.update({'title': article.headline}) %}
         {% set _ = sanitisedArticle.update({'description': article.description}) %}
@@ -60,10 +57,11 @@
     </div>
 
     <div>
+        <label>TRD-partner based filtering</label>
         {# Filter articles based on conditions #}
         {% set articlesList = data | selectattr('isPartOf.name', 'equalto', 'TRD') |
         selectattr('affiliatedOrganization', 'defined') |
-        selectattr('affiliatedOrganization', 'selectattr', 'name', 'equalto', 'IBM') %}
+        selectattr('affiliatedOrganization.0.name', 'equalto', 'IBM') %}
 
         {# Map the filtered articles to a new list with desired properties #}
         {% set articlesListSanitised = [] %}
@@ -78,7 +76,12 @@
 
         {{ articlesListSanitised }}
     </div>
-
+    <style>
+        label {
+            display: block;
+            margin-top: 2rem;
+        }
+    </style>
 </body>
 
 </html>
