@@ -1,0 +1,111 @@
+{% from 'macros/IndexPageMenu.html' import IndexPageMenu %}
+{% from 'macros/Divider.html' import Divider %}
+{% from 'macros/Dropdown.html' import Dropdown %}
+{% from 'macros/ArticleTileIndexPage.html' import ArticleTileIndexPage%}
+{% from 'macros/Accordion.html' import Accordion%}
+
+
+{#-Jinja template for home page-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>Index Page SUSE Documentation</title>
+{% endblock head_title %}
+
+{% block head_link_css -%}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="../styles/indexPageStyles.css">
+{% endblock head_link_css -%}
+
+{% block body_main%}
+<div class="main-container indexPage">
+    <h1>{{title}}</h1>
+    <p>
+        {{description}}
+    </p>
+    {{Divider()}}
+    {{IndexPageMenu(isTRD)}}
+
+    <div id="allArticles-content" class="tab-content active-content">
+        <form method="get" class="formHeader" onsubmit="onFilterAllArticlesList(event)">
+            <input type="search" id="search" class="searchInput filterInput" size="80"
+                placeholder="Filter the list by article title" oninput="onFilterAllArticlesList(event)" />
+            <button type="submit" value="Search" title="Search" class="searchButton filterButton">
+                <i class="fa fa-filter"></i>
+            </button>
+
+        </form>
+        <div>
+            {% for article in articles %}
+            <div class="articleRow">
+                <p class="articleText">
+                    <a href={{article.links.html}}>
+                        {# Article Title {{ loop.index }} : {{ article.title }} #}
+                        Article Title : {{article.title}}
+                    </a>
+                </p>
+                <label>DD/MM/YYYY</label>
+                {{Dropdown(article.links)}}
+            </div>
+            {% endfor %}
+            <p class="no-match-text">No matching articles found</p>
+        </div>
+    </div>
+
+    <div id="newest-content" class="tab-content">
+        <div class="articlesContainerIP">
+            {% for article in newest %}
+            {{ ArticleTileIndexPage(articleData=article) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="groupedArticles-content" class="tab-content">
+        <div class="groupedAriclesHeader">
+            <label>
+                {% if not isTRD %}
+                Explore the articles based on the action you want to perform
+                {% endif %}
+
+                {% if isTRD%}
+                Explore articles filtered by products
+                {% endif %}
+            </label>
+            <button class="expandAllButton active" onclick="onPressExpandAll(event)">Expand all</button>
+            <button class="collapseAllButton" onclick="onPressCollapseAll(event)">Collapse all</button>
+        </div>
+        <div>
+
+            {% if not isTRD %}
+            {% for task in taskList %}
+            {% set grouped_articles = articles|selectattr('task', 'equalto', task) %}
+            <div>
+                {{Accordion(title=task, articleList = grouped_articles)}}
+            </div>
+            {% endfor %}
+            {% endif %}
+
+            {% if isTRD%}
+            {% for product in productsList %}
+
+            {% set grouped_articles = [] %}
+            {% for article in articles %}
+            {% if article.products and product in article.products %}
+            {% set _ = grouped_articles.append(article) %}
+            {% endif %}
+            {% endfor %}
+            <div>
+                {{Accordion(title=product, articleList = grouped_articles)}}
+            </div>
+            {% endfor %}
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+{{ super() }}
+<script src="../JS/indexPages.js"></script>
+{% endblock after_body_scripts -%}

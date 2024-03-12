@@ -1,0 +1,143 @@
+{% from 'macros/GlobalSearch.html' import GlobalSearch %}
+{% from 'macros/HomePageMenu.html' import HomePageMenuBar %}
+{% from 'macros/Divider.html' import Divider %}
+{% from 'macros/HomePageTile.html' import Tile %}
+{% from 'macros/ProductTile.html' import ProductTile %}
+{% from 'macros/PartnerTile.html' import PartnerTile %}
+{% from 'macros/FeaturedTile.html' import FeaturedTile %}
+
+{#-Jinja template for home page-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>Home Page SUSE Documentation</title>
+{% endblock head_title %}
+
+{% block head_link_css -%}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
+{% endblock head_link_css -%}
+
+{% block body_main%}
+<div class="main-container">
+    {{GlobalSearch()}}
+    {{HomePageMenuBar()}}
+
+    <div id="products-content" class="active-content tab-content">
+        <div class="productsContainer">
+            {% for product in productsList %}
+            {% if loop.index <= 8 %} {{ ProductTile(icon=product.icon, title=product.label,
+                popoverItems=product.versions, description=product.description, pointingUrl=product.pointingUrl) }}
+                {%endif%} {% if loop.index> 8 %}
+                {{ ProductTile(icon=product.icon, title=product.label, popoverItems=product.versions,
+                description=product.description, pointingUrl=product.pointingUrl, hidden='true') }}
+                {% endif %}
+                {% endfor %}
+        </div>
+        <button class="explore-list-button" onclick='onShowAllProducts(event)'>
+            Explore more products
+            <i class="fa fa-solid fa-angle-down fa-2x"></i>
+        </button>
+        <button class="explore-list-button hideButton" onclick='onHideAllProducts(event)'>
+            Show fewer products
+            <i class="fa fa-solid fa-angle-up fa-2x"></i>
+        </button>
+    </div>
+
+    <div id="sbp-content" class="tab-content">
+        <div class="categoriesContainer">
+            {% for category in categoriesList %}
+            {{
+            Tile(pointingUrl=category.pointingUrl,title=category.label,
+            description=category.description,
+            popoverItems= category.versions, isSBP='true',isTRD='false') }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="trd-content" class="tab-content">
+        <div class="trdContainer">
+            {% set alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | list %}
+            <ul class="alphabeticalSelector">
+                {% for letter in alphabets %}
+                <li>
+                    <button onclick="onAlphabetSelect(event)" class="{{'selectedAlphabet' if letter == 'A' else '' }}">
+                        {{ letter }}
+                    </button>
+                </li>
+                {% endfor %}
+            </ul>
+
+            {% set trdList = trdList|sort(attribute='label') %}
+            {% for partner in trdList %}
+            {% if loop.index <= 8 %} {{ Tile(pointingUrl='' , title=partner.label, description=partner.description,
+                popoverItems=partner.docTypes, isTRD='true' , isSBP='false' ) }} {% endif %}{% if loop.index>8 %} {{
+                Tile(pointingUrl='' , title=partner.label,
+                description=partner.description, popoverItems=partner.docTypes, isTRD='true' ,
+                isSBP='false' , hidden='true' ) }} {% endif %} {% endfor %}
+        </div>
+    </div>
+
+    <div id="newest-content" class="tab-content">
+        <div class="newestContainer">
+            {% for newArticle in newestArticles %}
+            {{Tile(pointingUrl=newArticle.pointingUrl,title=newArticle.title,
+            description=newArticle.description) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="mostPopular-content" class="tab-content">
+        <div class="popularContainer">
+            {% for popularArticle in mostPopular %}
+            {{Tile(pointingUrl=popularArticle.pointingUrl,title=popularArticle.title,
+            description=popularArticle.description) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    {{Divider()}}
+    <label class="section-header" id="featured_tab">Featured</label>
+    <div class="featuredContainer">
+        {% for featuredArticle in featuredData %}
+        {{
+        FeaturedTile(
+        imageName=featuredArticle.imageName,
+        pointingUrl=featuredArticle.pointingUrl,
+        title=featuredArticle.title
+        )
+        }}
+        {% endfor %}
+    </div>
+
+    <div id="customPopover" class="popover" style="display: none;">
+        <img alt="SUSE Logo" src="" id="popoverLogo" class="suseLogo-in-popup" />
+        <label id="popoverLabel"></label>
+        <ul id="popoverList"></ul>
+    </div>
+
+    <dialog id="walkThroughDialog" data-step="0">
+        <div class="tooltip-content">
+            <div class="dialog-header">
+                <img alt="SUSE Logo" src="../assets/SUSELogo.png" class="suseLogo-in-popup" />
+                <label>Walk-Through</label>
+                <button onclick="closeWalkThroughDialog(event)"> <i class="fa fa-times" title="Close"></i></button>
+            </div>
+            <p></p>
+            <div class="dialog-footer">
+                <button id="dialogPrevButton" onclick="showPreviousWalkthroughStep(event)"> <i
+                        class="fa fa-angle-left"></i>
+                    Previous</button>
+                <button id="dialogNextButton" onclick="showNextWalkthroughStep(event)"> Next <i
+                        class="fa fa-angle-right"></i></button>
+            </div>
+        </div>
+    </dialog>
+</div>
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+{{ super() }}
+<script src="../JS/homePage.js"></script>
+<script src="../JS/walkThrough.js"></script>
+{% endblock after_body_scripts -%}
