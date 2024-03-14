@@ -1,0 +1,24 @@
+{#-Jinja template for search page-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>Search SUSE Docs</title>
+{% endblock head_title %}
+
+{% block head_link_css -%}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="../search-embed-resources/searchApp.css">
+{% endblock head_link_css -%}
+
+{% block body_main%}
+<div class="main-container search-page-view">
+    <div id="searchpage_root" class="search-page-root"></div>
+</div>
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+<script crossorigin="true" src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin="true" src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script crossorigin="true" src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel" data-type="module" src="../search-embed-resources/searchApp.js"></script>
+{% endblock after_body_scripts -%}
