@@ -207,3 +207,7 @@ function onFilterTRDAllSections(oEvent) {
     mainContainer.querySelector(".no-match-text").style.display = "none";
   }
 }
+
+function onBackToHome(oEvent) {
+  //based on the current page set the tab on the home page
+}
