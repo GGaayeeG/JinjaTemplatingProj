@@ -6,7 +6,7 @@
     {
       "title": "Lorem A ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Install",
+      "tasks": ["Install"],
       "lastUpdated": "",
       "docType": "Getting Started",
       "links": {
@@ -19,7 +19,7 @@
     {
       "title": "Lorem B ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Configure",
+      "tasks": ["Configure"],
       "lastUpdated": "",
       "docType": "Reference Implementation",
       "links": {
@@ -32,7 +32,7 @@
     {
       "title": "Lorem C ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Upgrade",
+      "tasks": ["Upgrade"],
       "lastUpdated": "",
       "docType": "Reference Configuration",
       "links": {
@@ -45,7 +45,7 @@
     {
       "title": "Lorem ipsum D, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Monitor",
+      "tasks": ["Monitor"],
       "lastUpdated": "",
       "docType": "Enterprise Architecture",
       "links": {
@@ -58,7 +58,7 @@
     {
       "title": "Lorem ipsum E, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Troubleshoot",
+      "tasks": ["Troubleshoot"],
       "lastUpdated": "",
       "docType": "Reference Implementation",
       "links": {
@@ -71,7 +71,7 @@
     {
       "title": "Lorem F ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Configure",
+      "tasks": ["Configure"],
       "lastUpdated": "",
       "docType": "Getting Started",
       "links": {
@@ -84,7 +84,7 @@
     {
       "title": "Lorem G ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Deploy",
+      "tasks": ["Deploy"],
       "lastUpdated": "",
       "docType": "Reference Implementation",
       "links": {
@@ -97,7 +97,7 @@
     {
       "title": "Lorem H ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Secure",
+      "tasks": ["Secure"],
       "lastUpdated": "",
       "docType": "Getting Started",
       "links": [
@@ -116,7 +116,7 @@
     {
       "title": "Lorem I ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Package",
+      "tasks": ["Package"],
       "lastUpdated": "",
       "docType": "Reference Implementation",
       "links": {
@@ -131,7 +131,7 @@
     {
       "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Install",
+      "tasks": ["Install"],
       "lastUpdated": "",
       "docType": "",
       "links": {
@@ -145,7 +145,7 @@
     {
       "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Configure",
+      "tasks": ["Configure"],
       "lastUpdated": "",
       "docType": "",
       "links": {
@@ -159,7 +159,7 @@
     {
       "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Upgrade",
+      "tasks": ["Upgrade"],
       "lastUpdated": "",
       "docType": "",
       "links": {
@@ -173,7 +173,7 @@
     {
       "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam reprehenderit nam ullamco laboris nisi ut aliquip.dolor sit amet consectetur adipisicing elit.",
       "description": "",
-      "task": "Monitor",
+      "tasks": ["Monitor"],
       "lastUpdated": "",
       "docType": "",
       "links": {
@@ -185,7 +185,7 @@
       "tags": ["SUSE Best Practices", "tag2", "tag3"]
     }
   ],
-  "taskList": [
+  "tasksList": [
     "Install",
     "Configure",
     "Monitor",

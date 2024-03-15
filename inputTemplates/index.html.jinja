@@ -77,8 +77,14 @@
         <div>
 
             {% if not isTRD %}
-            {% for task in taskList %}
-            {% set grouped_articles = articles|selectattr('task', 'equalto', task) %}
+            {% for task in tasksList %}
+            {# {% set grouped_articles = articles|selectattr('task', 'equalto', task) %} #}
+            {% set grouped_articles = [] %}
+            {% for article in articles %}
+            {% if article.tasks and task in article.tasks %}
+            {% set _ = grouped_articles.append(article) %}
+            {% endif %}
+            {% endfor %}
             <div>
                 {{Accordion(title=task, articleList = grouped_articles)}}
             </div>
