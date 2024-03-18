@@ -29,6 +29,7 @@
   justify-content: space-between;
 }
 
+.indexPageMenu li,
 .indexPageMenu a {
   font-size: 1rem;
 }

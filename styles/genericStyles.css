@@ -87,12 +87,15 @@ body {
 
 .menu-bar li {
   width: default;
-  min-width: 11rem;
   cursor: pointer;
   border-bottom: 2px solid transparent;
 }
 
-.menu-bar li:first-child {
+#homepage-menu li {
+  min-width: 11rem;
+}
+
+#homepage-menu li:first-child {
   width: 19rem;
 }
 

@@ -10,12 +10,12 @@ function onTabChange(oEvent, tabId) {
     if (tab === tabId) {
       content.classList.add("active-content");
       tabLinkBar
-        .querySelector('a[onclick*="' + tab + '"]')
+        .querySelector('li[onclick*="' + tab + '"]')
         .classList.add("selectedTab");
     } else {
       content.classList.remove("active-content");
       tabLinkBar
-        .querySelector('a[onclick*="' + tab + '"]')
+        .querySelector('li[onclick*="' + tab + '"]')
         .classList.remove("selectedTab");
     }
   });
