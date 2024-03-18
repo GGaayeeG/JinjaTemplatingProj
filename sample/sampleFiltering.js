@@ -16,7 +16,7 @@ var articlesListSanitised = articlesList.map((article) => {
   let sanitisedArticle = {};
   sanitisedArticle.title = article.headline;
   sanitisedArticle.description = article.description;
-  sanitisedArticle.task = article.about.map((task) => task.name);
+  sanitisedArticle.tasks = article.about.map((task) => task.name);
   return sanitisedArticle;
 });
 
@@ -31,11 +31,11 @@ var articlesList = data.filter((article) => {
   } else false;
 });
 
-var articlesListSanitised = articlesList.map((article) => {
+var articlesListSanitisedSBP = articlesList.map((article) => {
   let sanitisedArticle = {};
   sanitisedArticle.title = article.headline;
   sanitisedArticle.description = article.description;
-  sanitisedArticle.task = article.about.map((task) => task.name);
+  sanitisedArticle.tasks = article.about.map((task) => task.name);
   return sanitisedArticle;
 });
 
@@ -52,7 +52,7 @@ var articlesList = data.filter((article) => {
   } else false;
 });
 
-var articlesListSanitised = articlesList.map((article) => {
+var articlesListSanitisedTRD = articlesList.map((article) => {
   let sanitisedArticle = {};
   sanitisedArticle.title = article.headline;
   sanitisedArticle.description = article.description;
@@ -60,3 +60,38 @@ var articlesListSanitised = articlesList.map((article) => {
   sanitisedArticle.docType = article.additionalType;
   return sanitisedArticle;
 });
+
+//-------------------------------------------------------------------------------------
+// Fetching the tasks list
+var tasksList = articlesListSanitised.reduce((acc, article) => {
+  article.tasks.forEach((task) => {
+    if (!acc.includes(task)) {
+      acc.push(task);
+    }
+  });
+  return acc;
+}, []);
+
+//------------------------------------------------------------------------------------
+// Fetching the products list for TRD
+var productsList = articlesListSanitisedTRD.reduce((acc, article) => {
+  article.products.forEach((product) => {
+    if (!acc.includes(product)) {
+      acc.push(product);
+    }
+  });
+  return acc;
+}, []);
+
+// ------------------------------------------------------------------------------------
+// Fetching the docType List for TRD
+var docTypeList = articlesListSanitisedTRD.reduce((acc, article) => {
+  if (!acc.includes(article.docType)) {
+    acc.push(article.docType);
+  }
+  return acc;
+}, []);
+
+// ------------------------------------------------------------------------------------
+// Fetching the newest articles
+// articleList.sort based on data -> slice first 8

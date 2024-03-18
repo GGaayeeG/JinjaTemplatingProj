@@ -24,13 +24,25 @@
         {% set sanitisedArticle = {} %}
         {% set _ = sanitisedArticle.update({'title': article.headline}) %}
         {% set _ = sanitisedArticle.update({'description': article.description}) %}
-        {% set _ = sanitisedArticle.update({'task': article.about | map(attribute='name') | list }) %}
+        {% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
+        map(attribute='name') | list }) %}
         {% set _ = articlesListSanitised.append(sanitisedArticle) %}
         {% endfor %}
 
-        {{ articlesListSanitised }}
-    </div>
+        {# Fetching task list #}
+        {% set tasksList = [] %}
+        {% for article in articlesListSanitised %}
+        {% for task in article.tasks %}
+        {% if task not in tasksList %}
+        {% set _ = tasksList.append(task) %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
 
+        {{ articlesListSanitised }}
+        {{tasksList}}
+    </div>
+    {# -----------------------------------------------------------------------------------------#}
     <div>
         <label>SBP category based filtering</label>
         {# Filter articles based on conditions #}
@@ -42,20 +54,33 @@
         {% set _ = articlesListSBPCategory.append(article) %}
         {% endif %}
         {% endfor %}
+
         {# Map the filtered articles to a new list with desired properties #}
-        {% set articlesListSanitised = [] %}
+        {% set articlesListSanitisedSBP = [] %}
         {% for article in articlesListSBPCategory %}
         {% set sanitisedArticle = {} %}
         {% set _ = sanitisedArticle.update({'title': article.headline}) %}
         {% set _ = sanitisedArticle.update({'description': article.description}) %}
-        {% set _ = sanitisedArticle.update({'task': article.about | map(attribute='name') | list }) %}
-        {% set _ = articlesListSanitised.append(sanitisedArticle) %}
+        {% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
+        map(attribute='name') | list }) %}
+        {% set _ = articlesListSanitisedSBP.append(sanitisedArticle) %}
+        {% endfor %}
+
+        {# Fetching task list #}
+        {% set tasksList = [] %}
+        {% for article in articlesListSanitised %}
+        {% for task in article.tasks %}
+        {% if task not in tasksList %}
+        {% set _ = tasksList.append(task) %}
+        {% endif %}
+        {% endfor %}
         {% endfor %}
 
 
-        {{ articlesListSanitised }}
+        {{ articlesListSanitisedSBP }}
+        {{tasksList}}
     </div>
-
+    {# ---------------------------------------------------------------------------------------- #}
     <div>
         <label>TRD-partner based filtering</label>
         {# Filter articles based on conditions #}
@@ -64,17 +89,37 @@
         selectattr('affiliatedOrganization.0.name', 'equalto', 'IBM') %}
 
         {# Map the filtered articles to a new list with desired properties #}
-        {% set articlesListSanitised = [] %}
+        {% set articlesListSanitisedTRD = [] %}
         {% for article in articlesList %}
         {% set sanitisedArticle = {} %}
         {% set _ = sanitisedArticle.update({'title': article.headline}) %}
         {% set _ = sanitisedArticle.update({'description': article.description}) %}
         {% set _ = sanitisedArticle.update({'products': article.mentions | map(attribute='name') | list }) %}
         {% set _ = sanitisedArticle.update({'docType': article.additionalType}) %}
-        {% set _ = articlesListSanitised.append(sanitisedArticle) %}
+        {% set _ = articlesListSanitisedTRD.append(sanitisedArticle) %}
         {% endfor %}
 
-        {{ articlesListSanitised }}
+        {# Fetching product list #}
+        {% set productsList = [] %}
+        {% for article in articlesListSanitisedTRD %}
+        {% for product in article.products %}
+        {% if product not in productsList %}
+        {% set _ = productsList.append(product) %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+
+        {# Fetching Doc Type List #}
+        {% set docTypeList = [] %}
+        {% for article in articlesListSanitisedTRD %}
+        {% if article.docType not in docTypeList %}
+        {% set _ = docTypeList.append(article.docType) %}
+        {% endif %}
+        {% endfor %}
+
+        {{ articlesListSanitisedTRD }}
+        {{productsList}}
+        {{docTypeList}}
     </div>
     <style>
         label {
