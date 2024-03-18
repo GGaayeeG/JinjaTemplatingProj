@@ -1,9 +1,7 @@
 {% macro HomePageMenuBar() %}
 <ul class="menu-bar" id="homepage-menu">
-    <li id="prod_solution_tab">
-        <a class="selectedTab" onclick="onTabChange(event, 'products')">
-            Products & Solutions
-        </a>
+    <li id="prod_solution_tab" class="selectedTab" onclick="onTabChange(event, 'products')">
+        Products & Solutions
         <div class="sortingOptions">
             <i class="fa fa-light fa-fire fa-lg selectedSorting" title="Sort by Popularity"
                 onclick="sortProductsByPopularity(event)"></i>
@@ -11,25 +9,17 @@
             <i class="fa fa-sort-alpha-desc fa-lg" title="Sort Z-A" onclick="sortProductsDesc(event)"></i>
         </div>
     </li>
-    <li id="sbp_tab">
-        <a onclick="onTabChange(event, 'sbp')">
-            Best Practices
-        </a>
+    <li id="sbp_tab" onclick="onTabChange(event, 'sbp')">
+        Best Practices
     </li>
-    <li id="trd_tab">
-        <a onclick="onTabChange(event, 'trd')">
-            Technical References
-        </a>
+    <li id="trd_tab" onclick="onTabChange(event, 'trd')">
+        Technical References
     </li>
-    <li id="newest_tab">
-        <a onclick="onTabChange(event, 'newest')">
-            Newest
-        </a>
+    <li id="newest_tab" onclick="onTabChange(event, 'newest')">
+        Newest
     </li>
-    <li id="popular_tab">
-        <a onclick="onTabChange(event, 'mostPopular')">
-            Most Popular
-        </a>
+    <li id="popular_tab" onclick="onTabChange(event, 'mostPopular')">
+        Most Popular
     </li>
 </ul>
 {% endmacro %}

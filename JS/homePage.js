@@ -11,6 +11,39 @@ function onGlobalSearch(oEvent) {
 }
 
 // Home page menu tab change
+// function onTabChange(oEvent, tabId) {
+//   let tabs = ["products", "sbp", "trd", "newest", "mostPopular"];
+//   // let tabLinkBar = oEvent.target.parentElement.parentElement; //fetching ul element
+//   let tabLinkBar = document.querySelector("#homepage-menu");
+
+//   tabs.forEach(function (tab) {
+//     let content = document.getElementById(tab + "-content");
+
+//     if (tab === tabId) {
+//       content.classList.add("active-content");
+//       tabLinkBar
+//         .querySelector('button[onclick*="' + tab + '"]')
+//         .classList.add("selectedTab");
+//     } else {
+//       content.classList.remove("active-content");
+//       tabLinkBar
+//         .querySelector('button[onclick*="' + tab + '"]')
+//         .classList.remove("selectedTab");
+//     }
+
+//     if (tabId === "products") {
+//       tabLinkBar.querySelector(".sortingOptions").style.display = "inline";
+//     } else {
+//       tabLinkBar.querySelector(".sortingOptions").style.display = "none";
+//     }
+//   });
+
+//   if (oEvent) {
+//     const newURL =
+//       window.location.href.split("?")[0] + `?tab=${tabId.replace(/ /g, "_")}`;
+//     window.history.pushState({ tab: tabId.replace(/ /g, "_") }, "", newURL);
+//   }
+// }
 function onTabChange(oEvent, tabId) {
   let tabs = ["products", "sbp", "trd", "newest", "mostPopular"];
   // let tabLinkBar = oEvent.target.parentElement.parentElement; //fetching ul element
@@ -22,12 +55,12 @@ function onTabChange(oEvent, tabId) {
     if (tab === tabId) {
       content.classList.add("active-content");
       tabLinkBar
-        .querySelector('a[onclick*="' + tab + '"]')
+        .querySelector('li[onclick*="' + tab + '"]')
         .classList.add("selectedTab");
     } else {
       content.classList.remove("active-content");
       tabLinkBar
-        .querySelector('a[onclick*="' + tab + '"]')
+        .querySelector('li[onclick*="' + tab + '"]')
         .classList.remove("selectedTab");
     }
 
@@ -362,6 +395,13 @@ function isValidJSON(str) {
 const modalEL = window.addEventListener("click", function (oEvent) {
   const popover = document.getElementById("customPopover");
   if (popover.style.display === "flex" && !popover.contains(oEvent.target)) {
+    popover.style.display = "none";
+  }
+  if (
+    popover.style.display === "flex" &&
+    popover.contains(oEvent.target) &&
+    oEvent.target.tagName == "A"
+  ) {
     popover.style.display = "none";
   }
 });

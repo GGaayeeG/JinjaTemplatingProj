@@ -44,7 +44,7 @@ body {
 
 .standaloneSearch {
   margin-top: 1.5rem;
-  width: 90%;
+  width: 92%;
   margin-inline: auto;
 }
 
@@ -87,18 +87,27 @@ body {
 
 .menu-bar li {
   width: default;
+  min-width: 11rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
 }
 
-.menu-bar a {
+.menu-bar li:first-child {
+  width: 19rem;
+}
+
+/* .menu-bar button {
   font-size: 1.2rem;
   font-weight: 500;
   padding-bottom: 0.6rem;
   text-decoration: none;
   color: #0c322c;
   cursor: pointer !important;
-}
+  background: transparent;
+  border: none;
+} */
 
-.menu-bar a:hover {
+.menu-bar li:hover {
   border-bottom: 2px solid #90ebcd;
   color: black;
 }
@@ -117,10 +126,10 @@ body {
 .menu-bar .fa {
   margin-left: 0.2rem;
   padding: 0.4rem;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: #30ba78;
   cursor: pointer;
-  width: 1.2rem;
+  width: 0.9rem;
 }
 
 .menu-bar .sortingOptions {
