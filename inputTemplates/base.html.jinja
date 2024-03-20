@@ -18,19 +18,24 @@
     {% block head_title -%}
     <title>SUSE Documentation</title>
     {% endblock head_title -%}
+
+    {% include "./fragments/head.html" %}
+
     {% block head_link_css -%}
     <link rel="stylesheet" type="text/css" href="../styles/genericStyles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     {% endblock head_link_css -%}
+
     {% endblock head -%}
 </head>
 
 <body>
     <div class="view">
         {% block body_view_header -%}
-        <header class="App-header">
+        {# <header class="App-header">
             <img src='{{ assetpath }}Header_SUSE.png' alt="SUSE Header" class="header-image" />
-        </header>
+        </header> #}
+        {% include "./fragments/header.html" %}
         {% endblock body_view_header -%}
 
         {% block body_main %}
@@ -38,9 +43,10 @@
         {% endblock body_main %}
 
         {% block body_view_footer -%}
-        <footer>
+        {# <footer>
             <img src='{{ assetpath }}Footer_SUSE.png' alt="SUSE Footer" class="footer-image" />
-        </footer>
+        </footer> #}
+        {% include "./fragments/footer.html" %}
         {% endblock body_view_footer -%}
 
         {{ScrollToTop()}}

@@ -46,7 +46,7 @@ function toggleDropdown(event) {
 }
 
 function closeDropdown(event) {
-  var dropdownMenu = document.querySelector(".dropdown-menu.show");
+  var dropdownMenu = document.querySelector(".format-dropdown-menu.show");
 
   if (dropdownMenu && !dropdownMenu.contains(event.target)) {
     // Clicked outside the dropdown, close it
