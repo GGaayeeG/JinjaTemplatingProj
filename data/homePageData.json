@@ -564,14 +564,7 @@
   "trdList": [
     {
       "label": "Ampere",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -591,14 +584,7 @@
     },
     {
       "label": "Cisco",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -618,14 +604,7 @@
     },
     {
       "label": "Dell",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -645,14 +624,7 @@
     },
     {
       "label": "Azure",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": " SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -672,14 +644,7 @@
     },
     {
       "label": "IBM",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -699,14 +664,7 @@
     },
     {
       "label": "Lenovo",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -726,14 +684,7 @@
     },
     {
       "label": "Kubecost",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -753,14 +704,7 @@
     },
     {
       "label": "Supermicro",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -780,14 +724,7 @@
     },
     {
       "label": "HPE",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -807,14 +744,7 @@
     },
     {
       "label": "HPQ",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -834,14 +764,7 @@
     },
     {
       "label": "AWS",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
@@ -861,14 +784,7 @@
     },
     {
       "label": "GCP",
-      "pointingUrl": "https://documentation.suse.com/trd/linux/",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      "products": [
-        { "label": "SLE Micro" },
-        { "label": "SUSE Manager" },
-        { "label": "SLES" },
-        { "label": "SUSE Rancher" }
-      ],
       "docTypes": [
         { "label": "All", "pointingUrl": "./indexPageTRDAll.html" },
         { "label": "Getting started", "pointingUrl": "./indexPageTRD.html" },
