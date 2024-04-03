@@ -118,7 +118,7 @@ function onFilterAccordionList(oEvent) {
     .closest(".accordion-item")
     .querySelector(".accordion-content");
   var listItems = accordionContent.querySelectorAll(".articleText a");
-  var visibleArticles = 0;
+  var visibleArticlesCount = 0;
 
   // Loop through the list items and hide/show based on the filter
   for (var i = 0; i < listItems.length; i++) {
@@ -127,13 +127,13 @@ function onFilterAccordionList(oEvent) {
     // Case-insensitive comparison
     if (itemText.toUpperCase().indexOf(filterValue) > -1) {
       listItems[i].closest(".articleRow").style.display = "";
-      visibleArticles++;
+      visibleArticlesCount++;
     } else {
       listItems[i].closest(".articleRow").style.display = "none";
     }
   }
 
-  if (!visibleArticles) {
+  if (!visibleArticlesCount) {
     accordionContent.querySelector(".no-match-text").style.display = "block";
   } else {
     accordionContent.querySelector(".no-match-text").style.display = "none";
@@ -146,7 +146,7 @@ function onFilterAllArticlesList(oEvent) {
   var filterValue = filterInput.value.toUpperCase();
   var allArticlesContainer = filterInput.closest(".tab-content");
   var listItems = allArticlesContainer.querySelectorAll(".articleText a");
-  var visibleArticles = 0;
+  var visibleArticlesCount = 0;
 
   // Loop through the list items and hide/show based on the filter
   for (var i = 0; i < listItems.length; i++) {
@@ -155,12 +155,13 @@ function onFilterAllArticlesList(oEvent) {
     // Case-insensitive comparison
     if (itemText.toUpperCase().indexOf(filterValue) > -1) {
       listItems[i].closest(".articleRow").style.display = "flex";
+      visibleArticlesCount++;
     } else {
       listItems[i].closest(".articleRow").style.display = "none";
     }
   }
 
-  if (!visibleArticles) {
+  if (!visibleArticlesCount) {
     allArticlesContainer.querySelector(".no-match-text").style.display =
       "block";
   } else {
