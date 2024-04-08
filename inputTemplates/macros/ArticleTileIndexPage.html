@@ -3,12 +3,14 @@
 {% macro ArticleTileIndexPage(articleData) %}
 <div class="articleTileIndexPage" onclick="onArticleTileClick('{{articleData.links.html}}')">
     <div class="textContent">
-        <label class="">
+        <label class="articleTitle">
             {{articleData.title}}
         </label>
+        <p class="articleDescription">{{articleData.description}}</p>
     </div>
 
     <div class="tags_Format_Content">
+        {{articleData.dateModified}}
         <div class="tags">
             {% for tag in articleData.tags %}
             <label>{{tag}}</label>

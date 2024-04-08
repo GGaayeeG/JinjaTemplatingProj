@@ -75,21 +75,31 @@ ul.indexPageMenu {
   justify-content: space-between;
   flex-wrap: wrap;
   /* cursor: pointer; */
+  margin: 8px;
 }
 
-.articleRow a {
+.articleRow .articleTitle {
   text-decoration: none;
   color: inherit;
+  line-height: 1.8;
+  cursor: pointer;
 }
 
-.articleRow:hover {
+/* .articleRow:hover {
   color: #0c322c;
-}
+} */
 
 .articleText {
-  max-width: 76%;
+  /* max-width: 76%; */
+  width: 64%;
   margin-block: 0.5rem;
   cursor: pointer;
+}
+
+.articleText:hover a,
+.articleTileIndexPage:hover .articleTitle {
+  color: var(--primary-jungle-green);
+  font-weight: 500;
 }
 
 .formatOptions {
@@ -186,12 +196,20 @@ ul.indexPageMenu {
   cursor: pointer;
 }
 
+.indexPage .articleDescription {
+  font-size: 14px;
+  margin-block: 8px;
+  color: #0f0f0f;
+}
+
 .articleTileIndexPage .tags_Format_Content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  margin-top: 8px;
+  font-size: 14px;
 }
 
 .articleTileIndexPage a {
@@ -201,6 +219,7 @@ ul.indexPageMenu {
 
 .articleTileIndexPage .tags {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .articleTileIndexPage .tags label {
@@ -247,6 +266,10 @@ ul.indexPageMenu {
   flex-wrap: wrap;
 }
 
+.accordion-title label {
+  font-weight: 600;
+}
+
 .accordion-button {
   height: 2rem;
   width: 2rem;
@@ -264,6 +287,10 @@ ul.indexPageMenu {
   padding-top: 1rem;
   text-align: left;
   display: none;
+}
+
+.accordion-content .divider-line {
+  margin-inline: 0;
 }
 
 .accordion-content a {
@@ -327,9 +354,15 @@ ul.indexPageMenu {
     flex-wrap: wrap;
     margin-block: 1rem;
   }
+
   .articleRow .articleText {
     max-width: 100%;
   }
+
+  /* .articleRow .articleText .articleDescription:hover {
+    color: #30ba78;
+  } */
+
   .articleTileIndexPage {
     width: 80%;
     margin-inline: auto;

@@ -1,6 +1,7 @@
 {% macro Accordion(title, articleList) %}
 
 {% from 'macros/Dropdown.html' import Dropdown %}
+{% from 'macros/Divider.html' import Divider %}
 
 {% set articleList = articleList|list %}
 
@@ -22,20 +23,21 @@
         </div>
     </div>
 
-    {# Divider() #}
-
     <div class="accordion-content">
+
+        {{Divider()}}
 
         <p class="no-match-text">No matching articles found</p>
 
         <!-- {% if articleList|length > 0 %} -->
         {% for articleData in articleList %}
         <div class="articleRow">
-            <p class="articleText">
-                <a href={{articleData.links.html}}>
+            <div class="articleText" data-article-link="{{articleData.links.html}}" onclick="onArticleClick(event)">
+                <a class="articleTitle" href={{articleData.links.html}}>
                     {{ articleData.title }}
                 </a>
-            </p>
+                <p class="articleDescription">{{articleData.description}}</p>
+            </div>
             {{ Dropdown(articleData.links) }}
         </div>
         {% endfor %}

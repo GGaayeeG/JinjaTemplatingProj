@@ -41,10 +41,11 @@
                     {% for article in articles %}
                     {% if article.docType == docType %}
                     <div class="articleRow">
-                        <p class="articleText">
-                            <a href={{article.links.html}}>
+                        <p class="articleText" data-article-link="{{article.links.html}}"
+                            onclick="onArticleClick(event)">
+                            <a class="articleTitle" href={{article.links.html}}>
                                 {# Article Title {{ loop.index }} : {{ article.title }} #}
-                                Article Title : {{article.title}}
+                                {{article.title}}
                             </a>
                         </p>
                         <label>DD/MM/YYYY</label>
