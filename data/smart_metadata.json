@@ -1,0 +1,3464 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SUSE ALP Dolomite",
+    "description": "A minimal OS that runs containerized workloads.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-06-13T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Containerization"
+      },
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/alp/dolomite/html/alp-dolomite/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/alp/dolomite/pdf/alp-dolomite_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/alp/dolomite/single-html/alp-dolomite/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE ALP Dolomite",
+        "softwareVersion": "0.1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "headline": "Administering ALP Dolomite using Cockpit",
+    "description": "An administration guide that describes how to manage ALP Dolomite using the Cockpit web interface.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-05-15T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Maintenance"
+      },
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Storage"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/alp/dolomite/html/cockpit-alp-dolomite/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/alp/dolomite/pdf/cockpit-alp-dolomite_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/alp/dolomite/single-html/cockpit-alp-dolomite/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "slemicro",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Kernel Live Patching: Concept",
+    "description": "Kernel Live Patching: Concept",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/concept-klp/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/concept-klp_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Zypper package manager",
+    "description": "Zypper is a command-line tool for installing, updating and removing software packages and for managing repositories.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/concept-zypper/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/concept-zypper_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Check and monitor CPU temperature",
+    "description": "Learn how to check and monitor CPU temperature.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-08-15T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Monitoring"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systemtuning-performance/html/cpu-check-temperature/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systemtuning-performance/pdf/cpu-check-temperature_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Deploying ALP Dolomite interactively using Agama",
+    "description": "Deploying ALP Dolomite interactively using the Agama installer",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "articleSection": [
+      "Systems Management"
+    ],
+    "about": [],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE ALP Dolomite",
+        "softwareVersion": "0.1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Configuring mail forwarding for the root user",
+    "description": "Configure mail forwarding for the root user to get information about system events.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-05-17T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Maintenance"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/html/forward-root-mail/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/pdf/forward-root-mail_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Set up a FreeRADIUS Server",
+    "description": "An overview of setting up FreeRADIUS server.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-09-11T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Authentication"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/freeradius-setup-server/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/freeradius-setup-server_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Setting up an HTTP Boot server",
+    "description": "This article shows you how to configure DNS, DHCP, and HTTP on a single machine to act as an HTTP Boot server.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-12-15T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/http-boot-setting-up-server/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/http-boot-setting-up-server_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Unified Management of Virtual Machines using libvirt",
+    "description": "An overview of managing virtual machines on the command line using libvirt",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2024-01-25T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Virtualization"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/manage-vm-on-commandline/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/manage-vm-on-commandline_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "The SLE Micro security guide",
+    "description": "The article provides details regarding SELinux, PAM and keylime.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "articleSection": [
+      "Systems Management"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Implementation"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/SLE-Micro-security_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-security/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server",
+        "softwareVersion": "15-SP5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Introduction to SLES Minimal VM",
+    "description": "Learn what SLES Minimal VM can do for you",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2024-02-09T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Virtualization"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/minimal-vm/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/minimal-vm_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, IBM Z, POWER, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Managing Network Bonding Devices",
+    "description": "This article explains how to configure network bonding, and how to hotplug new devices into the bond.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-05T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/html/network-bond-managing-devices/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/pdf/network-bond-managing-devices_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Predictable network interface naming",
+    "description": "Predictable naming scheme provides persistent names for network interfaces that are stable across reboots or hardware changes.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-08-02T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/html/network-interface-predictable-naming/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/pdf/network-interface-predictable-naming_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Managing network teaming devices",
+    "description": "This article explains how to configure network teaming, and how to add VLANs over the teamed device.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-05T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/html/network-team-managing-devices/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/pdf/network-team-managing-devices_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Synchronizing Time Using NTP",
+    "description": "This article describes what time synchronization is and how to configure it.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-04-26T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/html/ntp-time-synchronization/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/pdf/ntp-time-synchronization_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Authentication with PAM",
+    "description": "PAM is used in the authentication process as a layer that mediates the access between the user and application.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2024-11-11T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Authentication"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/security/html/PAM-security/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/security/pdf/PAM-security_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Connection accounting utilities",
+    "description": "Connection accounting utilities",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/reference-connection-accounting-utilities/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-connection-accounting-utilities_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Enabling and disabling systemd services",
+    "description": "Learn how to enable and disable systemd services.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-systemctl-enable-disable-services_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Managing systemd targets with systemctl",
+    "description": "systemd targets are different states that a system can boot into. They are controlled with the systemctl command.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/reference-managing-systemd-targets-systemctl/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-managing-systemd-targets-systemctl_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Starting and stopping systemd services",
+    "description": "Starting and stopping systemd services",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-start-stop-services/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-systemctl-start-stop-services_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Installing and removing software with Zypper reference",
+    "description": "Learn how to perform package and repository management tasks using the Zypper command-line.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/reference-zypper-install/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-zypper-install_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Running Podman in rootless mode",
+    "description": "Everything you need to know about using rootless containers with Podman.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-12-21T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Containerization"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/container/html/rootless-podman/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/container/pdf/rootless-podman_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server",
+        "softwareVersion": "15-SP5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Administration of SLE Micro",
+    "description": "Describes the administration tasks on SLE Micro",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "articleSection": [
+      "Systems Management"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Upgrade & Update"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/SLE-Micro-admin/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/SLE-Micro-admin_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLE Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Deploying SLE Micro in Public Clouds",
+    "description": "Learn how to deploy SLE Micro in public clouds. Learn how to add users to suit your needs.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-03-29T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "articleSection": [
+      "Systems Management"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "Thing",
+        "name": "Containerization"
+      },
+      {
+        "@type": "Thing",
+        "name": "Cloud"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/micro-clouds/html/SLE-Micro-public-cloud/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "slemicro",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, IBM Z, POWER, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "headline": "",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-22T00:00+02:00",
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "The basic concepts of Snapper",
+    "description": "A basic overview of Snapper that describes the tool, its supported interfaces and main tasks, and presents default settings.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-11-11T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Backup & Recovery"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/snapper-basic-concepts/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/snapper-basic-concepts_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, AArch64, POWER, IBM Z"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Configuring the opensm Subnet Manager",
+    "description": "Configuring opensm—the InfiniBand compliant implementation of Subnet Manager",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-11-14T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/html/subnet-manager-configuring/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/network/pdf/subnet-manager-configuring_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Configuring superuser privileges with sudo",
+    "description": "Get familiar with the basics of sudo configuration and learn how to delegate superuser privileges with sudo.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2024-02-15T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Authentication"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/sudo-configure-superuser-privileges/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/sudo-configure-superuser-privileges_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, IBM LinuxONE, Arm, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Running commands as superuser with sudo",
+    "description": "Learn about the basic concepts of sudo, how to configure and use it for the most common use cases to run commands that require root privileges.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-08-15T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Authentication"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/sudo-run-commands-as-superuser/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/sudo-run-commands-as-superuser_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Gathering system information for support",
+    "description": "Describes how to use the supportconfig tool to pass information to the SUSE support.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-10T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Maintenance"
+      },
+      {
+        "@type": "Thing",
+        "name": "Troubleshooting"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/supportconfig/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/supportconfig_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Managing systemd services",
+    "description": "Basics of systemd, including service management, dependency tracking, logging, resource management, socket activation and system control.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-08-02T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/systemd-basics/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/systemd-basics_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Securing systemd services",
+    "description": "Increase security by limiting privileges of systemd services.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-12-18T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/security/html/systemd-securing/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/security/pdf/systemd-securing_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Working with systemd timers",
+    "description": "A complete overview of systemd timers that covers creating, maintaining, testing, troubleshooting and migrating from cron.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-02-28T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Maintenance"
+      },
+      {
+        "@type": "Thing",
+        "name": "Troubleshooting"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/systemd-working-with-timers/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/systemd-working-with-timers_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform;",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER, IBM Z, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Adding modules and extensions after installation",
+    "description": "Adding modules and extensions after installation",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/task-add-modules-extensions-after-installation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/task-add-modules-extensions-after-installation_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Configuring virtual machines with Virtual Machine Manager",
+    "description": "Configuring virtual machines with Virtual Machine Manager",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/task-configure-virtual-machine-manager/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/task-configure-virtual-machine-manager_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Debugging failed systemd services",
+    "description": "Debugging failed systemd services",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/task-debug-failed-systemd-services/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/task-debug-failed-systemd-services_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Deleting modules and extensions",
+    "description": "Deleting modules and extensions",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/task-delete-modules-extensions/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/task-delete-modules-extensions_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Modifying kernel boot parameters",
+    "description": "Modifying kernel boot parameters",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/task-modify-kernel-boot-parameter/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/task-modify-kernel-boot-parameter_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Registering and deregistering your product after installation",
+    "description": "Registering and deregistering your product after installation",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/task-register-deregister-product-after-installation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/task-register-deregister-product-after-installation_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Sending termination signals to systemd services",
+    "description": "Sending termination signals to systemd services",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/task-send-termination-signals-systemd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/task-send-termination-signals-systemd_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Creating a User Space Live Patch",
+    "description": "ULP allows to fix (security) bugs in libraries on-the-fly without system downtime.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Upgrade & Update"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/html/ulp-livepatching/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/systems-management/pdf/ulp-livepatching_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Creating customized VM Guests with virt-scenario",
+    "description": "Multiple virtual machines serving a similar purpose can easily be created with virt-scenario.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-08-28T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Virtualization"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/virt-scenario-creating-customized-vm-guests/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/virt-scenario-creating-customized-vm-guests_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, AArch64"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Configuring a virtual disk cache mode",
+    "description": "Virtual machines can use disk cache modes to make reading and writing operations more effective.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-12-13T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Virtualization"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/virtual-disk-cache-mode-configure/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/virtual-disk-cache-mode-configure_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Smart Docs"
+    },
+    "inLanguage": "en",
+    "headline": "Assigning host devices to virtual machines",
+    "description": "Direct VM access to a host device can use all its capabilities with near-native performance.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-12-21T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Virtualization"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/vm-assign-pci-device/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/vm-assign-pci-device_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Adaptable Linux Platform",
+        "softwareVersion": "1",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux",
+        "processorRequirements": "AMD64/Intel 64, POWER"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }
+]

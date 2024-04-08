@@ -1,0 +1,1323 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Guide",
+    "description": "Guide",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP1/html/SLES4SAP-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP1/pdf/SLES4SAP-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP1/single-html/SLES4SAP-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "12 SP5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Automation",
+    "description": "This article offers some automation solutions for SAP administrators. With Salt formulas, it helps to efficiently configure High Availability and SAP…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-sol-automation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-sol-automation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-sol-automation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP2",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Monitoring",
+    "description": "This article shows monitoring solutions for SAP administrators to efficiently monitor their SAP systems. The solutions that is described here works f…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Monitoring"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-sol-monitoring/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-sol-monitoring_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-sol-monitoring/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP2",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Guide",
+    "description": "Guide",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Clustering"
+      },
+      {
+        "@type": "Thing",
+        "name": "Tuning"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP2",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Installation Quick Start",
+    "description": "Installation Quick Start",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Upgrade"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-quick/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-quick_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-quick/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP2",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Automation",
+    "description": "This article offers some automation solutions for SAP administrators. With Salt formulas, it helps to efficiently configure High Availability and SAP…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-automation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-automation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-automation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP3",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Monitoring",
+    "description": "This article shows monitoring solutions for SAP administrators to efficiently monitor their SAP systems. The solutions that is described here works f…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Monitoring"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-monitoring/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-monitoring_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-monitoring/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP3",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Getting started with Trento Premium",
+    "description": "Trento Premium is an open cloud-native web console that aims to help SAP administrators to improve monitoring and checking of SAP Applications.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/trento/html/SLES-SAP-trento/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/trento/pdf/SLES-SAP-trento_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/trento/single-html/SLES-SAP-trento/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Guide",
+    "description": "Guide",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Clustering"
+      },
+      {
+        "@type": "Thing",
+        "name": "Tuning"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP3",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Installation Quick Start",
+    "description": "Installation Quick Start",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Upgrade"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP3",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Automation",
+    "description": "This article offers some automation solutions for SAP administrators. With Salt formulas, it helps to efficiently configure High Availability and SAP…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-automation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-automation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-automation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Monitoring",
+    "description": "This article shows monitoring solutions for SAP administrators to efficiently monitor their SAP systems. The solutions that is described here works f…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Monitoring"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-monitoring/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-monitoring_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-monitoring/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Getting started with Trento Premium",
+    "description": "toms 2022-04-27: change 1 Trento Premium is an open cloud-native web console that aims to help SAP Basis consultants and administrators to monitor th…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/trento/html/SLES-SAP-trento/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/trento/pdf/SLES-SAP-trento_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/trento/single-html/SLES-SAP-trento/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Guide",
+    "description": "Guide",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Clustering"
+      },
+      {
+        "@type": "Thing",
+        "name": "Tuning"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Installation Quick Start",
+    "description": "Installation Quick Start",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Upgrade"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Automation",
+    "description": "This article offers some automation solutions for SAP administrators. With Salt formulas, it helps to efficiently configure High Availability and SAP…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-automation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-automation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-automation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SAP Monitoring",
+    "description": "This article shows monitoring solutions for SAP administrators to efficiently monitor their SAP systems. The solutions that is described here works f…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Monitoring"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-monitoring/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-monitoring_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-monitoring/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES for SAP",
+        "softwareVersion": "15 SP6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Guide",
+    "description": "Guide",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "High Availability"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Clustering"
+      },
+      {
+        "@type": "Thing",
+        "name": "Tuning"
+      },
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Installation Quick Start",
+    "description": "Installation Quick Start",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Installation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Upgrade"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "softwareVersion": "15 SP6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }
+]

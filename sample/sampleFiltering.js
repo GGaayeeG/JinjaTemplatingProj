@@ -36,6 +36,18 @@ var articlesListSanitisedSBP = articlesList.map((article) => {
   sanitisedArticle.title = article.headline;
   sanitisedArticle.description = article.description;
   sanitisedArticle.tasks = article.about.map((task) => task.name);
+  sanitisedArticle.links = articles.about
+    .filter((about) => about["@type"] == "WebPage")
+    .reduce((acc, webpage) => {
+      if (webpage.encodingFormat.includes("pdf")) {
+        acc.pdf = webpage.url;
+      } else if (!webpage.html) {
+        acc.html = webpage.url;
+      } else {
+        acc.sinngleHtml = webpage.url;
+      }
+      return acc;
+    }, {});
   return sanitisedArticle;
 });
 

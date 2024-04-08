@@ -1,0 +1,47 @@
+{% set articlesListSBPCategory = [] %}
+{% for article in data %}
+{% if category in article.articleSection %}
+{% set _ = articlesListSBPCategory.append(article) %}
+{% endif %}
+{% endfor %}
+
+{% set articlesListSanitisedSBP = [] %}
+{% for article in articlesListSBPCategory %}
+{% set sanitisedArticle = {} %}
+{% set _ = sanitisedArticle.update({'title': article.headline}) %}
+{% set _ = sanitisedArticle.update({'description': article.description}) %}
+{% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
+map(attribute='name') | list }) %}
+{% set _ = sanitisedArticle.update({'datePublished': article.datePublished[:10]}) %}
+{% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
+
+{% set aboutList = article.about %}
+{% set links = {} %}
+{% for item in aboutList %}
+{% if item["@type"] == "WebPage" %}
+{% if "pdf" in item.encodingFormat %}
+{% set _ = links.update({'pdf': item.url}) %}
+{% elif 'single-html' in item.url %}
+{% set _ = links.update({'singleHTML': item.url}) %}
+{% else %}
+{% set _ = links.update({'html': item.url}) %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% set _ = sanitisedArticle.update({'links': links}) %}
+
+{% set _ = articlesListSanitisedSBP.append(sanitisedArticle) %}
+{% endfor %}
+
+{% set articles = articlesListSanitisedSBP %}
+{% set tasksList = [] %}
+{% for article in articlesListSanitisedSBP %}
+{% for task in article.tasks %}
+{% if task not in tasksList %}
+{% set _ = tasksList.append(task) %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% set newestArticles = articles | sort(attribute='datePublished', reverse=true) %}
+{% set newest = newestArticles[:8] %}

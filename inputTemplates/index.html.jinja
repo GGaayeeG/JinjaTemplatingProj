@@ -3,6 +3,7 @@
 {% from 'macros/Dropdown.html' import Dropdown %}
 {% from 'macros/ArticleTileIndexPage.html' import ArticleTileIndexPage%}
 {% from 'macros/Accordion.html' import Accordion%}
+{# {% from 'processingFiles/SBP_category_filtering.jinja' import SBP_Filtering%} #}
 
 
 {#-Jinja template for home page-#}
@@ -23,7 +24,14 @@
         <a href="./homePage.html" onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
             Home Page</a>
     </div>
-    <h1>{{title}}</h1>
+    {# <h1>{{title}}</h1> #}
+    {% if isSBP%}
+    <h1>{{category}}</h1>
+    {%endif%}
+    {% if isProduct%}
+    <h1>{{product + ' ' +version}}</h1>
+    {%endif%}
+
     <p>
         {{description}}
     </p>
@@ -39,16 +47,201 @@
             </button>
 
         </form>
+
+        {%if isSBP%}
+
+        {# {% with
+        articlesListSBPCategory = [],
+        articlesListSanitisedSBP = [],
+        tasksList = [],
+        newest = []
+        %}
+        {% include 'processingFiles/SBP_category_filtering.jinja' %}
+        {% endwith %} #}
+
+        {% set articlesListSBPCategory = [] %}
+        {% for article in data %}
+        {% if category in article.articleSection %}
+        {% set _ = articlesListSBPCategory.append(article) %}
+        {% endif %}
+        {% endfor %}
+
+        {% set articlesListSanitisedSBP = [] %}
+        {% for article in articlesListSBPCategory %}
+        {% set sanitisedArticle = {} %}
+        {% set _ = sanitisedArticle.update({'title': article.headline}) %}
+        {% set _ = sanitisedArticle.update({'description': article.description}) %}
+        {% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
+        map(attribute='name') | list }) %}
+        {% set _ = sanitisedArticle.update({'datePublished': article.datePublished[:10]}) %}
+        {% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
+
+
+        {% set aboutList = article.about %}
+        {% set links = {} %}
+        {% for item in aboutList %}
+        {% if item["@type"] == "WebPage" %}
+        {% if "pdf" in item.encodingFormat %}
+        {% set _ = links.update({'pdf': item.url}) %}
+        {% elif 'single-html'in item.url %}
+        {% set _ = links.update({'singleHTML': item.url}) %}
+        {% else %}
+        {% set _ = links.update({'html': item.url}) %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {%set _ = sanitisedArticle.update({'links': links}) %}
+
+        {% set _ = articlesListSanitisedSBP.append(sanitisedArticle) %}
+
+        {% endfor %}
+
+        {% set articles = articlesListSanitisedSBP | sort(attribute='title')%}
+
+        {% set tasksList = [] %}
+        {% for article in articles %}
+        {% for task in article.tasks %}
+        {% if task not in tasksList %}
+        {% set _ = tasksList.append(task) %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% set tasksList = tasksList | sort() %}
+
+        {% set newestArticles = articles| sort(attribute='dateModified', reverse=true) %}
+        {% set newest = newestArticles[:8] %}
+
+        {% endif %}
+
+        {# {{SBPMacro(data,'Storage')}} #}
+
+        {%if isProduct%}
+
+        {# {% set articlesList = data | selectattr('isPartOf', 'defined')|selectattr('isPartOf.name', 'equalto',
+        'Products
+        & Solutions') |
+        selectattr('mentions', 'defined')
+        | selectattr('mentions.0.name' | replace('\xa0', ' '), 'equalto', 'SLES for SAP') |
+        selectattr('mentions.0.softwareVersion', 'equalto', '15 SP6') %} #}
+
+        {% set articlesList = data | selectattr('isPartOf', 'defined') | selectattr('isPartOf.name', 'equalto',
+        'Products & Solutions')|
+        selectattr('mentions', 'defined')
+        | selectattr('mentions.0.name', 'equalto', 'SUSE Linux Enterprise Server for SAP Applications') |
+        selectattr('mentions.0.softwareVersion', 'equalto', '15 SP6')
+        %}
+
+        {# Map the filtered articles to a new list with desired properties #}
+        {% set articlesListSanitised = [] %}
+        {% for article in articlesList %}
+        {% set sanitisedArticle = {} %}
+        {% set _ = sanitisedArticle.update({'title': article.headline}) %}
+        {% set _ = sanitisedArticle.update({'description': article.description}) %}
+        {% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
+        map(attribute='name') | list }) %}
+        {# {% set _ = sanitisedArticle.update({'datePublished': article.datePublished[:10]}) %} #}
+        {% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
+        {% set aboutList = article.about %}
+        {% set links = {} %}
+        {% for item in aboutList %}
+        {% if item["@type"] == "WebPage" %}
+        {% if "pdf" in item.encodingFormat %}
+        {% set _ = links.update({'pdf': item.url}) %}
+        {% elif 'single-html'in item.url %}
+        {% set _ = links.update({'singleHTML': item.url}) %}
+        {% else %}
+        {% set _ = links.update({'html': item.url}) %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {%set _ = sanitisedArticle.update({'links': links}) %}
+
+
+        {% set _ = articlesListSanitised.append(sanitisedArticle) %}
+
+        {% endfor %}
+
+        {% set articles = articlesListSanitised | sort(attribute='title') %}
+
+        {# Fetching task list #}
+        {% set tasksList = [] %}
+        {% for article in articles %}
+        {% for task in article.tasks %}
+        {% if task not in tasksList %}
+        {% set _ = tasksList.append(task) %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% set tasksList = tasksList | sort() %}
+
+        {% set newestArticles = articles| sort(attribute='dateModified', reverse=true) %}
+        {% set newest = newestArticles[:8] %}
+        {% endif %}
+
+        {%if isTRD%}
+
+        {% set articlesList = data| selectattr('isPartOf.name', 'equalto', 'Technical Reference Documentation') |
+        selectattr('affiliatedOrganization', 'defined') |
+        selectattr('affiliatedOrganization.0.name', 'equalto', partner)|
+        selectattr('additionalType','equalto', docType) %}
+
+        {# Map the filtered articles to a new list with desired properties #}
+        {% set articlesListSanitisedTRD = [] %}
+        {% for article in articlesList %}
+        {% set sanitisedArticle = {} %}
+        {% set _ = sanitisedArticle.update({'title': article.headline}) %}
+        {% set _ = sanitisedArticle.update({'description': article.description}) %}
+        {% set _ = sanitisedArticle.update({'products': article.mentions | map(attribute='name') | list }) %}
+        {% set _ = sanitisedArticle.update({'docType': article.additionalType}) %}
+        {% set _ = sanitisedArticle.update({'datePublished': article.datePublished[:10]}) %}
+        {% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
+
+        {% set links = {} %}
+        {% for item in aboutList %}
+        {% if item["@type"] == "WebPage" %}
+        {% if "pdf" in item.encodingFormat %}
+        {% set _ = links.update({'pdf': item.url}) %}
+        {% elif 'single-html'in item.url %}
+        {% set _ = links.update({'singleHTML': item.url}) %}
+        {% else %}
+        {% set _ = links.update({'html': item.url}) %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {%set _ = sanitisedArticle.update({'links': links}) %}
+
+        {% set _ = articlesListSanitisedTRD.append(sanitisedArticle) %}
+        {% endfor %}
+
+        {% set articles = articlesListSanitisedTRD | sort(attribute='title') %}
+
+        {# Fetching product list #}
+        {% set productsList = [] %}
+        {% for article in articles %}
+        {% for product in article.products %}
+        {% if product not in productsList %}
+        {% set _ = productsList.append(product) %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% set productsList = productsList | sort() %}
+
+        {% set newestArticles = articles| sort(attribute='dateModified', reverse=true) %}
+        {% set newest = newestArticles[:8] %}
+
+        {% endif %}
+
         <div>
             {% for article in articles %}
             <div class="articleRow">
-                <p class="articleText">
-                    <a href={{article.links.html}}>
+                <div class="articleText" data-article-link="{{article.links.html}}" onclick="onArticleClick(event)">
+                    <a class="articleTitle" href={{article.links.html}}>
                         {# Article Title {{ loop.index }} : {{ article.title }} #}
-                        Article Title : {{article.title}}
+                        {{article.title}}
                     </a>
-                </p>
-                <label>DD/MM/YYYY</label>
+                    <p class="articleDescription">{{article.description}}</p>
+                </div>
+                <label>{{article.dateModified}}</label>
                 {{Dropdown(article.links)}}
             </div>
             {% endfor %}
