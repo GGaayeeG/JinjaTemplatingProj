@@ -107,3 +107,9 @@ var docTypeList = articlesListSanitisedTRD.reduce((acc, article) => {
 // ------------------------------------------------------------------------------------
 // Fetching the newest articles
 // articleList.sort based on data -> slice first 8
+
+// ------------------------------------------------------------------------------------
+// Homepage logic -
+// add showNavigation - true or false; extract products that are to be shown in the navigation
+// extract SBP versions as category visit
+// show TRD versions as TRD list

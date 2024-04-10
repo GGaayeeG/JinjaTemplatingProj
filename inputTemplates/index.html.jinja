@@ -31,6 +31,9 @@
     {% if isProduct%}
     <h1>{{product + ' ' +version}}</h1>
     {%endif%}
+    {% if isTRD%}
+    <h1>{{partner + ' - ' + docType}}</h1>
+    {%endif%}
 
     <p>
         {{description}}

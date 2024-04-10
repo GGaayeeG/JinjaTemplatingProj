@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Home Page SUSE Documentation
+   Index Page SUSE Documentation
   </title>
   <meta charset="utf-8"/>
   <title>
@@ -47,7 +47,7 @@
   <!-- SUSE include: END -->
   <link href="../styles/genericStyles.css" rel="stylesheet" type="text/css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="../styles/homePageStyles.css" rel="stylesheet" type="text/css"/>
+  <link href="../styles/indexPageStyles.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
   <div class="view">
@@ -1370,202 +1370,19 @@
    </div>
    <div class="top-banner promo">
    </div>
-   <div class="main-container">
-    <form accept-charset="utf-8" action="./search.html" class="formHeader standaloneSearch" id="searchform" method="get" onsubmit="onGlobalSearch(event)">
-     <input class="searchInput" id="search-input" name="" placeholder="Explore SUSE documentation : Refine your search with filters" size="80" type="text"/>
-     <input id="hidden-input" name="q" style="display:none"/>
-     <button class="searchButton" title="Search" type="submit" value="Search">
-      <i class="fa fa-search">
+   <div class="main-container indexPage">
+    <div class="breadcrumbs-bar">
+     <a href="./homePage.html" onclick="onBackToHome(event)">
+      <i aria-hidden="true" class="fa fa-arrow-left">
       </i>
-     </button>
-    </form>
-    <ul class="menu-bar" id="homepage-menu">
-     <li class="selectedTab" id="prod_solution_tab" onclick="onTabChange(event, 'products')">
-      Products &amp; Solutions
-      <div class="sortingOptions">
-       <i class="fa fa-light fa-fire fa-lg selectedSorting" onclick="sortProductsByPopularity(event)" title="Sort by Popularity">
-       </i>
-       <i class="fa fa-sort-alpha-asc fa-lg" onclick="sortProductsAsc(event)" title="Sort A-Z">
-       </i>
-       <i class="fa fa-sort-alpha-desc fa-lg" onclick="sortProductsDesc(event)" title="Sort Z-A">
-       </i>
-      </div>
-     </li>
-     <li id="sbp_tab" onclick="onTabChange(event, 'sbp')">
-      Best Practices
-     </li>
-     <li id="trd_tab" onclick="onTabChange(event, 'trd')">
-      Technical References
-     </li>
-     <li id="newest_tab" onclick="onTabChange(event, 'newest')">
-      Newest
-     </li>
-     <li id="popular_tab" onclick="onTabChange(event, 'mostPopular')">
-      Most Popular
-     </li>
-    </ul>
-    <div class="active-content tab-content" id="products-content">
-     <div class="productsContainer">
-     </div>
-     <button class="explore-list-button" onclick="onShowAllProducts(event)">
-      Explore more products
-      <i class="fa fa-solid fa-angle-down fa-2x">
-      </i>
-     </button>
-     <button class="explore-list-button hideButton" onclick="onHideAllProducts(event)">
-      Show fewer products
-      <i class="fa fa-solid fa-angle-up fa-2x">
-      </i>
-     </button>
+      Home Page
+     </a>
     </div>
-    <div class="tab-content" id="sbp-content">
-     <div class="categoriesContainer">
-     </div>
-    </div>
-    <div class="tab-content" id="trd-content">
-     <div class="trdContainer">
-      <ul class="alphabeticalSelector">
-       <li>
-        <button class="selectedAlphabet" onclick="onAlphabetSelect(event)">
-         A
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         B
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         C
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         D
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         E
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         F
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         G
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         H
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         I
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         J
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         K
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         L
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         M
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         N
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         O
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         P
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         Q
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         R
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         S
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         T
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         U
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         V
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         W
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         X
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         Y
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         Z
-        </button>
-       </li>
-      </ul>
-     </div>
-    </div>
-    <div class="tab-content" id="newest-content">
-     <div class="newestContainer">
-     </div>
-    </div>
-    <div class="tab-content" id="mostPopular-content">
-     <div class="popularContainer">
-     </div>
-    </div>
+    <h1>
+     Systems Management
+    </h1>
+    <p>
+    </p>
     <div class="divider-line">
      <div class="line-permission">
      </div>
@@ -1576,46 +1393,1367 @@
      <div class="line-mint">
      </div>
     </div>
-    <label class="section-header" id="featured_tab">
-     Featured
-    </label>
-    <div class="featuredContainer">
-    </div>
-    <div class="popover" id="customPopover" style="display: none;">
-     <img alt="SUSE Logo" class="suseLogo-in-popup" id="popoverLogo" src=""/>
-     <label id="popoverLabel">
-     </label>
-     <ul id="popoverList">
+    <div>
+     <ul class="menu-bar indexPageMenu">
+      <li class="selectedTab" onclick="onTabChange(event,'allArticles')">
+       All Articles
+      </li>
+      <li onclick="onTabChange(event,'newest')">
+       Newest
+      </li>
+      <li onclick="onTabChange(event,'groupedArticles')">
+       Filter by Task
+      </li>
      </ul>
     </div>
-    <dialog data-step="0" id="walkThroughDialog">
-     <div class="tooltip-content">
-      <div class="dialog-header">
-       <img alt="SUSE Logo" class="suseLogo-in-popup" src="../assets/SUSELogo.png"/>
+    <div class="tab-content active-content" id="allArticles-content">
+     <form class="formHeader" method="get" onsubmit="onFilterAllArticlesList(event)">
+      <input class="searchInput filterInput" id="search" oninput="onFilterAllArticlesList(event)" placeholder="Filter the list by article title" size="80" type="search"/>
+      <button class="searchButton filterButton" title="Search" type="submit" value="Search">
+       <i class="fa fa-filter">
+       </i>
+      </button>
+     </form>
+     <div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-susemanager/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-susemanager/">
+         Advanced Patch Lifecycle Management with SUSE Manager
+        </a>
+        <p class="articleDescription">
+         How to set up and configure a SUSE Manager implementation to enable companies in the delivery of often requested features
+        </p>
+       </div>
        <label>
-        Walk-Through
+        2024-03-28
        </label>
-       <button onclick="closeWalkThroughDialog(event)">
-        <i class="fa fa-times" title="Close">
-        </i>
-       </button>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-susemanager_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-susemanager/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
       </div>
-      <p>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/">
+         Creating a Custom Installation Medium for SUSE Linux Enterprise 15
+        </a>
+        <p class="articleDescription">
+         How to create one single custom installation media for SUSE Linux Enterprise 15
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE15-Custom-Installation-Medium_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE15-Custom-Installation-Medium/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/">
+         Deploying SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM
+        </a>
+        <p class="articleDescription">
+         Overview of how to deploy SUSE Linux Enterprise products with SUSE Manager on IBM Power Systems
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-Quilting-OSC/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-Quilting-OSC/">
+         How to Modify a Package in Open Build Service
+        </a>
+        <p class="articleDescription">
+         This document leads you through the process of modifying a software package in the Open Build Service using the osc command and quilt tools.
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Quilting-OSC_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Quilting-OSC/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/">
+         How to Set Up a Multi-PXE Installation Server
+        </a>
+        <p class="articleDescription">
+         How to set up a multi-architecture PXE environment for the installation of SLES on x86_64 and ARMv8 platforms with both BIOS and EFI
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Multi-PXE-Install_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Multi-PXE-Install/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-RPM-Packaging/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-RPM-Packaging/">
+         Introduction to RPM Packaging
+        </a>
+        <p class="articleDescription">
+         This document describes in detail how to create an RPM package on SUSE-based systems.
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-RPM-Packaging_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-RPM-Packaging/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/">
+         Introduction to SUSE Linux Enterprise Server for ARM on the Raspberry Pi
+        </a>
+        <p class="articleDescription">
+         This document provides an overview of SUSE Linux Enterprise Server for ARM on the Raspberry Pi platform and guides through the setup procedure.
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SLES12SP3-rpiquick_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SLES12SP3-rpiquick/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/">
+         Joining a Microsoft Azure Active Directory Domain Services Managed Domain
+        </a>
+        <p class="articleDescription">
+         How to use Azure AD Domain Services as a managed service in Microsoft Azure to enable NTLM, Kerberos, and LDAP capabilities with SLES
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLES-MFAD/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual/">
+         Kernel Module Packages Manual
+        </a>
+        <p class="articleDescription">
+         The document specifies the requirements for RPM packages that contain kernel modules, and describes the processes surrounding those packages.
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-KMP-Manual_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-KMP-Manual/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual-SLE12SP2/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual-SLE12SP2/">
+         Kernel Module Packages Manual
+        </a>
+        <p class="articleDescription">
+         The document specifies the requirements for RPM packages that contain kernel modules, and describes the processes surrounding those packages.
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-KMP-Manual-SLE12SP2_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-KMP-Manual-SLE12SP2/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/">
+         Performing Major Version Upgrades of SUSE Linux Enterprise
+        </a>
+        <p class="articleDescription">
+         How to perform an upgrade of a SLE system to a new major version in environments which do not allow for standard booting of the installation
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE-OffLine-Upgrade-Local-Boot_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE-OffLine-Upgrade-Local-Boot/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/">
+         SUSE Update Infrastructure
+        </a>
+        <p class="articleDescription">
+         Describes the setup of the recommended infrastructure for providing SUSE Linux Enterprise Server as on-demand offerings in a cloud environment.
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/pdf/SBP-CSP-UpdateInfra_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/single-html/SBP-CSP-UpdateInfra/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <p class="no-match-text">
+       No matching articles found
       </p>
-      <div class="dialog-footer">
-       <button id="dialogPrevButton" onclick="showPreviousWalkthroughStep(event)">
-        <i class="fa fa-angle-left">
-        </i>
-        Previous
-       </button>
-       <button id="dialogNextButton" onclick="showNextWalkthroughStep(event)">
-        Next
-        <i class="fa fa-angle-right">
-        </i>
-       </button>
+     </div>
+    </div>
+    <div class="tab-content" id="newest-content">
+     <div class="articlesContainerIP">
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SBP-susemanager/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Advanced Patch Lifecycle Management with SUSE Manager
+        </label>
+        <p class="articleDescription">
+         How to set up and configure a SUSE Manager implementation to enable companies in the delivery of often requested features
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-susemanager_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-susemanager/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Creating a Custom Installation Medium for SUSE Linux Enterprise 15
+        </label>
+        <p class="articleDescription">
+         How to create one single custom installation media for SUSE Linux Enterprise 15
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE15-Custom-Installation-Medium_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE15-Custom-Installation-Medium/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Deploying SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM
+        </label>
+        <p class="articleDescription">
+         Overview of how to deploy SUSE Linux Enterprise products with SUSE Manager on IBM Power Systems
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SBP-Quilting-OSC/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         How to Modify a Package in Open Build Service
+        </label>
+        <p class="articleDescription">
+         This document leads you through the process of modifying a software package in the Open Build Service using the osc command and quilt tools.
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Quilting-OSC_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Quilting-OSC/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         How to Set Up a Multi-PXE Installation Server
+        </label>
+        <p class="articleDescription">
+         How to set up a multi-architecture PXE environment for the installation of SLES on x86_64 and ARMv8 platforms with both BIOS and EFI
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Multi-PXE-Install_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Multi-PXE-Install/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SBP-RPM-Packaging/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Introduction to RPM Packaging
+        </label>
+        <p class="articleDescription">
+         This document describes in detail how to create an RPM package on SUSE-based systems.
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-RPM-Packaging_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-RPM-Packaging/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Introduction to SUSE Linux Enterprise Server for ARM on the Raspberry Pi
+        </label>
+        <p class="articleDescription">
+         This document provides an overview of SUSE Linux Enterprise Server for ARM on the Raspberry Pi platform and guides through the setup procedure.
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SLES12SP3-rpiquick_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SLES12SP3-rpiquick/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Joining a Microsoft Azure Active Directory Domain Services Managed Domain
+        </label>
+        <p class="articleDescription">
+         How to use Azure AD Domain Services as a managed service in Microsoft Azure to enable NTLM, Kerberos, and LDAP capabilities with SLES
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLES-MFAD/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
       </div>
      </div>
-    </dialog>
+    </div>
+    <div class="tab-content" id="groupedArticles-content">
+     <div class="groupedAriclesHeader">
+      <label>
+       Explore the articles based on the action you want to perform
+      </label>
+      <button class="expandAllButton active" onclick="onPressExpandAll(event)">
+       Expand all
+      </button>
+      <button class="collapseAllButton" onclick="onPressCollapseAll(event)">
+       Collapse all
+      </button>
+     </div>
+     <div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Authentication
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/">
+            Joining a Microsoft Azure Active Directory Domain Services Managed Domain
+           </a>
+           <p class="articleDescription">
+            How to use Azure AD Domain Services as a managed service in Microsoft Azure to enable NTLM, Kerberos, and LDAP capabilities with SLES
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLES-MFAD/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Configuration
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/">
+            Deploying SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM
+           </a>
+           <p class="articleDescription">
+            Overview of how to deploy SUSE Linux Enterprise products with SUSE Manager on IBM Power Systems
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/">
+            Introduction to SUSE Linux Enterprise Server for ARM on the Raspberry Pi
+           </a>
+           <p class="articleDescription">
+            This document provides an overview of SUSE Linux Enterprise Server for ARM on the Raspberry Pi platform and guides through the setup procedure.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SLES12SP3-rpiquick_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SLES12SP3-rpiquick/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/">
+            Joining a Microsoft Azure Active Directory Domain Services Managed Domain
+           </a>
+           <p class="articleDescription">
+            How to use Azure AD Domain Services as a managed service in Microsoft Azure to enable NTLM, Kerberos, and LDAP capabilities with SLES
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLES-MFAD/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/">
+            SUSE Update Infrastructure
+           </a>
+           <p class="articleDescription">
+            Describes the setup of the recommended infrastructure for providing SUSE Linux Enterprise Server as on-demand offerings in a cloud environment.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/pdf/SBP-CSP-UpdateInfra_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/single-html/SBP-CSP-UpdateInfra/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Deployment
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/">
+            Deploying SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM
+           </a>
+           <p class="articleDescription">
+            Overview of how to deploy SUSE Linux Enterprise products with SUSE Manager on IBM Power Systems
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/">
+            How to Set Up a Multi-PXE Installation Server
+           </a>
+           <p class="articleDescription">
+            How to set up a multi-architecture PXE environment for the installation of SLES on x86_64 and ARMv8 platforms with both BIOS and EFI
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Multi-PXE-Install_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Multi-PXE-Install/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/">
+            Performing Major Version Upgrades of SUSE Linux Enterprise
+           </a>
+           <p class="articleDescription">
+            How to perform an upgrade of a SLE system to a new major version in environments which do not allow for standard booting of the installation
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE-OffLine-Upgrade-Local-Boot_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE-OffLine-Upgrade-Local-Boot/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Installation
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/">
+            Creating a Custom Installation Medium for SUSE Linux Enterprise 15
+           </a>
+           <p class="articleDescription">
+            How to create one single custom installation media for SUSE Linux Enterprise 15
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE15-Custom-Installation-Medium_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE15-Custom-Installation-Medium/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/">
+            Deploying SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM
+           </a>
+           <p class="articleDescription">
+            Overview of how to deploy SUSE Linux Enterprise products with SUSE Manager on IBM Power Systems
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/">
+            How to Set Up a Multi-PXE Installation Server
+           </a>
+           <p class="articleDescription">
+            How to set up a multi-architecture PXE environment for the installation of SLES on x86_64 and ARMv8 platforms with both BIOS and EFI
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Multi-PXE-Install_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Multi-PXE-Install/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/">
+            Introduction to SUSE Linux Enterprise Server for ARM on the Raspberry Pi
+           </a>
+           <p class="articleDescription">
+            This document provides an overview of SUSE Linux Enterprise Server for ARM on the Raspberry Pi platform and guides through the setup procedure.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SLES12SP3-rpiquick_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SLES12SP3-rpiquick/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/">
+            SUSE Update Infrastructure
+           </a>
+           <p class="articleDescription">
+            Describes the setup of the recommended infrastructure for providing SUSE Linux Enterprise Server as on-demand offerings in a cloud environment.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/pdf/SBP-CSP-UpdateInfra_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/single-html/SBP-CSP-UpdateInfra/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Integration
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/">
+            Joining a Microsoft Azure Active Directory Domain Services Managed Domain
+           </a>
+           <p class="articleDescription">
+            How to use Azure AD Domain Services as a managed service in Microsoft Azure to enable NTLM, Kerberos, and LDAP capabilities with SLES
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLES-MFAD/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Packaging
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-Quilting-OSC/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-Quilting-OSC/">
+            How to Modify a Package in Open Build Service
+           </a>
+           <p class="articleDescription">
+            This document leads you through the process of modifying a software package in the Open Build Service using the osc command and quilt tools.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-Quilting-OSC_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-Quilting-OSC/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-RPM-Packaging/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-RPM-Packaging/">
+            Introduction to RPM Packaging
+           </a>
+           <p class="articleDescription">
+            This document describes in detail how to create an RPM package on SUSE-based systems.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-RPM-Packaging_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-RPM-Packaging/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual/">
+            Kernel Module Packages Manual
+           </a>
+           <p class="articleDescription">
+            The document specifies the requirements for RPM packages that contain kernel modules, and describes the processes surrounding those packages.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-KMP-Manual_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-KMP-Manual/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual-SLE12SP2/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual-SLE12SP2/">
+            Kernel Module Packages Manual
+           </a>
+           <p class="articleDescription">
+            The document specifies the requirements for RPM packages that contain kernel modules, and describes the processes surrounding those packages.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/pdf/SBP-KMP-Manual-SLE12SP2_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/server-linux/single-html/SBP-KMP-Manual-SLE12SP2/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Subscription Management
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/">
+            SUSE Update Infrastructure
+           </a>
+           <p class="articleDescription">
+            Describes the setup of the recommended infrastructure for providing SUSE Linux Enterprise Server as on-demand offerings in a cloud environment.
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/pdf/SBP-CSP-UpdateInfra_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/cloud-computing/single-html/SBP-CSP-UpdateInfra/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Upgrade &amp; Update
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-susemanager/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-susemanager/">
+            Advanced Patch Lifecycle Management with SUSE Manager
+           </a>
+           <p class="articleDescription">
+            How to set up and configure a SUSE Manager implementation to enable companies in the delivery of often requested features
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-susemanager_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-susemanager/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/">
+            Performing Major Version Upgrades of SUSE Linux Enterprise
+           </a>
+           <p class="articleDescription">
+            How to perform an upgrade of a SLE system to a new major version in environments which do not allow for standard booting of the installation
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE-OffLine-Upgrade-Local-Boot_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE-OffLine-Upgrade-Local-Boot/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
    <!--back to top-->
    <div class="container-fluid" style="height:0;">
@@ -1748,9 +2886,7 @@
   </div>
   <script src="../JS/genericScript.js">
   </script>
-  <script src="../JS/homePage.js">
-  </script>
-  <script src="../JS/walkThrough.js">
+  <script src="../JS/indexPages.js">
   </script>
  </body>
 </html>

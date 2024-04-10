@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Home Page SUSE Documentation
+   Index Page SUSE Documentation
   </title>
   <meta charset="utf-8"/>
   <title>
@@ -47,7 +47,7 @@
   <!-- SUSE include: END -->
   <link href="../styles/genericStyles.css" rel="stylesheet" type="text/css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="../styles/homePageStyles.css" rel="stylesheet" type="text/css"/>
+  <link href="../styles/indexPageStyles.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
   <div class="view">
@@ -1370,202 +1370,19 @@
    </div>
    <div class="top-banner promo">
    </div>
-   <div class="main-container">
-    <form accept-charset="utf-8" action="./search.html" class="formHeader standaloneSearch" id="searchform" method="get" onsubmit="onGlobalSearch(event)">
-     <input class="searchInput" id="search-input" name="" placeholder="Explore SUSE documentation : Refine your search with filters" size="80" type="text"/>
-     <input id="hidden-input" name="q" style="display:none"/>
-     <button class="searchButton" title="Search" type="submit" value="Search">
-      <i class="fa fa-search">
+   <div class="main-container indexPage">
+    <div class="breadcrumbs-bar">
+     <a href="./homePage.html" onclick="onBackToHome(event)">
+      <i aria-hidden="true" class="fa fa-arrow-left">
       </i>
-     </button>
-    </form>
-    <ul class="menu-bar" id="homepage-menu">
-     <li class="selectedTab" id="prod_solution_tab" onclick="onTabChange(event, 'products')">
-      Products &amp; Solutions
-      <div class="sortingOptions">
-       <i class="fa fa-light fa-fire fa-lg selectedSorting" onclick="sortProductsByPopularity(event)" title="Sort by Popularity">
-       </i>
-       <i class="fa fa-sort-alpha-asc fa-lg" onclick="sortProductsAsc(event)" title="Sort A-Z">
-       </i>
-       <i class="fa fa-sort-alpha-desc fa-lg" onclick="sortProductsDesc(event)" title="Sort Z-A">
-       </i>
-      </div>
-     </li>
-     <li id="sbp_tab" onclick="onTabChange(event, 'sbp')">
-      Best Practices
-     </li>
-     <li id="trd_tab" onclick="onTabChange(event, 'trd')">
-      Technical References
-     </li>
-     <li id="newest_tab" onclick="onTabChange(event, 'newest')">
-      Newest
-     </li>
-     <li id="popular_tab" onclick="onTabChange(event, 'mostPopular')">
-      Most Popular
-     </li>
-    </ul>
-    <div class="active-content tab-content" id="products-content">
-     <div class="productsContainer">
-     </div>
-     <button class="explore-list-button" onclick="onShowAllProducts(event)">
-      Explore more products
-      <i class="fa fa-solid fa-angle-down fa-2x">
-      </i>
-     </button>
-     <button class="explore-list-button hideButton" onclick="onHideAllProducts(event)">
-      Show fewer products
-      <i class="fa fa-solid fa-angle-up fa-2x">
-      </i>
-     </button>
+      Home Page
+     </a>
     </div>
-    <div class="tab-content" id="sbp-content">
-     <div class="categoriesContainer">
-     </div>
-    </div>
-    <div class="tab-content" id="trd-content">
-     <div class="trdContainer">
-      <ul class="alphabeticalSelector">
-       <li>
-        <button class="selectedAlphabet" onclick="onAlphabetSelect(event)">
-         A
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         B
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         C
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         D
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         E
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         F
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         G
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         H
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         I
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         J
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         K
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         L
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         M
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         N
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         O
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         P
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         Q
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         R
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         S
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         T
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         U
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         V
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         W
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         X
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         Y
-        </button>
-       </li>
-       <li>
-        <button class="" onclick="onAlphabetSelect(event)">
-         Z
-        </button>
-       </li>
-      </ul>
-     </div>
-    </div>
-    <div class="tab-content" id="newest-content">
-     <div class="newestContainer">
-     </div>
-    </div>
-    <div class="tab-content" id="mostPopular-content">
-     <div class="popularContainer">
-     </div>
-    </div>
+    <h1>
+     SLES for SAP 15 SP6
+    </h1>
+    <p>
+    </p>
     <div class="divider-line">
      <div class="line-permission">
      </div>
@@ -1576,46 +1393,593 @@
      <div class="line-mint">
      </div>
     </div>
-    <label class="section-header" id="featured_tab">
-     Featured
-    </label>
-    <div class="featuredContainer">
-    </div>
-    <div class="popover" id="customPopover" style="display: none;">
-     <img alt="SUSE Logo" class="suseLogo-in-popup" id="popoverLogo" src=""/>
-     <label id="popoverLabel">
-     </label>
-     <ul id="popoverList">
+    <div>
+     <ul class="menu-bar indexPageMenu">
+      <li class="selectedTab" onclick="onTabChange(event,'allArticles')">
+       All Articles
+      </li>
+      <li onclick="onTabChange(event,'newest')">
+       Newest
+      </li>
+      <li onclick="onTabChange(event,'groupedArticles')">
+       Filter by Task
+      </li>
      </ul>
     </div>
-    <dialog data-step="0" id="walkThroughDialog">
-     <div class="tooltip-content">
-      <div class="dialog-header">
-       <img alt="SUSE Logo" class="suseLogo-in-popup" src="../assets/SUSELogo.png"/>
+    <div class="tab-content active-content" id="allArticles-content">
+     <form class="formHeader" method="get" onsubmit="onFilterAllArticlesList(event)">
+      <input class="searchInput filterInput" id="search" oninput="onFilterAllArticlesList(event)" placeholder="Filter the list by article title" size="80" type="search"/>
+      <button class="searchButton filterButton" title="Search" type="submit" value="Search">
+       <i class="fa fa-filter">
+       </i>
+      </button>
+     </form>
+     <div>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+         Guide
+        </a>
+        <p class="articleDescription">
+         Guide
+        </p>
+       </div>
        <label>
-        Walk-Through
+        2024-03-28
        </label>
-       <button onclick="closeWalkThroughDialog(event)">
-        <i class="fa fa-times" title="Close">
-        </i>
-       </button>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
       </div>
-      <p>
+      <div class="articleRow">
+       <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/" onclick="onArticleClick(event)">
+        <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/">
+         Installation Quick Start
+        </a>
+        <p class="articleDescription">
+         Installation Quick Start
+        </p>
+       </div>
+       <label>
+        2024-03-28
+       </label>
+       <div class="formatDropdown" onclick="event.stopPropagation();">
+        <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+         HTML
+        </button>
+        <div class="format-dropdown-menu">
+         <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf">
+          PDF
+         </a>
+         <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/">
+          Single-HTML
+         </a>
+        </div>
+       </div>
+      </div>
+      <p class="no-match-text">
+       No matching articles found
       </p>
-      <div class="dialog-footer">
-       <button id="dialogPrevButton" onclick="showPreviousWalkthroughStep(event)">
-        <i class="fa fa-angle-left">
-        </i>
-        Previous
-       </button>
-       <button id="dialogNextButton" onclick="showNextWalkthroughStep(event)">
-        Next
-        <i class="fa fa-angle-right">
-        </i>
-       </button>
+     </div>
+    </div>
+    <div class="tab-content" id="newest-content">
+     <div class="articlesContainerIP">
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Guide
+        </label>
+        <p class="articleDescription">
+         Guide
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="articleTileIndexPage" onclick="onArticleTileClick('https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/')">
+       <div class="textContent">
+        <label class="articleTitle">
+         Installation Quick Start
+        </label>
+        <p class="articleDescription">
+         Installation Quick Start
+        </p>
+       </div>
+       <div class="tags_Format_Content">
+        2024-03-28
+        <div class="tags">
+        </div>
+        <div onclick="event.stopPropagation()">
+         <div class="formatDropdown" onclick="event.stopPropagation();">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+           HTML
+          </button>
+          <div class="format-dropdown-menu">
+           <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf">
+            PDF
+           </a>
+           <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/">
+            Single-HTML
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
       </div>
      </div>
-    </dialog>
+    </div>
+    <div class="tab-content" id="groupedArticles-content">
+     <div class="groupedAriclesHeader">
+      <label>
+       Explore the articles based on the action you want to perform
+      </label>
+      <button class="expandAllButton active" onclick="onPressExpandAll(event)">
+       Expand all
+      </button>
+      <button class="collapseAllButton" onclick="onPressCollapseAll(event)">
+       Collapse all
+      </button>
+     </div>
+     <div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Clustering
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+            Guide
+           </a>
+           <p class="articleDescription">
+            Guide
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Configuration
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+            Guide
+           </a>
+           <p class="articleDescription">
+            Guide
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          High Availability
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+            Guide
+           </a>
+           <p class="articleDescription">
+            Guide
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Installation
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+            Guide
+           </a>
+           <p class="articleDescription">
+            Guide
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/">
+            Installation Quick Start
+           </a>
+           <p class="articleDescription">
+            Installation Quick Start
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Security
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+            Guide
+           </a>
+           <p class="articleDescription">
+            Guide
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Tuning
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/">
+            Guide
+           </a>
+           <p class="articleDescription">
+            Guide
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="accordion-item">
+        <div class="accordion-title" onclick="onAccordionTileClick(event)">
+         <label>
+          Upgrade
+         </label>
+         <div class="accordionTileActions">
+          <input class="accordionFilterBar" onclick="onFilterAccordionClick(event)" oninput="onFilterAccordionList(event)" placeholder="Search by title or version" type="search"/>
+          <button class="accordion-button">
+           <i class="fa fa-solid fa-angle-down expanded">
+           </i>
+           <i class="fa fa-solid fa-angle-right collapsed">
+           </i>
+          </button>
+         </div>
+        </div>
+        <div class="accordion-content">
+         <div class="divider-line">
+          <div class="line-permission">
+          </div>
+          <div class="line-green">
+          </div>
+          <div class="line-blue">
+          </div>
+          <div class="line-mint">
+          </div>
+         </div>
+         <p class="no-match-text">
+          No matching articles found
+         </p>
+         <!-- -->
+         <div class="articleRow">
+          <div class="articleText" data-article-link="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/" onclick="onArticleClick(event)">
+           <a class="articleTitle" href="https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/">
+            Installation Quick Start
+           </a>
+           <p class="articleDescription">
+            Installation Quick Start
+           </p>
+          </div>
+          <div class="formatDropdown" onclick="event.stopPropagation();">
+           <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            HTML
+           </button>
+           <div class="format-dropdown-menu">
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf">
+             PDF
+            </a>
+            <a class="dropdown-item" href="https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/">
+             Single-HTML
+            </a>
+           </div>
+          </div>
+         </div>
+         <!-- -->
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
    <!--back to top-->
    <div class="container-fluid" style="height:0;">
@@ -1748,9 +2112,7 @@
   </div>
   <script src="../JS/genericScript.js">
   </script>
-  <script src="../JS/homePage.js">
-  </script>
-  <script src="../JS/walkThrough.js">
+  <script src="../JS/indexPages.js">
   </script>
  </body>
 </html>
