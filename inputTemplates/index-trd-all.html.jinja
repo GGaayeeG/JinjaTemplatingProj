@@ -19,12 +19,55 @@
 
 {% block body_main%}
 
+{% set articlesList = data| selectattr('isPartOf.name', 'equalto', 'Technical Reference Documentation') |
+selectattr('affiliatedOrganization', 'defined') |
+selectattr('affiliatedOrganization.0.name', 'equalto', partner) %}
+
+{# Map the filtered articles to a new list with desired properties #}
+{% set articlesListSanitisedTRD = [] %}
+{% for article in articlesList %}
+{% set sanitisedArticle = {} %}
+{% set _ = sanitisedArticle.update({'title': article.headline}) %}
+{% set _ = sanitisedArticle.update({'description': article.description}) %}
+{% set _ = sanitisedArticle.update({'products': article.mentions | map(attribute='name') | list }) %}
+{% set _ = sanitisedArticle.update({'docType': article.additionalType}) %}
+{% set _ = sanitisedArticle.update({'datePublished': article.datePublished[:10]}) %}
+{% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
+
+{% set links = {} %}
+{% for item in aboutList %}
+{% if item["@type"] == "WebPage" %}
+{% if "pdf" in item.encodingFormat %}
+{% set _ = links.update({'pdf': item.url}) %}
+{% elif 'single-html'in item.url %}
+{% set _ = links.update({'singleHTML': item.url}) %}
+{% else %}
+{% set _ = links.update({'html': item.url}) %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{%set _ = sanitisedArticle.update({'links': links}) %}
+
+{% set _ = articlesListSanitisedTRD.append(sanitisedArticle) %}
+{% endfor %}
+
+{% set articles = articlesListSanitisedTRD | sort(attribute='title') %}
+
+{% set docTypeList = [] %}
+{% for article in articles %}
+{% if article.docType not in docTypeList %}
+{% set _ = docTypeList.append(article.docType) %}
+{% endif %}
+{% endfor %}
+{% set docTypeList = docTypeList | sort() %}
+
+
 <div class="main-container indexPage">
     <div class="breadcrumbs-bar">
         <a href="./homePage.html" onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
             Home Page</a>
     </div>
-    <h1>{{title}}</h1>
+    <h1>{{partner}}</h1>
     <p>
         {{description}}
     </p>
@@ -50,7 +93,7 @@
                         {{article.title}}
                     </a>
                 </p>
-                <label>DD/MM/YYYY</label>
+                <label>{{article.dateModified}}</label>
                 {{Dropdown(article.links)}}
             </div>
 
