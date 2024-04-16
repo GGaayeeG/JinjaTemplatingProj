@@ -134,8 +134,8 @@ ul.indexPageMenu {
 
 .format-dropdown-menu {
   position: absolute;
-  /* width: 6.8rem; */
-  width: max-content;
+  /* width: max-content; */
+  width: 100%;
   font-size: 0.9rem;
   top: 100%; /* Position below the button */
   left: 0;
