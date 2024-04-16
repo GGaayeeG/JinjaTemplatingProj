@@ -1,0 +1,705 @@
+[
+  {
+    "site-section": "main",
+    "productline": {
+      "appliance": "Appliance building",
+      "compliance": "Compliance Documentation",
+      "container": "Container Documentation",
+      "neuvector": "NeuVector",
+      "rancher": "Rancher",
+      "subscription": "Subscription Management",
+      "ses": "SUSE Enterprise Storage",
+      "liberty": "SUSE Liberty Linux",
+      "sled": "SUSE Linux Enterprise Desktop",
+      "sle-ha": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+      "sle-hpc": "SUSE Linux Enterprise High-Performance Computing",
+      "sle-public-cloud": "SUSE Linux Enterprise in public clouds",
+      "sle-micro": "SUSE Linux Enterprise Micro",
+      "sle-rt": "SUSE Linux Enterprise Real Time",
+      "sles": "SUSE Linux Enterprise Server",
+      "sles-sap": "SUSE Linux Enterprise Server for SAP Applications",
+      "sle-vmdp": "SUSE Linux Enterprise Virtual Machine Driver Pack",
+      "suma": "SUSE Manager",
+      "suma-retail": "SUSE Manager for Retail",
+      "soc": "SUSE OpenStack Cloud"
+    },
+    "product": {
+      "appliance": {
+        "description": "",
+        "appliance/kiwi-9": {
+          "setid": "kiwi-9",
+          "visible": true,
+          "name": "KIWI Appliance Builder",
+          "acronym": "appliance",
+          "version": "9",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "appliance/keg-2": {
+          "setid": "keg-2",
+          "visible": true,
+          "name": "Keg Image Description Generator",
+          "acronym": "appliance",
+          "version": "2",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "compliance": {
+        "compliance/all": {
+          "setid": "all",
+          "visible": true,
+          "name": "Compliance Documentation",
+          "acronym": "",
+          "version": "Compliance documentation",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      },
+      "container": {
+        "container/all": {
+          "setid": "all",
+          "visible": true,
+          "name": "Container Documentation",
+          "acronym": "container",
+          "version": "Container Guide",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      },
+      "neuvector": {
+        "neuvector/products": {
+          "setid": "products",
+          "visible": true,
+          "name": "NeuVector",
+          "acronym": "neuvector",
+          "version": "Products",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "rancher": {
+        "rancher/projects": {
+          "setid": "projects",
+          "visible": true,
+          "name": "Rancher",
+          "acronym": "",
+          "version": "Projects",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "rancher/products": {
+          "setid": "products",
+          "visible": true,
+          "name": "Rancher",
+          "acronym": "",
+          "version": "Products",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "rancher/kubernetes": {
+          "setid": "kubernetes",
+          "visible": true,
+          "name": "Rancher",
+          "acronym": "",
+          "version": "Kubernetes Distributions",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "subscription": {
+        "subscription/suseconnect": {
+          "setid": "suseconnect",
+          "visible": true,
+          "name": "Subscription Management",
+          "acronym": "subscription",
+          "version": "Enriched system visibility in the SUSE Customer Center",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "subscription/hypervisor-collector": {
+          "setid": "hypervisor-collector",
+          "visible": true,
+          "name": "Subscription Management",
+          "acronym": "subscription",
+          "version": "Collecting hypervisor details in SUSE Customer Center",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      },
+      "ses": {
+        "description": "",
+        "ses/7.1": {
+          "setid": "7.1",
+          "visible": true,
+          "name": "SUSE Enterprise Storage",
+          "acronym": "SES",
+          "version": "7.1",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "ses/7": {
+          "setid": "7",
+          "visible": true,
+          "name": "SUSE Enterprise Storage",
+          "acronym": "SES",
+          "version": "7",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "liberty": {
+        "liberty/9": {
+          "setid": "9",
+          "visible": true,
+          "name": "SUSE Liberty Linux",
+          "acronym": "Liberty",
+          "version": "9",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "liberty/8": {
+          "setid": "8",
+          "visible": true,
+          "name": "SUSE Liberty Linux",
+          "acronym": "Liberty",
+          "version": "8",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "liberty/7": {
+          "setid": "7",
+          "visible": true,
+          "name": "SUSE Liberty Linux",
+          "acronym": "Liberty",
+          "version": "7",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sled": {
+        "sled/15-SP5": {
+          "setid": "15-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Desktop",
+          "acronym": "SLED",
+          "version": "15 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sle-ha": {
+        "sle-ha/15-SP5": {
+          "setid": "15-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High Availability",
+          "acronym": "SLE HA",
+          "version": "15 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-ha/15-SP4": {
+          "setid": "15-SP4",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High Availability",
+          "acronym": "SLE HA",
+          "version": "15 SP4",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-ha/15-SP3": {
+          "setid": "15-SP3",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High Availability",
+          "acronym": "SLE HA",
+          "version": "15 SP3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-ha/15-SP2": {
+          "setid": "15-SP2",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High Availability",
+          "acronym": "SLE HA",
+          "version": "15 SP2",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-ha/12-SP5": {
+          "setid": "12-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High Availability",
+          "acronym": "SLE HA",
+          "version": "12 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sle-hpc": {
+        "sle-hpc/15-SP5": {
+          "setid": "15-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High-Performance Computing",
+          "acronym": "SLE HPC",
+          "version": "15 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-hpc/15-SP4": {
+          "setid": "15-SP4",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High-Performance Computing",
+          "acronym": "SLE HPC",
+          "version": "15 SP4",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-hpc/15-SP3": {
+          "setid": "15-SP3",
+          "visible": true,
+          "name": "SUSE Linux Enterprise High-Performance Computing",
+          "acronym": "SLE HPC",
+          "version": "15 SP3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sle-public-cloud": {
+        "sle-public-cloud/all": {
+          "setid": "all",
+          "visible": true,
+          "name": "SUSE Linux Enterprise in public clouds",
+          "acronym": "SLE CSP",
+          "version": "SUSE Linux Enterprise in public clouds",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      },
+      "sle-micro": {
+        "sle-micro/5.5": {
+          "setid": "5.5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Micro",
+          "acronym": "SLE Micro",
+          "version": "5.5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-micro/5.4": {
+          "setid": "5.4",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Micro",
+          "acronym": "SLE Micro",
+          "version": "5.4",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-micro/5.3": {
+          "setid": "5.3",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Micro",
+          "acronym": "SLE Micro",
+          "version": "5.3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-micro/5.2": {
+          "setid": "5.2",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Micro",
+          "acronym": "SLE Micro",
+          "version": "5.2",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-micro/5.1": {
+          "setid": "5.1",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Micro",
+          "acronym": "SLE Micro",
+          "version": "5.1",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sle-rt": {
+        "sle-rt/15-SP5": {
+          "setid": "15-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Real Time",
+          "acronym": "SLE RT",
+          "version": "15 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sle-rt/12-SP5": {
+          "setid": "12-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Real Time",
+          "acronym": "SLE RT",
+          "version": "12 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sles": {
+        "sles/15-SP5": {
+          "setid": "15-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server",
+          "acronym": "SLES",
+          "version": "15 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles/15-SP4": {
+          "setid": "15-SP4",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server",
+          "acronym": "SLES",
+          "version": "15 SP4",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles/15-SP3": {
+          "setid": "15-SP3",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server",
+          "acronym": "SLES",
+          "version": "15 SP3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles/15-SP2": {
+          "setid": "15-SP2",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server",
+          "acronym": "SLES",
+          "version": "15 SP2",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles/12-SP5": {
+          "setid": "12-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server",
+          "acronym": "SLES",
+          "version": "12 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sles-sap": {
+        "sles-sap/trento": {
+          "setid": "trento",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "Trento",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sles-sap/sap-ha-support": {
+          "setid": "sap-ha-support",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "Supported HA solutions",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sles-sap/15-SP5": {
+          "setid": "15-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "15 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles-sap/15-SP4": {
+          "setid": "15-SP4",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "15 SP4",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles-sap/15-SP3": {
+          "setid": "15-SP3",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "15 SP3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles-sap/15-SP2": {
+          "setid": "15-SP2",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "15 SP2",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
+        "sles-sap/12-SP5": {
+          "setid": "12-SP5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Server for SAP Applications",
+          "acronym": "SLES for SAP",
+          "version": "12 SP5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "sle-vmdp": {
+        "sle-vmdp/2.5": {
+          "setid": "2.5",
+          "visible": true,
+          "name": "SUSE Linux Enterprise Virtual Machine Driver Pack",
+          "acronym": "SLE VMDP",
+          "version": "2.5",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "suma": {
+        "suma/4.3": {
+          "setid": "4.3",
+          "visible": true,
+          "name": "SUSE Manager",
+          "acronym": "SUMA",
+          "version": "4.3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "suma-retail": {
+        "suma-retail/4.3": {
+          "setid": "4.3",
+          "visible": true,
+          "name": "SUSE Manager for Retail",
+          "acronym": "SUMA for Retail",
+          "version": "4.3",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "soc": {
+        "soc/9": {
+          "setid": "9",
+          "visible": true,
+          "name": "SUSE OpenStack Cloud",
+          "acronym": "SOC",
+          "version": "9",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      }
+    }
+  },
+  {
+    "site-section": "sbp",
+    "productline": {
+      "sbp": "SUSE Best Practices"
+    },
+    "product": {
+      "sbp": {
+        "sbp/systems-management": {
+          "setid": "systems-management",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "Systems management",
+          "description": "",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/storage": {
+          "setid": "storage",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "Storage",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/sap-15": {
+          "setid": "sap-15",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "SAP applications on SUSE Linux Enterprise 15",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/sap-12": {
+          "setid": "sap-12",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "SAP applications on SUSE Linux Enterprise 12",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/server-linux": {
+          "setid": "server-linux",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "Linux server",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/desktop-linux": {
+          "setid": "desktop-linux",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "Linux desktop",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/container-virtualization": {
+          "setid": "container-virtualization",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "Containers and virtualization",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "sbp/cloud-computing": {
+          "setid": "cloud-computing",
+          "visible": true,
+          "name": "SUSE Best Practices",
+          "acronym": "SBP",
+          "version": "Cloud computing",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      }
+    }
+  },
+  {
+    "site-section": "smart",
+    "productline": {
+      "smart": "SUSE Smart Docs"
+    },
+    "product": {
+      "smart": {
+        "smart/virtualization-cloud": {
+          "setid": "virtualization-cloud",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Virtualization & Cloud",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/systemtuning-performance": {
+          "setid": "systemtuning-performance",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "System Tuning & Performance",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/systems-management": {
+          "setid": "systems-management",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Systems Management",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/micro-clouds": {
+          "setid": "micro-clouds",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "SLE Micro in Public Clouds",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/security": {
+          "setid": "security",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Security",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/rancher": {
+          "setid": "rancher",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Rancher",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/network": {
+          "setid": "network",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Network",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/deploy-upgrade": {
+          "setid": "deploy-upgrade",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Deployment & Upgrade",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "smart/container": {
+          "setid": "container",
+          "visible": true,
+          "name": "SUSE Smart Docs",
+          "acronym": "Smart",
+          "version": "Containerization",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      }
+    }
+  },
+  {
+    "site-section": "trd",
+    "productline": {
+      "trd": "Technical Reference Documentation"
+    },
+    "product": {
+      "trd": {
+        "trd/kubernetes": {
+          "setid": "kubernetes",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Container Management",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/linux": {
+          "setid": "linux",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Linux",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      }
+    }
+  }
+]
