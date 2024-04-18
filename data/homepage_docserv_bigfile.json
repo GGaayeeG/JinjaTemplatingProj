@@ -25,7 +25,7 @@
     },
     "product": {
       "appliance": {
-        "description": "",
+        "description": "Linux appliance building",
         "appliance/kiwi-9": {
           "setid": "kiwi-9",
           "visible": true,
@@ -46,6 +46,7 @@
         }
       },
       "compliance": {
+        "description": "Configure SLES to comply with security specifications"
         "compliance/all": {
           "setid": "all",
           "visible": true,
@@ -57,6 +58,7 @@
         }
       },
       "container": {
+        "description": "Templates and tools to containerize applications"
         "container/all": {
           "setid": "all",
           "visible": true,
@@ -68,6 +70,7 @@
         }
       },
       "neuvector": {
+        "description": "Zero trust container security"
         "neuvector/products": {
           "setid": "products",
           "visible": true,
@@ -79,6 +82,7 @@
         }
       },
       "rancher": {
+        "description": "Unified Kubernetes management"
         "rancher/projects": {
           "setid": "projects",
           "visible": true,
@@ -108,6 +112,7 @@
         }
       },
       "subscription": {
+        "description": "Subscription management"
         "subscription/suseconnect": {
           "setid": "suseconnect",
           "visible": true,
@@ -128,7 +133,7 @@
         }
       },
       "ses": {
-        "description": "",
+        "description": "Software-defined storage powered by Ceph technology",
         "ses/7.1": {
           "setid": "7.1",
           "visible": true,
@@ -149,6 +154,7 @@
         }
       },
       "liberty": {
+        "description": "Mixed Linux support without vendor lock-in"
         "liberty/9": {
           "setid": "9",
           "visible": true,
@@ -178,6 +184,7 @@
         }
       },
       "sled": {
+        "description": "A secure, manageable, and efficient Linux for mixed IT"
         "sled/15-SP5": {
           "setid": "15-SP5",
           "visible": true,
@@ -189,6 +196,7 @@
         }
       },
       "sle-ha": {
+        "description": "Business continuity, data integrity, and maximized uptime for all environments"
         "sle-ha/15-SP5": {
           "setid": "15-SP5",
           "visible": true,
@@ -236,6 +244,7 @@
         }
       },
       "sle-hpc": {
+        "description": "A Linux OS tailored to solve demanding computational, data-intensive problems"
         "sle-hpc/15-SP5": {
           "setid": "15-SP5",
           "visible": true,
@@ -265,17 +274,19 @@
         }
       },
       "sle-public-cloud": {
+        "description": "Innovation and maximum security across your cloud network with SUSE's solutions"
         "sle-public-cloud/all": {
           "setid": "all",
           "visible": true,
-          "name": "SUSE Linux Enterprise in public clouds",
+          "name": "SUSE Linux Enterprise in Public Clouds",
           "acronym": "SLE CSP",
-          "version": "SUSE Linux Enterprise in public clouds",
+          "version": "SUSE Linux Enterprise in Public Clouds",
           "hide-productname": true,
           "lifecycle": "supported"
         }
       },
       "sle-micro": {
+        "description": "Ultra-reliable, immutable Linux operating system"
         "sle-micro/5.5": {
           "setid": "5.5",
           "visible": true,
@@ -323,6 +334,7 @@
         }
       },
       "sle-rt": {
+        "description": "OS for predictable and reliable mission-critical solutions with reduced latency"
         "sle-rt/15-SP5": {
           "setid": "15-SP5",
           "visible": true,
@@ -343,6 +355,7 @@
         }
       },
       "sles": {
+        "description":"THE platform for your business-critical apps in any environment"
         "sles/15-SP5": {
           "setid": "15-SP5",
           "visible": true,
@@ -390,6 +403,7 @@
         }
       },
       "sles-sap": {
+        "description": "The leading platform for SAP solutions on Linux"
         "sles-sap/trento": {
           "setid": "trento",
           "visible": true,
@@ -455,6 +469,7 @@
         }
       },
       "sle-vmdp": {
+        "description": "Enhanced communication between Xen, KVM, and guest OS in a virtual environment"
         "sle-vmdp/2.5": {
           "setid": "2.5",
           "visible": true,
@@ -466,6 +481,7 @@
         }
       },
       "suma": {
+        "description": "Infracstructure management for all your Linux distros"
         "suma/4.3": {
           "setid": "4.3",
           "visible": true,
@@ -477,6 +493,7 @@
         }
       },
       "suma-retail": {
+        "description": "Open Source IT management for retail needs"
         "suma-retail/4.3": {
           "setid": "4.3",
           "visible": true,
@@ -488,6 +505,7 @@
         }
       },
       "soc": {
+        "description": "Easy deployment and management of a heterogeneous cloud infrastructure"
         "soc/9": {
           "setid": "9",
           "visible": true,
