@@ -182,7 +182,8 @@ a.tile {
 }
 
 .tile-header {
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5rem;
   margin-top: 1rem;
