@@ -146,14 +146,21 @@ function onFilterAllArticlesList(oEvent) {
   var filterValue = filterInput.value.toUpperCase();
   var allArticlesContainer = filterInput.closest(".tab-content");
   var listItems = allArticlesContainer.querySelectorAll(".articleText a");
+  var listItemsDescriptions = allArticlesContainer.querySelectorAll(
+    ".articleText .articleDescription"
+  );
   var visibleArticlesCount = 0;
 
   // Loop through the list items and hide/show based on the filter
   for (var i = 0; i < listItems.length; i++) {
     var itemText = listItems[i].textContent || listItems[i].innerText;
+    var itemDesc = listItemsDescriptions[i]?.innerText;
 
     // Case-insensitive comparison
-    if (itemText.toUpperCase().indexOf(filterValue) > -1) {
+    if (
+      itemText.toUpperCase().indexOf(filterValue) > -1 ||
+      itemDesc.toUpperCase().indexOf(filterValue) > -1
+    ) {
       listItems[i].closest(".articleRow").style.display = "flex";
       visibleArticlesCount++;
     } else {
@@ -180,13 +187,20 @@ function onFilterTRDAllSections(oEvent) {
 
   Array.from(articleSections).forEach((section) => {
     var listItems = section.querySelectorAll(".articleText a");
+    var listItemsDescriptions = sections.querySelectorAll(
+      ".articleText .articleDescription"
+    );
     var sectionVisible = false;
 
     for (var i = 0; i < listItems.length; i++) {
       var itemText = listItems[i].textContent || listItems[i].innerText;
+      var itemDesc = listItemsDescriptions[i]?.innerText;
 
       // Case-insensitive comparison
-      if (itemText.toUpperCase().indexOf(filterValue) > -1) {
+      if (
+        itemText.toUpperCase().indexOf(filterValue) > -1 ||
+        itemDesc.toUpperCase().indexOf(filterValue) > -1
+      ) {
         listItems[i].closest(".articleRow").style.display = "flex";
         sectionVisible = true;
         visibleSections++;
