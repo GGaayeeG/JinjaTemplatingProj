@@ -1,0 +1,308 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Confidential Computing with SUSE Linux Enterprise Base Container Images Using the IBM Hyper Protect Platform",
+    "description": "Deploy a workload built with SUSE Linux Enterprise Base Container Images into a hybrid confidential computing environment using IBM Hyper Protect Virtual Servers.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mike Friesenegger",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "IBM"
+      }
+    ],
+    "datePublished": "2024-01-11T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_ibm-hpvs/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_ibm-hpvs_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_ibm-hpvs/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLE BCI",
+        "softwareVersion": "15",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "JupyterLab, Python, and Containers",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Brian Fromme",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "JupyterLab"
+      }
+    ],
+    "datePublished": "2024-02-20T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_jupyter-jupyterlab_container/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_jupyter-jupyterlab_container_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_jupyter-jupyterlab_container/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES 15",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "SUSE Technical Reference Documentation Contributors Guide",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Bryan Gartner",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2023-12-18T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/contributors/html/suse-trd_contrib-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/contributors/pdf/suse-trd_contrib-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/contributors/single-html/suse-trd_contrib-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE TRD",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for K3s, an official CNCF sandbox project tha…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_k3s-slemicro/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_k3s-slemicro_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_k3s-slemicro/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }
+]

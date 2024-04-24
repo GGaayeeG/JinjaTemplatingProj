@@ -1,0 +1,4085 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Efficient Multi-Tenancy with CLASTIX Kamaji and Rancher Prime by SUSE",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Dario Tranchitella",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "CLASTIX"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Dominic Geeverghese",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Clastix"
+      }
+    ],
+    "datePublished": "2023-07-24T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_clastix-kamaji/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_clastix-kamaji_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_clastix-kamaji/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rancher Prime",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Edge Analytics in Finance",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Navin Chandra",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "openSUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-12-16T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_edge-analytics_finance_stocks/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_edge-analytics_finance_stocks_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_edge-analytics_finance_stocks/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rancher",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Edge Analytics in Healthcare",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Abhinav Sharma",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "openSUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-12-02T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_edge-analytics_healthcare_cancer-prediction/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_edge-analytics_healthcare_cancer-prediction_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_edge-analytics_healthcare_cancer-prediction/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rancher 2.6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Kubeflow with Rancher",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Alex Arnoldy",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Mark Gonnelly",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Kubeflow"
+      }
+    ],
+    "datePublished": "2023-06-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_kubeflow/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_kubeflow_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_kubeflow/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rancher",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "MinIO Object Storage for SUSE Rancher",
+    "description": "This document provides a brief introduction to deploying MinIO object storage into a SUSE Rancher Kubernetes environment.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ravind, Kumar, Technical Writer, MinIO"
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith, Global Partner Solutions Director, SUSE"
+      },
+      {
+        "@type": "Person",
+        "name": "Samip Parikh, Partner Solutions Architect, SUSE"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "MinIO"
+      }
+    ],
+    "datePublished": "2022-08-22T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_minio/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_minio_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_minio/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Rancher 2.6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Ondat with Rancher by SUSE",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Rodney Karemba",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "Ondat"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Andy King",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Ondat"
+      }
+    ],
+    "datePublished": "2023-01-11T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_ondat/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_ondat_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_ondat/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rancher 2.6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Kasten K10 by Veeam",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Adam Bergh",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "Kasten by Veeam"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Gerson Guevara",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Veeam"
+      }
+    ],
+    "datePublished": "2022-12-16T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_veeam-kasten/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_veeam-kasten_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_veeam-kasten/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rancher 2.6",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "NVIDIA GPU Driver and NVIDIA GPU Operator with SUSE",
+    "description": "Create and deploy NVIDIA GPU-enabled containers with SUSE Linux Enterprise Server and Rancher Kubernetes Engine 2",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Alex Arnoldy",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "NVIDIA"
+      }
+    ],
+    "datePublished": "2023-12-07T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rke2-slebci_nvidia-gpu-operator/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rke2-slebci_nvidia-gpu-operator_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rke2-slebci_nvidia-gpu-operator/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLE BCI",
+        "softwareVersion": "15 SP5+",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES",
+        "softwareVersion": "15+",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "RKE2",
+        "softwareVersion": "1.25+",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Confidential Computing with SUSE Linux Enterprise Base Container Images Using the IBM Hyper Protect Platform",
+    "description": "Deploy a workload built with SUSE Linux Enterprise Base Container Images into a hybrid confidential computing environment using IBM Hyper Protect Virtual Servers.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mike Friesenegger",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "IBM"
+      }
+    ],
+    "datePublished": "2024-01-11T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_ibm-hpvs/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_ibm-hpvs_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_ibm-hpvs/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLE BCI",
+        "softwareVersion": "15",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "JupyterLab, Python, and Containers",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Brian Fromme",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Jupyter"
+      }
+    ],
+    "datePublished": "2024-02-20T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_jupyter-jupyterlab_container/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_jupyter-jupyterlab_container_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_jupyter-jupyterlab_container/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES 15",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Replicable Python Environments with JupyterLab",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Brian Fromme",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Jupyter"
+      }
+    ],
+    "datePublished": "2022-12-05T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_jupyter-jupyterlab/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_jupyter-jupyterlab_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_jupyter-jupyterlab/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SLES 15 SP4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "SUSE Manager for Managed Services Providers",
+    "description": "Managed Services Providers use SUSE Manager to streamline IT operations.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mark Gonnelly",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Dominic Geevarghese",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Managed Service Provider"
+      }
+    ],
+    "datePublished": "2024-02-20T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/gs_suma_msp/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/gs_suma_msp_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/gs_suma_msp/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Manager",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Ampere"
+      }
+    ],
+    "datePublished": "2022-08-29T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_ampere-altra/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_ampere-altra_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_ampere-altra/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Cisco"
+      }
+    ],
+    "datePublished": "2022-04-12T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_cisco-c240-sd_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_dell-poweredge/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_dell-poweredge_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_dell-poweredge/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Hewlett Packard Enterprise"
+      }
+    ],
+    "datePublished": "2022-04-06T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "HP"
+      }
+    ],
+    "datePublished": "2022-09-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_hpq-zcentral4r_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Lenovo"
+      }
+    ],
+    "datePublished": "2022-12-22T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Supermicro"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_smci-superserver/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_smci-superserver_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_smci-superserver/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Ampere"
+      }
+    ],
+    "datePublished": "2022-08-29T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_ampere-altra/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_ampere-altra_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_ampere-altra/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Cisco"
+      }
+    ],
+    "datePublished": "2022-04-12T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_cisco-c240-sd_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_dell-poweredge_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Hewlett Packard Enterprise"
+      }
+    ],
+    "datePublished": "2022-04-06T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_hpe-proliant-synergy_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "HP"
+      }
+    ],
+    "datePublished": "2022-09-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_hpq-zcentral4r_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Lenovo"
+      }
+    ],
+    "datePublished": "2022-12-22T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_lnvgy-se350-se450/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_lnvgy-se350-se450_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_lnvgy-se350-se450/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for K3s, an official CNCF sandbox…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Supermicro"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_smci-superserver_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Cisco"
+      }
+    ],
+    "datePublished": "2022-04-12T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Hewlett Packard Enterprise"
+      }
+    ],
+    "datePublished": "2022-04-06T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "HP"
+      }
+    ],
+    "datePublished": "2022-09-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Supermicro"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_smci-superserver/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_smci-superserver_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_smci-superserver/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Cisco"
+      }
+    ],
+    "datePublished": "2022-04-12T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_dell-poweredge_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Hewlett Packard Enterprise"
+      }
+    ],
+    "datePublished": "2022-04-06T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "HP"
+      }
+    ],
+    "datePublished": "2022-09-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for SUSE Rancher, as a multi-clus…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Supermicro"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_smci-superserver_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine (RK…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Ampere"
+      }
+    ],
+    "datePublished": "2022-08-29T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_ampere-altra/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_ampere-altra_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_ampere-altra/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine (RK…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Cisco"
+      }
+    ],
+    "datePublished": "2022-04-12T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_cisco-c240-sd_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine (RK…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_dell-poweredge_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine (RK…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Hewlett Packard Enterprise"
+      }
+    ],
+    "datePublished": "2022-04-06T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_hpe-proliant-synergy_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine (RK…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "HP"
+      }
+    ],
+    "datePublished": "2022-09-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_hpq-zcentral4r_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine (RK…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Supermicro"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_smci-superserver_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine Government",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine Gov…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Cisco"
+      }
+    ],
+    "datePublished": "2022-04-12T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_cisco-c240-sd_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_cisco-c240-sd/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine Government 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine Government",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine Gov…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Dell Technologies"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_dell-poweredge_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_dell-poweredge/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine Government 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine Government",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine Gov…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Hewlett Packard Enterprise"
+      }
+    ],
+    "datePublished": "2022-04-06T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_hpe-proliant-synergy_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_hpe-proliant-synergy/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine Government 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine Government",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine Gov…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "HP"
+      }
+    ],
+    "datePublished": "2022-09-15T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_hpq-zcentral4r_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_hpq-zcentral4r/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine Government 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Configuration",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Layered Stack Deployment of Rancher Kubernetes Engine Government",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) and partner offerings for Rancher Kubernetes Engine Gov…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Supermicro"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_smci-superserver_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_smci-superserver/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine Government 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for K3s, an official CNCF sandbox project tha…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_k3s-slemicro/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_k3s-slemicro_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_k3s-slemicro/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of K3s",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for K3s, an official CNCF sandbox project tha…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_k3s-sles/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_k3s-sles_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_k3s-sles/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for SUSE Rancher, as a multi-cluster containe…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rancher-k3s-slemicro/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rancher-k3s-slemicro_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rancher-k3s-slemicro/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro 5.1, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of SUSE Rancher",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for SUSE Rancher, as a multi-cluster containe…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rancher-k3s-sles/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rancher-k3s-sles_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rancher-k3s-sles/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, K3s 1.20.14, SUSE Rancher 2.5.12",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of Rancher Kubernetes Engine",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for Rancher Kubernetes Engine (RKE), a Kubern…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rke1-sles/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rke1-sles_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rke1-sles/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine 1.2.16",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Reference Implementation",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Introductory Deployment of Rancher Kubernetes Engine Government",
+    "description": "The purpose of this document is to provide an overview and procedure of implementing SUSE (R) offerings for Rancher Kubernetes Engine Government (RKE…",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2022-03-28T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rke2-sles/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rke2-sles_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rke2-sles/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 15 SP3, Rancher Kubernetes Engine Government 1.20.14",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "Using SUSE and Fortinet automation to deploy a secured SAP landscape on Azure Cloud Platform",
+    "description": "This document provides a brief introduction to a solution build with Fortinet to enhance the SUSE SAP automation solution.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Peter Schinagl, Sr. Technical Architect, SUSE"
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "Fortinet"
+      }
+    ],
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/linux_gs_slessap_fortinet_azure_landscape-automation/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/linux_gs_slessap_fortinet_azure_landscape-automation_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/linux_gs_slessap_fortinet_azure_landscape-automation/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server for SAP Applications",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "WordPress on LAMP on SUSE Linux Enterprise Server",
+    "description": "This guide helps users install and configure WordPress using the LAMP stack on SUSE Linux Enterprise Server.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "James Yang",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "WordPress"
+      }
+    ],
+    "datePublished": "2023-07-27T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/html/linux_gs_wordpress-lamp-sles/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/pdf/linux_gs_wordpress-lamp-sles_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/linux/single-html/linux_gs_wordpress-lamp-sles/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Server 12, 15",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "additionalType": "Getting Started",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Technical Reference Documentation"
+    },
+    "inLanguage": "en",
+    "headline": "SUSE Technical Reference Documentation Contributors Guide",
+    "description": "Documents published as part of the series SUSE Technical Reference Documentation have been contributed voluntarily by SUSE employees and third partie…",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Terry Smith",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Bryan Gartner",
+        "affiliation": {
+          "@type": "Corporation",
+          "name": "SUSE"
+        }
+      }
+    ],
+    "affiliatedOrganization": [
+      {
+        "@type": "Organization",
+        "name": "SUSE"
+      }
+    ],
+    "datePublished": "2023-12-18T00:00+02:00",
+    "dateModified": "2024-04-22T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/contributors/html/suse-trd_contrib-guide/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/contributors/pdf/suse-trd_contrib-guide_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/trd/contributors/single-html/suse-trd_contrib-guide/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE TRD",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }
+]

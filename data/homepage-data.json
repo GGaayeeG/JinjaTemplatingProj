@@ -1,0 +1,1201 @@
+{  "productsList": [
+ {
+    "label": "Adaptable Linux Platform",
+    "urlParam": "/alp/",
+    "icon": "SUSE_ALP",
+    "type": "product",
+    "description": "The Adaptable Linux Platform is a lightweight and secure operating system. Inst…",
+    "versions": [
+          {
+    "label": "Adaptable Linux Platform",
+    "urlParam": "/alp/dolomite/",
+    "productParam": "alp/",
+    "productName": "Adaptable Linux Platform",
+    "pointingUrl": "https://documentation.suse.com/alp/dolomite/"  }
+    ]
+     },
+ {
+    "label": "Appliance building",
+    "urlParam": "/appliance/",
+    "icon": "",
+    "type": "product",
+    "description": "…",
+    "versions": [
+          {
+    "label": "Appliance building",
+    "urlParam": "/appliance/kiwi-9/",
+    "productParam": "appliance/",
+    "productName": "KIWI Appliance Builder",
+    "pointingUrl": "https://documentation.suse.com/appliance/kiwi-9/"  },
+          {
+    "label": "Appliance building",
+    "urlParam": "/appliance/keg-2/",
+    "productParam": "appliance/",
+    "productName": "Keg Image Description Generator",
+    "pointingUrl": "https://documentation.suse.com/appliance/keg-2/"  }
+    ]
+     },
+ {
+    "label": "Compliance Documentation",
+    "urlParam": "/compliance/",
+    "icon": "",
+    "type": "product",
+    "description": "The following documents aim to provide a basic understanding of how SUSE Linux …",
+    "versions": [
+          {
+    "label": "Compliance Documentation",
+    "urlParam": "/compliance/all/",
+    "productParam": "compliance/",
+    "productName": "Compliance Documentation",
+    "pointingUrl": "https://documentation.suse.com/compliance/all/"  }
+    ]
+     },
+ {
+    "label": "Container Documentation",
+    "urlParam": "/container/",
+    "icon": "",
+    "type": "product",
+    "description": "…",
+    "versions": [
+          {
+    "label": "Container Documentation",
+    "urlParam": "/container/all/",
+    "productParam": "container/",
+    "productName": "Container Documentation",
+    "pointingUrl": "https://documentation.suse.com/container/all/"  }
+    ]
+     },
+ {
+    "label": "HPE Helion OpenStack",
+    "urlParam": "/hpe-helion/",
+    "icon": "",
+    "type": "product",
+    "description": "Helion OpenStack is powered by OpenStack, the leading community driven, open so…",
+    "versions": [
+          {
+    "label": "HPE Helion OpenStack",
+    "urlParam": "/hpe-helion/9/",
+    "productParam": "hpe-helion/",
+    "productName": "SUSE OpenStack Cloud HPE-Only Extensions",
+    "pointingUrl": "https://documentation.suse.com/hpe-helion/9/"  },
+          {
+    "label": "HPE Helion OpenStack",
+    "urlParam": "/hpe-helion/8/",
+    "productParam": "hpe-helion/",
+    "productName": "HPE Helion OpenStack",
+    "pointingUrl": "https://documentation.suse.com/hpe-helion/8/"  }
+    ]
+     },
+ {
+    "label": "SUSE Liberty Linux",
+    "urlParam": "/liberty/",
+    "icon": "SUSE_Liberty_Linux",
+    "type": "product",
+    "description": "SUSE Liberty Linux is a technology and support solution for mixed Linux environ…",
+    "versions": [
+          {
+    "label": "SUSE Liberty Linux",
+    "urlParam": "/liberty/9/",
+    "productParam": "liberty/",
+    "productName": "SUSE Liberty Linux",
+    "pointingUrl": "https://documentation.suse.com/liberty/9/"  },
+          {
+    "label": "SUSE Liberty Linux",
+    "urlParam": "/liberty/8/",
+    "productParam": "liberty/",
+    "productName": "SUSE Liberty Linux",
+    "pointingUrl": "https://documentation.suse.com/liberty/8/"  },
+          {
+    "label": "SUSE Liberty Linux",
+    "urlParam": "/liberty/7/",
+    "productParam": "liberty/",
+    "productName": "SUSE Liberty Linux",
+    "pointingUrl": "https://documentation.suse.com/liberty/7/"  }
+    ]
+     },
+ {
+    "label": "NeuVector",
+    "urlParam": "/neuvector/",
+    "icon": "",
+    "type": "product",
+    "description": "Access the complete documentation for NeuVector, the only Kubernetes-native con…",
+    "versions": [
+          {
+    "label": "NeuVector",
+    "urlParam": "/neuvector/products/",
+    "productParam": "neuvector/",
+    "productName": "NeuVector",
+    "pointingUrl": "https://documentation.suse.com/neuvector/products/"  }
+    ]
+     },
+ {
+    "label": "openSUSE",
+    "urlParam": "/opensuse/",
+    "icon": "",
+    "type": "product",
+    "description": "New and experienced Linux users get the most usable Linux distribution and stab…",
+    "versions": [
+          {
+    "label": "openSUSE",
+    "urlParam": "/opensuse/Leap_15.1/",
+    "productParam": "opensuse/",
+    "productName": "openSUSE",
+    "pointingUrl": "https://documentation.suse.com/opensuse/Leap_15.1/"  },
+          {
+    "label": "openSUSE",
+    "urlParam": "/opensuse/Leap_15.0/",
+    "productParam": "opensuse/",
+    "productName": "openSUSE",
+    "pointingUrl": "https://documentation.suse.com/opensuse/Leap_15.0/"  },
+          {
+    "label": "openSUSE",
+    "urlParam": "/opensuse/Leap_42.3/",
+    "productParam": "opensuse/",
+    "productName": "openSUSE",
+    "pointingUrl": "https://documentation.suse.com/opensuse/Leap_42.3/"  },
+          {
+    "label": "openSUSE",
+    "urlParam": "/opensuse/Leap_42.2/",
+    "productParam": "opensuse/",
+    "productName": "openSUSE",
+    "pointingUrl": "https://documentation.suse.com/opensuse/Leap_42.2/"  },
+          {
+    "label": "openSUSE",
+    "urlParam": "/opensuse/Leap_42.1/",
+    "productParam": "opensuse/",
+    "productName": "openSUSE",
+    "pointingUrl": "https://documentation.suse.com/opensuse/Leap_42.1/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise in public clouds",
+    "urlParam": "/sle-public-cloud/",
+    "icon": "",
+    "type": "product",
+    "description": "Run SUSE solutions optimized for public clouds. Help your team develop competit…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise in public clouds",
+    "urlParam": "/sle-public-cloud/all/",
+    "productParam": "sle-public-cloud/",
+    "productName": "SUSE Linux Enterprise in public clouds",
+    "pointingUrl": "https://documentation.suse.com/sle-public-cloud/all/"  }
+    ]
+     },
+ {
+    "label": "Rancher",
+    "urlParam": "/rancher/",
+    "icon": "",
+    "type": "product",
+    "description": "Enterprise Kubernetes Management: From datacenter to cloud to edge, Rancher let…",
+    "versions": [
+          {
+    "label": "Rancher",
+    "urlParam": "/rancher/products/",
+    "productParam": "rancher/",
+    "productName": "Rancher",
+    "pointingUrl": "https://documentation.suse.com/rancher/products/"  },
+          {
+    "label": "Rancher",
+    "urlParam": "/rancher/kubernetes/",
+    "productParam": "rancher/",
+    "productName": "Rancher",
+    "pointingUrl": "https://documentation.suse.com/rancher/kubernetes/"  },
+          {
+    "label": "Rancher",
+    "urlParam": "/rancher/projects/",
+    "productParam": "rancher/",
+    "productName": "Rancher",
+    "pointingUrl": "https://documentation.suse.com/rancher/projects/"  }
+    ]
+     },
+ {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/",
+    "icon": "",
+    "type": "product",
+    "description": "An intelligent software-defined storage solution, powered by Ceph technology, w…",
+    "versions": [
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/7.1/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/7.1/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/7/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/7/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/6/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/6/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/5.5/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/5.5/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/4/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/4/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/3/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/3/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/2.1/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/2.1/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/2/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/2/"  },
+          {
+    "label": "SUSE Enterprise Storage",
+    "urlParam": "/ses/1/",
+    "productParam": "ses/",
+    "productName": "SUSE Enterprise Storage",
+    "pointingUrl": "https://documentation.suse.com/ses/1/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/",
+    "icon": "",
+    "type": "product",
+    "description": "Fun to use, cost-effective, and designed for mixed IT environments. SUSE Linux …",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/15-SP5/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/15-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/15-SP4/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/15-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/15-SP3/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/15-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/15-SP2/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/15-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/15-SP1/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/15-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/15-GA/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/15-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/12-SP4/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/12-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/12-SP3/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/12-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/12-SP2/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/12-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/12-SP1/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/12-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/12-GA/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/12-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise Desktop",
+    "urlParam": "/sled/11-SP4/",
+    "productParam": "sled/",
+    "productName": "SUSE Linux Enterprise Desktop",
+    "pointingUrl": "https://documentation.suse.com/sled/11-SP4/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/",
+    "icon": "SLE_HAE",
+    "type": "product",
+    "description": "An industry-leading open source high availability clustering system designed to…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/15-SP5/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/15-SP4/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/15-SP3/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/15-SP2/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/15-SP1/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/15-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/15-GA/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/15-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/12-SP5/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/12-SP4/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/12-SP3/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/12-SP2/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/12-SP1/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/12-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/12-GA/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/12-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+    "urlParam": "/sle-ha/11-SP4/",
+    "productParam": "sle-ha/",
+    "productName": "SUSE Linux Enterprise High Availability",
+    "pointingUrl": "https://documentation.suse.com/sle-ha/11-SP4/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise High-Performance Computing",
+    "urlParam": "/sle-hpc/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Linux Enterprise High-Performance Computing is a highly scalable, high-per…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise High-Performance Computing",
+    "urlParam": "/sle-hpc/15-SP5/",
+    "productParam": "sle-hpc/",
+    "productName": "SUSE Linux Enterprise High-Performance Computing",
+    "pointingUrl": "https://documentation.suse.com/sle-hpc/15-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise High-Performance Computing",
+    "urlParam": "/sle-hpc/15-SP4/",
+    "productParam": "sle-hpc/",
+    "productName": "SUSE Linux Enterprise High-Performance Computing",
+    "pointingUrl": "https://documentation.suse.com/sle-hpc/15-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise High-Performance Computing",
+    "urlParam": "/sle-hpc/15-SP3/",
+    "productParam": "sle-hpc/",
+    "productName": "SUSE Linux Enterprise High-Performance Computing",
+    "pointingUrl": "https://documentation.suse.com/sle-hpc/15-SP3/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Linux Enterprise Micro is a lightweight and secure operating system for th…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/5.5/",
+    "productParam": "sle-micro/",
+    "productName": "SUSE Linux Enterprise Micro",
+    "pointingUrl": "https://documentation.suse.com/sle-micro/5.5/"  },
+          {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/5.4/",
+    "productParam": "sle-micro/",
+    "productName": "SUSE Linux Enterprise Micro",
+    "pointingUrl": "https://documentation.suse.com/sle-micro/5.4/"  },
+          {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/5.3/",
+    "productParam": "sle-micro/",
+    "productName": "SUSE Linux Enterprise Micro",
+    "pointingUrl": "https://documentation.suse.com/sle-micro/5.3/"  },
+          {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/5.2/",
+    "productParam": "sle-micro/",
+    "productName": "SUSE Linux Enterprise Micro",
+    "pointingUrl": "https://documentation.suse.com/sle-micro/5.2/"  },
+          {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/5.1/",
+    "productParam": "sle-micro/",
+    "productName": "SUSE Linux Enterprise Micro",
+    "pointingUrl": "https://documentation.suse.com/sle-micro/5.1/"  },
+          {
+    "label": "SUSE Linux Enterprise Micro",
+    "urlParam": "/sle-micro/5.0/",
+    "productParam": "sle-micro/",
+    "productName": "SUSE Linux Enterprise Micro",
+    "pointingUrl": "https://documentation.suse.com/sle-micro/5.0/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Point of Service",
+    "urlParam": "/sle-pos/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Linux Enterprise Point of Service is an enterprise class, secure open sour…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Point of Service",
+    "urlParam": "/sle-pos/11-SP3/",
+    "productParam": "sle-pos/",
+    "productName": "SUSE Linux Enterprise Point of Service",
+    "pointingUrl": "https://documentation.suse.com/sle-pos/11-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Point of Service",
+    "urlParam": "/sle-pos/11-SP2/",
+    "productParam": "sle-pos/",
+    "productName": "SUSE Linux Enterprise Point of Service",
+    "pointingUrl": "https://documentation.suse.com/sle-pos/11-SP2/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/",
+    "icon": "",
+    "type": "product",
+    "description": "The business success of many organizations depends on high availability and res…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/15-SP5/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/15-SP4/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/15-SP3/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/15-SP2/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/15-SP1/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/15-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/12-SP5/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/12-SP4/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/12-SP3/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/12-SP2/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Real Time",
+    "urlParam": "/sle-rt/12-SP1/",
+    "productParam": "sle-rt/",
+    "productName": "SUSE Linux Enterprise Real Time",
+    "pointingUrl": "https://documentation.suse.com/sle-rt/12-SP1/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Linux Enterprise Server for SAP Applications is the leading Linux platform…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/trento/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/trento/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/sap-ha-support/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/sap-ha-support/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/15-SP5/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/15-SP4/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/15-SP3/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/15-SP2/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/15-SP1/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/15-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/15-GA/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/15-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/12-SP5/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/12-SP4/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/12-SP3/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/12-SP2/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/12-SP1/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/12-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/12-GA/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/12-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise Server for SAP Applications",
+    "urlParam": "/sles-sap/11-SP4/",
+    "productParam": "sles-sap/",
+    "productName": "SUSE Linux Enterprise Server for SAP Applications",
+    "pointingUrl": "https://documentation.suse.com/sles-sap/11-SP4/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/",
+    "icon": "SUSE_generic",
+    "type": "product",
+    "description": "A multimodal operating system that paves the way for IT transformation in the s…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/15-SP5/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/15-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/15-SP4/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/15-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/15-SP3/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/15-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/15-SP2/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/15-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/15-SP1/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/15-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/15-GA/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/15-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/12-SP5/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/12-SP5/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/12-SP4/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/12-SP4/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/12-SP3/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/12-SP3/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/12-SP2/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/12-SP2/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/12-SP1/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/12-SP1/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/12-GA/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/12-GA/"  },
+          {
+    "label": "SUSE Linux Enterprise Server",
+    "urlParam": "/sles/11-SP4/",
+    "productParam": "sles/",
+    "productName": "SUSE Linux Enterprise Server",
+    "pointingUrl": "https://documentation.suse.com/sles/11-SP4/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Virtual Machine Driver Pack",
+    "urlParam": "/sle-vmdp/",
+    "icon": "",
+    "type": "product",
+    "description": "The paravirtualized drivers in the SUSE Virtual Machine Driver Pack deliver the…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Virtual Machine Driver Pack",
+    "urlParam": "/sle-vmdp/2.5/",
+    "productParam": "sle-vmdp/",
+    "productName": "SUSE Linux Enterprise Virtual Machine Driver Pack",
+    "pointingUrl": "https://documentation.suse.com/sle-vmdp/2.5/"  }
+    ]
+     },
+ {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/",
+    "icon": "",
+    "type": "product",
+    "description": "Welcome to SUSE Smart Documentation!…",
+    "versions": [
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/container/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/container/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/network/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/network/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/deploy-upgrade/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/deploy-upgrade/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/virtualization-cloud/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/virtualization-cloud/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/systemtuning-performance/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/systemtuning-performance/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/systems-management/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/systems-management/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/micro-clouds/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/micro-clouds/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/security/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/security/"  },
+          {
+    "label": "SUSE Smart Docs",
+    "urlParam": "/smart/rancher/",
+    "productParam": "smart/",
+    "productName": "SUSE Smart Docs",
+    "pointingUrl": "https://documentation.suse.com/smart/rancher/"  }
+    ]
+     },
+ {
+    "label": "SUSE Linux Enterprise Subscription Management Tool",
+    "urlParam": "/smt/",
+    "icon": "",
+    "type": "product",
+    "description": "The Subscription Management Tool 11 for SUSE Linux Enterprise helps customers m…",
+    "versions": [
+          {
+    "label": "SUSE Linux Enterprise Subscription Management Tool",
+    "urlParam": "/smt/11.3/",
+    "productParam": "smt/",
+    "productName": "SUSE Linux Enterprise Subscription Management Tool",
+    "pointingUrl": "https://documentation.suse.com/smt/11.3/"  }
+    ]
+     },
+ {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE OpenStack Cloud is no longer under active development. There will be no ne…",
+    "versions": [
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/9/",
+    "productParam": "soc/",
+    "productName": "SUSE OpenStack Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/9/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/8/",
+    "productParam": "soc/",
+    "productName": "SUSE OpenStack Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/8/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/7/",
+    "productParam": "soc/",
+    "productName": "SUSE OpenStack Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/7/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/6/",
+    "productParam": "soc/",
+    "productName": "SUSE OpenStack Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/6/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/5/",
+    "productParam": "soc/",
+    "productName": "SUSE Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/5/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/4/",
+    "productParam": "soc/",
+    "productName": "SUSE Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/4/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/3.0/",
+    "productParam": "soc/",
+    "productName": "SUSE Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/3.0/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/2.0/",
+    "productParam": "soc/",
+    "productName": "SUSE Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/2.0/"  },
+          {
+    "label": "SUSE OpenStack Cloud",
+    "urlParam": "/soc/1.0/",
+    "productParam": "soc/",
+    "productName": "SUSE Cloud",
+    "pointingUrl": "https://documentation.suse.com/soc/1.0/"  }
+    ]
+     },
+ {
+    "label": "SUSE Documentation Style Guide",
+    "urlParam": "/style/",
+    "icon": "",
+    "type": "product",
+    "description": "This guide provides answers to writing, style, and layout questions commonly ar…",
+    "versions": [
+          {
+    "label": "SUSE Documentation Style Guide",
+    "urlParam": "/style/current/",
+    "productParam": "style/",
+    "productName": "SUSE Documentation Style Guide",
+    "pointingUrl": "https://documentation.suse.com/style/current/"  }
+    ]
+     },
+ {
+    "label": "Subscription Management",
+    "urlParam": "/subscription/",
+    "icon": "",
+    "type": "product",
+    "description": "…",
+    "versions": [
+          {
+    "label": "Subscription Management",
+    "urlParam": "/subscription/suseconnect/",
+    "productParam": "subscription/",
+    "productName": "Subscription Management",
+    "pointingUrl": "https://documentation.suse.com/subscription/suseconnect/"  },
+          {
+    "label": "Subscription Management",
+    "urlParam": "/subscription/hypervisor-collector/",
+    "productParam": "subscription/",
+    "productName": "Subscription Management",
+    "pointingUrl": "https://documentation.suse.com/subscription/hypervisor-collector/"  }
+    ]
+     },
+ {
+    "label": "SUSE Manager for Retail",
+    "urlParam": "/suma-retail/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Manager for Retail, a next generation open source infrastructure managemen…",
+    "versions": [
+          {
+    "label": "SUSE Manager for Retail",
+    "urlParam": "/suma-retail/4.3/",
+    "productParam": "suma-retail/",
+    "productName": "SUSE Manager for Retail",
+    "pointingUrl": "https://documentation.suse.com/suma-retail/4.3/"  }
+    ]
+     },
+ {
+    "label": "SUSE Manager",
+    "urlParam": "/suma/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Manager is a best-in-class open source infrastructure management solution …",
+    "versions": [
+          {
+    "label": "SUSE Manager",
+    "urlParam": "/suma/4.3/",
+    "productParam": "suma/",
+    "productName": "SUSE Manager",
+    "pointingUrl": "https://documentation.suse.com/suma/4.3/"  }
+    ]
+     },
+ {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/",
+    "icon": "",
+    "type": "product",
+    "description": "Disclaimer: Documents published as part of the SUSE Best Practices series have …",
+    "versions": [
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/sap-15/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/sap-15/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/sap-12/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/sap-12/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/server-linux/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/server-linux/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/desktop-linux/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/desktop-linux/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/systems-management/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/systems-management/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/cloud-computing/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/cloud-computing/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/container-virtualization/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/container-virtualization/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/storage/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/storage/"  },
+          {
+    "label": "SUSE Best Practices",
+    "urlParam": "/sbp/deprecated/",
+    "productParam": "sbp/",
+    "productName": "SUSE Best Practices",
+    "pointingUrl": "https://documentation.suse.com/sbp/deprecated/"  }
+    ]
+     },
+ {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE CaaS Platform is an enterprise-class container management solution that en…",
+    "versions": [
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/4.5/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/4.5/"  },
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/4.2/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/4.2/"  },
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/4.1/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/4.1/"  },
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/4.0/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/4.0/"  },
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/3/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/3/"  },
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/2/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/2/"  },
+          {
+    "label": "SUSE CaaS Platform",
+    "urlParam": "/suse-caasp/1/",
+    "productParam": "suse-caasp/",
+    "productName": "SUSE CaaS Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-caasp/1/"  }
+    ]
+     },
+ {
+    "label": "SUSE Cloud Application Platform",
+    "urlParam": "/suse-cap/",
+    "icon": "",
+    "type": "product",
+    "description": "SUSE Cloud Application Platform is a modern application delivery platform used …",
+    "versions": [
+          {
+    "label": "SUSE Cloud Application Platform",
+    "urlParam": "/suse-cap/2.1/",
+    "productParam": "suse-cap/",
+    "productName": "SUSE Cloud Application Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-cap/2.1/"  },
+          {
+    "label": "SUSE Cloud Application Platform",
+    "urlParam": "/suse-cap/2.0/",
+    "productParam": "suse-cap/",
+    "productName": "SUSE Cloud Application Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-cap/2.0/"  },
+          {
+    "label": "SUSE Cloud Application Platform",
+    "urlParam": "/suse-cap/1.5.2/",
+    "productParam": "suse-cap/",
+    "productName": "SUSE Cloud Application Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-cap/1.5.2/"  },
+          {
+    "label": "SUSE Cloud Application Platform",
+    "urlParam": "/suse-cap/1.4.1/",
+    "productParam": "suse-cap/",
+    "productName": "SUSE Cloud Application Platform",
+    "pointingUrl": "https://documentation.suse.com/suse-cap/1.4.1/"  }
+    ]
+     },
+ {
+    "label": "SUSE Distribution Migration System",
+    "urlParam": "/suse-distribution-migration-system/",
+    "icon": "",
+    "type": "product",
+    "description": "The Distribution Migration System provides an upgrade path for an installed SUS…",
+    "versions": [
+          {
+    "label": "SUSE Distribution Migration System",
+    "urlParam": "/suse-distribution-migration-system/15/",
+    "productParam": "suse-distribution-migration-system/",
+    "productName": "SUSE Distribution Migration System",
+    "pointingUrl": "https://documentation.suse.com/suse-distribution-migration-system/15/"  }
+    ]
+     },
+ {
+    "label": "Technical Reference Documentation",
+    "urlParam": "/trd/",
+    "icon": "",
+    "type": "product",
+    "description": "Disclaimer: Documents published as part of the SUSE Technical Reference Documen…",
+    "versions": [
+          {
+    "label": "Technical Reference Documentation",
+    "urlParam": "/trd/kubernetes/",
+    "productParam": "trd/",
+    "productName": "Technical Reference Documentation",
+    "pointingUrl": "https://documentation.suse.com/trd/kubernetes/"  },
+          {
+    "label": "Technical Reference Documentation",
+    "urlParam": "/trd/linux/",
+    "productParam": "trd/",
+    "productName": "Technical Reference Documentation",
+    "pointingUrl": "https://documentation.suse.com/trd/linux/"  },
+          {
+    "label": "Technical Reference Documentation",
+    "urlParam": "/trd/contributors/",
+    "productParam": "trd/",
+    "productName": "Technical Reference Documentation",
+    "pointingUrl": "https://documentation.suse.com/trd/contributors/"  }
+    ]
+     }  ]}

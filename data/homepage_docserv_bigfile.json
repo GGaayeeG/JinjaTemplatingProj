@@ -699,6 +699,187 @@
     },
     "product": {
       "trd": {
+        "trd/ampere": {
+          "setid": "ampere",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Ampere",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/cisco": {
+          "setid": "cisco",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Cisco",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/clastix": {
+          "setid": "clastix",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Clastix",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/dell-technologies": {
+          "setid": "dell-technologies",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Dell Technologies",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/fortinet": {
+          "setid": "fortinet",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Fortinet",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/hewlett-packard-enterprise": {
+          "setid": "hewlett-packard-enterprise",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Hewlett Packard Enterprise",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/hp": {
+          "setid": "hp",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "HP",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/ibm": {
+          "setid": "ibm",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "IBM",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/jupyter": {
+          "setid": "jupyter",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Jupyter",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/kubeflow": {
+          "setid": "kubeflow",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Kubeflow",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/lenovo": {
+          "setid": "lenovo",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Lenovo",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/managed-service-provider": {
+          "setid": "managed-service-provider",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Managed Service Provider",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/minio": {
+          "setid": "minio",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "MinIO",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/nvidia": {
+          "setid": "nvidia",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "NVIDIA",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/ondat": {
+          "setid": "ondat",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Ondat",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/supermicro": {
+          "setid": "supermicro",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Supermicro",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/suse": {
+          "setid": "suse",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "SUSE",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/veeam": {
+          "setid": "veeam",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "Veeam",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        },
+        "trd/wordpress": {
+          "setid": "wordpress",
+          "visible": true,
+          "name": "Technical Reference Documentation",
+          "acronym": "TRD",
+          "version": "WordPress",
+          "hide-productname": true,
+          "lifecycle": "supported"
+        }
+      }
+    }
+  },
+  {
+    "site-section": "trdO",
+    "productline": {
+      "trd": "Technical Reference Documentation"
+    },
+    "product": {
+      "trd": {
         "trd/kubernetes": {
           "setid": "kubernetes",
           "visible": true,
