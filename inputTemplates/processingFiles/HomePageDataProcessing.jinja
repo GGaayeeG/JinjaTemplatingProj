@@ -1,0 +1,56 @@
+{# logic_template.jinja #}
+{% macro process_data(data) %}
+
+{# Processing Products list #}
+{% set mainSection = data | selectattr("site-section", "equalto", "main")| first %}
+{% set productLine = mainSection.productline %}
+{% set productInfo = mainSection.product %}
+{% set productsList = [] %}
+{% for prod in productLine %}
+{% set prodObj = {
+"label": productLine[prod],
+"description": productInfo[prod].description,
+"versions": []
+} %}
+{% for path in productInfo[prod] if path != "description" %}
+{% set versionObj = {
+"label": productInfo[prod][path].acronym + " " + productInfo[prod][path].version,
+"pointingUrl": path
+} %}
+{% set _ = prodObj.versions.append(versionObj) %}
+{% endfor %}
+{% set _ = productsList.append(prodObj) %}
+{% endfor %}
+
+{# Processing categories list #}
+{% set sbpSection = data | selectattr("site-section", "equalto", "sbp") | first %}
+{% set sbpList = sbpSection.product.sbp %}
+{% set categoriesList = [] %}
+{% for path in sbpList %}
+{% set categoryObj = {
+"label": sbpList[path].version,
+"description": sbpList[path].description,
+"pointingUrl": path
+} %}
+{% set _ = categoriesList.append(categoryObj) %}
+{% endfor %}
+
+{# Return the processed data #}
+{
+'productsList': {{productsList}} ,
+'categoriesList': {{categoriesList}}
+}
+{# {%
+set processed_data = {
+'productsList': productsList,
+'categoriesList': categoriesList
+}
+%}
+{{ processed_data }} #}
+
+{# {
+"productsList": productsList,
+"categoriesList": categoriesList
+} #}
+
+{% endmacro %}

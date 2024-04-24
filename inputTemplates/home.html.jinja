@@ -5,6 +5,9 @@
 {% from 'macros/ProductTile.html' import ProductTile %}
 {% from 'macros/PartnerTile.html' import PartnerTile %}
 {% from 'macros/FeaturedTile.html' import FeaturedTile %}
+{# {% from 'processingFiles/HomePageDataProcessing.jinja' import process_data%} #}
+{# {% from 'processingFiles/CreateDictionary.jinja' import create_dictionary%} #}
+
 
 {#-Jinja template for home page-#}
 {% extends "base.html.jinja" %}
@@ -17,6 +20,69 @@
 {{ super() }}
 <link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
 {% endblock head_link_css -%}
+
+
+{% set mainSection = data | selectattr("site-section", "equalto", "main")| first %}
+{% set productLine = mainSection.productline %}
+{% set productInfo = mainSection.product %}
+{% set productsList = [] %}
+{% for prod in productLine %}
+{% set prodObj = {
+"label": productLine[prod],
+"description": productInfo[prod].description,
+"versions": []
+} %}
+{% for path in productInfo[prod] if path != "description" %}
+{% set versionObj = {
+"label": productInfo[prod][path].acronym + " " + productInfo[prod][path].version,
+"pointingUrl": path
+} %}
+{% set _ = prodObj.versions.append(versionObj) %}
+{% endfor %}
+{% set _ = productsList.append(prodObj) %}
+{% endfor %}
+{% set productsList = productsList | sort(attribute='label') %}
+
+{% set sbpSection = data | selectattr("site-section", "equalto", "sbp") | first %}
+{% set sbpList = sbpSection.product.sbp %}
+{% set categoriesList = [] %}
+{% for path in sbpList %}
+{% set categoryObj = {
+"label": sbpList[path].version,
+"description": sbpList[path].description,
+"pointingUrl": path
+} %}
+{% set _ = categoriesList.append(categoryObj) %}
+{% endfor %}
+{% set categoriesList = categoriesList | sort(attribute='label') %}
+
+{% set trdSection = data | selectattr("site-section", "equalto", "trd") | first %}
+{% set trdList = trdSection.product.trd %}
+{% set partnersList = [] %}
+{% for path in trdList %}
+{% set partnerObj = {
+"label": trdList[path].version,
+"description": trdList[path].description,
+"pointingUrl": path,
+"docTypes":[{ "label": "All", "pointingUrl": path },
+{ "label": "Getting started", "pointingUrl": path+'/getting-started' },
+{
+"label": "Reference Implementation",
+"pointingUrl": path+'/reference-implementation'
+},
+{
+"label": "Reference Configuration",
+"pointingUrl": path+ '/reference-configuration'
+},
+{
+"label": "Enterprise Architecture",
+"pointingUrl": path + '/enterprise-architecture'
+}]
+} %}
+{% set _ = partnersList.append(partnerObj) %}
+{% endfor %}
+{% set partnersList = partnersList | sort(attribute='label') %}
+
 
 {% block body_main%}
 <div class="main-container">
@@ -68,13 +134,21 @@
                 {% endfor %}
             </ul>
 
-            {% set trdList = trdList|sort(attribute='label') %}
+            {% set trdList = partnersList|sort(attribute='label') %}
             {% for partner in trdList %}
-            {% if loop.index <= 8 %} {{ Tile(pointingUrl='' , title=partner.label, description=partner.description,
-                popoverItems=partner.docTypes, isTRD='true' , isSBP='false' ) }} {% endif %}{% if loop.index>8 %} {{
-                Tile(pointingUrl='' , title=partner.label,
-                description=partner.description, popoverItems=partner.docTypes, isTRD='true' ,
-                isSBP='false' , hidden='true' ) }} {% endif %} {% endfor %}
+            {% if loop.index <= 8 %} {{ Tile(pointingUrl=partner.pointingUrl , title=partner.label,
+                description=partner.description, popoverItems=[], isTRD='true' , isSBP='false' ) }} {% endif %}{% if
+                loop.index>8 %} {{
+                Tile(pointingUrl=partner.pointingUrl , title=partner.label,
+                description=partner.description, popoverItems=[], isTRD='true' ,
+                isSBP='false' , hidden='true' ) }} {% endif %}
+                {# {% if loop.index <= 8 %} {{ Tile(pointingUrl='' , title=partner.label,
+                    description=partner.description, popoverItems=partner.docTypes, isTRD='true' , isSBP='false' ) }} {%
+                    endif %}{% if loop.index>8 %} {{
+                    Tile(pointingUrl='' , title=partner.label,
+                    description=partner.description, popoverItems=partner.docTypes, isTRD='true' ,
+                    isSBP='false' , hidden='true' ) }} {% endif %} #}
+                    {% endfor %}
         </div>
     </div>
 
@@ -96,7 +170,7 @@
         </div>
     </div>
 
-    {{Divider()}}
+    {# {{Divider()}}
     <label class="section-header" id="featured_tab">Featured</label>
     <div class="featuredContainer">
         {% for featuredArticle in featuredData %}
@@ -108,7 +182,7 @@
         )
         }}
         {% endfor %}
-    </div>
+    </div> #}
 
     <div id="customPopover" class="popover" style="display: none;">
         <img alt="SUSE Logo" src="" id="popoverLogo" class="suseLogo-in-popup" />

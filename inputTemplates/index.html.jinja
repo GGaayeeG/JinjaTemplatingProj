@@ -32,7 +32,7 @@
     <h1>{{product + ' ' +version}}</h1>
     {%endif%}
     {% if isTRD%}
-    <h1>{{partner + ' - ' + docType}}</h1>
+    <h1>{{partner}}</h1>
     {%endif%}
 
     <p>
@@ -42,25 +42,17 @@
     {{IndexPageMenu(isTRD)}}
 
     <div id="allArticles-content" class="tab-content active-content">
-        <form method="get" class="formHeader" onsubmit="onFilterAllArticlesList(event)">
+        <form method="get" class="formHeader" {% if isTRD %} onsubmit="onFilterTRDAllSections(event)" {% else %}
+            onsubmit="onFilterAllArticlesList(event)" {% endif %}>
             <input type="search" id="search" class="searchInput filterInput" size="80"
-                placeholder="Filter the list by article title" oninput="onFilterAllArticlesList(event)" />
+                placeholder="Filter the list by article title" {% if isTRD %} oninput="onFilterTRDAllSections(event)" {%
+                else %} oninput="onFilterAllArticlesList(event)" {% endif %} />
             <button type="submit" value="Search" title="Search" class="searchButton filterButton">
                 <i class="fa fa-filter"></i>
             </button>
-
         </form>
 
         {%if isSBP%}
-
-        {# {% with
-        articlesListSBPCategory = [],
-        articlesListSanitisedSBP = [],
-        tasksList = [],
-        newest = []
-        %}
-        {% include 'processingFiles/SBP_category_filtering.jinja' %}
-        {% endwith %} #}
 
         {% set articlesListSBPCategory = [] %}
         {% for article in data %}
@@ -185,8 +177,8 @@
 
         {% set articlesList = data| selectattr('isPartOf.name', 'equalto', 'Technical Reference Documentation') |
         selectattr('affiliatedOrganization', 'defined') |
-        selectattr('affiliatedOrganization.0.name', 'equalto', partner)|
-        selectattr('additionalType','equalto', docType) %}
+        selectattr('affiliatedOrganization.0.name', 'equalto', partner) %}
+        {# |selectattr('additionalType','equalto', docType) #}
 
         {# Map the filtered articles to a new list with desired properties #}
         {% set articlesListSanitisedTRD = [] %}
@@ -200,7 +192,7 @@
         {% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
 
         {% set links = {} %}
-        {% for item in aboutList %}
+        {% for item in article.about %}
         {% if item["@type"] == "WebPage" %}
         {% if "pdf" in item.encodingFormat %}
         {% set _ = links.update({'pdf': item.url}) %}
@@ -218,6 +210,14 @@
 
         {% set articles = articlesListSanitisedTRD | sort(attribute='title') %}
 
+        {% set docTypeList = [] %}
+        {% for article in articles %}
+        {% if article.docType not in docTypeList %}
+        {% set _ = docTypeList.append(article.docType) %}
+        {% endif %}
+        {% endfor %}
+        {% set docTypeList = docTypeList | sort() %}
+
         {# Fetching product list #}
         {% set productsList = [] %}
         {% for article in articles %}
@@ -234,7 +234,89 @@
 
         {% endif %}
 
+
+        {%if isSmartDocs%}
+
+        {% set articlesList = data| selectattr('headline','defined')| selectattr('headline', 'ne', '') %}
+
+        {# Map the filtered articles to a new list with desired properties #}
+        {% set articlesListSanitised = [] %}
+        {% for article in articlesList %}
+        {% set sanitisedArticle = {} %}
+        {% set _ = sanitisedArticle.update({'title': article.headline}) %}
+        {% set _ = sanitisedArticle.update({'description': article.description}) %}
+        {% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
+        map(attribute='name') | list }) %}
+        {% set _ = sanitisedArticle.update({'docType': article.additionalType}) %}
+        {# {% set _ = sanitisedArticle.update({'datePublished': article.datePublished[:10]}) %} #}
+        {% set _ = sanitisedArticle.update({'dateModified': article.dateModified[:10]}) %}
+
+        {% set links = {} %}
+        {% for item in article.about %}
+        {% if item["@type"] == "WebPage" %}
+        {% if "pdf" in item.encodingFormat %}
+        {% set _ = links.update({'pdf': item.url}) %}
+        {% elif 'single-html'in item.url %}
+        {% set _ = links.update({'singleHTML': item.url}) %}
+        {% else %}
+        {% set _ = links.update({'html': item.url}) %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {%set _ = sanitisedArticle.update({'links': links}) %}
+
+        {% set _ = articlesListSanitised.append(sanitisedArticle) %}
+        {% endfor %}
+
+        {% set articles = articlesListSanitised | sort(attribute='title') %}
+
+        {# Fetching task list #}
+        {% set tasksList = [] %}
+        {% for article in articles %}
+        {% for task in article.tasks %}
+        {% if task not in tasksList %}
+        {% set _ = tasksList.append(task) %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% set tasksList = tasksList | sort() %}
+
+        {% set newestArticles = articles| sort(attribute='dateModified', reverse=true) %}
+        {% set newest = newestArticles[:8] %}
+
+        {% endif %}
+
+
         <div>
+            {%if isTRD%}
+            {% for docType in docTypeList %}
+            <div class="section">
+                <label class="section-header">{{docType}}</label>
+                <div>
+                    {% for article in articles %}
+                    {% if article.docType == docType %}
+                    <div class="articleRow">
+                        <div class="articleText" data-article-link="{{article.links.html}}"
+                            onclick="onArticleClick(event)">
+                            <a class="articleTitle" href={{article.links.html}}>
+                                {# Article Title {{ loop.index }} : {{ article.title }} #}
+                                {{article.title}}
+                            </a>
+                            <p class="articleDescription">{{article.description}}</p>
+                        </div>
+                        </p>
+                        <label>{{article.dateModified}}</label>
+                        {{Dropdown(article.links)}}
+                    </div>
+
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            <p class="no-match-text">No matching articles found</p>
+            {% else %}
+
             {% for article in articles %}
             <div class="articleRow">
                 <div class="articleText" data-article-link="{{article.links.html}}" onclick="onArticleClick(event)">
@@ -249,6 +331,7 @@
             </div>
             {% endfor %}
             <p class="no-match-text">No matching articles found</p>
+            {% endif %}
         </div>
     </div>
 

@@ -1,0 +1,10 @@
+{% macro create_dictionary() %}
+{% set my_dict = {'key1': 'value1', 'key2': 'value2'} %}
+{% set another_dict = {'foo': 'bar'} %}
+{% set merged_dict = my_dict %}
+{{ merged_dict }}
+{% endmacro %}
+
+{# {% set result = create_dictionary() %}
+{{ result }}
+{{result.key1}}
