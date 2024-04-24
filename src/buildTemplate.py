@@ -10,9 +10,15 @@ def generate_template():
     data_file_sbp = 'data/sdb_metadata.json'
     data_file_products = 'data/slesforsap_metadata.json'
     # data_file_products = 'data/bigfile_metadata.json'
-    data_file_trd = 'data/trd_metadata.json'
+
+    # data_file_trd = 'data/trd_metadata.json'
+    # data_file_trd = 'data/trd_test_metadata.json'
+    data_file_trd = 'data/trd_metadata_corrected.json'
+
+    data_file_homepage = 'data/homepage_docserv_bigfile.json'
     # data_file_homepage = 'data/homepage-data.json'
-    data_file_homepage = 'data/homePageData.json'
+    # data_file_homepage = 'data/homePageData.json'
+    data_file_smartDocs = 'data/smart_metadata.json'
 
     template_file = 'index.html.jinja'
     template_index_all_file = 'index-trd-all.html.jinja'
@@ -39,14 +45,25 @@ def generate_template():
     with open(data_file_homepage, 'r',encoding='utf-8') as f:
         dataHome = json.load(f)
 
+    with open(data_file_smartDocs, 'r',encoding='utf-8') as f:
+        dataSmartDocs = json.load(f)
+
 
        
     # Render the template with data
     outputSystemsManagement = template.render(data=dataSBP,isSBP=True, category="Systems Management")
     outputContainerization = template.render(data=dataSBP,isSBP=True, category="Containerization")
     outputSLESforSAP15SP6 = template.render(data=dataProducts,isProduct=True, product="SLES for SAP",version="15 SP6")
-    outputIBMGS = template.render(data=dataTRD,isTRD=True, partner="IBM",docType="Getting Started")
-    outputIBMAll = template_index_all.render(data=dataTRD, isTRD=True, partner='IBM')
+    # outputIBMGS = template.render(data=dataTRD,isTRD=True, partner="IBM",docType="Getting Started")
+    # outputIBMAll = template_index_all.render(data=dataTRD, isTRD=True, partner='IBM')
+    outputIBM = template.render(data=dataTRD,isTRD=True, partner="IBM")
+    # outputSUSEGS = template.render(data=dataTRD,isTRD=True, partner="SUSE",docType="Getting Started")
+    # outputSUSEAll = template_index_all.render(data=dataTRD, isTRD=True, partner='SUSE')
+    outputSUSE = template.render(data=dataTRD,isTRD=True, partner="SUSE")
+    # outputCiscoGS = template.render(data=dataTRD,isTRD=True, partner="Cisco",docType="Getting Started")
+    outputCisco = template.render(data=dataTRD,isTRD=True, partner="Cisco")
+    # outputCiscoAll = template_index_all.render(data=dataTRD, isTRD=True, partner='Cisco')
+    outputSmartDocs = template.render(data=dataSmartDocs,isSmartDocs=True)
 
     outputHomePage = template_homepage.render(data=dataHome)
 
@@ -73,23 +90,59 @@ def generate_template():
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
-    output_path = os.path.join(output_dir, 'IBM_GS.html')
+    output_path = os.path.join(output_dir, 'IBM.html')
     with open(output_path, 'w') as f:
         # f.write(outputIBMGS)
-        soup = BeautifulSoup(outputIBMGS, 'html.parser')
+        soup = BeautifulSoup(outputIBM, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
-    output_path = os.path.join(output_dir, 'IBM_All.html')
+    # output_path = os.path.join(output_dir, 'IBM_GS.html')
+    # with open(output_path, 'w') as f:
+    #     # f.write(outputIBMGS)
+    #     soup = BeautifulSoup(outputIBMGS, 'html.parser')
+    #     formatted_html = soup.prettify()
+    #     f.write(formatted_html)
+
+    # output_path = os.path.join(output_dir, 'IBM_All.html')
+    # with open(output_path, 'w') as f:
+    #     # f.write(outputIBMGS)
+    #     soup = BeautifulSoup(outputIBMAll, 'html.parser')
+    #     formatted_html = soup.prettify()
+    #     f.write(formatted_html)
+
+    output_path = os.path.join(output_dir, 'SUSE.html')
     with open(output_path, 'w') as f:
-        # f.write(outputIBMGS)
-        soup = BeautifulSoup(outputIBMAll, 'html.parser')
+        soup = BeautifulSoup(outputSUSE, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
+    
+
+    output_path = os.path.join(output_dir, 'Cisco.html')
+    with open(output_path, 'w') as f:
+        soup = BeautifulSoup(outputCisco, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
+    
+
+    output_path = os.path.join(output_dir, 'SmartDocs.html')
+    with open(output_path, 'w') as f:
+        soup = BeautifulSoup(outputSmartDocs, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+    
+
+    output_path = os.path.join(output_dir, 'SmartDocs.html')
+    with open(output_path, 'w') as f:
+        soup = BeautifulSoup(outputSmartDocs, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
+        
     output_path = os.path.join(output_dir, 'homepage2.html')
     with open(output_path, 'w') as f:
-        # f.write(outputIBMGS)
         soup = BeautifulSoup(outputHomePage, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
