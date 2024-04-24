@@ -45,7 +45,9 @@ function onGlobalSearch(oEvent) {
 //   }
 // }
 function onTabChange(oEvent, tabId) {
-  let tabs = ["products", "sbp", "trd", "newest", "mostPopular"];
+  // let tabs = ["products", "sbp", "trd", "newest", "mostPopular"];
+  let tabs = ["products", "sbp", "trd"];
+
   // let tabLinkBar = oEvent.target.parentElement.parentElement; //fetching ul element
   let tabLinkBar = document.querySelector("#homepage-menu");
 
@@ -89,21 +91,33 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+isSortedAlphabetically = true;
+
 // Sorting
 function sortProductsAsc(oEvent) {
+  if (isSortedAlphabetically) return;
   var cardsContainer = document.querySelector(".productsContainer");
 
   // Get all card elements
-  if (!this.cards) {
-    this.cards = Array.from(cardsContainer.querySelectorAll(".tile"));
-  }
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+  // if (!this.cards) {
+  //   this.cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+  // }
 
   // Sort cards based on their title
-  let cardsSorted = cards.toSorted(function (a, b) {
-    var titleA = a.querySelector(".tile-header").innerText.toUpperCase();
-    var titleB = b.querySelector(".tile-header").innerText.toUpperCase();
-    return titleA.localeCompare(titleB);
-  });
+  // let cardsSorted = this.cards.sort(function (a, b) {
+  //   var titleA = a.querySelector(".tile-header").innerText.toUpperCase();
+  //   var titleB = b.querySelector(".tile-header").innerText.toUpperCase();
+  //   if (titleA < titleB) {
+  //     return -1;
+  //   } else if (titleA > titleB) {
+  //     return 1;
+  //   } else {
+  //     return 0;
+  //   }
+  // });
+
+  let cardsSorted = cards.reverse();
 
   // Remove existing cards from the container
   cards.forEach(function (card) {
@@ -127,27 +141,25 @@ function sortProductsAsc(oEvent) {
     });
   }
   setSortingOptionStyling(oEvent);
+  isSortedAlphabetically = true;
 }
 
 function sortProductsDesc(oEvent) {
+  if (!isSortedAlphabetically) return;
+
   var cardsContainer = document.querySelector(".productsContainer");
 
   // Get all card elements
-  if (!this.cards) {
-    this.cards = Array.from(cardsContainer.querySelectorAll(".tile"));
-  }
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
 
   // Sort cards based on their title
-  let cardsSorted = cards.toSorted(function (a, b) {
-    var titleA = a.querySelector(".tile-header").innerText.toUpperCase();
-    var titleB = b.querySelector(".tile-header").innerText.toUpperCase();
-    return -titleA.localeCompare(titleB);
-  });
+  cardsSorted = cards.reverse();
 
   // Remove existing cards from the container
-  cards.forEach(function (card) {
-    cardsContainer.removeChild(card);
-  });
+  cardsContainer.innerHTML = "";
+  // cards.forEach(function (card) {
+  //   cardsContainer.removeChild(card);
+  // });
 
   // Append sorted cards back to the container
   if (this.showAllProducts) {
@@ -166,6 +178,7 @@ function sortProductsDesc(oEvent) {
     });
   }
   setSortingOptionStyling(oEvent);
+  isSortedAlphabetically = false;
 }
 
 function sortProductsByPopularity(oEvent) {
@@ -451,4 +464,56 @@ function onAlphabetSelect(oEvent) {
     card.classList.remove("hiddenTile");
     trdCardsContainer.appendChild(card);
   });
+}
+
+// Walkthrough
+document.addEventListener("DOMContentLoaded", function () {
+  // Call the function to start the walkthrough
+  if (!sessionStorage.getItem("walkthroughShown")) {
+    sessionStorage.setItem("walkthroughShown", "true");
+    startWalkthrough();
+  }
+});
+
+function startWalkthrough() {
+  // Show the walkthrough for each step
+
+  var walkthroughSteps = [
+    {
+      element: "#searchform",
+      content:
+        "Use the global search to search for keywords across the entire SUSE documentation. The search results can further be filtered using product, version and category filters",
+    },
+    {
+      element: "#prod_solution_tab",
+      content:
+        "Select this tab to get the documentation of various SUSE products and solutions.You can also use the sorting options to sort the products and solutions tiles. ",
+    },
+    {
+      element: "#sbp_tab",
+      content:
+        "Select this tab to find SUSE best practises across different categories. ",
+    },
+    {
+      element: "#trd_tab",
+      content:
+        "Select this tab to get the technical reference documents for different partners. The alphabet bar in the section can be used to sort the partner list . ",
+    },
+    {
+      element: "#newest_tab",
+      content:
+        "Select this tab to find the newest articles on the SUSE documentation website ",
+    },
+    {
+      element: "#popular_tab",
+      content:
+        "Select this tab to find the most popular articles on the SUSE documentation website ",
+    },
+    {
+      element: "#featured_tab",
+      content: "Find the featured articles here",
+    },
+  ];
+
+  showWalkthrough(0, walkthroughSteps);
 }

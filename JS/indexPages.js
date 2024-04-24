@@ -209,6 +209,13 @@ function onFilterTRDAllSections(oEvent) {
   }
 }
 
+function onArticleClick(oEvent) {
+  let articleLink = oEvent.target
+    .closest(".articleText")
+    .getAttribute("data-article-link");
+  location.href = articleLink;
+}
+
 function onBackToHome(oEvent) {
   //based on the current page set the tab on the home page
 }
