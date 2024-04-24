@@ -113,3 +113,42 @@ var docTypeList = articlesListSanitisedTRD.reduce((acc, article) => {
 // add showNavigation - true or false; extract products that are to be shown in the navigation
 // extract SBP versions as category visit
 // show TRD versions as TRD list
+
+var sbpIndex = productsList.findIndex(
+  (obj) => obj.label === "SUSE Best Practices"
+);
+var categoriesList = productsList.splice(sbpIndex, 1).versions;
+
+//docserv JSON
+var mainSection = data.filter((obj) => obj["site - section"] === "main")[0];
+var productLine = mainSection.productline;
+var productInfo = mainSection.product;
+var productsList = Object.keys(productLine).map((prod) => {
+  let prodObj = {
+    label: productLine[prod],
+    description: productInfo[prod].description,
+    versions: [],
+  };
+  Object.keys(productInfo[prod]).forEach((path) => {
+    let versionObj = {
+      label:
+        productInfo[prod][path].acronym + " " + productInfo[prod][path].version,
+      pointingUrl: path,
+    };
+    prodObj.versions.push(versionObj);
+  });
+  return prodObj;
+});
+//correct in the first go!
+
+var sbpSection = data.filter((obj) => obj["site-section"] === "sbp")[0];
+var sbpList = sbpSection.product.sbp;
+var categoriesList = [];
+Object.keys(sbpList).forEach((path) => {
+  var categoryObj = {
+    label: sbpList[path].version,
+    description: sbpList[path].description,
+    pointingUrl: path,
+  };
+  categoriesList.push(categoryObj);
+});
