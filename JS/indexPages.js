@@ -233,3 +233,47 @@ function onArticleClick(oEvent) {
 function onBackToHome(oEvent) {
   //based on the current page set the tab on the home page
 }
+
+// Walkthrough
+document.addEventListener("DOMContentLoaded", function () {
+  // Call the function to start the walkthrough
+  if (!sessionStorage.getItem("walkthroughShown")) {
+    sessionStorage.setItem("walkthroughShown", "true");
+    startWalkthrough();
+  }
+});
+
+function startWalkthrough() {
+  // Show the walkthrough for each step
+
+  var walkthroughSteps = [
+    {
+      element: "#all_articles_tab",
+      content:
+        "This list contains all documents published for this category/product.",
+    },
+
+    {
+      element: "#newest_tab",
+      content:
+        "This list contains the most recently published or updated documents.",
+    },
+    {
+      element: "#filter_by_tasks_tab",
+      content:
+        "Explore the articles based on the task you want to perform. Expand or collapse all task listings at once or use the > icons to expand just the selected one. Further, filter the grouped articles by keywords contained in the article title or description.",
+    },
+    {
+      element: "#filter_by_products_tab",
+      content:
+        "Explore the articles related to a particular product. Expand or collapse all product listings at once or use the > icons to expand just the selected one. Further, filter the grouped articles by keywords contained in the article title or description.",
+    },
+    {
+      element: "#all_articles_filter",
+      content:
+        "Filter the list of articles by keywords contained in the article title or description.",
+    },
+  ];
+
+  showWalkthrough(0, walkthroughSteps);
+}

@@ -3,6 +3,7 @@
 {% from 'macros/Dropdown.html' import Dropdown %}
 {% from 'macros/ArticleTileIndexPage.html' import ArticleTileIndexPage%}
 {% from 'macros/Accordion.html' import Accordion%}
+{% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
 {# {% from 'processingFiles/SBP_category_filtering.jinja' import SBP_Filtering%} #}
 
 
@@ -287,7 +288,7 @@ map(attribute='name') | list }) %}
     <div id="allArticles-content" class="tab-content active-content">
         <form method="get" class="formHeader" {% if isTRD %} onsubmit="onFilterTRDAllSections(event)" {% else %}
             onsubmit="onFilterAllArticlesList(event)" {% endif %}>
-            <input type="search" id="search" class="searchInput filterInput" size="80"
+            <input type="search" id="all_articles_filter" class="searchInput filterInput" size="80"
                 placeholder="Filter the list by article title" {% if isTRD %} oninput="onFilterTRDAllSections(event)" {%
                 else %} oninput="onFilterAllArticlesList(event)" {% endif %} />
             <button type="submit" value="Search" title="Search" class="searchButton filterButton">
@@ -400,10 +401,13 @@ map(attribute='name') | list }) %}
 
         </div>
     </div>
+    {{WalkThroughDialog()}}
 </div>
+
 {%endblock body_main%}
 
 {% block after_body_scripts %}
 {{ super() }}
 <script src="../JS/indexPages.js"></script>
+<script src="../JS/walkThrough.js"></script>
 {% endblock after_body_scripts -%}

@@ -1,0 +1,19 @@
+{% macro WalkThroughDialog() %}
+<dialog id="walkThroughDialog" data-step="0">
+    <div class="tooltip-content">
+        <div class="dialog-header">
+            <img alt="SUSE Logo" src="../assets/SUSELogo.png" class="suseLogo-in-popup" />
+            <label>Walk-Through</label>
+            <button onclick="closeWalkThroughDialog(event)"> <i class="fa fa-times" title="Close"></i></button>
+        </div>
+        <p></p>
+        <div class="dialog-footer">
+            <button id="dialogPrevButton" onclick="showPreviousWalkthroughStep(event)"> <i class="fa fa-angle-left"></i>
+                Previous</button>
+            <button id="dialogNextButton" onclick="showNextWalkthroughStep(event)"> Next <i
+                    class="fa fa-angle-right"></i></button>
+            <button id="dialogCloseButton" onclick="closeWalkThroughDialog(event)"> Close </button>
+        </div>
+    </div>
+</dialog>
+{% endmacro %}

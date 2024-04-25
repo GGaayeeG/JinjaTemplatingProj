@@ -1,54 +1,11 @@
 //Walkthrough implementation
-document.addEventListener("DOMContentLoaded", function () {
-  // Call the function to start the walkthrough
-  if (!sessionStorage.getItem("walkthroughShown")) {
-    sessionStorage.setItem("walkthroughShown", "true");
-    startWalkthrough();
+
+function showWalkthrough(stepIndex, walkthroughSteps, toNext) {
+  if (walkthroughSteps) {
+    this.walkthroughSteps = walkthroughSteps;
+  } else {
+    walkthroughSteps = this.walkthroughSteps;
   }
-});
-
-function startWalkthrough() {
-  // Show the walkthrough for each step
-  showWalkthrough(0);
-}
-
-function showWalkthrough(stepIndex) {
-  var walkthroughSteps = [
-    {
-      element: "#searchform",
-      content:
-        "Use the global search to search for keywords across the entire SUSE documentation. The search results can further be filtered using product, version and category filters",
-    },
-    {
-      element: "#prod_solution_tab",
-      content:
-        "Select this tab to get the documentation of various SUSE products and solutions.You can also use the sorting options to sort the products and solutions tiles. ",
-    },
-    {
-      element: "#sbp_tab",
-      content:
-        "Select this tab to find SUSE best practises across different categories. ",
-    },
-    {
-      element: "#trd_tab",
-      content:
-        "Select this tab to get the technical reference documents for different partners. The alphabet bar in the section can be used to sort the partner list . ",
-    },
-    {
-      element: "#newest_tab",
-      content:
-        "Select this tab to find the newest articles on the SUSE documentation website ",
-    },
-    {
-      element: "#popular_tab",
-      content:
-        "Select this tab to find the most popular articles on the SUSE documentation website ",
-    },
-    {
-      element: "#featured_tab",
-      content: "Find the featured articles here",
-    },
-  ];
 
   if (stepIndex >= walkthroughSteps.length || stepIndex < 0) {
     // End of the walkthrough
@@ -67,6 +24,12 @@ function showWalkthrough(stepIndex) {
   walkThroughDialog.showModal();
 
   var targetElement = walkthroughSteps[stepIndex].element;
+  if (!document.querySelector(targetElement)) {
+    toNext
+      ? showWalkthrough(++walkThroughDialog.dataset.step)
+      : showWalkthrough(--walkThroughDialog.dataset.step);
+    return;
+  }
   walkThroughDialog.style.left = getWalkthroughDialogCoordinates(
     targetElement,
     walkThroughDialog
@@ -87,22 +50,26 @@ function showWalkthrough(stepIndex) {
   if (stepIndex == walkthroughSteps.length - 1) {
     walkThroughDialog.querySelector("#dialogNextButton").style.visibility =
       "hidden";
+    walkThroughDialog.querySelector("#dialogCloseButton").style.display =
+      "block";
   } else {
     walkThroughDialog.querySelector("#dialogNextButton").style.visibility =
       "visible";
+    walkThroughDialog.querySelector("#dialogCloseButton").style.display =
+      "none";
   }
 }
 
 function showNextWalkthroughStep(oEvent) {
   var walkThroughDialog = oEvent.target.closest("#walkThroughDialog");
   walkThroughDialog.close();
-  showWalkthrough(++walkThroughDialog.dataset.step);
+  showWalkthrough(++walkThroughDialog.dataset.step, "", true);
 }
 
 function showPreviousWalkthroughStep(oEvent) {
   var walkThroughDialog = oEvent.target.closest("#walkThroughDialog");
   walkThroughDialog.close();
-  showWalkthrough(--walkThroughDialog.dataset.step);
+  showWalkthrough(--walkThroughDialog.dataset.step, "", false);
 }
 
 function closeWalkThroughDialog(oEvent) {

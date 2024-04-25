@@ -5,6 +5,7 @@
 {% from 'macros/ProductTile.html' import ProductTile %}
 {% from 'macros/PartnerTile.html' import PartnerTile %}
 {% from 'macros/FeaturedTile.html' import FeaturedTile %}
+{% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
 {# {% from 'processingFiles/HomePageDataProcessing.jinja' import process_data%} #}
 {# {% from 'processingFiles/CreateDictionary.jinja' import create_dictionary%} #}
 
@@ -189,29 +190,12 @@
         <label id="popoverLabel"></label>
         <ul id="popoverList"></ul>
     </div>
-
-    <dialog id="walkThroughDialog" data-step="0">
-        <div class="tooltip-content">
-            <div class="dialog-header">
-                <img alt="SUSE Logo" src="../assets/SUSELogo.png" class="suseLogo-in-popup" />
-                <label>Walk-Through</label>
-                <button onclick="closeWalkThroughDialog(event)"> <i class="fa fa-times" title="Close"></i></button>
-            </div>
-            <p></p>
-            <div class="dialog-footer">
-                <button id="dialogPrevButton" onclick="showPreviousWalkthroughStep(event)"> <i
-                        class="fa fa-angle-left"></i>
-                    Previous</button>
-                <button id="dialogNextButton" onclick="showNextWalkthroughStep(event)"> Next <i
-                        class="fa fa-angle-right"></i></button>
-            </div>
-        </div>
-    </dialog>
+    {{WalkThroughDialog()}}
 </div>
 {%endblock body_main%}
 
 {% block after_body_scripts %}
 {{ super() }}
 <script src="../JS/homePage.js"></script>
-<script src="../JS/walkThrough.js"></script>
+<script src="../JS/walkThrough.js" defer></script>
 {% endblock after_body_scripts -%}

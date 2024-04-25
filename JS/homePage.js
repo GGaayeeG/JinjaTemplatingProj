@@ -480,38 +480,24 @@ function startWalkthrough() {
 
   var walkthroughSteps = [
     {
-      element: "#searchform",
+      element: "#search-input",
       content:
-        "Use the global search to search for keywords across the entire SUSE documentation. The search results can further be filtered using product, version and category filters",
+        "Search for keywords across the entire SUSE documentation. Refine your search using product, version and category filters",
     },
     {
       element: "#prod_solution_tab",
       content:
-        "Select this tab to get the documentation of various SUSE products and solutions.You can also use the sorting options to sort the products and solutions tiles. ",
+        "Select this tab to get the documentation for various SUSE products and solutions. Use the sorting options to sort the product and solution tiles.",
     },
     {
       element: "#sbp_tab",
       content:
-        "Select this tab to find SUSE best practises across different categories. ",
+        "Select this tab to find SUSE Best Practises across different categories. ",
     },
     {
       element: "#trd_tab",
       content:
-        "Select this tab to get the technical reference documents for different partners. The alphabet bar in the section can be used to sort the partner list . ",
-    },
-    {
-      element: "#newest_tab",
-      content:
-        "Select this tab to find the newest articles on the SUSE documentation website ",
-    },
-    {
-      element: "#popular_tab",
-      content:
-        "Select this tab to find the most popular articles on the SUSE documentation website ",
-    },
-    {
-      element: "#featured_tab",
-      content: "Find the featured articles here",
+        "Select this tab to get Technical Reference Documentation for different partners. To sort the list of partners, use the alphabet bar.",
     },
   ];
 
