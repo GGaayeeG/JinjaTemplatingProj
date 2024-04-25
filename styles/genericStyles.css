@@ -75,6 +75,7 @@ body {
 
 .searchInput {
   letter-spacing: 1px;
+  width: 100%;
 }
 
 /* Menubar */
@@ -236,11 +237,13 @@ dialog#walkThroughDialog .dialog-header {
 
 dialog#walkThroughDialog .dialog-header img {
   margin: 0;
+  width: 32px;
 }
 
 dialog#walkThroughDialog .dialog-header button {
   background: transparent;
   border: none;
+  outline: none;
   padding: 0.2rem;
   cursor: pointer;
 }
@@ -264,9 +267,13 @@ dialog#walkThroughDialog .tooltip-content {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  margin: 0;
+  margin: 10px;
   width: 14rem;
   position: relative;
+}
+
+dialog#walkThroughDialog .tooltip-content p {
+  font-size: 14px;
 }
 
 dialog#walkThroughDialog .tooltip-content::before {
@@ -278,6 +285,10 @@ dialog#walkThroughDialog .tooltip-content::before {
   border-style: solid;
   border-width: 0 10px 10px 10px;
   border-color: transparent transparent #fff transparent;
+}
+
+#dialogCloseButton {
+  display: none;
 }
 
 @media (max-width: 850px) {
