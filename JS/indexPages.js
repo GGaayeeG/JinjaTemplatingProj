@@ -118,14 +118,22 @@ function onFilterAccordionList(oEvent) {
     .closest(".accordion-item")
     .querySelector(".accordion-content");
   var listItems = accordionContent.querySelectorAll(".articleText a");
+  var listItemsDescriptions = accordionContent.querySelectorAll(
+    ".articleText .articleDescription"
+  );
+
   var visibleArticlesCount = 0;
 
   // Loop through the list items and hide/show based on the filter
   for (var i = 0; i < listItems.length; i++) {
     var itemText = listItems[i].textContent || listItems[i].innerText;
+    var itemDesc = listItemsDescriptions[i]?.innerText;
 
     // Case-insensitive comparison
-    if (itemText.toUpperCase().indexOf(filterValue) > -1) {
+    if (
+      itemText.toUpperCase().indexOf(filterValue) > -1 ||
+      itemDesc.toUpperCase().indexOf(filterValue) > -1
+    ) {
       listItems[i].closest(".articleRow").style.display = "";
       visibleArticlesCount++;
     } else {
