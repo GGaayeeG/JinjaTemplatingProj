@@ -277,10 +277,10 @@ function showVersionPopover(oEvent) {
     var versions = JSON.parse(oEvent.target.closest(".tile").dataset.versions);
   }
 
-  if (versions && !versions.length) {
+  if (versions && versions.length == 1) {
     //map to pointing URL...
-
-    window.open("./indexPage.html", "_self");
+    window.open(versions[0].pointingUrl, "_self");
+    // window.open("./indexPage.html", "_self");
   } else {
     setUpPopover(oEvent, versions, "Choose a version to proceed");
   }

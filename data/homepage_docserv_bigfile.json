@@ -21,7 +21,8 @@
       "sle-vmdp": "SUSE Linux Enterprise Virtual Machine Driver Pack",
       "suma": "SUSE Manager",
       "suma-retail": "SUSE Manager for Retail",
-      "soc": "SUSE OpenStack Cloud"
+      "soc": "SUSE OpenStack Cloud",
+      "smart-docs": "Smart Docs"
     },
     "product": {
       "appliance": {
@@ -512,6 +513,18 @@
           "name": "SUSE OpenStack Cloud",
           "acronym": "SOC",
           "version": "9",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        }
+      },
+      "smart-docs": {
+        "description": "Short articles on popular documentation topics, information at your fingertips",
+        "smart/": {
+          "setid": "",
+          "visible": true,
+          "name": "Smart Docs",
+          "acronym": "Smart Docs",
+          "version": "1",
           "hide-productname": false,
           "lifecycle": "supported"
         }
