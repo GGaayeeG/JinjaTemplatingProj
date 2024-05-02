@@ -117,7 +117,7 @@
             {% for category in categoriesList %}
             {{
             Tile(pointingUrl=category.pointingUrl,title=category.label,
-            description=category.description,
+            description = category.description | default(''),
             popoverItems= category.versions, isSBP='true',isTRD='false') }}
             {% endfor %}
         </div>
@@ -139,10 +139,10 @@
             {% set trdList = partnersList|sort(attribute='label') %}
             {% for partner in trdList %}
             {% if loop.index <= 8 %} {{ Tile(pointingUrl=partner.pointingUrl , title=partner.label,
-                description=partner.description, popoverItems=[], isTRD='true' , isSBP='false' ) }} {% endif %}{% if
-                loop.index>8 %} {{
+                description=partner.description | default(''), popoverItems=[], isTRD='true' , isSBP='false' ) }} {%
+                endif %}{% if loop.index>8 %} {{
                 Tile(pointingUrl=partner.pointingUrl , title=partner.label,
-                description=partner.description, popoverItems=[], isTRD='true' ,
+                description = partner.description | default(''), popoverItems=[], isTRD='true' ,
                 isSBP='false' , hidden='true' ) }} {% endif %}
                 {# {% if loop.index <= 8 %} {{ Tile(pointingUrl='' , title=partner.label,
                     description=partner.description, popoverItems=partner.docTypes, isTRD='true' , isSBP='false' ) }} {%
