@@ -41,6 +41,10 @@ body {
   margin: auto;
 }
 
+.pageHeading {
+  margin-top: 2rem;
+}
+
 /* Global search */
 .formHeader {
   display: flex;
@@ -48,7 +52,7 @@ body {
 }
 
 .standaloneSearch {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   width: 92%;
   margin-inline: auto;
 }
