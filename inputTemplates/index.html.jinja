@@ -89,8 +89,8 @@ selectattr('mentions.0.softwareVersion', 'equalto', '15 SP6') %} #}
 {% set articlesList = data | selectattr('isPartOf', 'defined') | selectattr('isPartOf.name', 'equalto',
 'Products & Solutions')|
 selectattr('mentions', 'defined')
-| selectattr('mentions.0.name', 'equalto', 'SUSE Linux Enterprise Server for SAP Applications') |
-selectattr('mentions.0.softwareVersion', 'equalto', '15 SP6')
+| selectattr('mentions.0.name', 'equalto', product) |
+selectattr('mentions.0.softwareVersion', 'equalto', version)
 %}
 
 {# Map the filtered articles to a new list with desired properties #}
@@ -280,11 +280,13 @@ map(attribute='name') | list }) %}
     <h1>{{partner}}</h1>
     {%endif%}
     {% if isSmartDocs%}
-    <h1>Smart Docs</h1>
+    <h1>SUSE Linux Enterprise 16</h1>
     {%endif%}
 
     <p>
+        {% if description%}
         {{description}}
+        {%endif%}
     </p>
     {{Divider()}}
     {{IndexPageMenu(isTRD)}}
