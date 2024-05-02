@@ -1,0 +1,848 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Podman Guide",
+    "description": "Basic operations on containers using Podman",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-04-03T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Container Management"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/article-podman_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/article-podman.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-podman/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Deploying SLE Micro in Public Clouds",
+    "description": "Learn how to deploy SLE Micro in public clouds. Learn how to add users to suit your needs.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-03-29T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "Thing",
+        "name": "Containerization"
+      },
+      {
+        "@type": "Thing",
+        "name": "Cloud"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/micro-clouds/html/SLE-Micro-public-cloud/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SLE Micro AutoYaST Guide",
+    "description": "Creating an AutoYaST profile to automatically deploy SLE Micro",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-04-03T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/book-deployment-slemicro_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-autoyast.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-autoyast/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Deployment Guide",
+    "description": "Deployment of SLE Micro using pre-built images and ISO installation files",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-04-03T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/book-deployment-slemicro_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-deployment-slemicro.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-deployment/#book-deployment-slemicro",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SLE Micro Security Guide",
+    "description": "The guide covers SELinux basics, FIPS and remote attestation using Keylime",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-04-03T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Security"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/SLE-Micro-security_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-security-slemicro.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-security/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SLE Micro Upgrade Guide",
+    "description": "Upgrade of SLE Micro from previous releases using the transactional-update command",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-04-03T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Upgrade & Update"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/book-upgrade-slemicro_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-upgrade-slemicro.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-upgrade/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.4",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Podman Guide",
+    "description": "Basic operations on containers using Podman",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Container Management"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-podman_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/article-podman.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-podman/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SLE Micro AutoYaST Guide",
+    "description": "Creating an AutoYaST profile to automatically deploy SLE Micro",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Maintenance"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Container Management"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-autoyast_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/book-autoyast.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-autoyast/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Deployment Guide",
+    "description": "Deployment of SLE Micro using pre-built images and ISO installation files",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-deployment_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/book-deployment-slemicro.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-deployment/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Security and Hardening Guide",
+    "description": "The security guide focuses on using SELinux, FIPS, and gives details about the remote attestation using the Keylime agent",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/security/pdf/micro-security_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/security/html/SLE-Micro-security/micro-security.html",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "Deploying SLE Micro in Public Clouds",
+    "description": "Learn how to deploy SLE Micro in public clouds. Learn how to add users to suit your needs.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-03-29T00:00+02:00",
+    "dateModified": "2024-03-28T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deployment"
+      },
+      {
+        "@type": "Thing",
+        "name": "Containerization"
+      },
+      {
+        "@type": "Thing",
+        "name": "Cloud"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/micro-clouds/html/SLE-Micro-public-cloud/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
+        "encodingFormat": "application/pdf"
+      }
+    ],
+    
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": [
+      "TechArticle"
+    ],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
+    "inLanguage": "en",
+    "headline": "SLE Micro Upgrade Guide",
+    "description": "Upgrade of SLE Micro from previous releases using the transactional-update command",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2023-10-26T00:00+02:00",
+    "dateModified": "2024-04-30T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Maintenance"
+      },
+      {
+        "@type": "Thing",
+        "name": "Configuration"
+      },
+      {
+        "@type": "Thing",
+        "name": "Container Management"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-upgrade_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/book-upgrade-slemicro.html",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-upgrade/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Linux Enterprise Micro",
+        "softwareVersion": "5.5",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }
+]
