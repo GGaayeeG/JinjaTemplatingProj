@@ -265,7 +265,8 @@ map(attribute='name') | list }) %}
 {% block body_main%}
 <div class="main-container indexPage">
     <div class="breadcrumbs-bar">
-        <a href="./homePage.html" onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+        <a href="{% if sbp %} /?tab=sbp {% elif isTRD %} /?tab=trd {% else %}  /?tab=products {% endif%}"
+            onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
             Home Page</a>
     </div>
     {# <h1>{{title}}</h1> #}

@@ -240,6 +240,14 @@ function onArticleClick(oEvent) {
 
 function onBackToHome(oEvent) {
   //based on the current page set the tab on the home page
+  // oEvent.preventDefault();
+  // if (isSBP) {
+  //   window.location.href = "../?tab=sbp";
+  // } else if (isTRD) {
+  //   window.location.href = "../?tab=trd";
+  // } else {
+  //   window.location.href = "../?tab=products";
+  // }
 }
 
 // Walkthrough
