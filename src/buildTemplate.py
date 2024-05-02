@@ -7,8 +7,10 @@ def generate_template():
     # Define the paths
     template_dir = 'inputTemplates'
     output_dir = 'outputFiles_BaseTemplates'
-    data_file_sbp = 'data/sdb_metadata.json'
-    data_file_products = 'data/slesforsap_metadata.json'
+    # data_file_sbp = 'data/sdb_metadata.json'
+    data_file_sbp = 'data/sbp_metadata_fixed.json'
+    data_file_products_slessap = 'data/slesforsap_metadata_corrected.json'
+    data_file_products_micro = 'data/sle_micro.json'
     # data_file_products = 'data/bigfile_metadata.json'
 
     # data_file_trd = 'data/trd_metadata.json'
@@ -18,7 +20,9 @@ def generate_template():
     data_file_homepage = 'data/homepage_docserv_bigfile.json'
     # data_file_homepage = 'data/homepage-data.json'
     # data_file_homepage = 'data/homePageData.json'
-    data_file_smartDocs = 'data/smart_metadata.json'
+
+    # data_file_smartDocs = 'data/smart_metadata.json'
+    data_file_smartDocs = 'data/sle16_smart_metadata.json'
 
     template_file = 'index.html.jinja'
     template_index_all_file = 'index-trd-all.html.jinja'
@@ -36,8 +40,11 @@ def generate_template():
     with open(data_file_sbp, 'r',encoding='utf-8') as f:
         dataSBP = json.load(f)
 
-    with open(data_file_products, 'r',encoding='utf-8') as f:
-        dataProducts = json.load(f)
+    with open(data_file_products_slessap, 'r',encoding='utf-8') as f:
+        dataProductsSLESSAP = json.load(f)
+
+    with open(data_file_products_micro, 'r',encoding='utf-8') as f:
+        dataProductsMicro = json.load(f)
 
     with open(data_file_trd, 'r',encoding='utf-8') as f:
         dataTRD = json.load(f)
@@ -53,7 +60,9 @@ def generate_template():
     # Render the template with data
     outputSystemsManagement = template.render(data=dataSBP,isSBP=True, category="Systems Management")
     outputContainerization = template.render(data=dataSBP,isSBP=True, category="Containerization")
-    outputSLESforSAP15SP6 = template.render(data=dataProducts,isProduct=True, product="SLES for SAP",version="15 SP6")
+    outputSLESforSAP15SP6 = template.render(data=dataProductsSLESSAP,isProduct=True, product="SUSE Linux Enterprise Server for SAP Applications",version="15 SP5")
+    outputSLEMicro5_5 =template.render(data=dataProductsMicro,isProduct=True, product="SUSE Linux Enterprise Micro",version="5.5")
+
     # outputIBMGS = template.render(data=dataTRD,isTRD=True, partner="IBM",docType="Getting Started")
     # outputIBMAll = template_index_all.render(data=dataTRD, isTRD=True, partner='IBM')
     outputIBM = template.render(data=dataTRD,isTRD=True, partner="IBM")
@@ -87,6 +96,13 @@ def generate_template():
     with open(output_path, 'w') as f:
         # f.write(outputSLESforSAP15SP6)
         soup = BeautifulSoup(outputSLESforSAP15SP6, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
+    output_path = os.path.join(output_dir, 'sleMicro5_5.html')
+    with open(output_path, 'w') as f:
+        # f.write(outputSLESforSAP15SP6)
+        soup = BeautifulSoup(outputSLEMicro5_5, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
