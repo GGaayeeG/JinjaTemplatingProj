@@ -395,15 +395,6 @@
           "version": "15 SP2",
           "hide-productname": false,
           "lifecycle": "supported"
-        },
-        "sles-sap/12-SP5": {
-          "setid": "12-SP5",
-          "visible": true,
-          "name": "SUSE Linux Enterprise Server for SAP Applications",
-          "acronym": "SLES for SAP",
-          "version": "12 SP5",
-          "hide-productname": false,
-          "lifecycle": "supported"
         }
       },
       "sle-vmdp": {
