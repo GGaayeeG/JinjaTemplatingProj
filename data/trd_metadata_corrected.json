@@ -50,17 +50,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_clastix-kamaji/",
+        "url": "/trd/kubernetes/html/gs_rancher_clastix-kamaji/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_clastix-kamaji_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_clastix-kamaji_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_clastix-kamaji/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_clastix-kamaji/",
         "encodingFormat": "text/html"
       }
     ],
@@ -81,7 +81,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -123,17 +123,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_edge-analytics_finance_stocks/",
+        "url": "/trd/kubernetes/html/gs_rancher_edge-analytics_finance_stocks/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_edge-analytics_finance_stocks_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_edge-analytics_finance_stocks_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_edge-analytics_finance_stocks/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_edge-analytics_finance_stocks/",
         "encodingFormat": "text/html"
       }
     ],
@@ -154,7 +154,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -196,17 +196,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_edge-analytics_healthcare_cancer-prediction/",
+        "url": "/trd/kubernetes/html/gs_rancher_edge-analytics_healthcare_cancer-prediction/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_edge-analytics_healthcare_cancer-prediction_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_edge-analytics_healthcare_cancer-prediction_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_edge-analytics_healthcare_cancer-prediction/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_edge-analytics_healthcare_cancer-prediction/",
         "encodingFormat": "text/html"
       }
     ],
@@ -227,7 +227,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -285,17 +285,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_kubeflow/",
+        "url": "/trd/kubernetes/html/gs_rancher_kubeflow/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_kubeflow_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_kubeflow_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_kubeflow/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_kubeflow/",
         "encodingFormat": "text/html"
       }
     ],
@@ -316,7 +316,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -362,17 +362,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_minio/",
+        "url": "/trd/kubernetes/html/gs_rancher_minio/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_minio_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_minio_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_minio/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_minio/",
         "encodingFormat": "text/html"
       }
     ],
@@ -393,7 +393,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -451,17 +451,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_ondat/",
+        "url": "/trd/kubernetes/html/gs_rancher_ondat/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_ondat_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_ondat_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_ondat/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_ondat/",
         "encodingFormat": "text/html"
       }
     ],
@@ -482,7 +482,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -540,17 +540,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rancher_veeam-kasten/",
+        "url": "/trd/kubernetes/html/gs_rancher_veeam-kasten/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rancher_veeam-kasten_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rancher_veeam-kasten_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rancher_veeam-kasten/",
+        "url": "/trd/kubernetes/single-html/gs_rancher_veeam-kasten/",
         "encodingFormat": "text/html"
       }
     ],
@@ -571,7 +571,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -613,17 +613,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/gs_rke2-slebci_nvidia-gpu-operator/",
+        "url": "/trd/kubernetes/html/gs_rke2-slebci_nvidia-gpu-operator/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/gs_rke2-slebci_nvidia-gpu-operator_en.pdf",
+        "url": "/trd/kubernetes/pdf/gs_rke2-slebci_nvidia-gpu-operator_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/gs_rke2-slebci_nvidia-gpu-operator/",
+        "url": "/trd/kubernetes/single-html/gs_rke2-slebci_nvidia-gpu-operator/",
         "encodingFormat": "text/html"
       }
     ],
@@ -659,7 +659,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -701,17 +701,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_ibm-hpvs/",
+        "url": "/trd/linux/html/gs_sles_ibm-hpvs/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_ibm-hpvs_en.pdf",
+        "url": "/trd/linux/pdf/gs_sles_ibm-hpvs_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_ibm-hpvs/",
+        "url": "/trd/linux/single-html/gs_sles_ibm-hpvs/",
         "encodingFormat": "text/html"
       }
     ],
@@ -733,7 +733,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -783,17 +783,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_jupyter-jupyterlab_container/",
+        "url": "/trd/linux/html/gs_sles_jupyter-jupyterlab_container/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_jupyter-jupyterlab_container_en.pdf",
+        "url": "/trd/linux/pdf/gs_sles_jupyter-jupyterlab_container_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_jupyter-jupyterlab_container/",
+        "url": "/trd/linux/single-html/gs_sles_jupyter-jupyterlab_container/",
         "encodingFormat": "text/html"
       }
     ],
@@ -814,7 +814,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -863,17 +863,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/html/gs_sles_jupyter-jupyterlab/",
+        "url": "/trd/linux/html/gs_sles_jupyter-jupyterlab/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/pdf/gs_sles_jupyter-jupyterlab_en.pdf",
+        "url": "/trd/linux/pdf/gs_sles_jupyter-jupyterlab_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/single-html/gs_sles_jupyter-jupyterlab/",
+        "url": "/trd/linux/single-html/gs_sles_jupyter-jupyterlab/",
         "encodingFormat": "text/html"
       }
     ],
@@ -894,7 +894,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -952,17 +952,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/html/gs_suma_msp/",
+        "url": "/trd/linux/html/gs_suma_msp/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/pdf/gs_suma_msp_en.pdf",
+        "url": "/trd/linux/pdf/gs_suma_msp_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/single-html/gs_suma_msp/",
+        "url": "/trd/linux/single-html/gs_suma_msp/",
         "encodingFormat": "text/html"
       }
     ],
@@ -983,7 +983,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1022,17 +1022,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_ampere-altra/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_ampere-altra/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_ampere-altra_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_ampere-altra_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_ampere-altra/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_ampere-altra/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1053,7 +1053,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1092,17 +1092,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_cisco-c240-sd/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_cisco-c240-sd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_cisco-c240-sd_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_cisco-c240-sd_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_cisco-c240-sd/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_cisco-c240-sd/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1123,7 +1123,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1162,17 +1162,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_dell-poweredge/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_dell-poweredge/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_dell-poweredge_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_dell-poweredge_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_dell-poweredge/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_dell-poweredge/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1193,7 +1193,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1232,17 +1232,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1263,7 +1263,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1302,17 +1302,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_hpq-zcentral4r_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_hpq-zcentral4r_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1333,7 +1333,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1372,17 +1372,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_lnvgy-se350-se450/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1403,7 +1403,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1442,17 +1442,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_smci-superserver/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-slemicro_smci-superserver/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_smci-superserver_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-slemicro_smci-superserver_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_smci-superserver/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-slemicro_smci-superserver/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1473,7 +1473,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1512,17 +1512,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_ampere-altra/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_ampere-altra/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_ampere-altra_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_ampere-altra_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_ampere-altra/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_ampere-altra/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1543,7 +1543,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1582,17 +1582,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_cisco-c240-sd_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_cisco-c240-sd_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1613,7 +1613,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1652,17 +1652,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_dell-poweredge_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_dell-poweredge_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1683,7 +1683,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1722,17 +1722,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_hpe-proliant-synergy_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_hpe-proliant-synergy_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1753,7 +1753,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1792,17 +1792,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_hpq-zcentral4r_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_hpq-zcentral4r_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1823,7 +1823,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1862,17 +1862,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_lnvgy-se350-se450/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_lnvgy-se350-se450/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_lnvgy-se350-se450_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_lnvgy-se350-se450_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_lnvgy-se350-se450/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_lnvgy-se350-se450/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1893,7 +1893,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1932,17 +1932,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_k3s-sles_smci-superserver/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_k3s-sles_smci-superserver/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_smci-superserver_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_k3s-sles_smci-superserver_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_smci-superserver/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_k3s-sles_smci-superserver/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1963,7 +1963,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2002,17 +2002,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_cisco-c240-sd/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2033,7 +2033,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2072,17 +2072,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_dell-poweredge/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2103,7 +2103,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2142,17 +2142,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2173,7 +2173,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2212,17 +2212,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2243,7 +2243,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2282,17 +2282,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_smci-superserver/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-slemicro_smci-superserver/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_smci-superserver_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-slemicro_smci-superserver_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_smci-superserver/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-slemicro_smci-superserver/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2313,7 +2313,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2352,17 +2352,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2383,7 +2383,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2422,17 +2422,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_dell-poweredge_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_dell-poweredge_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2453,7 +2453,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2492,17 +2492,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2523,7 +2523,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2562,17 +2562,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2593,7 +2593,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2632,17 +2632,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_smci-superserver/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rancher-k3s-sles_smci-superserver/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_smci-superserver_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rancher-k3s-sles_smci-superserver_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_smci-superserver/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rancher-k3s-sles_smci-superserver/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2663,7 +2663,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2702,17 +2702,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_ampere-altra/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke1-sles_ampere-altra/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_ampere-altra_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_ampere-altra_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_ampere-altra/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_ampere-altra/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2733,7 +2733,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2772,17 +2772,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke1-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_cisco-c240-sd_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_cisco-c240-sd_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2803,7 +2803,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2842,17 +2842,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke1-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_dell-poweredge_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_dell-poweredge_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2873,7 +2873,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2912,17 +2912,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke1-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_hpe-proliant-synergy_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_hpe-proliant-synergy_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2943,7 +2943,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2982,17 +2982,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke1-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_hpq-zcentral4r_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_hpq-zcentral4r_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3013,7 +3013,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3052,17 +3052,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke1-sles_smci-superserver/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke1-sles_smci-superserver/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_smci-superserver_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke1-sles_smci-superserver_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_smci-superserver/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke1-sles_smci-superserver/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3083,7 +3083,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3122,17 +3122,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke2-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_cisco-c240-sd_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_cisco-c240-sd_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_cisco-c240-sd/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_cisco-c240-sd/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3153,7 +3153,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3192,17 +3192,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke2-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_dell-poweredge_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_dell-poweredge_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_dell-poweredge/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_dell-poweredge/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3223,7 +3223,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3262,17 +3262,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke2-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_hpe-proliant-synergy_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_hpe-proliant-synergy_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_hpe-proliant-synergy/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_hpe-proliant-synergy/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3293,7 +3293,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3332,17 +3332,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke2-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_hpq-zcentral4r_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_hpq-zcentral4r_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_hpq-zcentral4r/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_hpq-zcentral4r/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3363,7 +3363,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3402,17 +3402,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_rc_rke2-sles_smci-superserver/",
+        "url": "/trd/kubernetes/html/kubernetes_rc_rke2-sles_smci-superserver/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_smci-superserver_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_rc_rke2-sles_smci-superserver_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_smci-superserver/",
+        "url": "/trd/kubernetes/single-html/kubernetes_rc_rke2-sles_smci-superserver/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3433,7 +3433,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3472,17 +3472,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_k3s-slemicro/",
+        "url": "/trd/kubernetes/html/kubernetes_ri_k3s-slemicro/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_k3s-slemicro_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_ri_k3s-slemicro_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_k3s-slemicro/",
+        "url": "/trd/kubernetes/single-html/kubernetes_ri_k3s-slemicro/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3503,7 +3503,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3542,17 +3542,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_k3s-sles/",
+        "url": "/trd/kubernetes/html/kubernetes_ri_k3s-sles/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_k3s-sles_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_ri_k3s-sles_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_k3s-sles/",
+        "url": "/trd/kubernetes/single-html/kubernetes_ri_k3s-sles/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3573,7 +3573,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3612,17 +3612,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rancher-k3s-slemicro/",
+        "url": "/trd/kubernetes/html/kubernetes_ri_rancher-k3s-slemicro/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rancher-k3s-slemicro_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_ri_rancher-k3s-slemicro_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rancher-k3s-slemicro/",
+        "url": "/trd/kubernetes/single-html/kubernetes_ri_rancher-k3s-slemicro/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3643,7 +3643,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3682,17 +3682,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rancher-k3s-sles/",
+        "url": "/trd/kubernetes/html/kubernetes_ri_rancher-k3s-sles/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rancher-k3s-sles_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_ri_rancher-k3s-sles_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rancher-k3s-sles/",
+        "url": "/trd/kubernetes/single-html/kubernetes_ri_rancher-k3s-sles/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3713,7 +3713,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3752,17 +3752,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rke1-sles/",
+        "url": "/trd/kubernetes/html/kubernetes_ri_rke1-sles/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rke1-sles_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_ri_rke1-sles_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rke1-sles/",
+        "url": "/trd/kubernetes/single-html/kubernetes_ri_rke1-sles/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3783,7 +3783,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3822,17 +3822,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/html/kubernetes_ri_rke2-sles/",
+        "url": "/trd/kubernetes/html/kubernetes_ri_rke2-sles/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/pdf/kubernetes_ri_rke2-sles_en.pdf",
+        "url": "/trd/kubernetes/pdf/kubernetes_ri_rke2-sles_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/kubernetes/single-html/kubernetes_ri_rke2-sles/",
+        "url": "/trd/kubernetes/single-html/kubernetes_ri_rke2-sles/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3853,7 +3853,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3890,17 +3890,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/html/linux_gs_slessap_fortinet_azure_landscape-automation/",
+        "url": "/trd/linux/html/linux_gs_slessap_fortinet_azure_landscape-automation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/pdf/linux_gs_slessap_fortinet_azure_landscape-automation_en.pdf",
+        "url": "/trd/linux/pdf/linux_gs_slessap_fortinet_azure_landscape-automation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/single-html/linux_gs_slessap_fortinet_azure_landscape-automation/",
+        "url": "/trd/linux/single-html/linux_gs_slessap_fortinet_azure_landscape-automation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3921,7 +3921,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3963,17 +3963,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/html/linux_gs_wordpress-lamp-sles/",
+        "url": "/trd/linux/html/linux_gs_wordpress-lamp-sles/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/pdf/linux_gs_wordpress-lamp-sles_en.pdf",
+        "url": "/trd/linux/pdf/linux_gs_wordpress-lamp-sles_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/linux/single-html/linux_gs_wordpress-lamp-sles/",
+        "url": "/trd/linux/single-html/linux_gs_wordpress-lamp-sles/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3994,7 +3994,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4044,17 +4044,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/contributors/html/suse-trd_contrib-guide/",
+        "url": "/trd/contributors/html/suse-trd_contrib-guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/contributors/pdf/suse-trd_contrib-guide_en.pdf",
+        "url": "/trd/contributors/pdf/suse-trd_contrib-guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/trd/contributors/single-html/suse-trd_contrib-guide/",
+        "url": "/trd/contributors/single-html/suse-trd_contrib-guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4075,7 +4075,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"

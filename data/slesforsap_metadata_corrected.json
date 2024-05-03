@@ -48,17 +48,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/12-SP5/html/SLES4SAP-guide/",
+        "url": "/sles-sap/12-SP5/html/SLES4SAP-guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/12-SP5/pdf/SLES4SAP-guide_en.pdf",
+        "url": "/sles-sap/12-SP5/pdf/SLES4SAP-guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/12-SP5/single-html/SLES4SAP-guide/",
+        "url": "/sles-sap/12-SP5/single-html/SLES4SAP-guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -80,7 +80,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -124,17 +124,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-sol-automation/",
+        "url": "/sles-sap/15-SP2/html/SLES-SAP-sol-automation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-sol-automation_en.pdf",
+        "url": "/sles-sap/15-SP2/pdf/SLES-SAP-sol-automation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-sol-automation/",
+        "url": "/sles-sap/15-SP2/single-html/SLES-SAP-sol-automation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -156,7 +156,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -192,17 +192,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-sol-monitoring/",
+        "url": "/sles-sap/15-SP2/html/SLES-SAP-sol-monitoring/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-sol-monitoring_en.pdf",
+        "url": "/sles-sap/15-SP2/pdf/SLES-SAP-sol-monitoring_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-sol-monitoring/",
+        "url": "/sles-sap/15-SP2/single-html/SLES-SAP-sol-monitoring/",
         "encodingFormat": "text/html"
       }
     ],
@@ -224,7 +224,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -280,17 +280,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP2/html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-guide_en.pdf",
+        "url": "/sles-sap/15-SP2/pdf/SLES-SAP-guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP2/single-html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -312,7 +312,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -352,17 +352,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-quick/",
+        "url": "/sles-sap/15-SP2/html/SLES-SAP-quick/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/pdf/SLES-SAP-quick_en.pdf",
+        "url": "/sles-sap/15-SP2/pdf/SLES-SAP-quick_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP2/single-html/SLES-SAP-quick/",
+        "url": "/sles-sap/15-SP2/single-html/SLES-SAP-quick/",
         "encodingFormat": "text/html"
       }
     ],
@@ -384,7 +384,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -428,17 +428,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/html/SLES-SAP-automation/",
+        "url": "/sles-sap/15-SP3/html/SLES-SAP-automation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/pdf/SLES-SAP-automation_en.pdf",
+        "url": "/sles-sap/15-SP3/pdf/SLES-SAP-automation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/single-html/SLES-SAP-automation/",
+        "url": "/sles-sap/15-SP3/single-html/SLES-SAP-automation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -460,7 +460,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -496,17 +496,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/html/SLES-SAP-monitoring/",
+        "url": "/sles-sap/15-SP3/html/SLES-SAP-monitoring/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/pdf/SLES-SAP-monitoring_en.pdf",
+        "url": "/sles-sap/15-SP3/pdf/SLES-SAP-monitoring_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/single-html/SLES-SAP-monitoring/",
+        "url": "/sles-sap/15-SP3/single-html/SLES-SAP-monitoring/",
         "encodingFormat": "text/html"
       }
     ],
@@ -528,7 +528,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -555,17 +555,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/trento/html/SLES-SAP-trento/",
+        "url": "/sles-sap/trento/html/SLES-SAP-trento/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/trento/pdf/SLES-SAP-trento_en.pdf",
+        "url": "/sles-sap/trento/pdf/SLES-SAP-trento_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/trento/single-html/SLES-SAP-trento/",
+        "url": "/sles-sap/trento/single-html/SLES-SAP-trento/",
         "encodingFormat": "text/html"
       }
     ],
@@ -578,7 +578,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -634,17 +634,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP3/html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/pdf/SLES-SAP-guide_en.pdf",
+        "url": "/sles-sap/15-SP3/pdf/SLES-SAP-guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/single-html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP3/single-html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -666,7 +666,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -706,17 +706,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/html/SLES-SAP-installation/",
+        "url": "/sles-sap/15-SP3/html/SLES-SAP-installation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/pdf/SLES-SAP-installation_en.pdf",
+        "url": "/sles-sap/15-SP3/pdf/SLES-SAP-installation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP3/single-html/SLES-SAP-installation/",
+        "url": "/sles-sap/15-SP3/single-html/SLES-SAP-installation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -738,7 +738,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -782,17 +782,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/html/SLES-SAP-automation/",
+        "url": "/sles-sap/15-SP4/html/SLES-SAP-automation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/pdf/SLES-SAP-automation_en.pdf",
+        "url": "/sles-sap/15-SP4/pdf/SLES-SAP-automation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/single-html/SLES-SAP-automation/",
+        "url": "/sles-sap/15-SP4/single-html/SLES-SAP-automation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -814,7 +814,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -850,17 +850,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/html/SLES-SAP-monitoring/",
+        "url": "/sles-sap/15-SP4/html/SLES-SAP-monitoring/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/pdf/SLES-SAP-monitoring_en.pdf",
+        "url": "/sles-sap/15-SP4/pdf/SLES-SAP-monitoring_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/single-html/SLES-SAP-monitoring/",
+        "url": "/sles-sap/15-SP4/single-html/SLES-SAP-monitoring/",
         "encodingFormat": "text/html"
       }
     ],
@@ -882,7 +882,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -909,17 +909,17 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/trento/html/SLES-SAP-trento/",
+        "url": "/sles-sap/trento/html/SLES-SAP-trento/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/trento/pdf/SLES-SAP-trento_en.pdf",
+        "url": "/sles-sap/trento/pdf/SLES-SAP-trento_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/trento/single-html/SLES-SAP-trento/",
+        "url": "/sles-sap/trento/single-html/SLES-SAP-trento/",
         "encodingFormat": "text/html"
       }
     ],
@@ -932,7 +932,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -988,17 +988,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP4/html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/pdf/SLES-SAP-guide_en.pdf",
+        "url": "/sles-sap/15-SP4/pdf/SLES-SAP-guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/single-html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP4/single-html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1020,7 +1020,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1060,17 +1060,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/html/SLES-SAP-installation/",
+        "url": "/sles-sap/15-SP4/html/SLES-SAP-installation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/pdf/SLES-SAP-installation_en.pdf",
+        "url": "/sles-sap/15-SP4/pdf/SLES-SAP-installation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP4/single-html/SLES-SAP-installation/",
+        "url": "/sles-sap/15-SP4/single-html/SLES-SAP-installation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1092,7 +1092,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1136,17 +1136,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-automation/",
+        "url": "/sles-sap/15-SP5/html/SLES-SAP-automation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-automation_en.pdf",
+        "url": "/sles-sap/15-SP5/pdf/SLES-SAP-automation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-automation/",
+        "url": "/sles-sap/15-SP5/single-html/SLES-SAP-automation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1168,7 +1168,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1204,17 +1204,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-monitoring/",
+        "url": "/sles-sap/15-SP5/html/SLES-SAP-monitoring/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-monitoring_en.pdf",
+        "url": "/sles-sap/15-SP5/pdf/SLES-SAP-monitoring_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-monitoring/",
+        "url": "/sles-sap/15-SP5/single-html/SLES-SAP-monitoring/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1236,7 +1236,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1292,17 +1292,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP5/html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf",
+        "url": "/sles-sap/15-SP5/pdf/SLES-SAP-guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-guide/",
+        "url": "/sles-sap/15-SP5/single-html/SLES-SAP-guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1324,7 +1324,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1364,17 +1364,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/html/SLES-SAP-installation/",
+        "url": "/sles-sap/15-SP5/html/SLES-SAP-installation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf",
+        "url": "/sles-sap/15-SP5/pdf/SLES-SAP-installation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sles-sap/15-SP5/single-html/SLES-SAP-installation/",
+        "url": "/sles-sap/15-SP5/single-html/SLES-SAP-installation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1396,7 +1396,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
