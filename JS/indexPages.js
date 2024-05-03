@@ -195,7 +195,7 @@ function onFilterTRDAllSections(oEvent) {
 
   Array.from(articleSections).forEach((section) => {
     var listItems = section.querySelectorAll(".articleText a");
-    var listItemsDescriptions = sections.querySelectorAll(
+    var listItemsDescriptions = section.querySelectorAll(
       ".articleText .articleDescription"
     );
     var sectionVisible = false;
