@@ -292,7 +292,7 @@ function setUpPopover(oEvent, versions, popoverTitle) {
   const popoverList = document.getElementById("popoverList");
 
   // Set the logo source
-  popoverLogo.src = "../assets/SUSElogo.png";
+  // popoverLogo.src = "../assets/SUSElogo.png";
 
   // Set the label content
   popoverLabel.innerText = popoverTitle;
