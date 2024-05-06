@@ -126,8 +126,15 @@
     <div id="trd-content" class="tab-content">
         <div class="trdContainer">
             {% set alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | list %}
+            {% set starting_letters = [] %}
+            {% for partner in partnersList|sort(attribute='label') %}
+            {% set first_letter = partner.label[0] %}
+            {% if first_letter not in starting_letters %}
+            {% set _ = starting_letters.append(first_letter) %}
+            {% endif %}
+            {% endfor %}
             <ul class="alphabeticalSelector" onclick="onAlphabetSelect(event)">
-                {% for letter in alphabets %}
+                {% for letter in starting_letters %}
                 <li class="{{'selectedAlphabet' if letter == 'A' else '' }}">
                     {{ letter }}
                 </li>
