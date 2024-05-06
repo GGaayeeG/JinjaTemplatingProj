@@ -419,39 +419,79 @@ const modalEL = window.addEventListener("click", function (oEvent) {
   }
 });
 
+function onAlphabetSelectO(oEvent) {
+  var selectedAlphabet = oEvent.target.innerText;
+
+  // Highlight the selected alphabet
+  var alphabetsContainer = oEvent.target.closest(".alphabeticalSelector");
+  Array.from(alphabetsContainer.children).forEach((li) => {
+    li.children[0].classList.toggle(
+      "selectedAlphabet",
+      li.innerText === selectedAlphabet
+    );
+  });
+
+  // Get all card elements
+  var trdCardsContainer = document.querySelector(".trdContainer");
+  var trdCards = Array.from(trdCardsContainer.querySelectorAll(".tile"));
+
+  // Filter cards based on the selected alphabet
+  var filteredCards = trdCards.filter((card) => {
+    return card
+      .querySelector(".tile-header")
+      .innerText.trim()
+      .toUpperCase()
+      .startsWith(selectedAlphabet);
+  });
+
+  // Clear container and append filtered cards
+  trdCardsContainer.innerHTML = "";
+  filteredCards.slice(0, 8).forEach(function (card) {
+    card.classList.remove("hiddenTile");
+    trdCardsContainer.appendChild(card);
+  });
+  filteredCards.slice(8).forEach(function (card) {
+    card.classList.add("hiddenTile");
+    trdCardsContainer.appendChild(card);
+  });
+}
+
 // TRD alphabetical sorting
 function onAlphabetSelect(oEvent) {
+  if (oEvent.target.tagName != "LI") return;
   var selectedAlphabet = oEvent.target.innerText;
   var alphabetsContainer = oEvent.target.closest(".alphabeticalSelector");
   Array.from(alphabetsContainer.children).forEach((li) => {
     if (li.innerText == selectedAlphabet) {
-      li.children[0].classList.add("selectedAlphabet");
+      li.classList.add("selectedAlphabet");
     } else {
-      li.children[0].classList.remove("selectedAlphabet");
+      li.classList.remove("selectedAlphabet");
     }
   });
 
   var trdCardsContainer = document.querySelector(".trdContainer");
   // Get all card elements
   var trdCards = Array.from(trdCardsContainer.querySelectorAll(".tile"));
-  var sortedCards = trdCards.sort((a, b) => {
-    let titleA = a.querySelector(".tile-header").innerText[0];
-    let titleB = b.querySelector(".tile-header").innerText[0];
+  var sortedCards = trdCards.toSorted((a, b) => {
+    let titleA = a.querySelector(".tile-header").innerText.trim();
+    let titleB = b.querySelector(".tile-header").innerText.trim();
     return titleA.localeCompare(titleB);
   });
+
   var alphabetIndex = sortedCards.findIndex((element) => {
     return (
-      element.querySelector(".tile-header").innerText[0] >= selectedAlphabet
+      element.querySelector(".tile-header").innerText.trim()[0] >=
+      selectedAlphabet
     );
   });
   var rearrangedCards;
   if (alphabetIndex != -1) {
     rearrangedCards = [
-      ...trdCards.slice(alphabetIndex),
-      ...trdCards.slice(0, alphabetIndex),
+      ...sortedCards.slice(alphabetIndex),
+      ...sortedCards.slice(0, alphabetIndex),
     ];
   } else {
-    rearrangedCards = trdCards;
+    rearrangedCards = sortedCards;
   }
 
   // Remove existing cards from the container
@@ -462,6 +502,10 @@ function onAlphabetSelect(oEvent) {
   // Append sorted cards back to the container
   rearrangedCards.slice(0, 8).forEach(function (card) {
     card.classList.remove("hiddenTile");
+    trdCardsContainer.appendChild(card);
+  });
+  rearrangedCards.slice(8).forEach(function (card) {
+    card.classList.add("hiddenTile");
     trdCardsContainer.appendChild(card);
   });
 }

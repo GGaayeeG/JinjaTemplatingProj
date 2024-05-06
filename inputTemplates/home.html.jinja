@@ -126,7 +126,14 @@
     <div id="trd-content" class="tab-content">
         <div class="trdContainer">
             {% set alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | list %}
-            <ul class="alphabeticalSelector">
+            <ul class="alphabeticalSelector" onclick="onAlphabetSelect(event)">
+                {% for letter in alphabets %}
+                <li class="{{'selectedAlphabet' if letter == 'A' else '' }}">
+                    {{ letter }}
+                </li>
+                {% endfor %}
+            </ul>
+            {# <ul class="alphabeticalSelector">
                 {% for letter in alphabets %}
                 <li>
                     <button onclick="onAlphabetSelect(event)" class="{{'selectedAlphabet' if letter == 'A' else '' }}">
@@ -134,7 +141,7 @@
                     </button>
                 </li>
                 {% endfor %}
-            </ul>
+            </ul> #}
 
             {% set trdList = partnersList|sort(attribute='label') %}
             {% for partner in trdList %}
