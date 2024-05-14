@@ -52,6 +52,15 @@ a.tile {
   text-decoration: none;
 }
 
+.tile .tile-header {
+  /* font-size: 1rem; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
 .tile .sub-content {
   font-size: 16px;
   font-weight: 300;
@@ -87,6 +96,16 @@ a.tile {
   min-height: 12rem;
   margin-bottom: 2rem;
   position: relative;
+}
+
+.categoriesContainer .tile,
+.trdContainer .tile {
+  height: 9rem;
+}
+
+.categoriesContainer .tile-header,
+.trdContainer .tile-header {
+  padding-left: 1rem;
 }
 
 .explore-list-button {
@@ -179,15 +198,6 @@ a.tile {
 .featured-tile-text {
   margin-inline: 1rem;
   margin-bottom: 1rem;
-}
-
-.tile-header {
-  /* font-size: 1rem; */
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  margin-top: 1rem;
-  cursor: pointer;
 }
 
 /* Popover */
