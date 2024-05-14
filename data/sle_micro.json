@@ -32,17 +32,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/article-podman_en.pdf",
+        "url": "/sle-micro/5.4/pdf/article-podman_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/article-podman.html",
+        "url": "/sle-micro/5.4/html/SLE-Micro-all/article-podman.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-podman/",
+        "url": "/sle-micro/5.4/single-html/SLE-Micro-podman/",
         "encodingFormat": "text/html"
       }
     ],
@@ -64,7 +64,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -108,12 +108,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/micro-clouds/html/SLE-Micro-public-cloud/",
+        "url": "/smart/micro-clouds/html/SLE-Micro-public-cloud/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
+        "url": "/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -136,7 +136,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -176,17 +176,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/book-deployment-slemicro_en.pdf",
+        "url": "/sle-micro/5.4/pdf/book-deployment-slemicro_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-autoyast.html",
+        "url": "/sle-micro/5.4/html/SLE-Micro-all/book-autoyast.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-autoyast/",
+        "url": "/sle-micro/5.4/single-html/SLE-Micro-autoyast/",
         "encodingFormat": "text/html"
       }
     ],
@@ -208,7 +208,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -244,17 +244,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/book-deployment-slemicro_en.pdf",
+        "url": "/sle-micro/5.4/pdf/book-deployment-slemicro_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-deployment-slemicro.html",
+        "url": "/sle-micro/5.4/html/SLE-Micro-all/book-deployment-slemicro.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-deployment/#book-deployment-slemicro",
+        "url": "/sle-micro/5.4/single-html/SLE-Micro-deployment/#book-deployment-slemicro",
         "encodingFormat": "text/html"
       }
     ],
@@ -276,7 +276,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -312,17 +312,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/SLE-Micro-security_en.pdf",
+        "url": "/sle-micro/5.4/pdf/SLE-Micro-security_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-security-slemicro.html",
+        "url": "/sle-micro/5.4/html/SLE-Micro-all/book-security-slemicro.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-security/",
+        "url": "/sle-micro/5.4/single-html/SLE-Micro-security/",
         "encodingFormat": "text/html"
       }
     ],
@@ -344,7 +344,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -380,17 +380,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/pdf/book-upgrade-slemicro_en.pdf",
+        "url": "/sle-micro/5.4/pdf/book-upgrade-slemicro_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/html/SLE-Micro-all/book-upgrade-slemicro.html",
+        "url": "/sle-micro/5.4/html/SLE-Micro-all/book-upgrade-slemicro.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.4/single-html/SLE-Micro-upgrade/",
+        "url": "/sle-micro/5.4/single-html/SLE-Micro-upgrade/",
         "encodingFormat": "text/html"
       }
     ],
@@ -412,7 +412,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -452,17 +452,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-podman_en.pdf",
+        "url": "/sle-micro/5.5/pdf/SLE-Micro-podman_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/article-podman.html",
+        "url": "/sle-micro/5.5/html/SLE-Micro-all/article-podman.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-podman/",
+        "url": "/sle-micro/5.5/single-html/SLE-Micro-podman/",
         "encodingFormat": "text/html"
       }
     ],
@@ -484,7 +484,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -532,17 +532,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-autoyast_en.pdf",
+        "url": "/sle-micro/5.5/pdf/SLE-Micro-autoyast_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/book-autoyast.html",
+        "url": "/sle-micro/5.5/html/SLE-Micro-all/book-autoyast.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-autoyast/",
+        "url": "/sle-micro/5.5/single-html/SLE-Micro-autoyast/",
         "encodingFormat": "text/html"
       }
     ],
@@ -564,7 +564,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -600,17 +600,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-deployment_en.pdf",
+        "url": "/sle-micro/5.5/pdf/SLE-Micro-deployment_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/book-deployment-slemicro.html",
+        "url": "/sle-micro/5.5/html/SLE-Micro-all/book-deployment-slemicro.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-deployment/",
+        "url": "/sle-micro/5.5/single-html/SLE-Micro-deployment/",
         "encodingFormat": "text/html"
       }
     ],
@@ -632,7 +632,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -659,12 +659,12 @@
     "about": [
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/security/pdf/micro-security_en.pdf",
+        "url": "/smart/security/pdf/micro-security_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/security/html/SLE-Micro-security/micro-security.html",
+        "url": "/smart/security/html/SLE-Micro-security/micro-security.html",
         "encodingFormat": "text/html"
       }
     ],
@@ -686,7 +686,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -730,12 +730,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/micro-clouds/html/SLE-Micro-public-cloud/",
+        "url": "/smart/micro-clouds/html/SLE-Micro-public-cloud/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
+        "url": "/smart/micro-clouds/pdf/SLE-Micro-public-cloud_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -758,7 +758,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -806,17 +806,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/pdf/SLE-Micro-upgrade_en.pdf",
+        "url": "/sle-micro/5.5/pdf/SLE-Micro-upgrade_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/html/SLE-Micro-all/book-upgrade-slemicro.html",
+        "url": "/sle-micro/5.5/html/SLE-Micro-all/book-upgrade-slemicro.html",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sle-micro/5.5/single-html/SLE-Micro-upgrade/",
+        "url": "/sle-micro/5.5/single-html/SLE-Micro-upgrade/",
         "encodingFormat": "text/html"
       }
     ],
@@ -838,7 +838,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"

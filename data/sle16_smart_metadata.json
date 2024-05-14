@@ -27,12 +27,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/concept-klp/",
+        "url": "/smart/deploy-upgrade/html/concept-klp/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/concept-klp_en.pdf",
+        "url": "/smart/deploy-upgrade/pdf/concept-klp_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -54,7 +54,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -85,12 +85,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/concept-zypper/",
+        "url": "/smart/systems-management/html/concept-zypper/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/concept-zypper_en.pdf",
+        "url": "/smart/systems-management/pdf/concept-zypper_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -112,7 +112,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -152,12 +152,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systemtuning-performance/html/cpu-check-temperature/",
+        "url": "/smart/systemtuning-performance/html/cpu-check-temperature/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systemtuning-performance/pdf/cpu-check-temperature_en.pdf",
+        "url": "/smart/systemtuning-performance/pdf/cpu-check-temperature_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -179,7 +179,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -219,12 +219,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/html/forward-root-mail/",
+        "url": "/smart/network/html/forward-root-mail/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/pdf/forward-root-mail_en.pdf",
+        "url": "/smart/network/pdf/forward-root-mail_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -246,7 +246,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -286,12 +286,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/freeradius-setup-server/",
+        "url": "/smart/deploy-upgrade/html/freeradius-setup-server/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/freeradius-setup-server_en.pdf",
+        "url": "/smart/deploy-upgrade/pdf/freeradius-setup-server_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -313,7 +313,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -357,12 +357,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/deploy-upgrade/html/http-boot-setting-up-server/",
+        "url": "/smart/deploy-upgrade/html/http-boot-setting-up-server/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/deploy-upgrade/pdf/http-boot-setting-up-server_en.pdf",
+        "url": "/smart/deploy-upgrade/pdf/http-boot-setting-up-server_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -384,7 +384,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -428,12 +428,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/manage-vm-on-commandline/",
+        "url": "/smart/virtualization-cloud/html/manage-vm-on-commandline/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/manage-vm-on-commandline_en.pdf",
+        "url": "/smart/virtualization-cloud/pdf/manage-vm-on-commandline_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -455,7 +455,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -491,12 +491,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/minimal-vm/",
+        "url": "/smart/virtualization-cloud/html/minimal-vm/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/minimal-vm_en.pdf",
+        "url": "/smart/virtualization-cloud/pdf/minimal-vm_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -518,7 +518,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -558,12 +558,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/html/network-bond-managing-devices/",
+        "url": "/smart/network/html/network-bond-managing-devices/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/pdf/network-bond-managing-devices_en.pdf",
+        "url": "/smart/network/pdf/network-bond-managing-devices_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -585,7 +585,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -625,12 +625,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/html/network-interface-predictable-naming/",
+        "url": "/smart/network/html/network-interface-predictable-naming/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/pdf/network-interface-predictable-naming_en.pdf",
+        "url": "/smart/network/pdf/network-interface-predictable-naming_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -652,7 +652,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -692,12 +692,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/html/network-team-managing-devices/",
+        "url": "/smart/network/html/network-team-managing-devices/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/pdf/network-team-managing-devices_en.pdf",
+        "url": "/smart/network/pdf/network-team-managing-devices_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -719,7 +719,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -755,12 +755,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/html/ntp-time-synchronization/",
+        "url": "/smart/network/html/ntp-time-synchronization/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/pdf/ntp-time-synchronization_en.pdf",
+        "url": "/smart/network/pdf/ntp-time-synchronization_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -782,7 +782,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -822,12 +822,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/security/html/PAM-security/",
+        "url": "/smart/security/html/PAM-security/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/security/pdf/PAM-security_en.pdf",
+        "url": "/smart/security/pdf/PAM-security_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -849,7 +849,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -880,12 +880,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-enable-disable-services/",
+        "url": "/smart/systems-management/html/reference-systemctl-enable-disable-services/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-systemctl-enable-disable-services_en.pdf",
+        "url": "/smart/systems-management/pdf/reference-systemctl-enable-disable-services_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -907,7 +907,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -938,12 +938,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/reference-managing-systemd-targets-systemctl/",
+        "url": "/smart/systems-management/html/reference-managing-systemd-targets-systemctl/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-managing-systemd-targets-systemctl_en.pdf",
+        "url": "/smart/systems-management/pdf/reference-managing-systemd-targets-systemctl_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -965,7 +965,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -996,12 +996,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/reference-systemctl-start-stop-services/",
+        "url": "/smart/systems-management/html/reference-systemctl-start-stop-services/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-systemctl-start-stop-services_en.pdf",
+        "url": "/smart/systems-management/pdf/reference-systemctl-start-stop-services_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1023,7 +1023,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1058,12 +1058,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/reference-zypper-install/",
+        "url": "/smart/systems-management/html/reference-zypper-install/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/reference-zypper-install_en.pdf",
+        "url": "/smart/systems-management/pdf/reference-zypper-install_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1085,7 +1085,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1125,12 +1125,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/container/html/rootless-podman/",
+        "url": "/smart/container/html/rootless-podman/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/container/pdf/rootless-podman_en.pdf",
+        "url": "/smart/container/pdf/rootless-podman_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1152,7 +1152,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1192,12 +1192,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/snapper-basic-concepts/",
+        "url": "/smart/systems-management/html/snapper-basic-concepts/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/snapper-basic-concepts_en.pdf",
+        "url": "/smart/systems-management/pdf/snapper-basic-concepts_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1219,7 +1219,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1259,12 +1259,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/html/subnet-manager-configuring/",
+        "url": "/smart/network/html/subnet-manager-configuring/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/network/pdf/subnet-manager-configuring_en.pdf",
+        "url": "/smart/network/pdf/subnet-manager-configuring_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1286,7 +1286,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1326,12 +1326,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/sudo-configure-superuser-privileges/",
+        "url": "/smart/systems-management/html/sudo-configure-superuser-privileges/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/sudo-configure-superuser-privileges_en.pdf",
+        "url": "/smart/systems-management/pdf/sudo-configure-superuser-privileges_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1353,7 +1353,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1393,12 +1393,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/sudo-run-commands-as-superuser/",
+        "url": "/smart/systems-management/html/sudo-run-commands-as-superuser/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/sudo-run-commands-as-superuser_en.pdf",
+        "url": "/smart/systems-management/pdf/sudo-run-commands-as-superuser_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1420,7 +1420,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1464,12 +1464,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/supportconfig/",
+        "url": "/smart/systems-management/html/supportconfig/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/supportconfig_en.pdf",
+        "url": "/smart/systems-management/pdf/supportconfig_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1491,7 +1491,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1531,12 +1531,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/systemd-basics/",
+        "url": "/smart/systems-management/html/systemd-basics/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/systemd-basics_en.pdf",
+        "url": "/smart/systems-management/pdf/systemd-basics_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1558,7 +1558,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1602,12 +1602,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/security/html/systemd-securing/",
+        "url": "/smart/security/html/systemd-securing/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/security/pdf/systemd-securing_en.pdf",
+        "url": "/smart/security/pdf/systemd-securing_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1629,7 +1629,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1681,12 +1681,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/systemd-working-with-timers/",
+        "url": "/smart/systems-management/html/systemd-working-with-timers/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/systemd-working-with-timers_en.pdf",
+        "url": "/smart/systems-management/pdf/systemd-working-with-timers_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1708,7 +1708,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1743,12 +1743,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/task-configure-virtual-machine-manager/",
+        "url": "/smart/virtualization-cloud/html/task-configure-virtual-machine-manager/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/task-configure-virtual-machine-manager_en.pdf",
+        "url": "/smart/virtualization-cloud/pdf/task-configure-virtual-machine-manager_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1770,7 +1770,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1805,12 +1805,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/task-debug-failed-systemd-services/",
+        "url": "/smart/systems-management/html/task-debug-failed-systemd-services/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/task-debug-failed-systemd-services_en.pdf",
+        "url": "/smart/systems-management/pdf/task-debug-failed-systemd-services_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1832,7 +1832,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1867,12 +1867,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/task-modify-kernel-boot-parameter/",
+        "url": "/smart/systems-management/html/task-modify-kernel-boot-parameter/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/task-modify-kernel-boot-parameter_en.pdf",
+        "url": "/smart/systems-management/pdf/task-modify-kernel-boot-parameter_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1894,7 +1894,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1929,12 +1929,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/task-send-termination-signals-systemd/",
+        "url": "/smart/systems-management/html/task-send-termination-signals-systemd/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/task-send-termination-signals-systemd_en.pdf",
+        "url": "/smart/systems-management/pdf/task-send-termination-signals-systemd_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -1956,7 +1956,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1992,12 +1992,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/html/ulp-livepatching/",
+        "url": "/smart/systems-management/html/ulp-livepatching/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/systems-management/pdf/ulp-livepatching_en.pdf",
+        "url": "/smart/systems-management/pdf/ulp-livepatching_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -2019,7 +2019,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2055,12 +2055,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/virt-scenario-creating-customized-vm-guests/",
+        "url": "/smart/virtualization-cloud/html/virt-scenario-creating-customized-vm-guests/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/virt-scenario-creating-customized-vm-guests_en.pdf",
+        "url": "/smart/virtualization-cloud/pdf/virt-scenario-creating-customized-vm-guests_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -2082,7 +2082,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2118,12 +2118,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/virtual-disk-cache-mode-configure/",
+        "url": "/smart/virtualization-cloud/html/virtual-disk-cache-mode-configure/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/virtual-disk-cache-mode-configure_en.pdf",
+        "url": "/smart/virtualization-cloud/pdf/virtual-disk-cache-mode-configure_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -2145,7 +2145,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2181,12 +2181,12 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/html/vm-assign-pci-device/",
+        "url": "/smart/virtualization-cloud/html/vm-assign-pci-device/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/smart/virtualization-cloud/pdf/vm-assign-pci-device_en.pdf",
+        "url": "/smart/virtualization-cloud/pdf/vm-assign-pci-device_en.pdf",
         "encodingFormat": "application/pdf"
       }
     ],
@@ -2209,7 +2209,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"

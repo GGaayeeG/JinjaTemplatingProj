@@ -33,8 +33,7 @@
     "datePublished": "2019-12-05T00:00+02:00",
     "dateModified": "2024-04-12T00:00+02:00",
     "articleSection": [
-      "Containerization",
-      ""
+      "Containerization"
     ],
     "about": [
       {
@@ -51,17 +50,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/CaaSP3-DataHub2/",
+        "url": "/sbp/container-virtualization/html/CaaSP3-DataHub2/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/CaaSP3-DataHub2_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/CaaSP3-DataHub2_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/CaaSP3-DataHub2/",
+        "url": "/sbp/container-virtualization/single-html/CaaSP3-DataHub2/",
         "encodingFormat": "text/html"
       }
     ],
@@ -104,7 +103,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -178,17 +177,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-AMD-EPYC-2-SLES15SP1/",
+        "url": "/sbp/server-linux/html/SBP-AMD-EPYC-2-SLES15SP1/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-AMD-EPYC-2-SLES15SP1_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-AMD-EPYC-2-SLES15SP1_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-AMD-EPYC-2-SLES15SP1/",
+        "url": "/sbp/server-linux/single-html/SBP-AMD-EPYC-2-SLES15SP1/",
         "encodingFormat": "text/html"
       }
     ],
@@ -217,7 +216,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -283,17 +282,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-AMD-EPYC-3-SLES15SP2/",
+        "url": "/sbp/server-linux/html/SBP-AMD-EPYC-3-SLES15SP2/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-AMD-EPYC-3-SLES15SP2_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-AMD-EPYC-3-SLES15SP2_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-AMD-EPYC-3-SLES15SP2/",
+        "url": "/sbp/server-linux/single-html/SBP-AMD-EPYC-3-SLES15SP2/",
         "encodingFormat": "text/html"
       }
     ],
@@ -322,7 +321,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -380,17 +379,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-AMD-EPYC-4-SLES15SP4/",
+        "url": "/sbp/server-linux/html/SBP-AMD-EPYC-4-SLES15SP4/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-AMD-EPYC-4-SLES15SP4_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-AMD-EPYC-4-SLES15SP4_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-AMD-EPYC-4-SLES15SP4/",
+        "url": "/sbp/server-linux/single-html/SBP-AMD-EPYC-4-SLES15SP4/",
         "encodingFormat": "text/html"
       }
     ],
@@ -419,7 +418,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -493,17 +492,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-AMD-EPYC-SLES12SP3/",
+        "url": "/sbp/server-linux/html/SBP-AMD-EPYC-SLES12SP3/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-AMD-EPYC-SLES12SP3_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-AMD-EPYC-SLES12SP3_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-AMD-EPYC-SLES12SP3/",
+        "url": "/sbp/server-linux/single-html/SBP-AMD-EPYC-SLES12SP3/",
         "encodingFormat": "text/html"
       }
     ],
@@ -532,7 +531,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -591,17 +590,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/",
+        "url": "/sbp/cloud-computing/html/SBP-CSP-UpdateInfra/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/cloud-computing/pdf/SBP-CSP-UpdateInfra_en.pdf",
+        "url": "/sbp/cloud-computing/pdf/SBP-CSP-UpdateInfra_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/cloud-computing/single-html/SBP-CSP-UpdateInfra/",
+        "url": "/sbp/cloud-computing/single-html/SBP-CSP-UpdateInfra/",
         "encodingFormat": "text/html"
       }
     ],
@@ -636,7 +635,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -698,17 +697,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-DRBD/",
+        "url": "/sbp/server-linux/html/SBP-DRBD/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-DRBD_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-DRBD_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-DRBD/",
+        "url": "/sbp/server-linux/single-html/SBP-DRBD/",
         "encodingFormat": "text/html"
       }
     ],
@@ -744,7 +743,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -827,17 +826,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-GCC-10/",
+        "url": "/sbp/server-linux/html/SBP-GCC-10/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-GCC-10_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-GCC-10_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-GCC-10/",
+        "url": "/sbp/server-linux/single-html/SBP-GCC-10/",
         "encodingFormat": "text/html"
       }
     ],
@@ -866,7 +865,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -949,17 +948,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-GCC-11/",
+        "url": "/sbp/server-linux/html/SBP-GCC-11/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-GCC-11_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-GCC-11_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-GCC-11/",
+        "url": "/sbp/server-linux/single-html/SBP-GCC-11/",
         "encodingFormat": "text/html"
       }
     ],
@@ -988,7 +987,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1063,17 +1062,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-GCC-12/",
+        "url": "/sbp/server-linux/html/SBP-GCC-12/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-GCC-12_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-GCC-12_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-GCC-12/",
+        "url": "/sbp/server-linux/single-html/SBP-GCC-12/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1109,7 +1108,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1164,17 +1163,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SBP-HANAonKVM-SLES12SP2/",
+        "url": "/sbp/sap-12/html/SBP-HANAonKVM-SLES12SP2/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SBP-HANAonKVM-SLES12SP2_en.pdf",
+        "url": "/sbp/sap-12/pdf/SBP-HANAonKVM-SLES12SP2_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SBP-HANAonKVM-SLES12SP2/",
+        "url": "/sbp/sap-12/single-html/SBP-HANAonKVM-SLES12SP2/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1203,7 +1202,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1249,17 +1248,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-intelsupport/",
+        "url": "/sbp/server-linux/html/SBP-intelsupport/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-intelsupport_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-intelsupport_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-intelsupport/",
+        "url": "/sbp/server-linux/single-html/SBP-intelsupport/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1302,7 +1301,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1344,17 +1343,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual/",
+        "url": "/sbp/server-linux/html/SBP-KMP-Manual/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-KMP-Manual_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-KMP-Manual_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-KMP-Manual/",
+        "url": "/sbp/server-linux/single-html/SBP-KMP-Manual/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1390,7 +1389,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1432,17 +1431,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-KMP-Manual-SLE12SP2/",
+        "url": "/sbp/server-linux/html/SBP-KMP-Manual-SLE12SP2/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-KMP-Manual-SLE12SP2_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-KMP-Manual-SLE12SP2_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-KMP-Manual-SLE12SP2/",
+        "url": "/sbp/server-linux/single-html/SBP-KMP-Manual-SLE12SP2/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1527,7 +1526,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1593,7 +1592,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1639,17 +1638,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-Multi-PXE-Install/",
+        "url": "/sbp/systems-management/html/SBP-Multi-PXE-Install/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-Multi-PXE-Install_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-Multi-PXE-Install_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-Multi-PXE-Install/",
+        "url": "/sbp/systems-management/single-html/SBP-Multi-PXE-Install/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1691,7 +1690,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1745,17 +1744,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-oraclerac/",
+        "url": "/sbp/server-linux/html/SBP-oraclerac/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-oraclerac_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-oraclerac_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-oraclerac/",
+        "url": "/sbp/server-linux/single-html/SBP-oraclerac/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1784,7 +1783,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1838,17 +1837,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-oracleweblogic/",
+        "url": "/sbp/server-linux/html/SBP-oracleweblogic/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-oracleweblogic_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-oracleweblogic_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-oracleweblogic/",
+        "url": "/sbp/server-linux/single-html/SBP-oracleweblogic/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1877,7 +1876,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -1931,17 +1930,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-OracleWeblogic-SLES12SP3/",
+        "url": "/sbp/server-linux/html/SBP-OracleWeblogic-SLES12SP3/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-OracleWeblogic-SLES12SP3_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-OracleWeblogic-SLES12SP3_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-OracleWeblogic-SLES12SP3/",
+        "url": "/sbp/server-linux/single-html/SBP-OracleWeblogic-SLES12SP3/",
         "encodingFormat": "text/html"
       }
     ],
@@ -1970,7 +1969,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2012,17 +2011,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-performance-tuning/",
+        "url": "/sbp/server-linux/html/SBP-performance-tuning/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-performance-tuning_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-performance-tuning_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-performance-tuning/",
+        "url": "/sbp/server-linux/single-html/SBP-performance-tuning/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2079,7 +2078,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2122,17 +2121,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-Quilting-OSC/",
+        "url": "/sbp/systems-management/html/SBP-Quilting-OSC/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-Quilting-OSC_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-Quilting-OSC_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-Quilting-OSC/",
+        "url": "/sbp/systems-management/single-html/SBP-Quilting-OSC/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2188,7 +2187,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2243,17 +2242,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/storage/html/SBP-rook-ceph-kubernetes/",
+        "url": "/sbp/storage/html/SBP-rook-ceph-kubernetes/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/storage/pdf/SBP-rook-ceph-kubernetes_en.pdf",
+        "url": "/sbp/storage/pdf/SBP-rook-ceph-kubernetes_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/storage/single-html/SBP-rook-ceph-kubernetes/",
+        "url": "/sbp/storage/single-html/SBP-rook-ceph-kubernetes/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2274,7 +2273,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2329,17 +2328,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SLES12SP3-rpiquick/",
+        "url": "/sbp/systems-management/html/SLES12SP3-rpiquick/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SLES12SP3-rpiquick_en.pdf",
+        "url": "/sbp/systems-management/pdf/SLES12SP3-rpiquick_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SLES12SP3-rpiquick/",
+        "url": "/sbp/systems-management/single-html/SLES12SP3-rpiquick/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2374,7 +2373,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2416,17 +2415,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-RPM-Packaging/",
+        "url": "/sbp/systems-management/html/SBP-RPM-Packaging/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-RPM-Packaging_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-RPM-Packaging_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-RPM-Packaging/",
+        "url": "/sbp/systems-management/single-html/SBP-RPM-Packaging/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2503,7 +2502,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2550,17 +2549,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SBP-SAP-AzureSolutionTemplates/",
+        "url": "/sbp/sap-12/html/SBP-SAP-AzureSolutionTemplates/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SBP-SAP-AzureSolutionTemplates_en.pdf",
+        "url": "/sbp/sap-12/pdf/SBP-SAP-AzureSolutionTemplates_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SBP-SAP-AzureSolutionTemplates/",
+        "url": "/sbp/sap-12/single-html/SBP-SAP-AzureSolutionTemplates/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2603,7 +2602,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2645,17 +2644,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/",
+        "url": "/sbp/systems-management/html/SBP-SLE15-Custom-Installation-Medium/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE15-Custom-Installation-Medium_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-SLE15-Custom-Installation-Medium_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE15-Custom-Installation-Medium/",
+        "url": "/sbp/systems-management/single-html/SBP-SLE15-Custom-Installation-Medium/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2712,7 +2711,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2758,17 +2757,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/",
+        "url": "/sbp/systems-management/html/SBP-SLE-OffLine-Upgrade-Local-Boot/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-SLE-OffLine-Upgrade-Local-Boot_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-SLE-OffLine-Upgrade-Local-Boot_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-SLE-OffLine-Upgrade-Local-Boot/",
+        "url": "/sbp/systems-management/single-html/SBP-SLE-OffLine-Upgrade-Local-Boot/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2846,7 +2845,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -2897,17 +2896,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-SLES-MFAD/",
+        "url": "/sbp/server-linux/html/SBP-SLES-MFAD/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-SLES-MFAD_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLES-MFAD/",
+        "url": "/sbp/server-linux/single-html/SBP-SLES-MFAD/",
         "encodingFormat": "text/html"
       }
     ],
@@ -2949,7 +2948,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3003,17 +3002,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-SLSA4/",
+        "url": "/sbp/server-linux/html/SBP-SLSA4/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-SLSA4_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-SLSA4_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-SLSA4/",
+        "url": "/sbp/server-linux/single-html/SBP-SLSA4/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3034,7 +3033,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3125,17 +3124,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-Spectre-Meltdown-L1TF/",
+        "url": "/sbp/server-linux/html/SBP-Spectre-Meltdown-L1TF/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-Spectre-Meltdown-L1TF_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-Spectre-Meltdown-L1TF_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-Spectre-Meltdown-L1TF/",
+        "url": "/sbp/server-linux/single-html/SBP-Spectre-Meltdown-L1TF/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3198,7 +3197,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3248,17 +3247,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/",
+        "url": "/sbp/systems-management/html/SBP-SUMA-on-IBM-PowerVM/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-SUMA-on-IBM-PowerVM_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/",
+        "url": "/sbp/systems-management/single-html/SBP-SUMA-on-IBM-PowerVM/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3322,7 +3321,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3364,17 +3363,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/html/SBP-susemanager/",
+        "url": "/sbp/systems-management/html/SBP-susemanager/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/pdf/SBP-susemanager_en.pdf",
+        "url": "/sbp/systems-management/pdf/SBP-susemanager_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/systems-management/single-html/SBP-susemanager/",
+        "url": "/sbp/systems-management/single-html/SBP-susemanager/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3437,7 +3436,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3483,17 +3482,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-SUSE-oem-identification/",
+        "url": "/sbp/server-linux/html/SBP-SUSE-oem-identification/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-SUSE-oem-identification_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-SUSE-oem-identification_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-SUSE-oem-identification/",
+        "url": "/sbp/server-linux/single-html/SBP-SUSE-oem-identification/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3564,7 +3563,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3610,17 +3609,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-SUSE-security-report-2021/",
+        "url": "/sbp/server-linux/html/SBP-SUSE-security-report-2021/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-SUSE-security-report-2021_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-SUSE-security-report-2021_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-SUSE-security-report-2021/",
+        "url": "/sbp/server-linux/single-html/SBP-SUSE-security-report-2021/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3641,7 +3640,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3687,17 +3686,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/html/SBP-SUSE-security-report-2022/",
+        "url": "/sbp/server-linux/html/SBP-SUSE-security-report-2022/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/pdf/SBP-SUSE-security-report-2022_en.pdf",
+        "url": "/sbp/server-linux/pdf/SBP-SUSE-security-report-2022_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/server-linux/single-html/SBP-SUSE-security-report-2022/",
+        "url": "/sbp/server-linux/single-html/SBP-SUSE-security-report-2022/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3718,7 +3717,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3776,17 +3775,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_SP2_and_later/",
+        "url": "/sbp/sap-15/html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_SP2_and_later/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_SP2_and_later_en.pdf",
+        "url": "/sbp/sap-15/pdf/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_SP2_and_later_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_SP2_and_later/",
+        "url": "/sbp/sap-15/single-html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_SP2_and_later/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3843,7 +3842,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3901,17 +3900,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES12/",
+        "url": "/sbp/sap-12/html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES12/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/OS_Security_Hardening_Guide_for_SAP_HANA_SLES12_en.pdf",
+        "url": "/sbp/sap-12/pdf/OS_Security_Hardening_Guide_for_SAP_HANA_SLES12_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES12/",
+        "url": "/sbp/sap-12/single-html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES12/",
         "encodingFormat": "text/html"
       }
     ],
@@ -3940,7 +3939,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -3998,17 +3997,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15/",
+        "url": "/sbp/sap-15/html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_en.pdf",
+        "url": "/sbp/sap-15/pdf/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15/",
+        "url": "/sbp/sap-15/single-html/OS_Security_Hardening_Guide_for_SAP_HANA_SLES15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4037,7 +4036,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4096,17 +4095,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/RKE2-SAP-DI31/",
+        "url": "/sbp/container-virtualization/html/RKE2-SAP-DI31/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/RKE2-SAP-DI31_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/RKE2-SAP-DI31_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/RKE2-SAP-DI31/",
+        "url": "/sbp/container-virtualization/single-html/RKE2-SAP-DI31/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4148,7 +4147,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4207,17 +4206,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/RKE-SAP-DI31/",
+        "url": "/sbp/container-virtualization/html/RKE-SAP-DI31/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/RKE-SAP-DI31_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/RKE-SAP-DI31_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/RKE-SAP-DI31/",
+        "url": "/sbp/container-virtualization/single-html/RKE-SAP-DI31/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4259,7 +4258,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4318,17 +4317,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAPDI3-RKE2-Installation/",
+        "url": "/sbp/sap-15/html/SAPDI3-RKE2-Installation/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAPDI3-RKE2-Installation_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAPDI3-RKE2-Installation_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAPDI3-RKE2-Installation/",
+        "url": "/sbp/sap-15/single-html/SAPDI3-RKE2-Installation/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4370,7 +4369,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4429,17 +4428,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAPDI3-SUSE-VMWare-VSAN/",
+        "url": "/sbp/sap-15/html/SAPDI3-SUSE-VMWare-VSAN/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAPDI3-SUSE-VMWare-VSAN_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAPDI3-SUSE-VMWare-VSAN_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAPDI3-SUSE-VMWare-VSAN/",
+        "url": "/sbp/sap-15/single-html/SAPDI3-SUSE-VMWare-VSAN/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4481,7 +4480,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4540,17 +4539,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAPDI-RKE-Harvester/",
+        "url": "/sbp/sap-15/html/SAPDI-RKE-Harvester/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAPDI-RKE-Harvester_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAPDI-RKE-Harvester_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAPDI-RKE-Harvester/",
+        "url": "/sbp/sap-15/single-html/SAPDI-RKE-Harvester/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4598,7 +4597,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4672,17 +4671,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SAP_HA740_SetupGuide_AWS/",
+        "url": "/sbp/sap-12/html/SAP_HA740_SetupGuide_AWS/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SAP_HA740_SetupGuide_AWS_en.pdf",
+        "url": "/sbp/sap-12/pdf/SAP_HA740_SetupGuide_AWS_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SAP_HA740_SetupGuide_AWS/",
+        "url": "/sbp/sap-12/single-html/SAP_HA740_SetupGuide_AWS/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4711,7 +4710,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4793,17 +4792,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAP-NetWeaver-7.50-SLE-15-Setup-Guide-AliCloud/",
+        "url": "/sbp/sap-15/html/SAP-NetWeaver-7.50-SLE-15-Setup-Guide-AliCloud/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAP-NetWeaver-7.50-SLE-15-Setup-Guide-AliCloud_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAP-NetWeaver-7.50-SLE-15-Setup-Guide-AliCloud_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAP-NetWeaver-7.50-SLE-15-Setup-Guide-AliCloud/",
+        "url": "/sbp/sap-15/single-html/SAP-NetWeaver-7.50-SLE-15-Setup-Guide-AliCloud/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4832,7 +4831,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4886,17 +4885,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SAP_NW740_SLE12_SetupGuide/",
+        "url": "/sbp/sap-12/html/SAP_NW740_SLE12_SetupGuide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SAP_NW740_SLE12_SetupGuide_en.pdf",
+        "url": "/sbp/sap-12/pdf/SAP_NW740_SLE12_SetupGuide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SAP_NW740_SLE12_SetupGuide/",
+        "url": "/sbp/sap-12/single-html/SAP_NW740_SLE12_SetupGuide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -4925,7 +4924,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -4987,17 +4986,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAP-nw740-sle15-setupguide/",
+        "url": "/sbp/sap-15/html/SAP-nw740-sle15-setupguide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAP-nw740-sle15-setupguide_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAP-nw740-sle15-setupguide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAP-nw740-sle15-setupguide/",
+        "url": "/sbp/sap-15/single-html/SAP-nw740-sle15-setupguide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5026,7 +5025,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5088,17 +5087,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAP-S4HA10-setupguide-simplemount-sle15/",
+        "url": "/sbp/sap-15/html/SAP-S4HA10-setupguide-simplemount-sle15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAP-S4HA10-setupguide-simplemount-sle15_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAP-S4HA10-setupguide-simplemount-sle15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAP-S4HA10-setupguide-simplemount-sle15/",
+        "url": "/sbp/sap-15/single-html/SAP-S4HA10-setupguide-simplemount-sle15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5127,7 +5126,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5181,17 +5180,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SAP_S4HA10_SetupGuide-SLE12/",
+        "url": "/sbp/sap-12/html/SAP_S4HA10_SetupGuide-SLE12/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SAP_S4HA10_SetupGuide-SLE12_en.pdf",
+        "url": "/sbp/sap-12/pdf/SAP_S4HA10_SetupGuide-SLE12_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SAP_S4HA10_SetupGuide-SLE12/",
+        "url": "/sbp/sap-12/single-html/SAP_S4HA10_SetupGuide-SLE12/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5220,7 +5219,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5274,17 +5273,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SAP-S4HA10-setupguide-sle15/",
+        "url": "/sbp/sap-15/html/SAP-S4HA10-setupguide-sle15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SAP-S4HA10-setupguide-sle15_en.pdf",
+        "url": "/sbp/sap-15/pdf/SAP-S4HA10-setupguide-sle15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SAP-S4HA10-setupguide-sle15/",
+        "url": "/sbp/sap-15/single-html/SAP-S4HA10-setupguide-sle15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5313,7 +5312,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5364,17 +5363,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/SBP-CaaSP4-SAP-Data-Hub-2/",
+        "url": "/sbp/container-virtualization/html/SBP-CaaSP4-SAP-Data-Hub-2/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/SBP-CaaSP4-SAP-Data-Hub-2_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/SBP-CaaSP4-SAP-Data-Hub-2_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/SBP-CaaSP4-SAP-Data-Hub-2/",
+        "url": "/sbp/container-virtualization/single-html/SBP-CaaSP4-SAP-Data-Hub-2/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5417,7 +5416,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5468,17 +5467,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/SBP-CaaSP4-SAP-Data-Intelligence-3/",
+        "url": "/sbp/container-virtualization/html/SBP-CaaSP4-SAP-Data-Intelligence-3/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/SBP-CaaSP4-SAP-Data-Intelligence-3_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/SBP-CaaSP4-SAP-Data-Intelligence-3_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/SBP-CaaSP4-SAP-Data-Intelligence-3/",
+        "url": "/sbp/container-virtualization/single-html/SBP-CaaSP4-SAP-Data-Intelligence-3/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5513,7 +5512,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5591,17 +5590,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/cloud-computing/html/SBP-CloudLS-master/",
+        "url": "/sbp/cloud-computing/html/SBP-CloudLS-master/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/cloud-computing/pdf/SBP-CloudLS-master_en.pdf",
+        "url": "/sbp/cloud-computing/pdf/SBP-CloudLS-master_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/cloud-computing/single-html/SBP-CloudLS-master/",
+        "url": "/sbp/cloud-computing/single-html/SBP-CloudLS-master/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5640,7 +5639,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5699,17 +5698,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/SBP-DI-30-CaaSP42-Install-Guide/",
+        "url": "/sbp/container-virtualization/html/SBP-DI-30-CaaSP42-Install-Guide/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/SBP-DI-30-CaaSP42-Install-Guide_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/SBP-DI-30-CaaSP42-Install-Guide_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/SBP-DI-30-CaaSP42-Install-Guide/",
+        "url": "/sbp/container-virtualization/single-html/SBP-DI-30-CaaSP42-Install-Guide/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5752,7 +5751,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5799,17 +5798,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/html/SBP-Private-Registry/",
+        "url": "/sbp/container-virtualization/html/SBP-Private-Registry/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/pdf/SBP-Private-Registry_en.pdf",
+        "url": "/sbp/container-virtualization/pdf/SBP-Private-Registry_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/container-virtualization/single-html/SBP-Private-Registry/",
+        "url": "/sbp/container-virtualization/single-html/SBP-Private-Registry/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5850,7 +5849,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5900,17 +5899,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SBP-SAP-HANA-PerOpt-HA-Azure/",
+        "url": "/sbp/sap-15/html/SBP-SAP-HANA-PerOpt-HA-Azure/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SBP-SAP-HANA-PerOpt-HA-Azure_en.pdf",
+        "url": "/sbp/sap-15/pdf/SBP-SAP-HANA-PerOpt-HA-Azure_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SBP-SAP-HANA-PerOpt-HA-Azure/",
+        "url": "/sbp/sap-15/single-html/SBP-SAP-HANA-PerOpt-HA-Azure/",
         "encodingFormat": "text/html"
       }
     ],
@@ -5939,7 +5938,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -5993,17 +5992,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SBP-SAP-MULTI-SID/",
+        "url": "/sbp/sap-12/html/SBP-SAP-MULTI-SID/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SBP-SAP-MULTI-SID_en.pdf",
+        "url": "/sbp/sap-12/pdf/SBP-SAP-MULTI-SID_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SBP-SAP-MULTI-SID/",
+        "url": "/sbp/sap-12/single-html/SBP-SAP-MULTI-SID/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6039,7 +6038,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6093,17 +6092,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SBP-SLES4SAP-HANAonKVM-SLES15SP2/",
+        "url": "/sbp/sap-15/html/SBP-SLES4SAP-HANAonKVM-SLES15SP2/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SBP-SLES4SAP-HANAonKVM-SLES15SP2_en.pdf",
+        "url": "/sbp/sap-15/pdf/SBP-SLES4SAP-HANAonKVM-SLES15SP2_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SBP-SLES4SAP-HANAonKVM-SLES15SP2/",
+        "url": "/sbp/sap-15/single-html/SBP-SLES4SAP-HANAonKVM-SLES15SP2/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6132,7 +6131,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6194,17 +6193,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SBP-SLES4SAP-HANAonKVM-SLES15SP4/",
+        "url": "/sbp/sap-15/html/SBP-SLES4SAP-HANAonKVM-SLES15SP4/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SBP-SLES4SAP-HANAonKVM-SLES15SP4_en.pdf",
+        "url": "/sbp/sap-15/pdf/SBP-SLES4SAP-HANAonKVM-SLES15SP4_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SBP-SLES4SAP-HANAonKVM-SLES15SP4/",
+        "url": "/sbp/sap-15/single-html/SBP-SLES4SAP-HANAonKVM-SLES15SP4/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6233,7 +6232,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6291,17 +6290,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SBP-SLES4SAP-sap-infra-monitoring/",
+        "url": "/sbp/sap-15/html/SBP-SLES4SAP-sap-infra-monitoring/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SBP-SLES4SAP-sap-infra-monitoring_en.pdf",
+        "url": "/sbp/sap-15/pdf/SBP-SLES4SAP-sap-infra-monitoring_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SBP-SLES4SAP-sap-infra-monitoring/",
+        "url": "/sbp/sap-15/single-html/SBP-SLES4SAP-sap-infra-monitoring/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6330,7 +6329,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6396,17 +6395,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SLES4SAP-hana-scaleout-multitarget-perfopt-15/",
+        "url": "/sbp/sap-15/html/SLES4SAP-hana-scaleout-multitarget-perfopt-15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SLES4SAP-hana-scaleout-multitarget-perfopt-15_en.pdf",
+        "url": "/sbp/sap-15/pdf/SLES4SAP-hana-scaleout-multitarget-perfopt-15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SLES4SAP-hana-scaleout-multitarget-perfopt-15/",
+        "url": "/sbp/sap-15/single-html/SLES4SAP-hana-scaleout-multitarget-perfopt-15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6435,7 +6434,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6501,17 +6500,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SLES4SAP-hana-scaleOut-PerfOpt-12/",
+        "url": "/sbp/sap-12/html/SLES4SAP-hana-scaleOut-PerfOpt-12/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SLES4SAP-hana-scaleOut-PerfOpt-12_en.pdf",
+        "url": "/sbp/sap-12/pdf/SLES4SAP-hana-scaleOut-PerfOpt-12_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SLES4SAP-hana-scaleOut-PerfOpt-12/",
+        "url": "/sbp/sap-12/single-html/SLES4SAP-hana-scaleOut-PerfOpt-12/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6540,7 +6539,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6606,17 +6605,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SLES4SAP-hana-scaleOut-PerfOpt-15/",
+        "url": "/sbp/sap-15/html/SLES4SAP-hana-scaleOut-PerfOpt-15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SLES4SAP-hana-scaleOut-PerfOpt-15_en.pdf",
+        "url": "/sbp/sap-15/pdf/SLES4SAP-hana-scaleOut-PerfOpt-15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SLES4SAP-hana-scaleOut-PerfOpt-15/",
+        "url": "/sbp/sap-15/single-html/SLES4SAP-hana-scaleOut-PerfOpt-15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6645,7 +6644,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6711,17 +6710,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SLES4SAP-hana-sr-guide-CostOpt-12/",
+        "url": "/sbp/sap-12/html/SLES4SAP-hana-sr-guide-CostOpt-12/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-CostOpt-12_en.pdf",
+        "url": "/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-CostOpt-12_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-CostOpt-12/",
+        "url": "/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-CostOpt-12/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6750,7 +6749,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6832,17 +6831,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SLES4SAP-hana-sr-guide-costopt-15/",
+        "url": "/sbp/sap-15/html/SLES4SAP-hana-sr-guide-costopt-15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SLES4SAP-hana-sr-guide-costopt-15_en.pdf",
+        "url": "/sbp/sap-15/pdf/SLES4SAP-hana-sr-guide-costopt-15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SLES4SAP-hana-sr-guide-costopt-15/",
+        "url": "/sbp/sap-15/single-html/SLES4SAP-hana-sr-guide-costopt-15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6871,7 +6870,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -6929,17 +6928,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud/",
+        "url": "/sbp/sap-12/html/SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud_en.pdf",
+        "url": "/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud/",
+        "url": "/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud/",
         "encodingFormat": "text/html"
       }
     ],
@@ -6968,7 +6967,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -7058,17 +7057,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SLES4SAP-hana-sr-guide-PerfOpt-12_AWS/",
+        "url": "/sbp/sap-12/html/SLES4SAP-hana-sr-guide-PerfOpt-12_AWS/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-PerfOpt-12_AWS_en.pdf",
+        "url": "/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-PerfOpt-12_AWS_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-PerfOpt-12_AWS/",
+        "url": "/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-PerfOpt-12_AWS/",
         "encodingFormat": "text/html"
       }
     ],
@@ -7097,7 +7096,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -7164,17 +7163,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SLES4SAP-hana-sr-guide-PerfOpt-12/",
+        "url": "/sbp/sap-12/html/SLES4SAP-hana-sr-guide-PerfOpt-12/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-PerfOpt-12_en.pdf",
+        "url": "/sbp/sap-12/pdf/SLES4SAP-hana-sr-guide-PerfOpt-12_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-PerfOpt-12/",
+        "url": "/sbp/sap-12/single-html/SLES4SAP-hana-sr-guide-PerfOpt-12/",
         "encodingFormat": "text/html"
       }
     ],
@@ -7203,7 +7202,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -7281,17 +7280,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SLES4SAP-hana-sr-guide-perfopt-15-aws/",
+        "url": "/sbp/sap-15/html/SLES4SAP-hana-sr-guide-perfopt-15-aws/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SLES4SAP-hana-sr-guide-perfopt-15-aws_en.pdf",
+        "url": "/sbp/sap-15/pdf/SLES4SAP-hana-sr-guide-perfopt-15-aws_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SLES4SAP-hana-sr-guide-perfopt-15-aws/",
+        "url": "/sbp/sap-15/single-html/SLES4SAP-hana-sr-guide-perfopt-15-aws/",
         "encodingFormat": "text/html"
       }
     ],
@@ -7320,7 +7319,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -7386,17 +7385,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/html/SLES4SAP-hana-sr-guide-PerfOpt-15/",
+        "url": "/sbp/sap-15/html/SLES4SAP-hana-sr-guide-PerfOpt-15/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/pdf/SLES4SAP-hana-sr-guide-PerfOpt-15_en.pdf",
+        "url": "/sbp/sap-15/pdf/SLES4SAP-hana-sr-guide-PerfOpt-15_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-15/single-html/SLES4SAP-hana-sr-guide-PerfOpt-15/",
+        "url": "/sbp/sap-15/single-html/SLES4SAP-hana-sr-guide-PerfOpt-15/",
         "encodingFormat": "text/html"
       }
     ],
@@ -7425,7 +7424,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
@@ -7515,17 +7514,17 @@
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/html/SLES-SAP-hana-scaleOut-PerfOpt-12-AWS/",
+        "url": "/sbp/sap-12/html/SLES-SAP-hana-scaleOut-PerfOpt-12-AWS/",
         "encodingFormat": "text/html"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/pdf/SLES-SAP-hana-scaleOut-PerfOpt-12-AWS_en.pdf",
+        "url": "/sbp/sap-12/pdf/SLES-SAP-hana-scaleOut-PerfOpt-12-AWS_en.pdf",
         "encodingFormat": "application/pdf"
       },
       {
         "@type": "WebPage",
-        "url": "https://documentation.suse.com/sbp/sap-12/single-html/SLES-SAP-hana-scaleOut-PerfOpt-12-AWS/",
+        "url": "/sbp/sap-12/single-html/SLES-SAP-hana-scaleOut-PerfOpt-12-AWS/",
         "encodingFormat": "text/html"
       }
     ],
@@ -7554,7 +7553,7 @@
     "publisher": {
       "@type": "Corporation",
       "name": "SUSE",
-      "url": "https://documentation.suse.com",
+      "url": "/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
