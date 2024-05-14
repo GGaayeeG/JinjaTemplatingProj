@@ -3,6 +3,10 @@
     "@context": "http://schema.org",
     "@type": ["TechArticle"],
     "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
     "inLanguage": "en",
     "headline": "Registering RHEL 7 or CentOS Linux 7 with RMT",
     "description": "How to use SUSE Liberty Linux to update Red Hat Enterprise Linux 7 or CentOS Linux 7.",
@@ -44,6 +48,7 @@
       {
         "@type": "SoftwareApplication",
         "name": "SUSE Liberty Linux",
+        "softwareVersion": "7",
         "applicationCategory": "Operating System",
         "operatingSystem": "Linux"
       }
@@ -68,6 +73,10 @@
     "@context": "http://schema.org",
     "@type": ["TechArticle"],
     "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
     "inLanguage": "en",
     "headline": "Registering RHEL 8 or CentOS Linux with RMT",
     "description": "How to use SUSE Liberty Linux to update Red Hat Enterprise Linux 8 or CentOS Linux 8.",
@@ -109,6 +118,7 @@
       {
         "@type": "SoftwareApplication",
         "name": "SUSE Liberty Linux",
+        "softwareVersion": "8",
         "applicationCategory": "Operating System",
         "operatingSystem": "Linux"
       }
@@ -133,6 +143,10 @@
     "@context": "http://schema.org",
     "@type": ["TechArticle"],
     "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Products & Solutions"
+    },
     "inLanguage": "en",
     "headline": "Registering RHEL 9 with RMT",
     "description": "How to use SUSE Liberty Linux to update Red Hat Enterprise Linux 9.",
@@ -174,6 +188,7 @@
       {
         "@type": "SoftwareApplication",
         "name": "SUSE Liberty Linux",
+        "softwareVersion": "9",
         "applicationCategory": "Operating System",
         "operatingSystem": "Linux"
       }
