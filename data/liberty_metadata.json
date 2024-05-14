@@ -1,0 +1,197 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Registering RHEL 7 or CentOS Linux 7 with RMT",
+    "description": "How to use SUSE Liberty Linux to update Red Hat Enterprise Linux 7 or CentOS Linux 7.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2022-04-01T00:00+02:00",
+    "dateModified": "2024-08-24T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Upgrade & Update"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/7/html/quickstart/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/7/pdf/quickstart_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/7/single-html/quickstart/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Liberty Linux",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Registering RHEL 8 or CentOS Linux with RMT",
+    "description": "How to use SUSE Liberty Linux to update Red Hat Enterprise Linux 8 or CentOS Linux 8.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2022-04-01T00:00+02:00",
+    "dateModified": "2024-03-27T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Upgrade & Update"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/8/html/quickstart/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/8/pdf/quickstart_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/8/single-html/quickstart/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Liberty Linux",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["TechArticle"],
+    "image": "https://www.suse.com/assets/img/suse-white-logo-green.svg",
+    "inLanguage": "en",
+    "headline": "Registering RHEL 9 with RMT",
+    "description": "How to use SUSE Liberty Linux to update Red Hat Enterprise Linux 9.",
+    "author": [
+      {
+        "@type": "Corporation",
+        "name": "SUSE Product & Solution Documentation Team",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    ],
+    "datePublished": "2022-04-01T00:00+02:00",
+    "dateModified": "2024-03-27T00:00+02:00",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Upgrade & Update"
+      },
+      {
+        "@type": "Thing",
+        "name": "Administration"
+      },
+      {
+        "@type": "WebPage",
+        "url": "liberty/9/html/quickstart/",
+        "encodingFormat": "text/html"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/9/pdf/quickstart_en.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      {
+        "@type": "WebPage",
+        "url": "/liberty/9/single-html/quickstart/",
+        "encodingFormat": "text/html"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SUSE Liberty Linux",
+        "applicationCategory": "Operating System",
+        "operatingSystem": "Linux"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/SUSEWorldwide/about",
+      "https://www.youtube.com/channel/UCHTfqIzPKz4f_dri36lAQGA",
+      "https://twitter.com/SUSE",
+      "https://www.linkedin.com/company/suse"
+    ],
+    "publisher": {
+      "@type": "Corporation",
+      "name": "SUSE",
+      "url": "https://documentation.suse.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.suse.com/assets/img/suse-white-logo-green.svg"
+      }
+    }
+  }
+]
