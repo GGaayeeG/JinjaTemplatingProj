@@ -253,8 +253,8 @@ function onBackToHome(oEvent) {
 // Walkthrough
 document.addEventListener("DOMContentLoaded", function () {
   // Call the function to start the walkthrough
-  if (!sessionStorage.getItem("walkthroughShown")) {
-    sessionStorage.setItem("walkthroughShown", "true");
+  if (!sessionStorage.getItem("walkthroughShownIndexPage")) {
+    sessionStorage.setItem("walkthroughShownIndexPage", "true");
     startWalkthrough();
   }
 });
