@@ -91,11 +91,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-isSortedAlphabetically = true;
+isProductsSortedAlphabetically = true;
 
 // Sorting
 function sortProductsAsc(oEvent) {
-  if (isSortedAlphabetically) return;
+  if (isProductsSortedAlphabetically) return;
   var cardsContainer = document.querySelector(".productsContainer");
 
   // Get all card elements
@@ -141,11 +141,11 @@ function sortProductsAsc(oEvent) {
     });
   }
   setSortingOptionStyling(oEvent);
-  isSortedAlphabetically = true;
+  isProductsSortedAlphabetically = true;
 }
 
 function sortProductsDesc(oEvent) {
-  if (!isSortedAlphabetically) return;
+  if (!isProductsSortedAlphabetically) return;
 
   var cardsContainer = document.querySelector(".productsContainer");
 
@@ -178,7 +178,7 @@ function sortProductsDesc(oEvent) {
     });
   }
   setSortingOptionStyling(oEvent);
-  isSortedAlphabetically = false;
+  isProductsSortedAlphabetically = false;
 }
 
 function sortProductsByPopularity(oEvent) {
@@ -508,6 +508,104 @@ function onAlphabetSelect(oEvent) {
     card.classList.add("hiddenTile");
     trdCardsContainer.appendChild(card);
   });
+}
+
+function onShowAllPartners(oEvent) {
+  var showAllButton = oEvent.target.closest(".explore-list-button");
+  var hideAllButton = showAllButton.nextElementSibling;
+  showAllButton.classList.add("hideButton");
+  hideAllButton.classList.remove("hideButton");
+
+  this.showAllPartners = true;
+
+  var cardsContainer = document.querySelector(".trdContainer");
+  var cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+  cards.slice(8).forEach((card) => card.classList.remove("hiddenTile"));
+}
+
+function onHideAllPartners(oEvent) {
+  var hideAllButton = oEvent.target.closest(".explore-list-button");
+  var showAllButton = hideAllButton.previousElementSibling;
+  hideAllButton.classList.add("hideButton");
+  showAllButton.classList.remove("hideButton");
+
+  this.showAllPartners = false;
+
+  var cardsContainer = document.querySelector(".trdContainer");
+  var cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+  cards.slice(8).forEach((card) => card.classList.add("hiddenTile"));
+}
+
+// Sorting
+
+isPartnersSortedAlphabetically = true;
+
+function sortPartnersAsc(oEvent) {
+  if (isPartnersSortedAlphabetically) return;
+  var cardsContainer = document.querySelector(".trdContainer");
+
+  // Get all card elements
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+
+  let cardsSorted = cards.reverse();
+
+  // Remove existing cards from the container
+  cards.forEach(function (card) {
+    cardsContainer.removeChild(card);
+  });
+
+  // Append sorted cards back to the container
+  if (this.showAllPartners) {
+    cardsSorted.forEach(function (card) {
+      card.classList.remove("hiddenTile");
+      cardsContainer.appendChild(card);
+    });
+  } else {
+    cardsSorted.slice(0, 8).forEach(function (card) {
+      card.classList.remove("hiddenTile");
+      cardsContainer.appendChild(card);
+    });
+    cardsSorted.slice(8).forEach(function (card) {
+      card.classList.add("hiddenTile");
+      cardsContainer.appendChild(card);
+    });
+  }
+  setSortingOptionStyling(oEvent);
+  isPartnersSortedAlphabetically = true;
+}
+
+function sortPartnersDesc(oEvent) {
+  if (!isPartnersSortedAlphabetically) return;
+
+  var cardsContainer = document.querySelector(".trdContainer");
+
+  // Get all card elements
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+
+  // Sort cards based on their title
+  cardsSorted = cards.reverse();
+
+  // Remove existing cards from the container
+  cardsContainer.innerHTML = "";
+
+  // Append sorted cards back to the container
+  if (this.showAllProducts) {
+    cardsSorted.forEach(function (card) {
+      card.classList.remove("hiddenTile");
+      cardsContainer.appendChild(card);
+    });
+  } else {
+    cardsSorted.slice(0, 8).forEach(function (card) {
+      card.classList.remove("hiddenTile");
+      cardsContainer.appendChild(card);
+    });
+    cardsSorted.slice(8).forEach(function (card) {
+      card.classList.add("hiddenTile");
+      cardsContainer.appendChild(card);
+    });
+  }
+  setSortingOptionStyling(oEvent);
+  isPartnersSortedAlphabetically = false;
 }
 
 // Walkthrough

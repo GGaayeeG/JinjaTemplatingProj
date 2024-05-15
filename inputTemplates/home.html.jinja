@@ -125,7 +125,7 @@
 
     <div id="trd-content" class="tab-content">
         <div class="trdContainer">
-            {% set alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | list %}
+            {# {% set alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | list %}
             {% set starting_letters = [] %}
             {% for partner in partnersList|sort(attribute='label') %}
             {% set first_letter = partner.label[0] %}
@@ -137,15 +137,6 @@
                 {% for letter in starting_letters %}
                 <li class="{{'selectedAlphabet' if letter == 'A' else '' }}">
                     {{ letter }}
-                </li>
-                {% endfor %}
-            </ul>
-            {# <ul class="alphabeticalSelector">
-                {% for letter in alphabets %}
-                <li>
-                    <button onclick="onAlphabetSelect(event)" class="{{'selectedAlphabet' if letter == 'A' else '' }}">
-                        {{ letter }}
-                    </button>
                 </li>
                 {% endfor %}
             </ul> #}
@@ -166,6 +157,14 @@
                     isSBP='false' , hidden='true' ) }} {% endif %} #}
                     {% endfor %}
         </div>
+        <button class="explore-list-button" onclick='onShowAllPartners(event)'>
+            Explore more partners
+            <i class="fa fa-solid fa-angle-down fa-2x"></i>
+        </button>
+        <button class="explore-list-button hideButton" onclick='onHideAllPartners(event)'>
+            Show fewer partners
+            <i class="fa fa-solid fa-angle-up fa-2x"></i>
+        </button>
     </div>
 
     <div id="newest-content" class="tab-content">

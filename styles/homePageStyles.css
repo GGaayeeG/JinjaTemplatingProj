@@ -114,7 +114,8 @@ a.tile {
   gap: 10px;
   border: none;
   font-size: 18px;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-weight: 600;
   background: transparent;
   color: #fe7c3f;
   margin-bottom: 2rem;
