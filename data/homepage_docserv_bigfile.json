@@ -4,7 +4,8 @@
     "productline": {
       "sle-micro": "SUSE Linux Enterprise Micro",
       "sles-sap": "SUSE Linux Enterprise Server for SAP Applications",
-      "sle16": "SUSE Linux Enterprise 16"
+      "sle16": "SUSE Linux Enterprise 16",
+      "liberty": "SUSE Liberty Linux"
     },
     "product": {
       "appliance": {
