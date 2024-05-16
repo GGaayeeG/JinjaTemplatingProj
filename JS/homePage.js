@@ -66,11 +66,11 @@ function onTabChange(oEvent, tabId) {
         .classList.remove("selectedTab");
     }
 
-    if (tabId === "products") {
-      tabLinkBar.querySelector(".sortingOptions").style.display = "inline";
-    } else {
-      tabLinkBar.querySelector(".sortingOptions").style.display = "none";
-    }
+    // if (tabId === "products") {
+    //   tabLinkBar.querySelector(".sortingOptions").style.display = "inline";
+    // } else {
+    //   tabLinkBar.querySelector(".sortingOptions").style.display = "none";
+    // }
   });
 
   if (oEvent) {

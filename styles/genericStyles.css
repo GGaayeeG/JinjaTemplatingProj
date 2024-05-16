@@ -147,7 +147,7 @@ body {
 }
 
 .menu-bar .sortingOptions {
-  display: inline;
+  /* display: inline; */
   font-size: 1px;
 }
 
