@@ -361,7 +361,22 @@ map(attribute='name') | list }) %}
     </div>
 
     <div id="groupedArticles-content" class="tab-content">
-        <div class="groupedAriclesHeader">
+        <div class="groupedArticlesHeader">
+            <label>
+                {% if not isTRD %}
+                Explore the articles based on the action you want to perform
+                {% endif %}
+
+                {% if isTRD%}
+                Explore articles filtered by products
+                {% endif %}
+            </label>
+        </div>
+        <div class="groupedArticlesHeaderButtons">
+            <button class="expandAllButton active" onclick="onPressExpandAll(event)">Expand all</button>
+            <button class="collapseAllButton" onclick="onPressCollapseAll(event)">Collapse all</button>
+        </div>
+        {# <div class="groupedArticlesHeader">
             <label>
                 {% if not isTRD %}
                 Explore the articles based on the action you want to perform
@@ -373,7 +388,7 @@ map(attribute='name') | list }) %}
             </label>
             <button class="expandAllButton active" onclick="onPressExpandAll(event)">Expand all</button>
             <button class="collapseAllButton" onclick="onPressCollapseAll(event)">Collapse all</button>
-        </div>
+        </div> #}
         <div>
 
             {% if not isTRD %}
