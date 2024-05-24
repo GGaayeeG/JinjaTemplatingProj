@@ -264,7 +264,8 @@ map(attribute='name') | list }) %}
 
 {% block body_main%}
 <div class="main-container indexPage">
-    <div class="breadcrumbs-bar">
+    <button class='helpButton' onclick="onStartIndexpageWalkthrough()" title="Walk-Through">Help</button>
+    <div class="breadcrumbs-bar" title="Navigation to homepage">
         <a href="{% if isSBP %} /?tab=sbp {% elif isTRD %} /?tab=trd {% else %}  /?tab=products {% endif%}"
             onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
             {% if isSBP %} Best Practices {% elif isTRD %} Technical References {% else %} Products & Solutions {%
@@ -296,8 +297,10 @@ map(attribute='name') | list }) %}
         <form method="get" class="formHeader" {% if isTRD %} onsubmit="onFilterTRDAllSections(event)" {% else %}
             onsubmit="onFilterAllArticlesList(event)" {% endif %}>
             <input type="search" id="all_articles_filter" class="searchInput filterInput" size="80"
-                placeholder="Filter the list by article title" {% if isTRD %} oninput="onFilterTRDAllSections(event)" {%
-                else %} oninput="onFilterAllArticlesList(event)" {% endif %} />
+                placeholder="Filter the list by article title or description"
+                title="Filter the list by article title or description" {% if isTRD %}
+                oninput="onFilterTRDAllSections(event)" {% else %} oninput="onFilterAllArticlesList(event)" {% endif
+                %} />
             <button type="submit" value="Filter" title="Filter" class="searchButton filterButton">
                 <i class="fa fa-filter"></i>
             </button>

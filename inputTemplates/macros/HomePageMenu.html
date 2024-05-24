@@ -1,6 +1,7 @@
 {% macro HomePageMenuBar() %}
 <ul class="menu-bar" id="homepage-menu">
-    <li id="prod_solution_tab" class="selectedTab" onclick="onTabChange(event, 'products')">
+    <li id="prod_solution_tab" class="selectedTab" onclick="onTabChange(event, 'products')"
+        title="Documentation for various SUSE products and solutions">
         Products & Solutions
         <div class="sortingOptions">
             <!-- <i class="fa fa-light fa-fire fa-lg selectedSorting" title="Sort by Popularity"
@@ -9,10 +10,11 @@
             <i class="fa fa-sort-alpha-desc fa-lg" title="Sort Z-A" onclick="sortProductsDesc(event)"></i>
         </div>
     </li>
-    <li id="sbp_tab" onclick="onTabChange(event, 'sbp')">
+    <li id="sbp_tab" onclick="onTabChange(event, 'sbp')" title="SUSE Best Practises across different categories">
         Best Practices
     </li>
-    <li id="trd_tab" onclick="onTabChange(event, 'trd')">
+    <li id="trd_tab" onclick="onTabChange(event, 'trd')"
+        title="Technical Reference Documentation for different partners">
         Technical References
         <div class="sortingOptions">
             <i class="fa fa-sort-alpha-asc fa-lg selectedSorting" title="Sort A-Z" onclick="sortPartnersAsc(event)"></i>

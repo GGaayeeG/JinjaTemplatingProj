@@ -226,6 +226,16 @@ html {
 }
 
 /* Walkthrough dialog */
+.helpButton {
+  padding: 0.8rem;
+  background-color: #d3d3d3;
+  border: none;
+  position: fixed;
+  right: 0rem;
+  cursor: pointer;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
 dialog#walkThroughDialog {
   border: none;
   background: transparent;

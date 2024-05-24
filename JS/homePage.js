@@ -611,11 +611,15 @@ function sortPartnersDesc(oEvent) {
 // Walkthrough
 document.addEventListener("DOMContentLoaded", function () {
   // Call the function to start the walkthrough
-  if (!sessionStorage.getItem("walkthroughShownHomePage")) {
-    sessionStorage.setItem("walkthroughShownHomePage", "true");
+  if (!localStorage.getItem("walkthroughShownHomePage")) {
+    localStorage.setItem("walkthroughShownHomePage", "true");
     startWalkthrough();
   }
 });
+
+function onStartHomepageWalkthrough() {
+  startWalkthrough();
+}
 
 function startWalkthrough() {
   // Show the walkthrough for each step
