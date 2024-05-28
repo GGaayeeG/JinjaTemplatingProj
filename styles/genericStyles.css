@@ -252,6 +252,8 @@ dialog#walkThroughDialog .dialog-header {
 dialog#walkThroughDialog .dialog-header img {
   margin: 0;
   width: 32px;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 dialog#walkThroughDialog .dialog-header button {
