@@ -96,14 +96,24 @@ a.tile {
 .newestContainer,
 .popularContainer,
 .featuredContainer {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* justify-content: center; */
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
   min-height: 12rem;
   margin-bottom: 2rem;
   position: relative;
+}
+
+.productsContainer,
+.categoriesContainer,
+.trdContainer,
+.newestContainer,
+.popularContainer,
+.featuredContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18rem);
+  justify-content: space-evenly;
 }
 
 .categoriesContainer .tile,
@@ -231,14 +241,25 @@ a.tile {
   font-size: 14px;
 }
 
+.popover {
+  box-shadow: none;
+  border-radius: 0;
+  border: 2px solid var(--primary-jungle-green);
+  padding-block: 0.5rem;
+  padding-inline: 0;
+}
+
 .popover label {
   font-weight: 600;
+  padding: 0.5rem;
+  border-bottom: 2px solid var(--primary-jungle-green);
 }
 
 .suseLogo-in-popup {
   height: 1.5rem;
   display: block;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  display: none;
 }
 
 .popover ul {
@@ -249,12 +270,13 @@ a.tile {
 .popover ul a {
   text-decoration: none;
   line-height: 2rem;
-  color: #0c322c;
-  transition: font-weight 100ms ease-in;
+  color: var(--primary-jungle-green);
+  font-weight: bold;
+  /* transition: font-weight 100ms ease-in; */
 }
 
 .popover ul a:hover {
-  font-weight: 500;
+  text-decoration: underline;
 }
 
 /* .popover::before {
