@@ -241,25 +241,25 @@ a.tile {
   font-size: 14px;
 }
 
-.popover {
+/* .popover {
   box-shadow: none;
   border-radius: 0;
   border: 2px solid var(--primary-jungle-green);
   padding-block: 0.5rem;
   padding-inline: 0;
-}
+} */
 
 .popover label {
   font-weight: 600;
   padding: 0.5rem;
-  border-bottom: 2px solid var(--primary-jungle-green);
+  /* border-bottom: 2px solid var(--primary-jungle-green); */
 }
 
 .suseLogo-in-popup {
   height: 1.5rem;
   display: block;
   /* margin-bottom: 1rem; */
-  display: none;
+  /* display: none; */
 }
 
 .popover ul {
