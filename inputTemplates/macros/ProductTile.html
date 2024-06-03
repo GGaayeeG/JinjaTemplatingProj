@@ -26,9 +26,9 @@
     </div>
     <label class="tile-header">{{ title }}</label>
     <p class="tile-info">{{description}}</p>
-    {% if popoverItems|length> 0 %}
+    {% if popoverItems|length> 1 %}
     <div class="version-pointer">
-        <i class="fa fa-angle-right"></i>
+        <i class="fa fa-angle-right" title="Choose version"></i>
     </div>
     {% endif %}
 </div>
