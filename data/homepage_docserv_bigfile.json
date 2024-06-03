@@ -5,7 +5,8 @@
       "sle-micro": "SUSE Linux Enterprise Micro",
       "sles-sap": "SUSE Linux Enterprise Server for SAP Applications",
       "sle16": "SUSE Linux Enterprise 16",
-      "liberty": "SUSE Liberty Linux"
+      "liberty": "SUSE Liberty Linux",
+      "suma": "SUSE Manager"
     },
     "product": {
       "appliance": {
@@ -412,6 +413,15 @@
       },
       "suma": {
         "description": "Infracstructure management for all your Linux distros",
+        "suma/5.0": {
+          "setid": "5.0",
+          "visible": true,
+          "name": "SUSE Manager",
+          "acronym": "SUMA",
+          "version": "5.0",
+          "hide-productname": false,
+          "lifecycle": "supported"
+        },
         "suma/4.3": {
           "setid": "4.3",
           "visible": true,
