@@ -226,7 +226,8 @@ html {
 }
 
 /* Walkthrough dialog */
-.helpButton {
+.helpButton,
+.feedbackButton {
   padding: 0.8rem;
   background-color: #d3d3d3;
   border: none;
@@ -234,6 +235,11 @@ html {
   right: 0rem;
   cursor: pointer;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackButton {
+  bottom: 0;
+  background-color: var(--tertiary-mint);
 }
 
 dialog#walkThroughDialog {
