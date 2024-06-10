@@ -105,6 +105,7 @@
                 {% endif %}
                 {% endfor %}
         </div>
+        {% if productsList|length> 8 %}
         <button class="explore-list-button" onclick='onShowAllProducts(event)'>
             Explore more products
             <i class="fa fa-solid fa-angle-down fa-2x"></i>
@@ -113,6 +114,7 @@
             Show fewer products
             <i class="fa fa-solid fa-angle-up fa-2x"></i>
         </button>
+        {% endif %}
     </div>
 
     <div id="sbp-content" class="tab-content">
@@ -160,6 +162,7 @@
                     isSBP='false' , hidden='true' ) }} {% endif %} #}
                     {% endfor %}
         </div>
+        {% if trdList|length> 8 %}
         <button class="explore-list-button" onclick='onShowAllPartners(event)'>
             Explore more partners
             <i class="fa fa-solid fa-angle-down fa-2x"></i>
@@ -168,6 +171,7 @@
             Show fewer partners
             <i class="fa fa-solid fa-angle-up fa-2x"></i>
         </button>
+        {% endif %}
     </div>
 
     <div id="newest-content" class="tab-content">
