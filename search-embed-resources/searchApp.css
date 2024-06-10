@@ -3,6 +3,16 @@
   font-family: Poppins, Roboto, Verdana, sans-serif;
 }
 
+.breadcrumbs-bar {
+  padding: 1.5rem;
+  padding-bottom: 0rem;
+}
+
+.breadcrumbs-bar a {
+  color: #30ba78;
+  text-decoration: none;
+}
+
 .search-page-root {
   max-width: 1400px;
   margin-inline: auto;
