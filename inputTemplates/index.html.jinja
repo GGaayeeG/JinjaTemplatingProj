@@ -265,6 +265,8 @@ map(attribute='name') | list }) %}
 {% block body_main%}
 <div class="main-container indexPage">
     <button class='helpButton' onclick="onStartIndexpageWalkthrough()" title="Walk-Through">Help</button>
+    <button class='feedbackButton'><a
+            href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a></button>
     <div class="breadcrumbs-bar" title="Navigation to homepage">
         <a href="{% if isSBP %} /?tab=sbp {% elif isTRD %} /?tab=trd {% else %}  /?tab=products {% endif%}"
             onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
