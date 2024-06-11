@@ -5,27 +5,14 @@
         <div id="utilitynav">
             <div class="searchbox-container">
                 <div id="searchbox" class="" style="">
-                    <form id="searchform-header" action="/search.html" style="">
-                        <input type="text" id="search-input-header" class="search-text" name="" placeholder="Search" />
-                        <input id="hidden-input-header" name="q" style="display:none" />
+                    <form id="searchform" action="https://documentation.suse.com/search.html" style="">
+                        <input type="text" class="search-text" name="q" placeholder="Search" style="" />
                         <button type="submit" class="fa fa-search search-submit"></button>
                     </form>
-                    <script>
-                        const form_header = document.getElementById("searchform-header");
-                        const search_input_header = document.getElementById("search-input-header");
-                        const hiddenInput_header = document.getElementById("hidden-input-header");
-                        form_header.addEventListener("submit", function (oEvent) {
-                            if (search_input_header.value) {
-                                hiddenInput_header.value = search_input_header.value + " inurl:/html/ -inurl:/single-html/";
-                            } else {
-                                oEvent.preventDefault();
-                            }
-                        });
-                    </script>
                 </div>
             </div>
             <div class="container-fluid">
-                <a href="/" id="home-logo">
+                <a href="https://documentation.suse.com/" id="home-logo">
                     <img class="logo nonfed" alt="SUSE Logo"
                         src="https://www.suse.com/assets/img/suse-white-logo-green.svg" style="" />
                     <img class="logo showfed" alt="SUSE Federal Logo" src="https://www.suse.com/assets/img/fed_logo.png"
@@ -48,75 +35,7 @@
                             &#xa0;<i class="fa fa-chevron-down"></i>
                         </div>
                     </div>
-                    <!-- <div class="float" id="footer-language">
-                        <div id="lang-dropdown" class="lang-select popup">
-                            <div class="col-sm-12 lang-left">
-                                <h5>Language</h5>
-                                <a href="/de-de/uniparts/documentation/header/0/"
-                                    data-country="de-de" class="UtilityNav">
-                                    Deutsch
-                                </a>
-                                <a class="current UtilityNav"
-                                    href="/uniparts/documentation/header/0/"
-                                    data-country="en-us" title="">
-                                    English
-                                </a>
-                                <a href="/es-es/uniparts/documentation/header/0/"
-                                    data-country="es-es" class="UtilityNav">
-                                    Español
-                                </a>
-                                <a href="/fr-fr/uniparts/documentation/header/0/"
-                                    data-country="fr-fr" class="UtilityNav">
-                                    Français
-                                </a>
-                                <a href="/zh-cn/uniparts/documentation/header/0/"
-                                    data-country="zh-cn" class="UtilityNav">
-                                    中文(简体)
-                                </a>
-                                <a href="/ja-jp/uniparts/documentation/header/0/"
-                                    data-country="ja-jp" class="UtilityNav">
-                                    日本語
-                                </a>
-                                <a href="/ko-kr/uniparts/documentation/header/0/"
-                                    data-country="ko-kr" class="UtilityNav">
-                                    한국어
-                                </a>
-                                <a href="/pt-br/uniparts/documentation/header/0/"
-                                    data-country="pt-br" class="UtilityNav">
-                                    Português (Brasil)
-                                </a>
-                                <script>
-                                    $(".lang-left a").on("click", function () {
-                                        chosenLanguage = $(this).text();
-                                        sessionStorage.setItem('header_lang_name', chosenLanguage);
-                                        localStorage.setItem('header_lang_name', chosenLanguage);
-                                        sessionStorage.removeItem('header_country_name');
-                                        return true;
-                                    });
-                                    $(".lang-select .countries a").on("click", function () {
-                                        chosenCountry = $(this).text();
-                                        sessionStorage.setItem('header_country_name', chosenCountry);
-                                    });
-
-                                    function changeHeaderLanguage(elem) {
-                                        language = $(elem).data("country-name");
-                                        //console.log(language);
-                                        sessionStorage.setItem('header_lang_name', language);
-                                        localStorage.setItem('header_lang_name', language);
-                                        sessionStorage.removeItem('header_country_name');
-                                    }
-
-                                    function changeHeaderCountry(elem) {
-                                        country = $(elem).data("country-name");
-                                        //console.log(country);
-                                        sessionStorage.setItem('header_country_name', country);
-                                    }
-
-                                </script>
-                            </div>
-
-                        </div>
-                    </div> -->
+                    <!-- Language dropdown -->
                     <div class="hidden-xs utilitynav-vsep"><span></span></div>
                     <div id="utilitynav-search" class="hidden-xs">
                         <i class="fa fa-search"></i>
@@ -206,7 +125,6 @@
                 <div class="header-end-line-mint">&#xa0;</div>
             </div>
         </div>
-
         <div class="menudropdowns">
             <div class="outer federal">
                 <div class="mnavback"><i class="fa fa-angle-left fa-2x"></i> <span class="goback">Back</span></div>
@@ -328,42 +246,6 @@
                                                             <span>Rancher Prime</span>
                                                             <p>
                                                                 Kubernetes Management
-                                                            </p>
-                                                        </div>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="dropdown__products-nav-item dropdown__harvester">
-                                            <div
-                                                class="dropdown__products l-flex l-flex--justify-start l-flex--align-start l-flex--nowrap">
-
-                                                <div class="l-flex--column l-flex--align-start">
-                                                    <a class="dropdown__products-nav-link"
-                                                        href="https://www.suse.com/products/harvester/">
-                                                        <div>
-                                                            <span>Harvester</span>
-                                                            <p>
-                                                                Virtualization on Kubernetes
-                                                            </p>
-                                                        </div>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="dropdown__products-nav-item dropdown__longhorn">
-                                            <div
-                                                class="dropdown__products l-flex l-flex--justify-start l-flex--align-start l-flex--nowrap">
-
-                                                <div class="l-flex--column l-flex--align-start">
-                                                    <a class="dropdown__products-nav-link"
-                                                        href="https://www.suse.com/products/longhorn/">
-                                                        <div>
-                                                            <span>Longhorn</span>
-                                                            <p>
-                                                                Cloud native storage
                                                             </p>
                                                         </div>
                                                     </a>
@@ -960,7 +842,7 @@
 
                                                 <div class="l-flex--column l-flex--align-start">
                                                     <a class="dropdown__support-nav-link"
-                                                        href="https://www.suse.com/training/">
+                                                        href="https://training.suse.com/">
                                                         <div>
                                                             <span>Training &amp; Certification</span>
                                                         </div>
@@ -1029,7 +911,8 @@
                                                 class="dropdown__support l-flex l-flex--justify-start l-flex--align-start l-flex--nowrap">
 
                                                 <div class="l-flex--column l-flex--align-start">
-                                                    <a class="dropdown__support-nav-link" href="/">
+                                                    <a class="dropdown__support-nav-link"
+                                                        href="https://documentation.suse.com/">
                                                         <div>
                                                             <span>Product Documentation</span>
                                                         </div>
@@ -1388,7 +1271,7 @@
 
                                                 <div class="l-flex--column l-flex--align-start">
                                                     <a class="dropdown__about-nav-link"
-                                                        href="https://www.suse.com/news/">
+                                                        href="https://www.suse.com/newsroom/">
                                                         <div>
                                                             <span>Newsroom</span>
                                                         </div>
@@ -1446,7 +1329,8 @@
                                                 class="dropdown__about l-flex l-flex--justify-start l-flex--align-start l-flex--nowrap">
 
                                                 <div class="l-flex--column l-flex--align-start">
-                                                    <a class="dropdown__about-nav-link" href="https://brand.suse.com/">
+                                                    <a class="dropdown__about-nav-link"
+                                                        href="https://www.suse.com/brandcentral/suse/identity.php">
                                                         <div>
                                                             <span>SUSE Logo and Brand</span>
                                                         </div>
@@ -1499,4 +1383,4 @@
 </header>
 <div id='ZN_8qZUmklKYbBqAYe'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
 
-<!-- SUSE include: END -->
+<div class="top-banner promo"></div>
