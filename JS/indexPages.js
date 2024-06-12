@@ -288,11 +288,11 @@ function startWalkthrough() {
       content:
         "Explore the articles related to a particular product. Expand or collapse all product listings at once or use the > icons to expand just the selected one. Further, filter the grouped articles by keywords contained in the article title or description.",
     },
-    {
-      element: "#all_articles_filter",
-      content:
-        "Filter the list of articles by keywords contained in the article title or description.",
-    },
+    // {
+    //   element: "#all_articles_filter",
+    //   content:
+    //     "Filter the list of articles by keywords contained in the article title or description.",
+    // },
   ];
 
   showWalkthrough(0, walkthroughSteps);

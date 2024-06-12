@@ -47,7 +47,11 @@ function showWalkthrough(stepIndex, walkthroughSteps, toNext) {
       "visible";
   }
 
-  if (stepIndex == walkthroughSteps.length - 1) {
+  // temp-fix
+  if (
+    stepIndex == walkthroughSteps.length - 1 ||
+    stepIndex == walkthroughSteps.length - 2
+  ) {
     walkThroughDialog.querySelector("#dialogNextButton").style.visibility =
       "hidden";
     walkThroughDialog.querySelector("#dialogCloseButton").style.display =

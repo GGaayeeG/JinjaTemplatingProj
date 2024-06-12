@@ -299,8 +299,8 @@ map(attribute='name') | list }) %}
         <form method="get" class="formHeader" {% if isTRD %} onsubmit="onFilterTRDAllSections(event)" {% else %}
             onsubmit="onFilterAllArticlesList(event)" {% endif %}>
             <input type="search" id="all_articles_filter" class="searchInput filterInput" size="80"
-                placeholder="Filter the list by article title or description"
-                title="Filter the list by article title or description" {% if isTRD %}
+                placeholder="Filter the list of articles by keywords found in the article title or description"
+                title="Filter the list of articles by keywords found in the article title or description" {% if isTRD %}
                 oninput="onFilterTRDAllSections(event)" {% else %} oninput="onFilterAllArticlesList(event)" {% endif
                 %} />
             <button type="submit" value="Filter" title="Filter" class="searchButton filterButton">
