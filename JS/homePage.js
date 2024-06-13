@@ -647,5 +647,5 @@ function startWalkthrough() {
     },
   ];
 
-  showWalkthrough(0, walkthroughSteps);
+  showWalkthrough(0, walkthroughSteps, "", false);
 }

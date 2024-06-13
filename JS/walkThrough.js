@@ -1,10 +1,14 @@
 //Walkthrough implementation
 
-function showWalkthrough(stepIndex, walkthroughSteps, toNext) {
+function showWalkthrough(stepIndex, walkthroughSteps, toNext, isIndexPage) {
   if (walkthroughSteps) {
     this.walkthroughSteps = walkthroughSteps;
   } else {
     walkthroughSteps = this.walkthroughSteps;
+  }
+
+  if (typeof isIndexPage === "boolean") {
+    this.isIndexPage = isIndexPage;
   }
 
   if (stepIndex >= walkthroughSteps.length || stepIndex < 0) {
@@ -50,7 +54,7 @@ function showWalkthrough(stepIndex, walkthroughSteps, toNext) {
   // temp-fix
   if (
     stepIndex == walkthroughSteps.length - 1 ||
-    stepIndex == walkthroughSteps.length - 2
+    (this.isIndexPage && stepIndex == walkthroughSteps.length - 2)
   ) {
     walkThroughDialog.querySelector("#dialogNextButton").style.visibility =
       "hidden";
