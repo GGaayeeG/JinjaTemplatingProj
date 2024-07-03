@@ -31,7 +31,11 @@
 {% set articlesListSanitisedSBP = [] %}
 {% for article in articlesListSBPCategory %}
 {% set sanitisedArticle = {} %}
-{% set _ = sanitisedArticle.update({'title': article.headline}) %}
+{% set title = article.headline %}
+{% if article.alternativeHeadline %}
+{% set title = title + ' - ' + article.alternativeHeadline %}
+{% endif %}
+{% set _ = sanitisedArticle.update({'title': title}) %}
 {% set _ = sanitisedArticle.update({'description': article.description}) %}
 {% set _ = sanitisedArticle.update({'tasks': article.about | selectattr('@type', 'equalto', 'Thing') |
 map(attribute='name') | list }) %}
