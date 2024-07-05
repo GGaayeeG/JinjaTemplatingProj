@@ -97,15 +97,17 @@
     <div id="products-content" class="active-content tab-content">
         <div class="productsContainer">
             {% for product in productsList %}
-            {% if loop.index <= 8 %} {{ ProductTile(icon=product.icon, title=product.label,
+            {{ ProductTile(icon=product.icon, title=product.label,
+            popoverItems=product.versions, description=product.description, pointingUrl=product.pointingUrl) }}
+            {# {% if loop.index <= 8 %} {{ ProductTile(icon=product.icon, title=product.label,
                 popoverItems=product.versions, description=product.description, pointingUrl=product.pointingUrl) }}
                 {%endif%} {% if loop.index> 8 %}
                 {{ ProductTile(icon=product.icon, title=product.label, popoverItems=product.versions,
                 description=product.description, pointingUrl=product.pointingUrl, hidden='true') }}
-                {% endif %}
+                {% endif %} #}
                 {% endfor %}
         </div>
-        {% if productsList|length> 8 %}
+        {# {% if productsList|length> 8 %}
         <button class="explore-list-button" onclick='onShowAllProducts(event)'>
             Explore more products
             <i class="fa fa-solid fa-angle-down fa-2x"></i>
@@ -114,7 +116,7 @@
             Show fewer products
             <i class="fa fa-solid fa-angle-up fa-2x"></i>
         </button>
-        {% endif %}
+        {% endif %} #}
     </div>
 
     <div id="sbp-content" class="tab-content">
@@ -148,12 +150,14 @@
 
             {% set trdList = partnersList|sort(attribute='label') %}
             {% for partner in trdList %}
-            {% if loop.index <= 8 %} {{ Tile(pointingUrl=partner.pointingUrl , title=partner.label,
+            {{ Tile(pointingUrl=partner.pointingUrl , title=partner.label,
+            description=partner.description | default(''), popoverItems=[], isTRD='true' , isSBP='false' ) }}
+            {# {% if loop.index <= 8 %} {{ Tile(pointingUrl=partner.pointingUrl , title=partner.label,
                 description=partner.description | default(''), popoverItems=[], isTRD='true' , isSBP='false' ) }} {%
                 endif %}{% if loop.index>8 %} {{
                 Tile(pointingUrl=partner.pointingUrl , title=partner.label,
                 description = partner.description | default(''), popoverItems=[], isTRD='true' ,
-                isSBP='false' , hidden='true' ) }} {% endif %}
+                isSBP='false' , hidden='true' ) }} {% endif %} #}
                 {# {% if loop.index <= 8 %} {{ Tile(pointingUrl='' , title=partner.label,
                     description=partner.description, popoverItems=partner.docTypes, isTRD='true' , isSBP='false' ) }} {%
                     endif %}{% if loop.index>8 %} {{
@@ -162,7 +166,7 @@
                     isSBP='false' , hidden='true' ) }} {% endif %} #}
                     {% endfor %}
         </div>
-        {% if trdList|length> 8 %}
+        {# {% if trdList|length> 8 %}
         <button class="explore-list-button" onclick='onShowAllPartners(event)'>
             Explore more partners
             <i class="fa fa-solid fa-angle-down fa-2x"></i>
@@ -171,7 +175,7 @@
             Show fewer partners
             <i class="fa fa-solid fa-angle-up fa-2x"></i>
         </button>
-        {% endif %}
+        {% endif %} #}
     </div>
 
     <div id="newest-content" class="tab-content">
