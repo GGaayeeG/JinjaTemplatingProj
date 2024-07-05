@@ -312,6 +312,9 @@ map(attribute='name') | list }) %}
             </button>
         </form>
 
+        <label class='article-counter'><span
+                class='article-count'>{{articles|length}}</span>/<span>{{articles|length}}</span></label>
+
         <div>
             {%if isTRD%}
             {% for docType in docTypeList %}

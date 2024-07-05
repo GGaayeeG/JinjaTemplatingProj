@@ -361,6 +361,14 @@ ul.indexPageMenu {
   display: none;
 }
 
+.indexPage .article-counter {
+  width: 100%;
+  text-align: center;
+  color: var(--tertiary-persimmon);
+  font-weight: bold;
+  font-size: 14px;
+}
+
 @media (max-width: 850px) {
   .indexPage {
     padding-inline: 1.5rem;

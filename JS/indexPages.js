@@ -182,6 +182,9 @@ function onFilterAllArticlesList(oEvent) {
   } else {
     allArticlesContainer.querySelector(".no-match-text").style.display = "none";
   }
+
+  allArticlesContainer.querySelector(".article-count").innerText =
+    visibleArticlesCount;
 }
 
 function onFilterTRDAllSections(oEvent) {
@@ -189,6 +192,7 @@ function onFilterTRDAllSections(oEvent) {
   var filterInput = oEvent.target.parentElement.querySelector(".filterInput");
   var filterValue = filterInput.value.toUpperCase();
   var visibleSections = 0;
+  var visibleArticlesCount = 0;
 
   var mainContainer = filterInput.closest(".main-container");
   var articleSections = mainContainer.querySelectorAll(".section");
@@ -212,6 +216,7 @@ function onFilterTRDAllSections(oEvent) {
         listItems[i].closest(".articleRow").style.display = "flex";
         sectionVisible = true;
         visibleSections++;
+        visibleArticlesCount++;
       } else {
         listItems[i].closest(".articleRow").style.display = "none";
       }
@@ -229,6 +234,9 @@ function onFilterTRDAllSections(oEvent) {
   } else {
     mainContainer.querySelector(".no-match-text").style.display = "none";
   }
+
+  mainContainer.querySelector(".article-count").innerText =
+    visibleArticlesCount;
 }
 
 function onArticleClick(oEvent) {
