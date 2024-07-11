@@ -1,0 +1,184 @@
+{
+  "productname": "SUSE Linux Enterprise Server",
+  "acronym": "SLES",
+  "version": "15 SP5",
+  "hide-productname": false,
+  "lifecycle": "supported",
+  "descriptions": [
+    {
+      "lang": "en-us",
+      "default": true,
+      "description": "<p>\n      A multimodal operating system that paves the way for IT transformation in the\n      software-defined era.\n    </p><p>\n      The modern and modular OS helps simplify multimodal IT, makes traditional IT\n      infrastructure efficient and provides an engaging platform for developers.\n      As a result, you can easily deploy and transition business-critical workloads\n      across on-premise and public cloud environments.\n    </p><p>\n      SUSE Linux Enterprise Server, based on latest SUSE Linux Enterprise, is another\n      example of our open approach helping you optimize and modernize your multimodal\n      IT infrastructure.\n    </p>"
+    },
+    {
+      "lang": "de-de",
+      "default": false,
+      "description": "<p>\n      Ein multimodales Betriebssystem, das als Wegbereiter für die IT-Transformation\n      im softwaredefinierten Zeitalter fungiert.\n    </p><p>\n      Das moderne, modulare Betriebssystem trägt zur Vereinfachung multimodaler IT bei,\n      verbessert die Effizienz der herkömmlichen IT-Infrastruktur und bietet eine\n      interessante Plattform für Entwickler. In Folge dessen können Sie geschäftskritische\n      Workloads über lokale und Public Cloud-Umgebungen hinweg einfach bereitstellen\n      und übertragen.\n    </p><p>\n      SUSE Linux Enterprise Server basiert auf dem neuesten SUSE Linux Enterprise\n      und ist ein weiteres Beispiel für unseren offenen Ansatz zur Optimierung und\n      Modernisierung Ihrer multimodalen IT-Infrastruktur.\n    </p>"
+    }
+  ],
+  "documents": [
+    [
+      {
+        "lang": "en-us",
+        "default": true,
+        "title": "AutoYaST Guide",
+        "subtitle": "",
+        "description": "",
+        "lang-switchable": true,
+        "format": {
+          "html": "en-us/sles/15-SP5/html/SLES-all/book-autoyast.html",
+          "single-html": "en-us/sles/15-SP5/single-html/SLES-autoyast/#book-autoyast",
+          "pdf": "en-us/sles/15-SP5/pdf/book-autoyast_en.pdf"
+        },
+        "date": "1711007335",
+        "tasks": ["Configuration", "Automation", "Deployment"]
+      },
+      {
+        "lang": "zh-cn",
+        "default": false,
+        "title": "AutoYaST 指南",
+        "subtitle": "",
+        "description": "",
+        "lang-switchable": true,
+        "format": {
+          "html": "zh-cn/sles/15-SP5/html/SLES-all/book-autoyast.html",
+          "single-html": "zh-cn/sles/15-SP5/single-html/SLES-autoyast/#book-autoyast",
+          "pdf": "zh-cn/sles/15-SP5/pdf/book-autoyast_zh_cn.pdf"
+        },
+        "date": "1702334571",
+        "tasks": ["Configuration", "Automation", "Deployment"]
+      }
+    ],
+    [
+      {
+        "lang": "en-us",
+        "default": true,
+        "title": "Deployment Guide",
+        "lang-switchable": true,
+        "format": {
+          "html": "en-us/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "en-us/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "en-us/sles/15-SP5/pdf/book-deployment_en.pdf"
+        },
+        "date": "1711007335",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "de-de",
+        "default": false,
+        "title": "Einführung zur Bereitstellung",
+        "lang-switchable": true,
+        "format": {
+          "html": "de-de/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "de-de/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "de-de/sles/15-SP5/pdf/book-deployment_de.pdf"
+        },
+        "date": "1702331872",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "es-es",
+        "default": false,
+        "title": "Guía de distribución",
+        "lang-switchable": true,
+        "format": {
+          "html": "es-es/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "es-es/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "es-es/sles/15-SP5/pdf/book-deployment_es.pdf"
+        },
+        "date": "1702329089",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "fr-fr",
+        "default": false,
+        "title": "Guide de déploiement",
+        "lang-switchable": true,
+        "format": {
+          "html": "fr-fr/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "fr-fr/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "fr-fr/sles/15-SP5/pdf/book-deployment_fr.pdf"
+        },
+        "date": "1702328970",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "it-it",
+        "default": false,
+        "title": "Guida alla distribuzione",
+        "lang-switchable": true,
+        "format": {
+          "html": "it-it/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "it-it/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "it-it/sles/15-SP5/pdf/book-deployment_it.pdf"
+        },
+        "date": "1702328990",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "ja-jp",
+        "default": false,
+        "title": "展開ガイド",
+        "lang-switchable": true,
+        "format": {
+          "html": "ja-jp/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "ja-jp/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "ja-jp/sles/15-SP5/pdf/book-deployment_ja.pdf"
+        },
+        "date": "1702332737",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "ko-kr",
+        "default": false,
+        "title": "배포 가이드",
+        "lang-switchable": true,
+        "format": {
+          "html": "ko-kr/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "ko-kr/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "ko-kr/sles/15-SP5/pdf/book-deployment_ko.pdf"
+        },
+        "date": "1702328459",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "pt-br",
+        "default": false,
+        "title": "Guia de Implantação",
+        "lang-switchable": true,
+        "format": {
+          "html": "pt-br/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "pt-br/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "pt-br/sles/15-SP5/pdf/book-deployment_pt_br.pdf"
+        },
+        "date": "1702330590",
+        "tasks": ["Deployment", "Installation"]
+      },
+      {
+        "lang": "zh-cn",
+        "default": false,
+        "title": "部署指南",
+        "lang-switchable": true,
+        "format": {
+          "html": "zh-cn/sles/15-SP5/html/SLES-all/book-deployment.html",
+          "single-html": "zh-cn/sles/15-SP5/single-html/SLES-deployment/#book-deployment",
+          "pdf": "zh-cn/sles/15-SP5/pdf/book-deployment_zh_cn.pdf"
+        },
+        "date": "1702334571",
+        "tasks": ["Deployment", "Installation"]
+      }
+    ]
+  ],
+  "archives": [
+    {
+      "lang": "en-us",
+      "default": true,
+      "zip": "en-us/sles/15-SP5/sles-15-SP5-en-us.zip"
+    },
+    {
+      "lang": "de-de",
+      "default": false,
+      "zip": "de-de/sles/15-SP5/sles-15-SP5-de-de.zip"
+    }
+  ]
+}
