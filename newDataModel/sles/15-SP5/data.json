@@ -54,6 +54,8 @@
         "lang": "en-us",
         "default": true,
         "title": "Deployment Guide",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "en-us/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -67,6 +69,8 @@
         "lang": "de-de",
         "default": false,
         "title": "Einführung zur Bereitstellung",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "de-de/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -80,6 +84,8 @@
         "lang": "es-es",
         "default": false,
         "title": "Guía de distribución",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "es-es/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -93,6 +99,8 @@
         "lang": "fr-fr",
         "default": false,
         "title": "Guide de déploiement",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "fr-fr/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -106,6 +114,8 @@
         "lang": "it-it",
         "default": false,
         "title": "Guida alla distribuzione",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "it-it/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -119,6 +129,8 @@
         "lang": "ja-jp",
         "default": false,
         "title": "展開ガイド",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "ja-jp/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -132,6 +144,8 @@
         "lang": "ko-kr",
         "default": false,
         "title": "배포 가이드",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "ko-kr/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -145,6 +159,8 @@
         "lang": "pt-br",
         "default": false,
         "title": "Guia de Implantação",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "pt-br/sles/15-SP5/html/SLES-all/book-deployment.html",
@@ -158,6 +174,8 @@
         "lang": "zh-cn",
         "default": false,
         "title": "部署指南",
+        "subtitle": "",
+        "description": "",
         "lang-switchable": true,
         "format": {
           "html": "zh-cn/sles/15-SP5/html/SLES-all/book-deployment.html",
