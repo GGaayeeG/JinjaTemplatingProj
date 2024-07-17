@@ -1,0 +1,82 @@
+{
+  "productsList": [
+    {
+      "name": "SUSE Linux Enterprise Desktop",
+      "acronymn": "SLED",
+      "description": "A secure, manageable, and efficient Linux for mixed IT",
+      "rank": "",
+      "supported-versions": [
+        {
+          "name": "15 SP5",
+          "path": "/sled/15-SP5",
+          "lifecycle": "supported"
+        }
+      ],
+      "unsupported-versions": [
+        {
+          "name": "15 SP4",
+          "path": "/sled/15-SP4",
+          "lifecycle": "unsupported"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sled/15-SP3",
+          "lifecycle": "unsupported"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Micro",
+      "acronymn": "SLE Micro",
+      "description": "Ultra-reliable, immutable Linux operating system",
+      "rank": "",
+      "supported-versions": [
+        {
+          "name": "5.5",
+          "path": "/sles/5.5",
+          "lifecycle": "supported"
+        },
+        {
+          "name": "5.4",
+          "path": "/sles/5.4",
+          "lifecycle": "supported"
+        }
+      ],
+      "unsupported-versions": [
+        {
+          "name": "5.0",
+          "path": "/sles/5.0",
+          "lifecycle": "unsupported"
+        }
+      ]
+    }
+  ],
+  "sbpList": [
+    {
+      "name": "Security",
+      "path": "/sbp/security/"
+    },
+    {
+      "name": "Storage",
+      "path": "/sbp/storage/"
+    },
+    {
+      "name": "Cloud Computing",
+      "path": "/sbp/cloud-computing/"
+    }
+  ],
+  "trdList": [
+    {
+      "name": "Ampere",
+      "path": "/trd/ampere/"
+    },
+    {
+      "name": "Cisco",
+      "path": "/trd/cisco/"
+    },
+    {
+      "name": "Dell",
+      "path": "/trd/dell/"
+    }
+  ]
+}
