@@ -31,7 +31,8 @@
           "pdf": "en-us/sles/15-SP5/pdf/book-autoyast_en.pdf"
         },
         "date": "1711007335",
-        "tasks": ["Configuration", "Automation", "Deployment"]
+        "tasks": ["Configuration", "Automation", "Deployment"],
+        "rank": ""
       },
       {
         "lang": "zh-cn",
@@ -46,7 +47,8 @@
           "pdf": "zh-cn/sles/15-SP5/pdf/book-autoyast_zh_cn.pdf"
         },
         "date": "1702334571",
-        "tasks": ["Configuration", "Automation", "Deployment"]
+        "tasks": ["Configuration", "Automation", "Deployment"],
+        "rank": ""
       }
     ],
     [
@@ -63,7 +65,8 @@
           "pdf": "en-us/sles/15-SP5/pdf/book-deployment_en.pdf"
         },
         "date": "1711007335",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "de-de",
@@ -78,7 +81,8 @@
           "pdf": "de-de/sles/15-SP5/pdf/book-deployment_de.pdf"
         },
         "date": "1702331872",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "es-es",
@@ -93,7 +97,8 @@
           "pdf": "es-es/sles/15-SP5/pdf/book-deployment_es.pdf"
         },
         "date": "1702329089",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "fr-fr",
@@ -108,7 +113,8 @@
           "pdf": "fr-fr/sles/15-SP5/pdf/book-deployment_fr.pdf"
         },
         "date": "1702328970",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "it-it",
@@ -123,7 +129,8 @@
           "pdf": "it-it/sles/15-SP5/pdf/book-deployment_it.pdf"
         },
         "date": "1702328990",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "ja-jp",
@@ -138,7 +145,8 @@
           "pdf": "ja-jp/sles/15-SP5/pdf/book-deployment_ja.pdf"
         },
         "date": "1702332737",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "ko-kr",
@@ -153,7 +161,8 @@
           "pdf": "ko-kr/sles/15-SP5/pdf/book-deployment_ko.pdf"
         },
         "date": "1702328459",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "pt-br",
@@ -168,7 +177,8 @@
           "pdf": "pt-br/sles/15-SP5/pdf/book-deployment_pt_br.pdf"
         },
         "date": "1702330590",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       },
       {
         "lang": "zh-cn",
@@ -183,7 +193,8 @@
           "pdf": "zh-cn/sles/15-SP5/pdf/book-deployment_zh_cn.pdf"
         },
         "date": "1702334571",
-        "tasks": ["Deployment", "Installation"]
+        "tasks": ["Deployment", "Installation"],
+        "rank": ""
       }
     ]
   ],
