@@ -5,23 +5,20 @@
       "acronymn": "SLED",
       "description": "A secure, manageable, and efficient Linux for mixed IT",
       "rank": "",
-      "supported-versions": [
+      "supported": [
         {
           "name": "15 SP5",
-          "path": "/sled/15-SP5",
-          "lifecycle": "supported"
+          "path": "/sled/15-SP5"
         }
       ],
-      "unsupported-versions": [
+      "unsupported": [
         {
           "name": "15 SP4",
-          "path": "/sled/15-SP4",
-          "lifecycle": "unsupported"
+          "path": "/sled/15-SP4"
         },
         {
           "name": "15 SP3",
-          "path": "/sled/15-SP3",
-          "lifecycle": "unsupported"
+          "path": "/sled/15-SP3"
         }
       ]
     },
@@ -30,23 +27,20 @@
       "acronymn": "SLE Micro",
       "description": "Ultra-reliable, immutable Linux operating system",
       "rank": "",
-      "supported-versions": [
+      "supported": [
         {
           "name": "5.5",
-          "path": "/sles/5.5",
-          "lifecycle": "supported"
+          "path": "/sles/5.5"
         },
         {
           "name": "5.4",
-          "path": "/sles/5.4",
-          "lifecycle": "supported"
+          "path": "/sles/5.4"
         }
       ],
-      "unsupported-versions": [
+      "unsupported": [
         {
           "name": "5.0",
-          "path": "/sles/5.0",
-          "lifecycle": "unsupported"
+          "path": "/sles/5.0"
         }
       ]
     }
