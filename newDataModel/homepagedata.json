@@ -3,7 +3,23 @@
     {
       "name": "SUSE Linux Enterprise Desktop",
       "acronymn": "SLED",
-      "description": "A secure, manageable, and efficient Linux for mixed IT",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "A secure, manageable, and efficient Linux for mixed IT"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
       "rank": "",
       "supported": [
         {
@@ -25,7 +41,23 @@
     {
       "name": "SUSE Linux Enterprise Micro",
       "acronymn": "SLE Micro",
-      "description": "Ultra-reliable, immutable Linux operating system",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Ultra-reliable, immutable Linux operating system"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
       "rank": "",
       "supported": [
         {
