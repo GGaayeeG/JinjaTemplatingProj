@@ -1,5 +1,6 @@
-{% macro IndexPageMenu(isTRD) %}
+{% macro IndexPageMenu(isTRD, articleCount) %}
 <div>
+    {% if articleCount>=8 %}
     <ul class="menu-bar indexPageMenu">
         <li id="all_articles_tab" onclick="onTabChange(event,'allArticles')" class="selectedTab"
             title="All documents published for this category/product">All Articles</li>
@@ -16,5 +17,6 @@
             title="Documents grouped by product">Filter by Products</li>
         {% endif %}
     </ul>
+    {% endif %}
 </div>
 {% endmacro %}

@@ -297,7 +297,7 @@ map(attribute='name') | list }) %}
         {%endif%}
     </p>
     {{Divider()}}
-    {{IndexPageMenu(isTRD)}}
+    {{IndexPageMenu(isTRD, articles|length)}}
 
     <div id="allArticles-content" class="tab-content active-content">
         <form method="get" class="formHeader" {% if isTRD %} onsubmit="onFilterTRDAllSections(event)" {% else %}
