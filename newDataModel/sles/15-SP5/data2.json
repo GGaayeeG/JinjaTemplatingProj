@@ -58,6 +58,8 @@
           "versions": ["15 SP5", "15 SP4"]
         }
       ],
+      "docType": "Getting started",
+      "isGated": false,
       "rank": ""
     },
     {
@@ -200,6 +202,8 @@
           "versions": ["15 SP5", "15 SP4"]
         }
       ],
+      "docType": "Getting started",
+      "isGated": true,
       "rank": ""
     }
   ],
