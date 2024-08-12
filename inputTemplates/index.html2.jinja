@@ -1,0 +1,202 @@
+{% from 'macros/Divider.html' import Divider %}
+{% from 'macros/Dropdown.html' import Dropdown %}
+{% from 'macros/ArticleTileIndexPage.html' import ArticleTileIndexPage%}
+{% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
+
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>
+    {% if isSBP%}
+    <h1>{{category}}</h1>
+    {%endif%}
+    {% if isProduct%}
+    <h1>{{product + ' ' +version}}</h1>
+    {%endif%}
+    {% if isTRD%}
+    <h1>{{partner}}</h1>
+    {%endif%}
+</title>
+{% endblock head_title %}
+
+{% block head_link_css -%}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="../styles/indexPageStyles2.css">
+{% endblock head_link_css -%}
+
+{# Processing logic #}
+
+{% set descriptionData = data.descriptions | selectattr('lang', 'equalto', lang) | first %}
+{% if not descriptionData %}
+{% set descriptionData = data.descriptions | selectattr('default', 'equalto', true) | first %}
+{% endif %}
+
+{% set articles = [] %}
+
+{% for documentData in data.documents %}
+{% set langSpecificData = documentData.docs | selectattr('lang', 'equalto', lang) | first %}
+
+{% if not langSpecificData %}
+{% set langSpecificData = documentData.docs | selectattr('default', 'equalto', true) | first %}
+{% endif %}
+
+{%set productsList = []%}
+{% for product in documentData.products %}
+{% if product.name not in productsList %}
+{% set _ = productsList.append(product.name) %}
+{% endif %}
+{% endfor %}
+
+{% if langSpecificData %}
+{% set article = {
+"title": langSpecificData.title,
+"subtitle": langSpecificData.subtitle,
+"description": langSpecificData.description,
+"links": langSpecificData.format,
+"dateModified": langSpecificData.dateModified,
+"tasks": documentData.tasks,
+"products": documentData.products,
+'productsOnly': productsList,
+"docTypes": documentData.docTypes,
+"rank": documentData.rank,
+"gated": documentData.gated
+} %}
+{% set _ = articles.append(article) %}
+{% endif %}
+{% endfor %}
+
+{# Fetching task list, docType list #}
+
+{% set topic_list = [] %}
+{% set products_list = [] %}
+{% set doc_type_list = [] %}
+
+{% for article in articles %}
+{% for task in article.tasks %}
+{% if task not in topic_list %}
+{% set _ = topic_list.append(task) %}
+{% endif %}
+{% endfor %}
+
+{% for product in article.products %}
+{% if product.name not in products_list %}
+{% set _ = products_list.append(product.name) %}
+{% endif %}
+{% endfor %}
+
+{% for docType in article.docTypes %}
+{% if docType not in doc_type_list %}
+{% set _ = doc_type_list.append(docType) %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% set topic_list = ['All']+topic_list | sort() %}
+{% set products_list = ['All']+products_list | sort() %}
+{% set doc_type_list = ['All']+doc_type_list | sort() %}
+
+{# End of processing logic #}
+
+{% block body_main%}
+<div class="main-container indexPage">
+    <button class='helpButton' onclick="onStartIndexpageWalkthrough()" title="Walk-Through">Help</button>
+    <button class='feedbackButton'><a
+            href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a></button>
+    <div class="breadcrumbs-bar" title="Navigation to homepage">
+        <a href="{% if isSBP %} /?tab=sbp {% elif isTRD %} /?tab=trd {% else %}  /?tab=products {% endif%}"
+            onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+            {% if isSBP %} Best Practices {% elif isTRD %} Technical References {% else %} Products & Solutions {%
+            endif%}</a>
+    </div>
+
+    {% if isSBP%}
+    <h1>{{category}}</h1>
+    {%endif%}
+    {% if isProduct%}
+    <h1>{{product + ' ' +version}}</h1>
+    {%endif%}
+    {% if isTRD%}
+    <h1>{{partner}}</h1>
+    {%endif%}
+    {# {% if isSmartDocs%}
+    <h1>SUSE Linux Enterprise 16</h1>
+    {%endif%} #}
+
+    <p class="page-description">
+        {% if descriptionData%}
+        {{descriptionData.description}}
+        {%endif%}
+    </p>
+    {{Divider()}}
+
+    <div class="filters-bar">
+        <div class="select-section">
+            <label for="sort-select">Sort</label>
+            <select id="sort-select" onchange="onSortDocuments(event)">
+                <option>Alphabetically</option>
+                <option>Newest</option>
+                <option>Popular</option>
+            </select>
+        </div>
+        <div class="select-section">
+            <label for="topic-select">Topic</label>
+            <select id="topic-select" onchange="onApplyFilters()">
+                {% for topic in topic_list %}
+                <option>{{ topic }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="select-section"><label for="product-select">Products</label>
+            <select id="product-select" onchange="onApplyFilters()">
+                {% for product in products_list %}
+                <option>{{ product }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="select-section">
+            <label for="doctype-select">Doc Type</label>
+            <select id="doctype-select" onchange="onApplyFilters()">
+                {% for docType in doc_type_list %}
+                <option>{{ docType }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="select-section">
+            <label for="type-filter">Filter as you type</label>
+            <input id="type-filter" type='search' value="" placeholder="Type a keyword to filter"
+                oninput="onApplyFilters()" />
+        </div>
+    </div>
+
+    <div id="allArticles-content">
+
+        <label class='article-counter'><span
+                class='article-count'>{{articles|length}}</span>/<span>{{articles|length}}</span></label>
+
+        <div>
+            {% for article in articles %}
+            <div class="articleRow" data-topics="{{article.tasks}}" data-products="{{article.productsOnly}}"
+                data-doctypes="{{article.docTypes}}">
+                <div class="articleText" onclick="onArticleClick(event)">
+                    <a class="articleTitle" href={{article.links.html}}>
+                        {{article.title}}
+                    </a>
+                    <p class="articleDescription">{{article.description}}</p>
+                </div>
+                <label>{{article.dateModified}}</label>
+                {{Dropdown(article.links)}}
+            </div>
+            {% endfor %}
+            <p class="no-match-text">No matching articles found</p>
+        </div>
+    </div>
+    {{WalkThroughDialog()}}
+</div>
+
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+{{ super() }}
+<script src="../JS/indexPages2.js"></script>
+<script src="../JS/walkThrough.js"></script>
+{% endblock after_body_scripts -%}

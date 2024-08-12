@@ -1,3 +1,4 @@
+
 from jinja2 import Environment, FileSystemLoader
 import os
 import json
@@ -11,6 +12,7 @@ def generate_template():
     data_file_sbp = 'data/sbp_metadata_fixed.json'
     data_file_products_slessap = 'data/slesforsap_metadata_corrected.json'
     data_file_products_micro = 'data/sle_micro.json'
+    data_file_products_liberty = 'data/liberty_metadata.json'
     # data_file_products = 'data/bigfile_metadata.json'
 
     # data_file_trd = 'data/trd_metadata.json'
@@ -24,17 +26,23 @@ def generate_template():
     # data_file_smartDocs = 'data/smart_metadata.json'
     data_file_smartDocs = 'data/sle16_smart_metadata.json'
 
+    data_file_products_sles = 'newDataModel/sles/15-SP5/data2.json'
+
     template_file = 'index.html.jinja'
     template_index_all_file = 'index-trd-all.html.jinja'
     template_homepage_file = 'home.html.jinja'
 
+    template_index_file_new = 'index.html2.jinja'
+
     # Load the Jinja environment
-    env = Environment(loader=FileSystemLoader(template_dir))
+    env = Environment(loader=FileSystemLoader(template_dir, encoding='utf-8'))
 
     # Load the template
     template = env.get_template(template_file)
     template_index_all = env.get_template(template_index_all_file)
     template_homepage = env.get_template(template_homepage_file)
+
+    template_index_new = env.get_template(template_index_file_new)
 
     # Load data
     with open(data_file_sbp, 'r',encoding='utf-8') as f:
@@ -46,6 +54,10 @@ def generate_template():
     with open(data_file_products_micro, 'r',encoding='utf-8') as f:
         dataProductsMicro = json.load(f)
 
+    with open(data_file_products_liberty, 'r',encoding='utf-8') as f:
+        dataProductsLiberty = json.load(f)
+
+
     with open(data_file_trd, 'r',encoding='utf-8') as f:
         dataTRD = json.load(f)
 
@@ -55,6 +67,8 @@ def generate_template():
     with open(data_file_smartDocs, 'r',encoding='utf-8') as f:
         dataSmartDocs = json.load(f)
 
+    with open(data_file_products_sles, 'r',encoding='utf-8') as f:
+        dataProductsSLES = json.load(f)
 
        
     # Render the template with data
@@ -62,6 +76,7 @@ def generate_template():
     outputContainerization = template.render(data=dataSBP,isSBP=True, category="Containerization")
     outputSLESforSAP15SP6 = template.render(data=dataProductsSLESSAP,isProduct=True, product="SUSE Linux Enterprise Server for SAP Applications",version="15 SP5")
     outputSLEMicro5_5 =template.render(data=dataProductsMicro,isProduct=True, product="SUSE Linux Enterprise Micro",version="5.5")
+    outputLiberty9 =template.render(data=dataProductsLiberty,isProduct=True, product="SUSE Liberty Linux",version="9")
 
     # outputIBMGS = template.render(data=dataTRD,isTRD=True, partner="IBM",docType="Getting Started")
     # outputIBMAll = template_index_all.render(data=dataTRD, isTRD=True, partner='IBM')
@@ -75,6 +90,8 @@ def generate_template():
     outputSmartDocs = template.render(data=dataSmartDocs,isSmartDocs=True)
 
     outputHomePage = template_homepage.render(data=dataHome)
+
+    outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='en-us')
 
     # Write the output to a file
     output_path = os.path.join(output_dir, 'systems-management.html')
@@ -103,6 +120,13 @@ def generate_template():
     with open(output_path, 'w') as f:
         # f.write(outputSLESforSAP15SP6)
         soup = BeautifulSoup(outputSLEMicro5_5, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
+    output_path = os.path.join(output_dir, 'liberty9.html')
+    with open(output_path, 'w') as f:
+        # f.write(outputSLESforSAP15SP6)
+        soup = BeautifulSoup(outputLiberty9, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
@@ -162,6 +186,14 @@ def generate_template():
         soup = BeautifulSoup(outputHomePage, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
+
+    output_path = os.path.join(output_dir, 'SLES15SP5.html')
+    with open(output_path, 'w',encoding='utf-8') as f:
+        # f.write(outputSystemsManagement)
+        soup = BeautifulSoup(outputSLES15SP5, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
 
     print("Output template generated at: {output_path}")
 

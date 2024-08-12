@@ -152,3 +152,73 @@ Object.keys(sbpList).forEach((path) => {
   };
   categoriesList.push(categoryObj);
 });
+
+// NEW DATA MODEL--------------------------------------------------------------------------------------
+var description = data.description.filter((descObj) => descObj.lang == lang)[0];
+if (!description) {
+  let description = data.description.filter(
+    (descObj) => descObj.default === true
+  )[0];
+}
+
+var documents = data.documents;
+var articles = [];
+for (let i = 0; i < documents.length; i++) {
+  let article = {};
+  let langSpecificData = documents[i].docs.filter(
+    (doc) => doc.lang === lang
+  )[0];
+  if (!langSpecificData) {
+    let langSpecificData = documents[i].docs.filter(
+      (doc) => doc.default === true
+    )[0];
+  }
+  article.title = langSpecificData.title;
+  article.subtitle = langSpecificData.subtitle;
+  article.description = langSpecificData.description;
+  article.links = langSpecificData.format;
+  article.date = langSpecificData.date;
+  article.taks = documents[i].tasks;
+  article.products = documents[i].products;
+  article.docType = documents[i].docType;
+  article.rank = documents[i].rank;
+  article.gated = documents[i].gated;
+  articles.push(article);
+}
+//OR
+var documents = data.documents.map((docData) => {
+  let newDocData = {};
+});
+
+// ------------------------------------------------------------------
+
+//APPLIES TO?
+
+// SELECT DROPDOWNS
+// Product, topic, doctype
+var topicList = ["All"];
+var productsList = ["All"];
+var docTypeList = ["All"];
+for (var i = 0; i < documents.length; i++) {
+  let docObject = documents[i];
+  docObject.tasks.forEach((task) => {
+    if (!(task in topicList)) topicList.push(task);
+  });
+  docObject.products.forEach((product) => {
+    if (!(product.name in productsList)) topicList.push(product.name);
+  });
+  if (!(docObject.docType in docTypeList)) docTypeList.push(docObject);
+}
+// How to pass on the data to the documents on the screen? data-attributes?
+// Data attributes are a powerful and flexible feature of HTML that allow you to attach custom metadata to any HTML element, providing additional information that can be easily accessed and manipulated using JavaScript.
+// Show or hide based on data attributes
+
+// SORT BY - alphabets, dates, popularity
+// Sorting alphabetically using Jinja??
+//Sorting alphabtically using JS - [].sort() - works for all languages -> var a= ['爱','中国人']; a.sort();
+// rearrange exiting items as done on homepage
+
+//FILTERING BASED ON TYPING - alphabetically? in JS? - NP
+//Works for '中国人'.toUpperCase().indexOf("国人") chinese
+//No, Chinese writing does not distinguish between uppercase and lowercase letters.
+// Hide or show documents based on result

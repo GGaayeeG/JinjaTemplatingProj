@@ -1,0 +1,293 @@
+:root {
+  --primary-pine-green: #0c322c;
+  --primary-jungle-green: #30ba78;
+  --secondary-midnight-blue: #192072;
+  --secondary-waterhole-blue: #2453ff;
+  --tertiary-mint: #90ebcd;
+  --tertiary-persimmon: #fe7c3f;
+  --font-size: 16px;
+  --neutral-buttons: #e9e9ed;
+}
+
+.indexPage {
+  padding-block: 2rem;
+  padding-inline: 4rem;
+  text-align: left;
+}
+
+.breadcrumbs-bar a {
+  color: var(--primary-jungle-green);
+  text-decoration: none;
+}
+
+.indexPage h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.indexPage p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.indexPage label {
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.5;
+  display: block;
+}
+
+.page-description {
+  font-size: 14px;
+}
+
+.filters-bar {
+  display: flex;
+  margin-block: 16px;
+  padding-inline: 0;
+  padding-block: 16px;
+  border-bottom: 1px solid var(--tertiary-persimmon);
+}
+
+.select-section {
+  margin-right: 16px;
+}
+
+.select-section label {
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.select-section select,
+.select-section input {
+  padding-block: 6px;
+  padding-inline: 16px;
+  margin-top: 6px;
+  background-color: transparent;
+  border: 2px solid var(--tertiary-persimmon);
+}
+
+.select-section input:focus {
+  outline: none;
+}
+
+.articleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* cursor: pointer; */
+  margin: 8px;
+}
+
+.articleRow .articleTitle {
+  text-decoration: none;
+  line-height: 1.8;
+  cursor: pointer;
+}
+
+.articleRow .articleTitle,
+.articleTileIndexPage .articleTitle {
+  color: var(--primary-jungle-green);
+  /* font-size: 1.2rem; */
+  font-weight: 600;
+}
+
+.articleText:hover a,
+.articleTileIndexPage:hover .articleTitle {
+  color: var(--primary-jungle-green);
+}
+
+/* .articleRow:hover {
+  color: #0c322c;
+} */
+
+.articleText {
+  /* max-width: 76%; */
+  width: 64%;
+  margin-block: 0.5rem;
+  cursor: pointer;
+}
+
+.formatOptions {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.formatOptions button {
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.formatDropdown {
+  position: relative;
+}
+
+.formatDropdown button,
+.formatDropdown button:hover {
+  /* width: 7.5rem; */
+  padding: 0.3rem;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  background: transparent;
+  color: black;
+  border: 2px solid #fe7c3f;
+  border-radius: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.format-dropdown-menu {
+  position: absolute;
+  /* width: max-content; */
+  width: 100%;
+  font-size: 0.9rem;
+  top: 100%; /* Position below the button */
+  left: 0;
+  background-color: #fff; /* Adjust background color as needed */
+  border: 1px solid #ccc; /* Add border for styling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+  padding: 8px;
+  z-index: 1000; /* Ensure the menu appears above other elements */
+  inset: -2px auto auto 0px;
+  transform: translate3d(0px, 30.2222px, 0px);
+}
+
+.dropdown-item {
+  display: block;
+  padding: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 3rem;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.format-dropdown-menu {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Article tiles index page */
+.articlesContainerIP {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.articleTileIndexPage {
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  /* width: 44%; */
+  width: 48%;
+  cursor: pointer;
+}
+
+.indexPage .articleDescription {
+  font-size: 14px;
+  margin-block: 8px;
+  color: #0f0f0f;
+  /* font-style: italic; */
+}
+
+.articleTileIndexPage .tags_Format_Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 1rem; */
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.articleTileIndexPage a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.articleTileIndexPage .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articleTileIndexPage .tags label {
+  margin-top: 0.5rem;
+  margin-right: 1.2rem;
+  padding: 0.3rem;
+  padding-inline: 0.6rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  background-color: #f2f2f2;
+}
+
+.no-match-text {
+  display: none;
+}
+
+.indexPage .article-counter {
+  width: 100%;
+  text-align: center;
+  color: var(--tertiary-persimmon);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .indexPage {
+    padding-inline: 1.5rem;
+  }
+
+  .filters-bar {
+    flex-direction: column;
+  }
+
+  .filters-bar select,
+  .filters-bar input {
+    width: 80%;
+  }
+
+  .articleRow {
+    flex-wrap: wrap;
+    margin-block: 1rem;
+  }
+
+  .articleRow .articleText {
+    max-width: 100%;
+  }
+
+  .articleTileIndexPage {
+    width: 80%;
+    margin-inline: auto;
+  }
+  .articleTileIndexPage .tags {
+    display: none;
+  }
+}
