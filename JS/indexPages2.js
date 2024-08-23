@@ -1,9 +1,38 @@
 // Sort article list -------------------------------------------------------
 function onSortDocuments(oEvent) {
-  console.log(oEvent.target.value);
+  let selectedOption = oEvent.target.value;
+  let articleTilesContainer = document.querySelector(".articleTilesContainer");
+  let docRows = Array.from(
+    articleTilesContainer.querySelectorAll(".articleRow")
+  );
+  let rearrangedDocRows = [];
+  if (selectedOption === "Alphabetically") {
+    // ascending order
+    docRows.sort((a, b) =>
+      a
+        .querySelector(".articleTitle")
+        .innerText.localeCompare(b.querySelector(".articleTitle").innerText)
+    );
+  } else if (selectedOption === "Newest") {
+    //descending order
+    docRows.sort((a, b) =>
+      b
+        .querySelector(".date-modified")
+        .innerText.localeCompare(a.querySelector(".date-modified").innerText)
+    );
+  } else if (selectedOption === "Popular") {
+    // ascending order
+    docRows.sort(
+      (a, b) => a.getAttribute("data-rank") - b.getAttribute("data-rank")
+    );
+  }
+  articleTilesContainer.innerHTML = "";
+  docRows.forEach((articleRow) =>
+    articleTilesContainer.appendChild(articleRow)
+  );
 }
 
-// Filter based on topic ---------------------------------------------------
+// Filtering ---------------------------------------------------
 function onApplyFilters() {
   let topicFilter = document.querySelector("#topic-select")?.value;
   let productFilter = document.querySelector("#product-select")?.value;
@@ -87,12 +116,6 @@ function onApplyFilters() {
   documentRowsContainer.querySelector(".article-count").innerText =
     visibleDocCount;
 }
-
-// Filter based on products ------------------------------------------------
-
-// Filter based on doc type ------------------------------------------------
-
-// Filter as you type ------------------------------------------------------
 
 //Dropdown related code-----------------------------------------------------
 function toggleDropdown(event) {

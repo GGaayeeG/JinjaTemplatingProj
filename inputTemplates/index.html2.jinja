@@ -1,6 +1,4 @@
-{% from 'macros/Divider.html' import Divider %}
 {% from 'macros/Dropdown.html' import Dropdown %}
-{% from 'macros/ArticleTileIndexPage.html' import ArticleTileIndexPage%}
 {% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
 
 {% extends "base.html.jinja" %}
@@ -8,13 +6,13 @@
 {% block head_title -%}
 <title>
     {% if isSBP%}
-    <h1>{{category}}</h1>
+    {{category}}
     {%endif%}
     {% if isProduct%}
-    <h1>{{product + ' ' +version}}</h1>
+    {{product + ' ' +version}}
     {%endif%}
     {% if isTRD%}
-    <h1>{{partner}}</h1>
+    {{partner}}
     {%endif%}
 </title>
 {% endblock head_title %}
@@ -127,7 +125,7 @@
         {{descriptionData.description}}
         {%endif%}
     </p>
-    {{Divider()}}
+    {# {{Divider()}} #}
 
     <div class="filters-bar">
         <div class="select-section">
@@ -173,22 +171,24 @@
         <label class='article-counter'><span
                 class='article-count'>{{articles|length}}</span>/<span>{{articles|length}}</span></label>
 
-        <div>
+        <div class="articleTilesContainer">
             {% for article in articles %}
             <div class="articleRow" data-topics="{{article.tasks}}" data-products="{{article.productsOnly}}"
-                data-doctypes="{{article.docTypes}}">
+                data-doctypes="{{article.docTypes}}" data-article-link="{{article.links.html}}"
+                data-rank="{{article.rank}}">
                 <div class="articleText" onclick="onArticleClick(event)">
                     <a class="articleTitle" href={{article.links.html}}>
                         {{article.title}}
                     </a>
                     <p class="articleDescription">{{article.description}}</p>
                 </div>
-                <label>{{article.dateModified}}</label>
+                <label class="date-modified">{{article.dateModified}}</label>
                 {{Dropdown(article.links)}}
             </div>
             {% endfor %}
-            <p class="no-match-text">No matching articles found</p>
+            {# <p class="no-match-text">No matching articles found</p> #}
         </div>
+        <p class="no-match-text">No matching articles found</p>
     </div>
     {{WalkThroughDialog()}}
 </div>
