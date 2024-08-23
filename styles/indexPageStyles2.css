@@ -54,6 +54,8 @@
   padding-inline: 0;
   padding-block: 16px;
   border-bottom: 1px solid var(--tertiary-persimmon);
+  margin-top: 32px;
+  flex-wrap: wrap;
 }
 
 .select-section {
@@ -70,6 +72,7 @@
   padding-block: 6px;
   padding-inline: 16px;
   margin-top: 6px;
+  margin-bottom: 16px;
   background-color: transparent;
   border: 2px solid var(--tertiary-persimmon);
 }
@@ -93,15 +96,13 @@
   cursor: pointer;
 }
 
-.articleRow .articleTitle,
-.articleTileIndexPage .articleTitle {
+.articleRow .articleTitle {
   color: var(--primary-jungle-green);
   /* font-size: 1.2rem; */
   font-weight: 600;
 }
 
-.articleText:hover a,
-.articleTileIndexPage:hover .articleTitle {
+.articleText:hover a {
   color: var(--primary-jungle-green);
 }
 
@@ -188,28 +189,6 @@
   display: block;
 }
 
-/* Article tiles index page */
-.articlesContainerIP {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 1.5rem;
-}
-
-.articleTileIndexPage {
-  display: flex;
-  flex-wrap: wrap;
-  padding-block: 1.5rem;
-  padding-inline: 2rem;
-  margin-bottom: 0.8rem;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-  justify-content: space-between;
-  /* width: 44%; */
-  width: 48%;
-  cursor: pointer;
-}
-
 .indexPage .articleDescription {
   font-size: 14px;
   margin-block: 8px;
@@ -217,35 +196,8 @@
   /* font-style: italic; */
 }
 
-.articleTileIndexPage .tags_Format_Content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  /* margin-top: 1rem; */
-  margin-top: 8px;
-  font-size: 14px;
-}
-
-.articleTileIndexPage a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.articleTileIndexPage .tags {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.articleTileIndexPage .tags label {
-  margin-top: 0.5rem;
-  margin-right: 1.2rem;
-  padding: 0.3rem;
-  padding-inline: 0.6rem;
-  border-radius: 10px;
-  font-size: 0.88rem;
-  font-weight: 500;
-  background-color: #f2f2f2;
+.applies-to-text span {
+  font-weight: 600;
 }
 
 .no-match-text {
@@ -281,13 +233,5 @@
 
   .articleRow .articleText {
     max-width: 100%;
-  }
-
-  .articleTileIndexPage {
-    width: 80%;
-    margin-inline: auto;
-  }
-  .articleTileIndexPage .tags {
-    display: none;
   }
 }

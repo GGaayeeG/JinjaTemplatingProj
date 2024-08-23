@@ -63,6 +63,9 @@ function onApplyFilters() {
     let description = documentRow
       .querySelector(".articleDescription")
       .innerText.toUpperCase();
+    let appliesToText = documentRow
+      .querySelector(".applies-to-text")
+      .innerText.toUpperCase();
 
     let show = false;
 
@@ -91,7 +94,11 @@ function onApplyFilters() {
       show = false;
     }
 
-    if (title.indexOf(keyword) > -1 || description.indexOf(keyword) > -1) {
+    if (
+      title.indexOf(keyword) > -1 ||
+      description.indexOf(keyword) > -1 ||
+      appliesToText.indexOf(keyword) > -1
+    ) {
       show = show && true;
     } else {
       show = false;

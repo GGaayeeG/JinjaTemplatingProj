@@ -125,7 +125,6 @@
         {{descriptionData.description}}
         {%endif%}
     </p>
-    {# {{Divider()}} #}
 
     <div class="filters-bar">
         <div class="select-section">
@@ -181,6 +180,16 @@
                         {{article.title}}
                     </a>
                     <p class="articleDescription">{{article.description}}</p>
+
+                    {% set appliesToText = [] %}
+                    {% for productInfo in article.products %}
+                    {% set product_versions = productInfo.versions | join(', ') %}
+                    {% set temp = productInfo.name + ' ' + product_versions %}
+                    {% set _ = appliesToText.append(temp) %}
+                    {% endfor %}
+                    {% set appliesToText = appliesToText | join('; ') %}
+
+                    <p class="applies-to-text"> <span>Applies To : </span> {{ appliesToText }}</p>
                 </div>
                 <label class="date-modified">{{article.dateModified}}</label>
                 {{Dropdown(article.links)}}
