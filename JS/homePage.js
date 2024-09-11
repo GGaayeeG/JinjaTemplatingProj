@@ -46,7 +46,7 @@ function onGlobalSearch(oEvent) {
 // }
 function onTabChange(oEvent, tabId) {
   // let tabs = ["products", "sbp", "trd", "newest", "mostPopular"];
-  let tabs = ["products", "sbp", "trd"];
+  let tabs = ["products", "sbp", "trd", "smartdocs"];
 
   // let tabLinkBar = oEvent.target.parentElement.parentElement; //fetching ul element
   let tabLinkBar = document.querySelector("#homepage-menu");
@@ -252,41 +252,66 @@ function onHideAllProducts(oEvent) {
 }
 
 //Generic tile click
-function onTileClick(oEvent, isTRD, isSBP) {
+function onTileClick(oEvent) {
   let pointingUrl = oEvent.target.closest(".tile").dataset.pointingurl;
-  let popoverItems = oEvent.target.closest(".tile").dataset.versions;
-
-  if (pointingUrl) {
-    window.open(pointingUrl, "_self");
-  } else {
-    var popoverTitle = "";
-    if (isTRD) {
-      popoverTitle = "Choose a documentation type to proceed";
-    } else if (isSBP) {
-      popoverTitle = "Choose a product to proceed";
-    }
-    setUpPopover(oEvent, popoverItems, popoverTitle);
-  }
+  window.open(lang + "/" + pointingUrl, "_self");
 }
+
+// function onTileClick(oEvent, isTRD, isSBP) {
+//   let pointingUrl = oEvent.target.closest(".tile").dataset.pointingurl;
+//   let popoverItems = oEvent.target.closest(".tile").dataset.versions;
+
+//   if (pointingUrl) {
+//     window.open(pointingUrl, "_self");
+//   } else {
+//     var popoverTitle = "";
+//     if (isTRD) {
+//       popoverTitle = "Choose a documentation type to proceed";
+//     } else if (isSBP) {
+//       popoverTitle = "Choose a product to proceed";
+//     }
+//     setUpPopover(oEvent, popoverItems, popoverTitle);
+//   }
+// }
 
 // Popover handling for products
 function showVersionPopover(oEvent) {
   // Update popover content based on versions data
 
-  if (oEvent.target.closest(".tile")?.dataset?.versions) {
-    var versions = JSON.parse(oEvent.target.closest(".tile").dataset.versions);
+  if (oEvent.target.closest(".tile")?.dataset["supportedVersions"]) {
+    var supportedVersions = JSON.parse(
+      oEvent.target.closest(".tile").dataset["supportedVersions"]
+    );
   }
+
+  if (oEvent.target.closest(".tile")?.dataset["unsupportedVersions"]) {
+    var unsupportedVersions = JSON.parse(
+      oEvent.target.closest(".tile").dataset["unsupportedVersions"]
+    );
+  }
+
+  var showSupportedVersions = document.getElementById(
+    "supported-products-checkbox"
+  ).checked;
+
+  var versions;
+  if (showSupportedVersions) {
+    versions = supportedVersions;
+  } else {
+    versions = unsupportedVersions;
+  }
+
+  var acronymn = oEvent.target.closest(".tile").dataset.acronymn;
 
   if (versions && versions.length == 1) {
     //map to pointing URL...
-    window.open(versions[0].pointingUrl, "_self");
-    // window.open("./indexPage.html", "_self");
+    window.open(lang + "/" + versions[0].path, "_self");
   } else {
-    setUpPopover(oEvent, versions, "Choose a version to proceed");
+    setUpPopover(oEvent, versions, acronymn, "Choose a version to proceed");
   }
 }
 
-function setUpPopover(oEvent, versions, popoverTitle) {
+function setUpPopover(oEvent, versions, acronymn, popoverTitle) {
   const popoverLogo = document.getElementById("popoverLogo");
   const popoverLabel = document.getElementById("popoverLabel");
   const popoverList = document.getElementById("popoverList");
@@ -307,13 +332,13 @@ function setUpPopover(oEvent, versions, popoverTitle) {
   versions.forEach((versionObj) => {
     const listItem = document.createElement("li");
     const link = document.createElement("a");
-    if (versionObj.pointingUrl) {
-      link.href = versionObj.pointingUrl;
+    if (versionObj.path) {
+      link.href = lang + "/" + versionObj.path;
     } else {
       link.href = "./indexPage.html";
     }
 
-    link.innerText = versionObj.label;
+    link.innerText = acronymn + " " + versionObj.name;
     listItem.appendChild(link);
     popoverList.appendChild(listItem);
   });
@@ -418,6 +443,35 @@ const modalEL = window.addEventListener("click", function (oEvent) {
     popover.style.display = "none";
   }
 });
+
+function onChangeSupported(oEvent) {
+  var isSupported = oEvent.target.checked;
+
+  var cardsContainer = document.querySelector(".productsContainer");
+  var cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+  cards.forEach((card) => {
+    let hasSupportedVersions =
+      JSON.parse(card.dataset.supportedVersions).length > 0;
+    let hasUnsupportedVersions =
+      JSON.parse(card.dataset.unsupportedVersions).length > 0;
+
+    if (isSupported) {
+      if (hasSupportedVersions) {
+        card.classList.remove("hiddenTile");
+      } else {
+        card.classList.add("hiddenTile");
+      }
+    }
+
+    if (!isSupported) {
+      if (hasUnsupportedVersions) {
+        card.classList.remove("hiddenTile");
+      } else {
+        card.classList.add("hiddenTile");
+      }
+    }
+  });
+}
 
 function onAlphabetSelectO(oEvent) {
   var selectedAlphabet = oEvent.target.innerText;

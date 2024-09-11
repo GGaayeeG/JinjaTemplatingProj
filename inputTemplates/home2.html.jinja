@@ -1,0 +1,110 @@
+{% from 'macros/GlobalSearch.html' import GlobalSearch %}
+{% from 'macros/HomePageMenu.html' import HomePageMenuBar %}
+{% from 'macros/Divider.html' import Divider %}
+{% from 'macros/HomePageTile2.html' import Tile %}
+{% from 'macros/ProductTile2.html' import ProductTile %}
+{% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
+
+
+{#-Jinja template for home page-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>Home Page SUSE Documentation</title>
+{% endblock head_title %}
+
+{% block head_link_css -%}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
+{% endblock head_link_css -%}
+
+{% set productsList = data.productsList | sort(attribute='name') %} #}
+
+{% set sbpCategoryList = data.sbpCategoryList %}
+{% set sbpCategoryList = sbpCategoryList | sort(attribute='name') %}
+
+{% set trdPartnerList = data.trdPartnerList %}
+{% set trdPartnerList = trdPartnerList | sort(attribute='name') %}
+
+{% set smartDocCategoryList = data.smartDocCategoryList %}
+{% set smartDocCategoryList = smartDocCategoryList | sort(attribute='name') %}
+
+
+{% block body_main%}
+<div class="main-container">
+    <button class='helpButton' onclick="onStartHomepageWalkthrough()" title="Walk-Through">Help</button>
+    <button class='feedbackButton'><a
+            href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a></button>
+    <h1 class="pageHeading">SUSE Documentation</h1>
+    {{GlobalSearch()}}
+    {{HomePageMenuBar()}}
+
+    <div id="products-content" class="active-content tab-content">
+        <div class="switch-bar">
+            <label>Unsupported</label>
+            <label class="switch">
+                <input id='supported-products-checkbox' type="checkbox" checked onChange="onChangeSupported(event)">
+                <span class="slider round"></span>
+            </label>
+            <label>Supported</label>
+        </div>
+        <div class="productsContainer">
+            {% for product in productsList %}
+            {# extracting description #}
+            {% set productDescriptionObj = product.description | selectattr(' lang', 'equalto' , lang) | first %}
+            {% if not productDescriptionObj %}
+            {% set productDescriptionObj=product.description |
+            selectattr('default', 'equalto' , true) | first %} {% endif %}
+
+            {%set hasSupportedVersions = product.supported|length >0 %}
+
+            {{ ProductTile( title=product.name,
+            supportedVersions=product.supported, unsupportedVersions=product.unsupported,
+            description=productDescriptionObj.description | default(''), acronymn=product.acronymn,
+            hidden=not hasSupportedVersions) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="sbp-content" class="tab-content">
+        <div class="categoriesContainer">
+            {% for category in sbpCategoryList %}
+            {{ Tile(pointingUrl=category.path,title=category.name,
+            description = category.description | default('')) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="trd-content" class="tab-content">
+        <div class="trdContainer">
+            {% for partner in trdPartnerList %}
+            {{ Tile(pointingUrl=partner.path , title=partner.name,
+            description=partner.description | default('')) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="smartdocs-content" class="tab-content">
+        <div class="smartDocContainer">
+            {% for category in smartDocCategoryList %}
+            {{ Tile(pointingUrl=category.path , title=category.name,
+            description=category.description | default('')) }}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="customPopover" class="popover" style="display: none;">
+        <img alt="SUSE Logo" src="../assets/SUSELogo.png" id="popoverLogo" class="suseLogo-in-popup" />
+        <label id="popoverLabel"></label>
+        <ul id="popoverList"></ul>
+    </div>
+    {{WalkThroughDialog()}}
+</div>
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+{{ super() }}
+<script> var lang = "{{ lang }}"; </script>
+<script src="../JS/homePage.js"></script>
+<script src="../JS/walkThrough.js" defer></script>
+{% endblock after_body_scripts -%}

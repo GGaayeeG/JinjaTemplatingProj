@@ -1,0 +1,7 @@
+{% macro Tile(pointingUrl, title, description) %}
+<div class="tile" data-pointingUrl='{{ pointingUrl }}' onclick=" onTileClick(event)">
+    <label class="tile-header">{{ title }}</label>
+    <p class="tile-info"> {{description}}</p>
+</div>
+{% endmacro %}
+<!-- used for SBP and partner tiles -->

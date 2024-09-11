@@ -24,17 +24,17 @@
       "supported": [
         {
           "name": "15 SP5",
-          "path": "/sled/15-SP5"
+          "path": "sled/15-SP5"
         }
       ],
       "unsupported": [
         {
           "name": "15 SP4",
-          "path": "/sled/15-SP4"
+          "path": "sled/15-SP4"
         },
         {
           "name": "15 SP3",
-          "path": "/sled/15-SP3"
+          "path": "sled/15-SP3"
         }
       ]
     },
@@ -62,47 +62,94 @@
       "supported": [
         {
           "name": "5.5",
-          "path": "/sles/5.5"
+          "path": "sles/5.5"
         },
         {
           "name": "5.4",
-          "path": "/sles/5.4"
+          "path": "sles/5.4"
         }
       ],
       "unsupported": [
         {
           "name": "5.0",
-          "path": "/sles/5.0"
+          "path": "sles/5.0"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Enterprise Storage",
+      "acronymn": "SES",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "A secure, manageable, and efficient Linux for mixed IT"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "rank": "",
+      "supported": [],
+      "unsupported": [
+        {
+          "name": "6",
+          "path": "ses/6"
         }
       ]
     }
   ],
-  "sbpList": [
+  "sbpCategoryList": [
     {
       "name": "Security",
-      "path": "/sbp/security/"
+      "path": "sbp/security/"
     },
     {
       "name": "Storage",
-      "path": "/sbp/storage/"
+      "path": "sbp/storage/"
     },
     {
       "name": "Cloud Computing",
-      "path": "/sbp/cloud-computing/"
+      "path": "sbp/cloud-computing/"
     }
   ],
-  "trdList": [
+  "trdPartnerList": [
     {
       "name": "Ampere",
-      "path": "/trd/ampere/"
+      "path": "trd/ampere/"
     },
     {
       "name": "Cisco",
-      "path": "/trd/cisco/"
+      "path": "trd/cisco/"
     },
     {
       "name": "Dell",
-      "path": "/trd/dell/"
+      "path": "trd/dell/"
+    }
+  ],
+  "smartDocCategoryList": [
+    {
+      "name": "Virtualization & Cloud",
+      "path": "smart/virtualization-cloud/"
+    },
+    {
+      "name": "Security",
+      "path": "smart/security/"
+    },
+    {
+      "name": "Network",
+      "path": "smart/network/"
+    },
+    {
+      "name": "Containerization",
+      "path": "smart/container/"
     }
   ]
 }

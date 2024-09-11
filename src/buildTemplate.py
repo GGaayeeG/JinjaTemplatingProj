@@ -20,6 +20,7 @@ def generate_template():
     data_file_trd = 'data/trd_metadata_corrected.json'
 
     data_file_homepage = 'data/homepage_docserv_bigfile.json'
+    data_file_homepage2 = 'newDataModel/homepagedata.json'
     # data_file_homepage = 'data/homepage-data.json'
     # data_file_homepage = 'data/homePageData.json'
 
@@ -32,6 +33,7 @@ def generate_template():
     template_index_all_file = 'index-trd-all.html.jinja'
     template_homepage_file = 'home.html.jinja'
 
+    template_homepage_file_new = 'home2.html.jinja'
     template_index_file_new = 'index.html2.jinja'
 
     # Load the Jinja environment
@@ -42,6 +44,7 @@ def generate_template():
     template_index_all = env.get_template(template_index_all_file)
     template_homepage = env.get_template(template_homepage_file)
 
+    template_homepage2 = env.get_template(template_homepage_file_new)
     template_index_new = env.get_template(template_index_file_new)
 
     # Load data
@@ -63,6 +66,9 @@ def generate_template():
 
     with open(data_file_homepage, 'r',encoding='utf-8') as f:
         dataHome = json.load(f)
+
+    with open(data_file_homepage2, 'r',encoding='utf-8') as f:
+        dataHome2 = json.load(f)
 
     with open(data_file_smartDocs, 'r',encoding='utf-8') as f:
         dataSmartDocs = json.load(f)
@@ -90,8 +96,10 @@ def generate_template():
     outputSmartDocs = template.render(data=dataSmartDocs,isSmartDocs=True)
 
     outputHomePage = template_homepage.render(data=dataHome)
+    outputHomePage2 = template_homepage2.render(data=dataHome2,lang='en-us')
 
     outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='en-us')
+    outputSLES15SP5de = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='de-de')
 
     # Write the output to a file
     output_path = os.path.join(output_dir, 'systems-management.html')
@@ -187,6 +195,12 @@ def generate_template():
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
+    output_path = os.path.join(output_dir, 'homepage3.html')
+    with open(output_path, 'w') as f:
+        soup = BeautifulSoup(outputHomePage2, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
     output_path = os.path.join(output_dir, 'SLES15SP5.html')
     with open(output_path, 'w',encoding='utf-8') as f:
         # f.write(outputSystemsManagement)
@@ -194,6 +208,12 @@ def generate_template():
         formatted_html = soup.prettify()
         f.write(formatted_html)
 
+    output_path = os.path.join(output_dir, 'SLES15SP5de.html')
+    with open(output_path, 'w',encoding='utf-8') as f:
+        # f.write(outputSystemsManagement)
+        soup = BeautifulSoup(outputSLES15SP5de, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
 
     print("Output template generated at: {output_path}")
 

@@ -222,3 +222,11 @@ for (var i = 0; i < documents.length; i++) {
 //Works for '中国人'.toUpperCase().indexOf("国人") chinese
 //No, Chinese writing does not distinguish between uppercase and lowercase letters.
 // Hide or show documents based on result
+
+var appliesToText = article.products
+  .map((productInfo) => productInfo.name + " " + productInfo.versions.join(","))
+  .join("; ");
+
+var supportedVersions = product.supportedVersions.map((version) => {
+  return (version.path = lang + "/" + version.path);
+});
