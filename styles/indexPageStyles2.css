@@ -15,7 +15,8 @@
   text-align: left;
 }
 
-.breadcrumbs-bar a {
+.breadcrumbs-bar a,
+.archives a {
   color: var(--primary-jungle-green);
   text-decoration: none;
 }
@@ -30,13 +31,6 @@
   font-weight: bold;
 }
 
-.indexPage p {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-bottom: 24px;
-  padding: 0;
-}
-
 .indexPage label {
   font-weight: normal;
   margin: 0;
@@ -44,8 +38,20 @@
   display: block;
 }
 
+.indexPage p,
+.indexPage .archives label {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
 .page-description {
   font-size: 14px;
+}
+
+.archives label {
+  display: inline;
 }
 
 .filters-bar {

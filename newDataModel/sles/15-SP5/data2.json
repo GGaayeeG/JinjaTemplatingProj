@@ -201,6 +201,48 @@
       "docTypes": ["Reference Implementation"],
       "isGated": true,
       "rank": "1"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "AMD Secure Encrypted Virtualization (AMD-SEV) Guide",
+          "subtitle": "",
+          "description": "How to enable and configure AMD Secure Encrypted Virtualization",
+          "lang-switchable": true,
+          "format": {
+            "html": "en-us/sles/15-SP5/html/SLES-amd-sev/article-amd-sev.html",
+            "single-html": "en-us/sles/15-SP5/single-html/SLES-amd-sev/#article-amd-sev",
+            "pdf": "en-us/sles/15-SP5/pdf/article-amd-sev_en.pdf"
+          },
+          "dateModified": "2024-08-07"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "AMD 安全加密虚拟化 (AMD-SEV) 指南",
+          "subtitle": "",
+          "description": "AMD 的安全加密虚拟化 (SEV) 可让您加密虚拟机的内存。SEV with Encrypted State (SEV-ES) 更进一步，能够加密虚拟机的 CPU 寄存器内容。这些技术提高了系统安全性，非常适合云计算等多租户环境。它…",
+          "lang-switchable": true,
+          "format": {
+            "html": "zh-cn/sles/15-SP5/html/SLES-all/article-amd-sev.html",
+            "single-html": "zh-cn/sles/15-SP5/single-html/SLES-amd-sev/#article-amd-sev",
+            "pdf": "zh-cn/sles/15-SP5/pdf/article-amd-sev_zh_cn.pdf"
+          },
+          "dateModified": "2024-08-07"
+        }
+      ],
+      "tasks": ["Containerization"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP5"]
+        }
+      ],
+      "docTypes": ["Reference Configuration"],
+      "isGated": false,
+      "rank": "3"
     }
   ],
   "archives": [

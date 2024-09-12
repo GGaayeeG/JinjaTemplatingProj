@@ -29,6 +29,12 @@
 {% set descriptionData = data.descriptions | selectattr('default', 'equalto', true) | first %}
 {% endif %}
 
+{% set archivesData = data.archives | selectattr('lang', 'equalto', lang) | first %}
+{% if not archivesData %}
+{% set archivesData = data.archives | selectattr('default', 'equalto', true) | first %}
+{% endif %}
+
+
 {% set articles = [] %}
 
 {% for documentData in data.documents %}
@@ -101,9 +107,10 @@
     <button class='feedbackButton'><a
             href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a></button>
     <div class="breadcrumbs-bar" title="Navigation to homepage">
-        <a href="{% if isSBP %} /?tab=sbp {% elif isTRD %} /?tab=trd {% else %}  /?tab=products {% endif%}"
+        <a href="{% if isSBP %} /?tab=sbp {% elif isTRD %} /?tab=trd {% elif isSmartDocs %} /?tab=smartdocs {% else %}  /?tab=products {% endif%}"
             onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
-            {% if isSBP %} Best Practices {% elif isTRD %} Technical References {% else %} Products & Solutions {%
+            {% if isSBP %} Best Practices {% elif isTRD %} Technical References {% elif isSmartDocs %} Smart Docs {%
+            else %} Products & Solutions {%
             endif%}</a>
     </div>
 
@@ -116,9 +123,9 @@
     {% if isTRD%}
     <h1>{{partner}}</h1>
     {%endif%}
-    {# {% if isSmartDocs%}
-    <h1>SUSE Linux Enterprise 16</h1>
-    {%endif%} #}
+    {% if isSmartDocs%}
+    <h1>{{category}}</h1>
+    {%endif%}
 
     <p class="page-description">
         {% if descriptionData%}
@@ -126,15 +133,23 @@
         {%endif%}
     </p>
 
+    {% if archivesData%}
+    <span class="archives">
+        <label>Original documentation as ZIP archive: </label>
+        <a href="{{archivesData.zip}}">Download archive</a>
+    </span>
+    {%endif%}
+
     <div class="filters-bar">
         <div class="select-section">
             <label for="sort-select">Sort</label>
             <select id="sort-select" onchange="onSortDocuments(event)">
                 <option>Alphabetically</option>
                 <option>Newest</option>
-                <option>Popular</option>
+                {# <option>Popular</option> #}
             </select>
         </div>
+        {%if isProduct or isSBP or isSmartDocs %}
         <div class="select-section">
             <label for="topic-select">Topic</label>
             <select id="topic-select" onchange="onApplyFilters()">
@@ -143,6 +158,8 @@
                 {% endfor %}
             </select>
         </div>
+        {%endif%}
+        {%if isSBP or isTRD or isSmartDocs%}
         <div class="select-section"><label for="product-select">Products</label>
             <select id="product-select" onchange="onApplyFilters()">
                 {% for product in products_list %}
@@ -150,6 +167,8 @@
                 {% endfor %}
             </select>
         </div>
+        {%endif%}
+        {%if isTRD%}
         <div class="select-section">
             <label for="doctype-select">Doc Type</label>
             <select id="doctype-select" onchange="onApplyFilters()">
@@ -158,6 +177,7 @@
                 {% endfor %}
             </select>
         </div>
+        {%endif%}
         <div class="select-section">
             <label for="type-filter">Filter as you type</label>
             <input id="type-filter" type='search' value="" placeholder="Type a keyword to filter"
@@ -167,8 +187,8 @@
 
     <div id="allArticles-content">
 
-        <label class='article-counter'><span
-                class='article-count'>{{articles|length}}</span>/<span>{{articles|length}}</span></label>
+        <label class='article-counter'>Showing <span class='article-count'>
+                {{articles|length}}</span>/<span>{{articles|length}} documents</span></label>
 
         <div class="articleTilesContainer">
             {% for article in articles %}
@@ -189,13 +209,14 @@
                     {% endfor %}
                     {% set appliesToText = appliesToText | join('; ') %}
 
+                    {%if (isSBP or isTRD or isSmartDocs) and appliesToText%}
                     <p class="applies-to-text"> <span>Applies To : </span> {{ appliesToText }}</p>
+                    {%endif%}
                 </div>
                 <label class="date-modified">{{article.dateModified}}</label>
                 {{Dropdown(article.links)}}
             </div>
             {% endfor %}
-            {# <p class="no-match-text">No matching articles found</p> #}
         </div>
         <p class="no-match-text">No matching articles found</p>
     </div>

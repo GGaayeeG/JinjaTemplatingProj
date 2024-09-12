@@ -63,34 +63,30 @@ function onApplyFilters() {
     let description = documentRow
       .querySelector(".articleDescription")
       .innerText.toUpperCase();
-    let appliesToText = documentRow
-      .querySelector(".applies-to-text")
-      .innerText.toUpperCase();
+    let appliesToText =
+      documentRow.querySelector(".applies-to-text")?.innerText.toUpperCase() ||
+      "";
 
-    let show = false;
+    let show = true;
 
     if (
       topicFilter &&
-      (topicFilter === "All" || topics.includes(topicFilter))
+      !(topicFilter === "All" || topics.includes(topicFilter))
     ) {
-      show = true;
-    }
-
-    if (
-      productFilter &&
-      (productFilter == "All" || products.includes(productFilter))
-    ) {
-      show = show && true;
-    } else {
       show = false;
     }
 
     if (
-      (docTypeFilter && docTypeFilter == "All") ||
-      docTypes.includes(docTypeFilter)
+      productFilter &&
+      !(productFilter == "All" || products.includes(productFilter))
     ) {
-      show = show && true;
-    } else {
+      show = false;
+    }
+
+    if (
+      docTypeFilter &&
+      !(docTypeFilter == "All" || docTypes.includes(docTypeFilter))
+    ) {
       show = false;
     }
 
@@ -123,6 +119,98 @@ function onApplyFilters() {
   documentRowsContainer.querySelector(".article-count").innerText =
     visibleDocCount;
 }
+
+/*function onApplyFiltersO() {
+  let topicFilter = document.querySelector("#topic-select")?.value;
+  let productFilter = document.querySelector("#product-select")?.value;
+  let docTypeFilter = document.querySelector("#doctype-select")?.value;
+  let keyword =
+    document.querySelector("#type-filter").value?.toUpperCase() || "";
+  let visibleDocCount = 0;
+
+  let documentRowsContainer = document.querySelector("#allArticles-content ");
+  let documentRows = documentRowsContainer.querySelectorAll(".articleRow");
+
+  documentRows.forEach((documentRow) => {
+    let topics =
+      JSON.parse(documentRow.getAttribute("data-topics").replace(/'/g, '"')) ||
+      [];
+    let products =
+      JSON.parse(
+        documentRow.getAttribute("data-products").replace(/'/g, '"')
+      ) || [];
+    let docTypes =
+      JSON.parse(
+        documentRow.getAttribute("data-doctypes").replace(/'/g, '"')
+      ) || [];
+
+    let title = documentRow
+      .querySelector(".articleTitle")
+      .innerText.toUpperCase();
+    let description = documentRow
+      .querySelector(".articleDescription")
+      .innerText.toUpperCase();
+    let appliesToText =
+      documentRow.querySelector(".applies-to-text")?.innerText.toUpperCase() ||
+      "";
+
+    let show = false;
+
+    if (
+      !topicFilter ||
+      (topicFilter && (topicFilter === "All" || topics.includes(topicFilter)))
+    ) {
+      show = true;
+    }
+
+    if (
+      productFilter &&
+      (productFilter == "All" || products.includes(productFilter))
+    ) {
+      show = show && true;
+    } else if (productFilter) {
+      show = false;
+    }
+
+    if (
+      (docTypeFilter && docTypeFilter == "All") ||
+      docTypes.includes(docTypeFilter)
+    ) {
+      show = show && true;
+    } else if (docTypeFilter) {
+      show = false;
+    }
+
+    if (
+      title.indexOf(keyword) > -1 ||
+      description.indexOf(keyword) > -1 ||
+      appliesToText.indexOf(keyword) > -1
+    ) {
+      show = show && true;
+    } else {
+      show = false;
+    }
+
+    if (show) {
+      documentRow.style.display = "flex";
+      visibleDocCount++;
+    } else {
+      documentRow.style.display = "none";
+    }
+  });
+
+  if (!visibleDocCount) {
+    documentRowsContainer.querySelector(".no-match-text").style.display =
+      "block";
+  } else {
+    documentRowsContainer.querySelector(".no-match-text").style.display =
+      "none";
+  }
+
+  documentRowsContainer.querySelector(".article-count").innerText =
+    visibleDocCount;
+}
+*/
 
 //Dropdown related code-----------------------------------------------------
 function toggleDropdown(event) {
