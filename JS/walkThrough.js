@@ -30,8 +30,8 @@ function showWalkthrough(stepIndex, walkthroughSteps, toNext, isIndexPage) {
   var targetElement = walkthroughSteps[stepIndex].element;
   if (!document.querySelector(targetElement)) {
     toNext
-      ? showWalkthrough(++walkThroughDialog.dataset.step)
-      : showWalkthrough(--walkThroughDialog.dataset.step);
+      ? showWalkthrough(++walkThroughDialog.dataset.step, "", toNext)
+      : showWalkthrough(--walkThroughDialog.dataset.step, "", toNext);
     return;
   }
   walkThroughDialog.style.left = getWalkthroughDialogCoordinates(

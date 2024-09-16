@@ -29,6 +29,9 @@ def generate_template():
 
     data_file_products_sles = 'newDataModel/sles/15-SP5/data2.json'
 
+    data_en_us_translations = 'i18n/en-us.json'
+    data_de_de_translations = 'i18n/de-de.json'
+
     template_file = 'index.html.jinja'
     template_index_all_file = 'index-trd-all.html.jinja'
     template_homepage_file = 'home.html.jinja'
@@ -76,6 +79,11 @@ def generate_template():
     with open(data_file_products_sles, 'r',encoding='utf-8') as f:
         dataProductsSLES = json.load(f)
 
+    with open(data_en_us_translations, 'r',encoding='utf-8') as f:
+        data_en_us_translations = json.load(f)
+
+    with open(data_de_de_translations, 'r',encoding='utf-8') as f:
+        data_de_de_translations = json.load(f)
        
     # Render the template with data
     outputSystemsManagement = template.render(data=dataSBP,isSBP=True, category="Systems Management")
@@ -98,8 +106,8 @@ def generate_template():
     outputHomePage = template_homepage.render(data=dataHome)
     outputHomePage2 = template_homepage2.render(data=dataHome2,lang='en-us')
 
-    outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='en-us')
-    outputSLES15SP5de = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='de-de')
+    outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isProduct=True,category='Storage', product="SUSE Linux Enterprise Server",version="15 SP5", lang='en-us', translations=data_en_us_translations)
+    outputSLES15SP5de = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='de-de', translations = data_de_de_translations)
 
     # Write the output to a file
     output_path = os.path.join(output_dir, 'systems-management.html')

@@ -1,6 +1,6 @@
-{% macro Dropdown(links) %}
+{% macro Dropdown(links,tooltip) %}
 <div class="formatDropdown" onclick="event.stopPropagation();">
-    <button class="dropdown-toggle" onclick="toggleDropdown(event)" title="Select format">HTML</button>
+    <button class="dropdown-toggle" onclick="toggleDropdown(event)" title="{{tooltip}}">HTML</button>
     <div class="format-dropdown-menu">
         {% if links.pdf%}
         <a href={{links.pdf}} class="dropdown-item">PDF</a>

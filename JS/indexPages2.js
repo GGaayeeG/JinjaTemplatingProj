@@ -403,6 +403,36 @@ function startWalkthrough() {
 
   var walkthroughSteps = [
     {
+      element: "#sort-select",
+      content: translations["sort-walkthrough"],
+    },
+
+    {
+      element: "#topic-select",
+      content: translations["topic-walkthrough"],
+    },
+    {
+      element: "#product-select",
+      content: translations["products-walkthrough"],
+    },
+    {
+      element: "#doctype-select",
+      content: translations["doc-type-walkthrough"],
+    },
+    {
+      element: "#type-filter",
+      content: translations["filter-as-you-type-walkthrough"],
+    },
+  ];
+
+  showWalkthrough(0, walkthroughSteps, "", true);
+}
+
+function startWalkthroughOld() {
+  // Show the walkthrough for each step
+
+  var walkthroughSteps = [
+    {
       element: "#all_articles_tab",
       content:
         "This list contains all documents published for this category/product.",
@@ -423,11 +453,11 @@ function startWalkthrough() {
       content:
         "Explore the articles related to a particular product. Expand or collapse all product listings at once or use the > icons to expand just the selected one. Further, filter the grouped articles by keywords contained in the article title or description.",
     },
-    // {
-    //   element: "#all_articles_filter",
-    //   content:
-    //     "Filter the list of articles by keywords contained in the article title or description.",
-    // },
+    {
+      element: "#all_articles_filter",
+      content:
+        "Filter the list of articles by keywords contained in the article title or description.",
+    },
   ];
 
   showWalkthrough(0, walkthroughSteps, "", true);
