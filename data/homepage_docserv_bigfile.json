@@ -6,7 +6,12 @@
       "sles-sap": "SUSE Linux Enterprise Server for SAP Applications",
       "sle16": "SUSE Linux Enterprise 16",
       "liberty": "SUSE Liberty Linux",
-      "suma": "SUSE Manager"
+      "suma": "SUSE Manager",
+      "rancher": "SUSE Rancher",
+      "sle-public-cloud": "SUSE Linux Enterprise in public clouds",
+      "sle-rt": "SUSE Linux Enterprise Real Time",
+      "sles": "SUSE Linux Enterprise Server",
+      "soc": "SUSE OpenStack Cloud"
     },
     "product": {
       "appliance": {
@@ -68,30 +73,12 @@
       },
       "rancher": {
         "description": "Unified Kubernetes management",
-        "rancher/projects": {
-          "setid": "projects",
+        "rancher/prime": {
+          "setid": "prime",
           "visible": true,
           "name": "Rancher",
           "acronym": "",
-          "version": "Projects",
-          "hide-productname": false,
-          "lifecycle": "supported"
-        },
-        "rancher/products": {
-          "setid": "products",
-          "visible": true,
-          "name": "Rancher",
-          "acronym": "",
-          "version": "Products",
-          "hide-productname": false,
-          "lifecycle": "supported"
-        },
-        "rancher/kubernetes": {
-          "setid": "kubernetes",
-          "visible": true,
-          "name": "Rancher",
-          "acronym": "",
-          "version": "Kubernetes Distributions",
+          "version": "Prime",
           "hide-productname": false,
           "lifecycle": "supported"
         }
