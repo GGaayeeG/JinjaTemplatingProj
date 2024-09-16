@@ -18,7 +18,7 @@
 <link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
 {% endblock head_link_css -%}
 
-{% set productsList = data.productsList | sort(attribute='name') %} #}
+{% set productsList = data.productsList | sort(attribute='name') %}
 
 {% set sbpCategoryList = data.sbpCategoryList %}
 {% set sbpCategoryList = sbpCategoryList | sort(attribute='name') %}
@@ -35,9 +35,9 @@
     <button class='helpButton' onclick="onStartHomepageWalkthrough()" title="Walk-Through">Help</button>
     <button class='feedbackButton'><a
             href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a></button>
-    <h1 class="pageHeading">SUSE Documentation</h1>
-    {{GlobalSearch()}}
-    {{HomePageMenuBar()}}
+    <h1 class="pageHeading">{{translations['page-title']}}</h1>
+    {{GlobalSearch(translations['search-tooltip'],translations['search-placeholder'])}}
+    {{HomePageMenuBar(translations['products-tab-tooltip'],translations['sbp-tab-tooltip'],translations['trd-tab-tooltip'],translations['smart-docs-tab-tooltip'])}}
 
     <div id="products-content" class="active-content tab-content">
         <div class="switch-bar">
@@ -104,6 +104,16 @@
 
 {% block after_body_scripts %}
 {{ super() }}
+{% set filteredTranslations = {} %}
+{% for key, value in translations.items() %}
+{% if 'walkthrough' in key %}
+{% set filteredTranslations = filteredTranslations.update({key: value}) or filteredData %}
+{% endif %}
+{% endfor %}
+
+<script>
+    var translations = {{ filteredTranslations }}
+</script>
 <script> var lang = "{{ lang }}"; </script>
 <script src="../JS/homePage.js"></script>
 <script src="../JS/walkThrough.js" defer></script>
