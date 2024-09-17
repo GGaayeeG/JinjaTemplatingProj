@@ -1,18 +1,22 @@
+{% extends "base.html.jinja" %}
+
 {% from 'macros/Dropdown.html' import Dropdown %}
 {% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
-
-{% extends "base.html.jinja" %}
 
 {% block head_title -%}
 <title>
     {% if isSBP%}
-    {{category}}
+    {{data.productname + ': ' +data.version}}
     {%endif%}
     {% if isProduct%}
-    {{product + ' ' +version}}
+    {# {{product + ' ' +version}} #}
+    {{data.productname + ' ' + data.version}}
     {%endif%}
     {% if isTRD%}
-    {{partner}}
+    {{data.productname + ': ' + data.version}}
+    {%endif%}
+    {% if isSmartDocs%}
+    {{data.productname + ': ' + data.version}}
     {%endif%}
 </title>
 {% endblock head_title %}
@@ -108,7 +112,7 @@
     <button class='feedbackButton' title="{{translations['feedback-button']}}"><a
             href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">{{translations['feedback-button']}}</a></button>
     <div class="breadcrumbs-bar" title="Navigation to homepage">
-        <a href="{% if isSBP %} /?tab=sbp {% elif isTRD %} /?tab=trd {% elif isSmartDocs %} /?tab=smartdocs {% else %}  /?tab=products {% endif%}"
+        <a href="{% if isSBP %} /{{lang}}?tab=sbp {% elif isTRD %} /{{lang}}?tab=trd {% elif isSmartDocs %} /{{lang}}?tab=smartdocs {% else %}  /{{lang}}?tab=products {% endif%}"
             onclick="onBackToHome(event)"><i class="fa fa-arrow-left" aria-hidden="true"></i>
             {% if isSBP %} Best Practices {% elif isTRD %} Technical References {% elif isSmartDocs %} Smart Docs {%
             else %} Products & Solutions {%
@@ -116,16 +120,17 @@
     </div>
 
     {% if isSBP%}
-    <h1>{{category}}</h1>
+    <h1>{{data.productname + ': ' +data.version}}</h1>
     {%endif%}
     {% if isProduct%}
-    <h1>{{product + ' ' +version}}</h1>
+    {# {{product + ' ' +version}} #}
+    <h1>{{data.productname + ' ' + data.version}}</h1>
     {%endif%}
     {% if isTRD%}
-    <h1>{{partner}}</h1>
+    <h1>{{data.productname + ': ' +data.version}}</h1>
     {%endif%}
     {% if isSmartDocs%}
-    <h1>{{category}}</h1>
+    <h1>{{data.productname + ': ' +data.version}}</h1>
     {%endif%}
 
     <p class="page-description">
