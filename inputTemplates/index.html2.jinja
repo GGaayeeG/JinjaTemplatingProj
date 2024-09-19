@@ -199,7 +199,7 @@
                 {{articles|length}}</span>/<span>{{articles|length}} {{translations['articles-text']}}</span></label>
 
         <div class="articleTilesContainer">
-            {% for article in articles %}
+            {% for article in articles | sort(attribute='title') %}
             <div class="articleRow" data-topics="{{article.tasks}}" data-products="{{article.productsOnly}}"
                 data-doctypes="{{article.docTypes}}" data-article-link="{{article.links.html}}"
                 data-rank="{{article.rank}}">
