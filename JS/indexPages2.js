@@ -368,7 +368,7 @@ function onFilterTRDAllSections(oEvent) {
 
 function onArticleClick(oEvent) {
   let articleLink = oEvent.target
-    .closest(".articleText")
+    .closest(".articleRow")
     .getAttribute("data-article-link");
   location.href = articleLink;
 }

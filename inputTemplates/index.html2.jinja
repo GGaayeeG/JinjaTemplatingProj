@@ -124,7 +124,8 @@
     {%endif%}
     {% if isProduct%}
     {# {{product + ' ' +version}} #}
-    <h1>{{data.productname + ' ' + data.version}}</h1>
+    <h1>{{data.productname + ' ' + data.version}} {%if data.lifecycle =='supported'%} ({{data.lifecycle}}) {%endif%}
+    </h1>
     {%endif%}
     {% if isTRD%}
     <h1>{{data.productname + ': ' +data.version}}</h1>
@@ -200,11 +201,14 @@
 
         <div class="articleTilesContainer">
             {% for article in articles | sort(attribute='title') %}
-            <div class="articleRow" data-topics="{{article.tasks}}" data-products="{{article.productsOnly}}"
-                data-doctypes="{{article.docTypes}}" data-article-link="{{article.links.html}}"
-                data-rank="{{article.rank}}">
+            <div class="articleRow" data-topics="{{ article.tasks }}" data-products="{{ article.productsOnly }}"
+                data-doctypes="{{ article.docTypes }}"
+                data-article-link="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
+                data-rank="{{ article.rank }}">
                 <div class="articleText" onclick="onArticleClick(event)">
-                    <a class="articleTitle" href={{article.links.html}}>
+                    <a class="articleTitle"
+                        href="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
+                        data-rank="{{ article.rank }}">
                         {{article.title}}
                     </a>
                     <p class="articleDescription">{{article.description}}</p>
