@@ -81,10 +81,15 @@
   margin-bottom: 16px;
   background-color: transparent;
   border: 2px solid var(--tertiary-persimmon);
+  max-width: 340px;
 }
 
 .select-section input:focus {
   outline: none;
+}
+
+#all-articles-content {
+  margin-top: 32px;
 }
 
 .articleRow {
@@ -153,6 +158,10 @@
   cursor: pointer;
 }
 
+.formatDropdown button.disabled {
+  cursor: auto;
+}
+
 .format-dropdown-menu {
   position: absolute;
   /* width: max-content; */
@@ -187,6 +196,10 @@
   border-left: 0.3em solid transparent;
 }
 
+.disabled.dropdown-toggle::after {
+  visibility: hidden;
+}
+
 .format-dropdown-menu {
   display: none;
 }
@@ -199,7 +212,6 @@
   font-size: 14px;
   margin-block: 8px;
   color: #0f0f0f;
-  /* font-style: italic; */
 }
 
 .applies-to-text span {

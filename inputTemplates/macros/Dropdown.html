@@ -1,8 +1,9 @@
 {% macro Dropdown(links,tooltip) %}
 <div class="formatDropdown" onclick="event.stopPropagation();">
+    {%if links|length >1%}
     <button class="dropdown-toggle" onclick="toggleDropdown(event)" title="{{tooltip}}">
-        {% if links.html %}HTML
-        {% elif links.pdf %}PDF
+        {% if links.html %} HTML
+        {% elif links.pdf %} PDF
         {% endif %}
     </button>
     <div class="format-dropdown-menu">
@@ -13,15 +14,23 @@
         <a href="{{ links['single-html']}}" class="dropdown-item">Single-HTML</a>
         {% endif %}
     </div>
+    {%else%}
+    <!-- when links.length ==1 -->
+    <button class="disabled dropdown-toggle" title="{% if links.html %} HTML{% elif links.pdf %} PDF{% endif %}">
+        {% if links.html %} HTML
+        {% elif links.pdf %} PDF
+        {% endif %}
+    </button>
+    {% endif %}
 </div>
 <!-- <div class="formatDropdown" onclick="event.stopPropagation();">
     <button class="dropdown-toggle" onclick="toggleDropdown(event)" title="{{tooltip}}">HTML</button>
     <div class="format-dropdown-menu">
         {% if links.pdf%}
-        <a href={{links.pdf}} class="dropdown-item">PDF</a>
+        <a href="{{links.pdf}}" class="dropdown-item">PDF</a>
         {% endif %}
         {% if links.singleHTML %}
-        <a href={{links.singleHTML}} class="dropdown-item">Single-HTML</a>
+        <a href="{{links.singleHTML}}" class="dropdown-item">Single-HTML</a>
         {% endif %}
     </div>
 </div> -->
