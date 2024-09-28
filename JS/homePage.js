@@ -89,6 +89,13 @@ document.addEventListener("DOMContentLoaded", function () {
   if (tabParam) {
     onTabChange("", tabParam);
   }
+
+  //set unsupported product tiles based on the previous selection
+  if (!tabParam || tabParam == "products") {
+    if (!document.getElementById("supported-products-checkbox").checked) {
+      onChangeSupported("", false);
+    }
+  }
 });
 
 isProductsSortedAlphabetically = true;
