@@ -1,6 +1,19 @@
+window.addEventListener("load", function (event) {
+  onApplyFilters();
+  onSortDocuments();
+  // // Reset all <select> elements
+  // document.querySelectorAll("select").forEach(function (select) {
+  //   select.selectedIndex = 0; // Resets to the first option
+  // });
+  // // Reset all <input> elements
+  // document.querySelectorAll("input").forEach(function (input) {
+  //   input.value = ""; // Clears the input field
+  // });
+});
+
 // Sort article list -------------------------------------------------------
 function onSortDocuments(oEvent) {
-  let selectedOption = oEvent.target.value;
+  let selectedOption = document.getElementById("sort-select").value;
   let articleTilesContainer = document.querySelector(".articleTilesContainer");
   let docRows = Array.from(
     articleTilesContainer.querySelectorAll(".articleRow")
