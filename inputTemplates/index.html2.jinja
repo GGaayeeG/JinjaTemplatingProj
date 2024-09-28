@@ -235,7 +235,7 @@
                     {% set appliesToText = appliesToText | join('; ') %}
 
                     {%if (isSBP or isTRD or isSmartDocs) and appliesToText%}
-                    <p class="applies-to-text"> <span>{{translations['applies-to-text']}} : </span> {{ appliesToText }}
+                    <p class="applies-to-text"> <span>{{translations['applies-to-text']}}: </span> {{ appliesToText }}
                     </p>
                     {%endif%}
                 </div>
