@@ -9,8 +9,11 @@
     {{data.productname + ': ' +data.version}}
     {%endif%}
     {% if isProduct%}
-    {# {{product + ' ' +version}} #}
-    {{data.productname + ' ' + data.version}}
+    {% if data['hide-productname'] %}
+    {{ data.version }}
+    {% else %}
+    {{ data.productname + ' ' + data.version }}
+    {% endif %}
     {%endif%}
     {% if isTRD%}
     {{data.productname + ': ' + data.version}}
@@ -124,8 +127,18 @@
     {%endif%}
     {% if isProduct%}
     {# {{product + ' ' +version}} #}
-    <h1>{{data.productname + ' ' + data.version}} {%if data.lifecycle =='supported'%} ({{data.lifecycle}}) {%endif%}
+    <h1>
+        {% if data['hide-productname'] %}
+        {{ data.version }}
+        {% else %}
+        {{ data.productname + ' ' + data.version }}
+        {% endif %}
+        {% if data.lifecycle == 'unsupported' %}
+        ({{ data.lifecycle }})
+        {% endif %}
     </h1>
+    {# <h1>{{data.productname + ' ' + data.version}} {%if data.lifecycle =='supported'%} ({{data.lifecycle}}) {%endif%}
+    </h1> #}
     {%endif%}
     {% if isTRD%}
     <h1>{{data.productname + ': ' +data.version}}</h1>
