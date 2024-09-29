@@ -1,6 +1,4 @@
 window.addEventListener("load", function (event) {
-  onApplyFilters();
-  onSortDocuments();
   // // Reset all <select> elements
   // document.querySelectorAll("select").forEach(function (select) {
   //   select.selectedIndex = 0; // Resets to the first option
@@ -9,6 +7,11 @@ window.addEventListener("load", function (event) {
   // document.querySelectorAll("input").forEach(function (input) {
   //   input.value = ""; // Clears the input field
   // });
+  if (this.document.querySelector(".filters-bar")) {
+    onApplyFilters();
+    onSortDocuments();
+    // this.document.querySelector(".helpButton").style.visibility = "hidden";
+  }
 });
 
 // Sort article list -------------------------------------------------------
