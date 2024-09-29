@@ -13,12 +13,17 @@
 <title>Home Page SUSE Documentation</title>
 {% endblock head_title %}
 
+{%block head_global%}
+{{super()}}
+{# {% include "./fragments/head_"~lang~".html" %} #}
+{%endblock head_global%}
+
 {% block head_link_css -%}
 {{ super() }}
 <link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
 {% endblock head_link_css -%}
 
-{% set productsList = data.productsList | sort(attribute='name') %}
+{% set productsList = data.productsList | sort(attribute='rank') %}
 
 {% set sbpCategoryList = data.sbpCategoryList %}
 {% set sbpCategoryList = sbpCategoryList | sort(attribute='name') %}
@@ -29,6 +34,9 @@
 {% set smartDocCategoryList = data.smartDocCategoryList %}
 {% set smartDocCategoryList = smartDocCategoryList | sort(attribute='name') %}
 
+{% block body_view_header -%}
+{% include "./fragments/header_"~lang~".html" %}
+{% endblock body_view_header -%}
 
 {% block body_main%}
 <div class="main-container">
@@ -101,6 +109,10 @@
     {{WalkThroughDialog()}}
 </div>
 {%endblock body_main%}
+
+{% block body_view_footer -%}
+{% include "./fragments/footer_"~lang~".html" %}
+{% endblock body_view_footer -%}
 
 {% block after_body_scripts %}
 {{ super() }}

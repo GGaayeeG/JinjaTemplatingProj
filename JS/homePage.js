@@ -98,10 +98,66 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-isProductsSortedAlphabetically = true;
+isProductsSortedAlphabetically = false;
 
 // Sorting
 function sortProductsAsc(oEvent) {
+  if (isProductsSortedAlphabetically) return;
+  var cardsContainer = document.querySelector(".productsContainer");
+
+  // Get all card elements
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+
+  // let cardsSorted = cards.reverse();
+  let cardsSorted = cards.sort((a, b) => {
+    let titleA = a.querySelector(".tile-header").innerText.toUpperCase();
+    let titleB = b.querySelector(".tile-header").innerText.toUpperCase();
+    return titleA.localeCompare(titleB);
+  });
+
+  // Remove existing cards from the container
+  cards.forEach(function (card) {
+    cardsContainer.removeChild(card);
+  });
+
+  // Append sorted cards back to the container
+  cardsSorted.forEach(function (card) {
+    cardsContainer.appendChild(card);
+  });
+
+  setSortingOptionStyling(oEvent);
+  isProductsSortedAlphabetically = true;
+}
+
+function sortProductsDesc(oEvent) {
+  if (!isProductsSortedAlphabetically) return;
+
+  var cardsContainer = document.querySelector(".productsContainer");
+
+  // Get all card elements
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+
+  // Sort cards based on their title
+  // cardsSorted = cards.reverse();
+  let cardsSorted = cards.sort((a, b) => {
+    let titleA = a.querySelector(".tile-header").innerText.toUpperCase();
+    let titleB = b.querySelector(".tile-header").innerText.toUpperCase();
+    return titleB.localeCompare(titleA);
+  });
+
+  // Remove existing cards from the container
+  cardsContainer.innerHTML = "";
+
+  // Append sorted cards back to the container
+  cardsSorted.forEach(function (card) {
+    cardsContainer.appendChild(card);
+  });
+
+  setSortingOptionStyling(oEvent);
+  isProductsSortedAlphabetically = false;
+}
+
+function sortProductsAscOld(oEvent) {
   if (isProductsSortedAlphabetically) return;
   var cardsContainer = document.querySelector(".productsContainer");
 
@@ -151,7 +207,7 @@ function sortProductsAsc(oEvent) {
   isProductsSortedAlphabetically = true;
 }
 
-function sortProductsDesc(oEvent) {
+function sortProductsDescOld(oEvent) {
   if (!isProductsSortedAlphabetically) return;
 
   var cardsContainer = document.querySelector(".productsContainer");
