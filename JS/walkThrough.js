@@ -25,15 +25,24 @@ function showWalkthrough(stepIndex, walkthroughSteps, toNext, isIndexPage) {
     walkthroughSteps[stepIndex].content;
   walkThroughDialog.dataset.step = stepIndex;
 
-  walkThroughDialog.showModal();
+  // walkThroughDialog.showModal();
 
   var targetElement = walkthroughSteps[stepIndex].element;
+
+  // if (!document.querySelector(targetElement) && toNext == undefined) {
+  //   No first element -  End of the walkthrough
+  //   return;
+  // }
+
   if (!document.querySelector(targetElement)) {
-    toNext
+    // toNext === "" for first element
+    toNext || toNext === ""
       ? showWalkthrough(++walkThroughDialog.dataset.step, "", toNext)
       : showWalkthrough(--walkThroughDialog.dataset.step, "", toNext);
     return;
   }
+
+  walkThroughDialog.showModal();
   walkThroughDialog.style.left = getWalkthroughDialogCoordinates(
     targetElement,
     walkThroughDialog
