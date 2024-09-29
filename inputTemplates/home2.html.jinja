@@ -34,9 +34,9 @@
 {% set smartDocCategoryList = data.smartDocCategoryList %}
 {% set smartDocCategoryList = smartDocCategoryList | sort(attribute='name') %}
 
-{% block body_view_header -%}
+{# {% block body_view_header -%}
 {% include "./fragments/header_"~lang~".html" %}
-{% endblock body_view_header -%}
+{% endblock body_view_header -%} #}
 
 {% block body_main%}
 <div class="main-container">
@@ -59,7 +59,7 @@
         <div class="productsContainer">
             {% for product in productsList %}
             {# extracting description #}
-            {% set productDescriptionObj = product.description | selectattr(' lang', 'equalto' , lang) | first %}
+            {% set productDescriptionObj = product.description | selectattr('lang', 'equalto' , lang) | first %}
             {% if not productDescriptionObj %}
             {% set productDescriptionObj=product.description |
             selectattr('default', 'equalto' , true) | first %} {% endif %}
@@ -110,9 +110,9 @@
 </div>
 {%endblock body_main%}
 
-{% block body_view_footer -%}
+{# {% block body_view_footer -%}
 {% include "./fragments/footer_"~lang~".html" %}
-{% endblock body_view_footer -%}
+{% endblock body_view_footer -%} #}
 
 {% block after_body_scripts %}
 {{ super() }}
