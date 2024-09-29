@@ -222,7 +222,11 @@
                     <a class="articleTitle"
                         href="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
                         data-rank="{{ article.rank }}">
+                        {%if article.subtitle%}
+                        {{article.title}}: {{article.subtitle}}
+                        {%else%}
                         {{article.title}}
+                        {%endif%}
                     </a>
                     <p class="articleDescription">{{article.description}}</p>
 
