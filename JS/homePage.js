@@ -91,6 +91,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   //set unsupported product tiles based on the previous selection
+  // if (!tabParam || tabParam == "products") {
+  //   if (!document.getElementById("supported-products-checkbox").checked) {
+  //     onChangeSupported("", false);
+  //   }
+  // }
+});
+
+window.addEventListener("load", function (event) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const tabParam = urlParams.get("tab");
+
+  //set unsupported product tiles based on the previous selection
   if (!tabParam || tabParam == "products") {
     if (!document.getElementById("supported-products-checkbox").checked) {
       onChangeSupported("", false);
@@ -508,7 +520,9 @@ const modalEL = window.addEventListener("click", function (oEvent) {
 });
 
 function onChangeSupported(oEvent) {
-  var isSupported = oEvent.target.checked;
+  if (oEvent) {
+    var isSupported = oEvent.target.checked;
+  }
 
   var cardsContainer = document.querySelector(".productsContainer");
   var cards = Array.from(cardsContainer.querySelectorAll(".tile"));
