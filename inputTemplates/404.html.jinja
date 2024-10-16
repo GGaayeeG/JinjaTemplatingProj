@@ -1,0 +1,73 @@
+{#-Jinja template for 404 page-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>404 Page Not Found | SUSE Docs</title>
+{% endblock head_title %}
+
+{%block head_global%}
+{{super()}}
+{%endblock head_global%}
+
+{% block head_link_css -%}
+{{ super() }}
+{% endblock head_link_css -%}
+
+{% block body_main%}
+<div class="main-container unavailable-page">
+    <h2>Sorry, this page isn't available</h2>
+    <p>The page you are looking for may have been removed, its name may have changed, or it is temporarily unavailable.
+    </p>
+    <p>Would you like to search for it?</p>
+    <form id="searchform" action="./search.html" method="get" accept-charset="utf-8" class="formHeader standaloneSearch"
+        onsubmit="onGlobalSearch(event)">
+        <input type="text" name="" id="search-input" class="searchInput" size="80" title="Global search"
+            placeholder="Search SUSE documentation" />
+        <input id="hidden-input" name="q" style="display:none" />
+        <button type="submit" value="Search" title="Search" class="searchButton">
+            <i class="fa fa-search"></i>
+        </button>
+    </form>
+    <a href="/">Go back to homepage</a>
+</div>
+<style>
+    .unavailable-page {
+        margin-block: 32px;
+        margin-inline: auto;
+        text-align: left;
+        padding: 32px;
+    }
+
+    .unavailable-page h2 {
+        margin-bottom: 32px
+    }
+
+    .unavailable-page .standaloneSearch {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+
+    .unavailable-page a {
+        color: var(--primary-jungle-green);
+        text-decoration: none;
+        margin-top: 32px;
+        font-weight: 600;
+    }
+</style>
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+<script>
+    function onGlobalSearch(oEvent) {
+        var searchInput = oEvent.target.querySelector("#search-input");
+        var hiddenInput = oEvent.target.querySelector("#hidden-input");
+        if (searchInput.value) {
+            hiddenInput.value =
+                searchInput.value + " inurl:/html/ -inurl:/single-html/";
+        } else {
+            oEvent.preventDefault();
+        }
+    }
+</script>
+{% endblock after_body_scripts -%}
