@@ -1,7 +1,30 @@
 {
+  "productFamilies": [
+    {
+      "name": "Linux",
+      "rank": "1",
+      "path": ""
+    },
+    {
+      "name": "Cloud Native",
+      "rank": "2",
+      "path": ""
+    },
+    {
+      "name": "Edge",
+      "rank": "3",
+      "path": ""
+    },
+    {
+      "name": "AI",
+      "rank": "4",
+      "path": ""
+    }
+  ],
   "productsList": [
     {
       "name": "SUSE Linux Enterprise Desktop",
+      "productFamily": "Linux",
       "acronymn": "SLED",
       "description": [
         {
@@ -20,7 +43,7 @@
           "description": ""
         }
       ],
-      "rank": "",
+      "rank": "1",
       "supported": [
         {
           "name": "15 SP5",
@@ -40,6 +63,7 @@
     },
     {
       "name": "SUSE Linux Enterprise Micro",
+      "productFamily": "Linux",
       "acronymn": "SLE Micro",
       "description": [
         {
@@ -78,6 +102,7 @@
     },
     {
       "name": "SUSE Enterprise Storage",
+      "productFamily": "Linux",
       "acronymn": "SES",
       "description": [
         {
@@ -96,14 +121,199 @@
           "description": ""
         }
       ],
-      "rank": "",
-      "supported": [],
+      "rank": "2",
+      "supported": [
+        {
+          "name": "7",
+          "path": "ses/7"
+        }
+      ],
       "unsupported": [
         {
           "name": "6",
           "path": "ses/6"
         }
       ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Server",
+      "productFamily": "Linux",
+      "acronymn": "SLES",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "The platform for your business-critical apps in any environment "
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "rank": "",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "sles/15-SP6"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Manager",
+      "productFamily": "Linux",
+      "acronymn": "SLES",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Infrastructure management for all your Linux distros "
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "rank": "",
+      "supported": [
+        {
+          "name": "5.0",
+          "path": "suma/5.0"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "4.3",
+          "path": "suma/4.3"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Real Time ",
+      "productFamily": "Linux",
+      "acronymn": "SLES",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "OS for predictable and reliable mission-critical solutions with reduced latency"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Betriebssystem für geschäftskritische Lösungen mit reduzierter Latenz"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "SO para soluciones de misión crítica predecible y fiable con latencia reducida"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "SE pour solutions stratégiques prévisibles et fiables avec latence réduite"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "予測可能で信頼性の高いミッションクリティカルなソリューションのための低レイテンシOS"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "OS para soluções críticas previsíveis e confiáveis com latência reduzida"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "适用于可靠且可预测的任务关键型解决方案的操作系统，延迟更低"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "예측 가능하고 신뢰할 수 있는 저지연 미션 크리티컬 솔루션을 위한 OS"
+        }
+      ],
+      "rank": "",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "/sle-rt/15-SP6"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE OpenStack Cloud ",
+      "productFamily": "Cloud Native",
+      "acronymn": "SOC",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Easy deployment and management of a heterogeneous cloud infrastructure "
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "rank": "3",
+      "supported": [
+        {
+          "name": "7",
+          "path": "ses/7"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher",
+      "productFamily": "Cloud Native",
+      "acronymn": "SLES",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Unified Kubernetes management "
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": ""
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "rank": "",
+      "supported": [
+        {
+          "name": "7",
+          "path": "ses/7"
+        }
+      ],
+      "unsupported": []
     }
   ],
   "sbpCategoryList": [
