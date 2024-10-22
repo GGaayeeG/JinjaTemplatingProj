@@ -53,6 +53,7 @@ function onApplyFilters() {
   let topicFilter = document.querySelector("#topic-select")?.value;
   let productFilter = document.querySelector("#product-select")?.value;
   let docTypeFilter = document.querySelector("#doctype-select")?.value;
+  let langFilter = document.querySelector("#lang-select")?.value;
   let keyword =
     document.querySelector("#type-filter").value?.toUpperCase() || "";
   let visibleDocCount = 0;
@@ -72,6 +73,7 @@ function onApplyFilters() {
       JSON.parse(
         documentRow.getAttribute("data-doctypes").replace(/'/g, '"')
       ) || [];
+    let lang = documentRow.getAttribute("data-lang");
 
     let title = documentRow
       .querySelector(".articleTitle")
@@ -103,6 +105,10 @@ function onApplyFilters() {
       docTypeFilter &&
       !(docTypeFilter == "All" || docTypes.includes(docTypeFilter))
     ) {
+      show = false;
+    }
+
+    if (langFilter && !(langFilter == "All" || langFilter === lang)) {
       show = false;
     }
 

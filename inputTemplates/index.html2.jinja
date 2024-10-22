@@ -65,6 +65,7 @@
 "description": langSpecificData.description,
 "links": langSpecificData.format,
 "dateModified": langSpecificData.dateModified,
+"lang": langSpecificData.lang,
 "tasks": documentData.tasks,
 "products": documentData.products,
 'productsOnly': productsList,
@@ -76,11 +77,24 @@
 {% endif %}
 {% endfor %}
 
+{# Lang lookup #}
+{%set languages ={
+'en-us':'English',
+'de-de': 'Portuguese',
+'fr-fr': 'French',
+'es-es': 'Spanish',
+'ko-kr': 'Korean',
+'pt-br': 'Portuguese',
+'ja-jp': 'Japanese',
+'zh-cn': 'Chinese'
+}%}
+
 {# Fetching task list, docType list #}
 
 {% set topic_list = [] %}
 {% set products_list = [] %}
 {% set doc_type_list = [] %}
+{% set lang_list = [] %}
 
 {% for article in articles %}
 {% for task in article.tasks %}
@@ -100,11 +114,17 @@
 {% set _ = doc_type_list.append(docType) %}
 {% endif %}
 {% endfor %}
+
+{% if languages[article.lang] not in lang_list %}
+{% set _ = lang_list.append(languages[article.lang]) %}
+{% endif %}
+
 {% endfor %}
 
 {% set topic_list = ['All']+topic_list | sort() %}
 {% set products_list = ['All']+products_list | sort() %}
 {% set doc_type_list = ['All']+doc_type_list | sort() %}
+{% set lang_list = ['All']+lang_list | sort() %}
 
 {# End of processing logic #}
 
@@ -200,6 +220,16 @@
             </select>
         </div>
         {%endif%}
+        {%if lang_list|length > 2%}
+        <div class="select-section">
+            <label for="lang-select">Language</label>
+            <select id="lang-select" onchange="onApplyFilters()" title="Language">
+                {% for lang in lang_list %}
+                <option>{{ lang }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        {%endif%}
         <div class="select-section">
             <label for="type-filter">{{translations['filter-as-you-type-input']}}</label>
             <input id="type-filter" type='search' value="" placeholder="Type a keyword to filter"
@@ -217,7 +247,7 @@
             <div class="articleRow" data-topics="{{ article.tasks }}" data-products="{{ article.productsOnly }}"
                 data-doctypes="{{ article.docTypes }}"
                 data-article-link="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
-                data-rank="{{ article.rank }}">
+                data-rank="{{ article.rank }}" data-lang="{{languages[article.lang]}}">
                 <div class="articleText" onclick="onArticleClick(event)">
                     <a class="articleTitle"
                         href="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
