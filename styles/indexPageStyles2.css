@@ -109,8 +109,15 @@
 
 .articleRow .articleTitle {
   color: var(--primary-jungle-green);
-  /* font-size: 1.2rem; */
+  font-size: 16px;
   font-weight: 600;
+}
+
+.articleTitle .gated-icon {
+  height: 20px;
+  display: inline;
+  margin-bottom: 4px;
+  margin-left: 4px;
 }
 
 .articleText:hover a {

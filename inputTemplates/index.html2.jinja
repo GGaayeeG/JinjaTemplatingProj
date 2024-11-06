@@ -71,7 +71,7 @@
 'productsOnly': productsList,
 "docTypes": documentData.docTypes,
 "rank": documentData.rank,
-"gated": documentData.gated
+"gated": documentData.isGated
 } %}
 {% set _ = articles.append(article) %}
 {% endif %}
@@ -256,6 +256,9 @@
                         {{article.title}}: {{article.subtitle}}
                         {%else%}
                         {{article.title}}
+                        {%endif%}
+                        {%if article.gated%}
+                        <img src="../assets/gated-lock.png" alt="lock" class="gated-icon" title="Premium content" />
                         {%endif%}
                     </a>
                     <p class="articleDescription">{{article.description}}</p>
