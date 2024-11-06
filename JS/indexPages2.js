@@ -442,6 +442,10 @@ function startWalkthrough() {
       content: translations["doc-type-walkthrough"],
     },
     {
+      element: "#lang-select",
+      content: translations["language-dropdown-walkthrough"],
+    },
+    {
       element: "#type-filter",
       content: translations["filter-as-you-type-walkthrough"],
     },

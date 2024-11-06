@@ -222,8 +222,8 @@
         {%endif%}
         {%if lang_list|length > 2%}
         <div class="select-section">
-            <label for="lang-select">Language</label>
-            <select id="lang-select" onchange="onApplyFilters()" title="Language">
+            <label for="lang-select">{{translations['language-dropdown']}}</label>
+            <select id="lang-select" onchange="onApplyFilters()" title="{{translations['language-dropdown']}}">
                 {% for lang in lang_list %}
                 <option>{{ lang }}</option>
                 {% endfor %}

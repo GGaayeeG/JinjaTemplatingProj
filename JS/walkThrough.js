@@ -62,8 +62,9 @@ function showWalkthrough(stepIndex, walkthroughSteps, toNext, isIndexPage) {
 
   // temp-fix
   if (
-    stepIndex == walkthroughSteps.length - 1 ||
-    (this.isIndexPage && stepIndex == walkthroughSteps.length - 2)
+    stepIndex ==
+    walkthroughSteps.length - 1
+    // || (this.isIndexPage && stepIndex == walkthroughSteps.length - 2)
   ) {
     walkThroughDialog.querySelector("#dialogNextButton").style.visibility =
       "hidden";
