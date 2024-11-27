@@ -20,3 +20,26 @@ function onPressGoToTop() {
   // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+//Walkthrough
+// document.addEventListener("DOMContentLoaded", function () {
+//   let banner = document.getElementById("onetrust-banner-sdk");
+//   if (banner) {
+//     // Observe visibility of the cookie banner
+//     const bannerObserver = new MutationObserver(() => {
+//       // Check if banner is hidden (display: none)
+//       if (window.getComputedStyle(banner).display === "none") {
+//         checkWalkthrough(); // Show the dialog only once
+//         bannerObserver.disconnect(); // Stop observing once shown
+//       }
+//     });
+
+//     // Start observing the banner for display changes
+//     bannerObserver.observe(banner, {
+//       attributes: true, // Listen for changes in attributes like style
+//       attributeFilter: ["style"], // Only observe 'style' attribute changes
+//     });
+//   } else {
+//     checkWalkthrough();
+//   }
+// });

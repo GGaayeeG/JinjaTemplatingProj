@@ -416,6 +416,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// function checkWalkthrough() {
+//   // Call the function to start the walkthrough
+//   if (!localStorage.getItem("walkthroughShownIndexPage")) {
+//     localStorage.setItem("walkthroughShownIndexPage", "true");
+//     startWalkthrough();
+//   }
+// }
+
 function onStartIndexpageWalkthrough() {
   startWalkthrough();
 }
