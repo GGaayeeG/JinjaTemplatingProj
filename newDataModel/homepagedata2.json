@@ -1,8 +1,31 @@
 {
+  "productFamilies": [
+    {
+      "name": "Linux",
+      "rank": "1",
+      "path": ""
+    },
+    {
+      "name": "Cloud Native",
+      "rank": "2",
+      "path": ""
+    },
+    {
+      "name": "SUSE Edge",
+      "rank": "3",
+      "path": ""
+    },
+    {
+      "name": "SUSE AI",
+      "rank": "4",
+      "path": ""
+    }
+  ],
   "productsList": [
     {
       "name": "Appliance Building",
       "acronymn": "",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -61,6 +84,7 @@
     {
       "name": "Compliance Documentation",
       "acronymn": "Compliance Documentation",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -115,6 +139,7 @@
     {
       "name": "Container Documentation",
       "acronymn": "Container Documentation",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -169,6 +194,7 @@
     {
       "name": "SUSE Rancher Prime (Rancher Manager)",
       "acronymn": "SUSE Rancher Prime",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -231,6 +257,7 @@
     {
       "name": "SUSE Rancher Prime: RKE2 (RKE2)",
       "acronymn": "SUSE Rancher Prime: RKE2",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -285,6 +312,7 @@
     {
       "name": "SUSE Rancher Prime: K3s (K3s)",
       "acronymn": "SUSE Rancher Prime: K3s",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -339,6 +367,7 @@
     {
       "name": "SUSE Storage (Longhorn)",
       "acronymn": "SUSE Storage",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -393,6 +422,7 @@
     {
       "name": "SUSE Virtualization (Harvester)",
       "acronymn": "SUSE Virtualization",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -451,6 +481,7 @@
     {
       "name": "SUSE Security (NeuVector)",
       "acronymn": "SUSE Security",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -509,6 +540,7 @@
     {
       "name": "SUSE Rancher Prime: OS Manager (Elemental)",
       "acronymn": "SUSE Rancher Prime: OS Manager",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -567,6 +599,7 @@
     {
       "name": "SUSE Rancher Prime: Admission Policy Manager (Kubewarden)",
       "acronymn": "SUSE Rancher Prime: Admission Policy Manager",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -633,6 +666,7 @@
     {
       "name": "SUSE Rancher Prime: Continuous Delivery (Fleet)",
       "acronymn": "SUSE Rancher Prime: Continuous Delivery",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -691,6 +725,7 @@
     {
       "name": "SUSE Rancher Prime: Cluster API (Turtles)",
       "acronymn": "SUSE Rancher Prime: Cluster API",
+      "productFamily": "Cloud Native",
       "description": [
         {
           "lang": "en-us",
@@ -754,6 +789,7 @@
     {
       "name": "SUSE Edge",
       "acronymn": "SUSE Edge",
+      "productFamily": "SUSE Edge",
       "description": [
         {
           "lang": "en-us",
@@ -812,6 +848,7 @@
     {
       "name": "SUSE AI",
       "acronymn": "SUSE AI",
+      "productFamily": "SUSE AI",
       "description": [
         {
           "lang": "en-us",
@@ -866,6 +903,7 @@
     {
       "name": "SUSE Liberty Linux",
       "acronymn": "SUSE Liberty Linux",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -928,6 +966,7 @@
     {
       "name": "SUSE Enterprise Storage",
       "acronymn": "SUSE Enterprise Storage",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -987,6 +1026,7 @@
     {
       "name": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
       "acronymn": "SLE HA",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1070,6 +1110,7 @@
     {
       "name": "SUSE Linux Enterprise High-Performance Computing",
       "acronymn": "SLE HPC",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1132,6 +1173,7 @@
     {
       "name": "SUSE Linux Micro (SUSE Linux Enterprise Micro)",
       "acronymn": "",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1215,6 +1257,7 @@
     {
       "name": "SUSE Linux Enterprise in Public Clouds",
       "acronymn": "SLE in Public Clouds",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1269,6 +1312,7 @@
     {
       "name": "SUSE Linux Enterprise Real Time",
       "acronymn": "SLE Real Time",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1348,6 +1392,7 @@
     {
       "name": "SUSE Linux Enterprise Desktop",
       "acronymn": "SLED",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1427,6 +1472,7 @@
     {
       "name": "SUSE Linux Enterprise Server",
       "acronymn": "SLES",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1510,6 +1556,7 @@
     {
       "name": "SUSE Linux Enterprise Server for SAP Applications",
       "acronymn": "SLES for SAP",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1601,6 +1648,7 @@
     {
       "name": "SUSE Linux Enterprise Subscription Management Tool",
       "acronymn": "SLE SMT",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1655,6 +1703,7 @@
     {
       "name": "SUSE OpenStack Cloud",
       "acronymn": "SOC",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1717,6 +1766,7 @@
     {
       "name": "Subscription Management",
       "acronymn": "",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1779,6 +1829,7 @@
     {
       "name": "SUSE Manager",
       "acronymn": "SUMA",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1837,6 +1888,7 @@
     {
       "name": "SUSE Manager for Retail",
       "acronymn": "SUMA for Retail",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1891,6 +1943,7 @@
     {
       "name": "SUSE CaaS Platform",
       "acronymn": "SUSE CAASP",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
@@ -1969,6 +2022,7 @@
     {
       "name": "SUSE Cloud Application Platform",
       "acronymn": "SUSE CAP",
+      "productFamily": "Linux",
       "description": [
         {
           "lang": "en-us",
