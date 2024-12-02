@@ -1,0 +1,2202 @@
+{
+  "productsList": [
+    {
+      "name": "Appliance Building",
+      "acronymn": "",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Linux system appliance building"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Erstellen von Linux-System-Appliances"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Creación de dispositivos del sistema Linux"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Création d'applicatifs système Linux"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Linuxシステムアプライアンスの構築"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Construção de aplicação do sistema Linux"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Linux 系统设备构建"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Linux 시스템 어플라이언스 빌드"
+        }
+      ],
+      "rank": "3800",
+      "supported": [
+        {
+          "name": "Keg Image Description Generator",
+          "path": "/appliance/keg-2/"
+        },
+        {
+          "name": "KIWI Appliance Builder",
+          "path": "/appliance/kiwi-9/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "Compliance Documentation",
+      "acronymn": "Compliance Documentation",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Security compliance documentation for SUSE Linux Enterprise"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Dokumentation zur Einhaltung der Sicherheitsvorschriften für SUSE Linux Enterprise"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Documentación de conformidad de seguridad para SUSE Linux Enterprise"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Documentation sur la conformité liée à la sécurité pour SUSE Linux Enterprise"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "SUSE Linux Enterprise向けセキュリティコンプライアンスドキュメント"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Documentação de conformidade de segurança para SUSE Linux Enterprise"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "SUSE Linux Enterprise 的安全合规性文档"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "SUSE Linux Enterprise 보안 규정 준수 문서"
+        }
+      ],
+      "rank": "3600",
+      "supported": [
+        {
+          "name": "all",
+          "path": "/compliance/all/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "Container Documentation",
+      "acronymn": "Container Documentation",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Container management on SUSE Linux Enterprise Server"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Container-Management auf SUSE Linux Enterprise Server"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión de contenedores en SUSE Linux Enterprise Server"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion des conteneurs sous SUSE Linux Enterprise Server"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "SUSE Linux Enterprise Serverでのコンテナ管理"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciamento de contêiner no SUSE Linux Enterprise Server"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "SUSE Linux Enterprise Server 上的容器管理"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "SUSE Linux Enterprise Server의 컨테이너 관리"
+        }
+      ],
+      "rank": "3500",
+      "supported": [
+        {
+          "name": "all",
+          "path": "/container/all/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime (Rancher Manager)",
+      "acronymn": "SUSE Rancher Prime",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Container management platform for Kubernetes"
+        }
+      ],
+      "rank": "2300",
+      "supported": [
+        {
+          "name": "2.8",
+          "path": "/cloudnative/rancher-manager/v2.8/"
+        },
+        {
+          "name": "2.9",
+          "path": "/cloudnative/rancher-manager/v2.9/"
+        },
+        {
+          "name": "latest",
+          "path": "/cloudnative/rancher-manager/latest/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime: RKE2 (RKE2)",
+      "acronymn": "SUSE Rancher Prime: RKE2",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "SUSE's next generation Kubernetes distribution"
+        }
+      ],
+      "rank": "2310",
+      "supported": [
+        {
+          "name": "latest",
+          "path": "/cloudnative/rke2/latest/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime: K3s (K3s)",
+      "acronymn": "SUSE Rancher Prime: K3s",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Lightweight yet powerful certified Kubernetes distribution"
+        }
+      ],
+      "rank": "2320",
+      "supported": [
+        {
+          "name": "latest",
+          "path": "/cloudnative/k3s/latest/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Storage (Longhorn)",
+      "acronymn": "SUSE Storage",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Distributed block storage system for Kubernetes"
+        }
+      ],
+      "rank": "2330",
+      "supported": [
+        {
+          "name": "1.7.0",
+          "path": "/cloudnative/storage/1.7.0/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Virtualization (Harvester)",
+      "acronymn": "SUSE Virtualization",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Next generation HCI for cloud-native environments"
+        }
+      ],
+      "rank": "2340",
+      "supported": [
+        {
+          "name": "1.3",
+          "path": "/cloudnative/virtualization/v1.3/"
+        },
+        {
+          "name": "1.4",
+          "path": "/cloudnative/virtualization/v1.4/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Security (NeuVector)",
+      "acronymn": "SUSE Security",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "SUSE's zero-trust container security platform"
+        }
+      ],
+      "rank": "2350",
+      "supported": [
+        {
+          "name": "5.3",
+          "path": "/cloudnative/security/5.3/"
+        },
+        {
+          "name": "5.4",
+          "path": "/cloudnative/security/5.4/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime: OS Manager (Elemental)",
+      "acronymn": "SUSE Rancher Prime: OS Manager",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Cloud-native OS management with Kubernetes"
+        }
+      ],
+      "rank": "2360",
+      "supported": [
+        {
+          "name": "1.5",
+          "path": "/cloudnative/os-manager/1.5/"
+        },
+        {
+          "name": "1.6",
+          "path": "/cloudnative/os-manager/1.6/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime: Admission Policy Manager (Kubewarden)",
+      "acronymn": "SUSE Rancher Prime: Admission Policy Manager",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Kubernetes Admissions Policy Engine"
+        }
+      ],
+      "rank": "2370",
+      "supported": [
+        {
+          "name": "1.16",
+          "path": "/cloudnative/policy-manager/1.16/"
+        },
+        {
+          "name": "1.17",
+          "path": "/cloudnative/policy-manager/1.17/"
+        },
+        {
+          "name": "1.18",
+          "path": "/cloudnative/policy-manager/1.18/"
+        },
+        {
+          "name": "next",
+          "path": "/cloudnative/policy-manager/next/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime: Continuous Delivery (Fleet)",
+      "acronymn": "SUSE Rancher Prime: Continuous Delivery",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Kubernetes cluster engine and deployment management"
+        }
+      ],
+      "rank": "2380",
+      "supported": [
+        {
+          "name": "0.10",
+          "path": "/cloudnative/continuous-delivery/0.10/"
+        },
+        {
+          "name": "0.9",
+          "path": "/cloudnative/continuous-delivery/0.9/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Rancher Prime: Cluster API (Turtles)",
+      "acronymn": "SUSE Rancher Prime: Cluster API",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Cluster API support for SUSE Rancher"
+        }
+      ],
+      "rank": "2390",
+      "supported": [
+        {
+          "name": "0.11",
+          "path": "/cloudnative/cluster-api/v0.11/"
+        },
+        {
+          "name": "0.12",
+          "path": "/cloudnative/cluster-api/v0.12/"
+        },
+        {
+          "name": "0.13",
+          "path": "/cloudnative/cluster-api/v0.13/"
+        }
+      ],
+      "unsupported": []
+    },
+
+    {
+      "name": "SUSE Edge",
+      "acronymn": "SUSE Edge",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Cloud native edge computing platform"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Cloud-native Edge-Computing-Plattform"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Plataforma de computación periférica nativa en la nube"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Plate-forme native cloud de type « edge computing »"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "クラウドネイティブエッジコンピューティングプラットフォーム"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Plataforma de computação distribuída nativa em nuvem"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "云原生边缘计算平台"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "클라우드 네이티브 에지 컴퓨팅 플랫폼"
+        }
+      ],
+      "rank": "2600",
+      "supported": [
+        {
+          "name": "3.1",
+          "path": "/suse-edge/3.1/"
+        },
+        {
+          "name": "3.0",
+          "path": "/suse-edge/3.0/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE AI",
+      "acronymn": "SUSE AI",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "A secure, trusted platform to deploy and run GenAI applications."
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Eine sichere und vertrauenswürdige Plattform für GenAI-Anwendungen."
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Una plataforma segura y fiable para aplicaciones de IA generativa."
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Plate-forme sécurisée et fiable pour exécuter les applications GenAI."
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "セキュリティ、制御機能、選択肢を提供することで生成AIの民主化を実現します。"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Plataforma segura e confiável para executar apps de IA generativa."
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "通过提供安全性、控制权和选择权，让生成式 AI 大众化"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "보안, 제어 및 선택권을 제공하여 생성형 AI를 민주화합니다."
+        }
+      ],
+      "rank": "1800",
+      "supported": [
+        {
+          "name": "1.0",
+          "path": "/suse-ai/1.0/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Liberty Linux",
+      "acronymn": "SUSE Liberty Linux",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Mixed Linux support without vendor lock-in"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Gemischte Linux-Unterstützung ohne Herstellerbindung"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Compatibilidad mixta con Linux sin dependencia del proveedor"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Prise en charge mixte de Linux sans dépendance vis-à-vis d'un fournisseur"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "ベンダロックインのない混合Linuxサポート"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Suporte misto para Linux sem dependência de fornecedor"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "提供混合 Linux 支持，不受制于供应商"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "벤더 종속성 없는 혼합 Linux 지원"
+        }
+      ],
+      "rank": "2400",
+      "supported": [
+        {
+          "name": "9",
+          "path": "/liberty/9/"
+        },
+        {
+          "name": "8",
+          "path": "/liberty/8/"
+        },
+        {
+          "name": "7",
+          "path": "/liberty/7/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Enterprise Storage",
+      "acronymn": "SUSE Enterprise Storage",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "A software-defined storage solution, powered by Ceph technology"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Eine Software-Defined-Storage-Lösung, basierend auf der Ceph-Technologie"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Una solución de almacenamiento definida por software, con tecnología Ceph"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Une solution de stockage défini par logiciel, optimisée par la technologie Ceph"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "Cephテクノロジーを搭載したソフトウェアデファインドストレージソリューション"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Uma solução de armazenamento definido por software, com tecnologia Ceph"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "由 Ceph 技术提供支持的软件定义存储解决方案"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Ceph 기술 기반 소프트웨어 정의 스토리지 솔루션"
+        }
+      ],
+      "rank": "3400",
+      "supported": [
+        {
+          "name": "7.1",
+          "path": "/ses/7.1/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "7",
+          "path": "/ses/7/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise High Availability (incl. SLE HA GEO)",
+      "acronymn": "SLE HA",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Business continuity, data integrity and maximized uptime for all environments"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Geschäftskontinuität, Datenintegrität und maximale Betriebszeit für alle Umgebungen"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Continuidad, integridad y tiempo de actividad máximo en cualquier entorno"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Continuité des activités Intégrité des données Temps de fonctionnement optimisé"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "あらゆる環境におけるビジネス継続性、データ整合性、およびアップタイムの最大化"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Continuidade de negócios, integridade de dados e mais tempo ativo para ambientes"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "针对所有环境确保业务连续性、数据完整性和最大限度的正常运行时间"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "모든 환경에서 비즈니스 연속성, 데이터 무결성 및 최대 작동 시간 보장"
+        }
+      ],
+      "rank": "2800",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "/sle-ha/15-SP6/"
+        },
+        {
+          "name": "15 SP5",
+          "path": "/sle-ha/15-SP5/"
+        },
+        {
+          "name": "15 SP4",
+          "path": "/sle-ha/15-SP4/"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sle-ha/15-SP3/"
+        },
+        {
+          "name": "15 SP2",
+          "path": "/sle-ha/15-SP2/"
+        },
+        {
+          "name": "12 SP5",
+          "path": "/sle-ha/12-SP5/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "15 SP1",
+          "path": "/sle-ha/15-SP1/"
+        },
+        {
+          "name": "15 GA",
+          "path": "/sle-ha/15-GA/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise High-Performance Computing",
+      "acronymn": "SLE HPC",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Linux OS tailored to solve demanding computational, data-intensive problems"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Linux-Betriebssystem für die Lösung rechen- und datenintensiver Probleme"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "SO Linux adaptado para problemas informáticos exigentes con uso intenso de datos"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "SE Linux conçu pour traiter les opérations exigeantes en calculs et données"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "要求の厳しい計算やデータ集約型の問題を解決するためにカスタマイズされたLinux OS"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "OS Linux adaptado para resolver problemas complexos e de uso intensivo de dados"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "为解决要求严苛的计算密集型、数据密集型问题而量身定制的 Linux 操作系统"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "고난도 연산이 필요한 데이터 집약적 문제 해결에 최적화된 Linux OS"
+        }
+      ],
+      "rank": "2900",
+      "supported": [
+        {
+          "name": "15 SP5",
+          "path": "/sle-hpc/15-SP5/"
+        },
+        {
+          "name": "15 SP4",
+          "path": "/sle-hpc/15-SP4/"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sle-hpc/15-SP3/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Linux Micro (SUSE Linux Enterprise Micro)",
+      "acronymn": "",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Ultra-reliable, immutable Linux operating system"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Extrem zuverlässiges, zur Laufzeit unveränderliches Linux-Betriebssystem"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Sistema operativo Linux ultrafiable e inalterable"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Système d'exploitation Linux ultra-fiable et immuable"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "信頼性に優れた変更不可のLinuxオペレーティングシステム"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Sistema operacional Linux ultraconfiável e imutável"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "超可靠、不可变的 Linux 操作系统"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "월등한 신뢰성의 불변형 Linux 운영 체제"
+        }
+      ],
+      "rank": "2000",
+      "supported": [
+        {
+          "name": "SUSE Linux Micro 6.1",
+          "path": "/sle-micro/6.1/"
+        },
+        {
+          "name": "SLE Micro 6.0",
+          "path": "/sle-micro/6.0/"
+        },
+        {
+          "name": "SLE Micro 5.5",
+          "path": "/sle-micro/5.5/"
+        },
+        {
+          "name": "SLE Micro 5.4",
+          "path": "/sle-micro/5.4/"
+        },
+        {
+          "name": "SLE Micro 5.3",
+          "path": "/sle-micro/5.3/"
+        },
+        {
+          "name": "SLE Micro 5.2",
+          "path": "/sle-micro/5.2/"
+        },
+        {
+          "name": "SLE Micro 5.1",
+          "path": "/sle-micro/5.1/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "SLE Micro 5.0",
+          "path": "/sle-micro/5.0/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise in Public Clouds",
+      "acronymn": "SLE in Public Clouds",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "SUSE solutions optimized for public clouds"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "SUSE-Lösungen, optimiert für öffentliche Clouds"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Soluciones SUSE optimizadas para nubes públicas"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Solutions SUSE optimisées pour les clouds publics"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "パブリッククラウド向けに最適化されたSUSEソリューション"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Soluções SUSE otimizadas para nuvens públicas"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "针对公有云优化的 SUSE 解决方案"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "공용 클라우드에 최적화된 SUSE 솔루션"
+        }
+      ],
+      "rank": "2700",
+      "supported": [
+        {
+          "name": "all",
+          "path": "/sle-public-cloud/all/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Linux Enterprise Real Time",
+      "acronymn": "SLE Real Time",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "OS for predictable and reliable mission-critical solutions with reduced latency"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Betriebssystem für geschäftskritische Lösungen mit reduzierter Latenz"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "SO para soluciones de misión crítica predecible y fiable con latencia reducida"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "SE pour solutions stratégiques prévisibles et fiables avec latence réduite"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "予測可能で信頼性の高いミッションクリティカルなソリューションのための低レイテンシOS"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "OS para soluções críticas previsíveis e confiáveis com latência reduzida"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "适用于可靠且可预测的任务关键型解决方案的操作系统，延迟更低"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "예측 가능하고 신뢰할 수 있는 저지연 미션 크리티컬 솔루션을 위한 OS"
+        }
+      ],
+      "rank": "3000",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "/sle-rt/15-SP6/"
+        },
+        {
+          "name": "15 SP5",
+          "path": "/sle-rt/15-SP5/"
+        },
+        {
+          "name": "12 SP5",
+          "path": "/sle-rt/12-SP5/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "15 SP4",
+          "path": "/sle-rt/15-SP4/"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sle-rt/15-SP3/"
+        },
+        {
+          "name": "15 SP2",
+          "path": "/sle-rt/15-SP2/"
+        },
+        {
+          "name": "15 SP1",
+          "path": "/sle-rt/15-SP1/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Desktop",
+      "acronymn": "SLED",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "A secure, manageable, and efficient Linux desktop for mixed IT"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Ein sicherer, verwaltbarer und effizienter Linux-Desktop für gemischte IT"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Un escritorio Linux seguro, manejable y eficiente para TI mixta"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Un bureau Linux sécurisé, facile à gérer et efficace pour l'informatique mixte"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "混合IT向けの安全で管理しやすく効率的なLinuxデスクトップ"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Um desktop Linux seguro, gerenciável e eficiente para TI mista"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "适用于混合 IT 环境的安全高效且易于管理的 Linux 桌面"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "혼합 IT를 위한 보안이 우수하고 관리가 용이하며 효율적인 Linux 데스크톱"
+        }
+      ],
+      "rank": "3200",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "/sled/15-SP6/"
+        },
+        {
+          "name": "15 SP5",
+          "path": "/sled/15-SP5/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "15 SP4",
+          "path": "/sled/15-SP4/"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sled/15-SP3/"
+        },
+        {
+          "name": "15 SP2",
+          "path": "/sled/15-SP2/"
+        },
+        {
+          "name": "15 SP1",
+          "path": "/sled/15-SP1/"
+        },
+        {
+          "name": "15 GA",
+          "path": "/sled/15-GA/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Server",
+      "acronymn": "SLES",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "THE platform for your business-critical apps in any environment"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "DIE Plattform für Ihre geschäftskritischen Anwendungen in jeder Umgebung"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "LA plataforma para aplicaciones fundamentales de empresa en cualquier entorno"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "LA plate-forme pour vos applications stratégiques dans tout environnement"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "あらゆる環境におけるビジネスクリティカルなアプリのためのプラットフォーム"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "A plataforma para seus aplicativos comerciais críticos em qualquer ambiente"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "适用于任何环境中的业务关键型应用程序的平台"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "모든 환경에서 비즈니스 크리티컬 응용 프로그램을 위한 플랫폼"
+        }
+      ],
+      "rank": "2100",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "/sles/15-SP6/"
+        },
+        {
+          "name": "15 SP5",
+          "path": "/sles/15-SP5/"
+        },
+        {
+          "name": "15 SP4",
+          "path": "/sles/15-SP4/"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sles/15-SP3/"
+        },
+        {
+          "name": "15 SP2",
+          "path": "/sles/15-SP2/"
+        },
+        {
+          "name": "12 SP5",
+          "path": "/sles/12-SP5/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "15 SP1",
+          "path": "/sles/15-SP1/"
+        },
+        {
+          "name": "15 GA",
+          "path": "/sles/15-GA/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Server for SAP Applications",
+      "acronymn": "SLES for SAP",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "The leading platform for SAP solutions on Linux"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Die führende Plattform für SAP-Lösungen unter Linux"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "La plataforma líder para soluciones SAP en Linux"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Plate-forme leader pour les solutions SAP sous Linux"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "LinuxにおけるSAPソリューションの主要プラットフォーム"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "A plataforma líder para soluções SAP no Linux"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "Linux 上适用于 SAP 解决方案的领先平台"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "Linux 기반 SAP 솔루션을 위한 선도적 플랫폼"
+        }
+      ],
+      "rank": "2200",
+      "supported": [
+        {
+          "name": "15 SP6",
+          "path": "/sles-sap/15-SP6/"
+        },
+        {
+          "name": "15 SP5",
+          "path": "/sles-sap/15-SP5/"
+        },
+        {
+          "name": "15 SP4",
+          "path": "/sles-sap/15-SP4/"
+        },
+        {
+          "name": "15 SP3",
+          "path": "/sles-sap/15-SP3/"
+        },
+        {
+          "name": "15 SP2",
+          "path": "/sles-sap/15-SP2/"
+        },
+        {
+          "name": "12 SP5",
+          "path": "/sles-sap/12-SP5/"
+        },
+        {
+          "name": "Trento",
+          "path": "/sles-sap/trento/"
+        },
+        {
+          "name": "Supported HA solutions",
+          "path": "/sles-sap/sap-ha-support/"
+        }
+      ],
+      "unsupported": [
+        {
+          "name": "15 SP1",
+          "path": "/sles-sap/15-SP1/"
+        },
+        {
+          "name": "15 GA",
+          "path": "/sles-sap/15-GA/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Subscription Management Tool",
+      "acronymn": "SLE SMT",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Subscription management for SUSE Linux Enterprise 11"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Abonnementverwaltung für SUSE Linux Enterprise 11"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión de suscripciones para SUSE Linux Enterprise 11"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion des abonnements pour SUSE Linux Enterprise 11"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "SUSE Linux Enterprise 11向けサブスクリプション管理"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciamento de assinaturas para SUSE Linux Enterprise 11"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "SUSE Linux Enterprise 11 的订阅管理"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "SUSE Linux Enterprise 11용 구독 관리"
+        }
+      ],
+      "rank": "3600",
+      "supported": [],
+      "unsupported": [
+        {
+          "name": "11.3",
+          "path": "/smt/11.3/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE OpenStack Cloud",
+      "acronymn": "SOC",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Manage and deploy heterogeneous cloud infrastructure"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Verwalten und Bereitstellen heterogener Cloud-Infrastrukturen"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión e implantación de una infraestructura de nube heterogénea"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion et déploiement d'une infrastructure cloud hétérogène"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "異種クラウドインフラストラクチャの管理とデプロイ"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciar e implantar uma infraestrutura de nuvem heterogênea"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "管理和部署异构云基础架构"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "이기종 클라우드 인프라 관리 및 배포"
+        }
+      ],
+      "rank": "3410",
+      "supported": [],
+      "unsupported": [
+        {
+          "name": "9",
+          "path": "/soc/9/"
+        },
+        {
+          "name": "8",
+          "path": "/soc/8/"
+        },
+        {
+          "name": "7",
+          "path": "/soc/7/"
+        }
+      ]
+    },
+    {
+      "name": "Subscription Management",
+      "acronymn": "",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Subscription management for SUSE products"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Abonnementverwaltung für SUSE-Produkte"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión de suscripciones para productos SUSE"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion des abonnements pour les produits SUSE"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "SUSE製品のサブスクリプション管理"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciamento de assinaturas para produtos SUSE"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "SUSE 产品的订阅管理"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "SUSE 제품 구독 관리"
+        }
+      ],
+      "rank": "3610",
+      "supported": [
+        {
+          "name": "Hypervisor Details in SUSE Customer Center",
+          "path": "/subscription/hypervisor-collector/"
+        },
+        {
+          "name": "SUSEConnect",
+          "path": "/subscription/suseconnect/"
+        },
+        {
+          "name": "System Uptime Tracking",
+          "path": "/subscription/system-uptime-tracking/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Manager",
+      "acronymn": "SUMA",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Infrastructure management for all your Linux distros"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Infrastrukturverwaltung für alle Ihre Linux-Distributionen"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión de infraestructura para todas sus distribuciones de Linux"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion d'infrastructure pour toutes vos distributions Linux"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "すべてのLinuxディストリビューションのインフラストラクチャ管理"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciamento de infraestrutura para todas as distribuições Linux"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "所有 Linux 发行套件的基础架构管理"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "모든 Linux 배포판의 인프라 관리"
+        }
+      ],
+      "rank": "2500",
+      "supported": [
+        {
+          "name": "4.3",
+          "path": "/suma/4.3/"
+        },
+        {
+          "name": "5.0",
+          "path": "/suma/5.0/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE Manager for Retail",
+      "acronymn": "SUMA for Retail",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Infrastructure management for Linux distros tailored for retail"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Infrastrukturverwaltung für Linux-Distributionen speziell für den Einzelhandel"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión de la infraestructura para distribuciones Linux adaptadas al retail"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion d'infrastructure pour distribution Linux adaptée au commerce de détail"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "小売向けにカスタマイズされたLinuxディストリビューションのインフラストラクチャ管理"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciamento de infraestrutura para distribuições Linux para varejo"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "专为零售业量身定制的 Linux 发行套件的基础架构管理"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "일반 정품에 최적화된 Linux 배포판의 인프라 관리"
+        }
+      ],
+      "rank": "3100",
+      "supported": [
+        {
+          "name": "4.3",
+          "path": "/suma-retail/4.3/"
+        }
+      ],
+      "unsupported": []
+    },
+    {
+      "name": "SUSE CaaS Platform",
+      "acronymn": "SUSE CAASP",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "Enterprise-class container management"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Container-Management der Enterprise-Klasse"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Gestión de contenedores de nivel empresarial"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Gestion des conteneurs à l'échelle de l'entreprise"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "エンタープライズクラスのコンテナ管理"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Gerenciamento de contêiner de classe empresarial"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "企业级容器管理"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "엔터프라이즈급 컨테이너 관리"
+        }
+      ],
+      "rank": "3420",
+      "supported": [],
+      "unsupported": [
+        {
+          "name": "1",
+          "path": "/suse-caasp/1/"
+        },
+        {
+          "name": "2",
+          "path": "/suse-caasp/2/"
+        },
+        {
+          "name": "3",
+          "path": "/suse-caasp/3/"
+        },
+        {
+          "name": "4.0",
+          "path": "/suse-caasp/4.0/"
+        },
+        {
+          "name": "4.1",
+          "path": "/suse-caasp/4.1/"
+        },
+        {
+          "name": "4.2",
+          "path": "/suse-caasp/4.2/"
+        },
+        {
+          "name": "4.5",
+          "path": "/suse-caasp/4.5/"
+        }
+      ]
+    },
+    {
+      "name": "SUSE Cloud Application Platform",
+      "acronymn": "SUSE CAP",
+      "description": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "description": "A modern application delivery platform"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "description": "Eine moderne Plattform für die Anwendungsbereitstellung"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "description": "Una plataforma de distribución de aplicaciones moderna"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "description": "Une plate-forme moderne de distribution d'applications"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "description": "最新のアプリケーションデリバリプラットフォーム"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "description": "Uma plataforma moderna de entrega de aplicativos"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "description": "现代应用程序交付平台"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "description": "최신 응용 프로그램 배포 플랫폼"
+        }
+      ],
+      "rank": "3430",
+      "supported": [],
+      "unsupported": [
+        {
+          "name": "2.1",
+          "path": "/suse-cap/2.1/"
+        },
+        {
+          "name": "2.0",
+          "path": "/suse-cap/2.0/"
+        },
+        {
+          "name": "1.5.2",
+          "path": "/suse-cap/1.5.2/"
+        },
+        {
+          "name": "1.4.1",
+          "path": "/suse-cap/1.4.1/"
+        }
+      ]
+    }
+  ],
+  "sbpCategoryList": [
+    {
+      "name": "Cloud Computing",
+      "path": "/sbp/cloud/"
+    },
+    {
+      "name": "Containerization",
+      "path": "/sbp/containerization"
+    },
+    {
+      "name": "Development Tools",
+      "path": "/sbp/devel-tools/"
+    },
+    {
+      "name": "High Availability",
+      "path": "/sbp/high-availability/"
+    },
+    {
+      "name": "SAP Applications on SUSE Linux Enterprise 12",
+      "path": "/sbp/sap-12/"
+    },
+    {
+      "name": "SAP Applications on SUSE Linux Enterprise 15",
+      "path": "/sbp/sap-15/"
+    },
+    {
+      "name": "SAP Applications on Other Products",
+      "path": "/sbp/sap-other/"
+    },
+    {
+      "name": "Security",
+      "path": "/sbp/security/"
+    },
+    {
+      "name": "Storage",
+      "path": "/sbp/storage/"
+    },
+    {
+      "name": "Systems Management",
+      "path": "/sbp/systems-management/"
+    },
+    {
+      "name": "Third Party",
+      "path": "/sbp/third-party"
+    },
+    {
+      "name": "Tuning &amp; Performance",
+      "path": "/sbp/tuning-performance/"
+    }
+  ],
+  "trdPartnerList": [
+    {
+      "name": "Ampere",
+      "path": "/trd/ampere/"
+    },
+    {
+      "name": "Cisco",
+      "path": "/trd/cisco/"
+    },
+    {
+      "name": "Clastix",
+      "path": "/trd/clastix/"
+    },
+    {
+      "name": "Cloud Service Providers",
+      "path": "/trd/csp/"
+    },
+    {
+      "name": "Dell",
+      "path": "/trd/dell/"
+    },
+    {
+      "name": "Fortinet",
+      "path": "/trd/fortinet/"
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "path": "/trd/hpe/"
+    },
+    {
+      "name": "HPQ",
+      "path": "/trd/hpq/"
+    },
+    {
+      "name": "IBM",
+      "path": "/trd/ibm/"
+    },
+    {
+      "name": "Project Jupyter",
+      "path": "/trd/jupyter/"
+    },
+    {
+      "name": "Project Kubeflow",
+      "path": "/trd/kubeflow/"
+    },
+    {
+      "name": "Lenovo",
+      "path": "/trd/lenovo/"
+    },
+    {
+      "name": "MinIO",
+      "path": "/trd/minio/"
+    },
+    {
+      "name": "Managed Service Providers",
+      "path": "/trd/msp/"
+    },
+    {
+      "name": "Supermicro",
+      "path": "/trd/supermicro/"
+    },
+    {
+      "name": "SUSE",
+      "path": "/trd/suse/"
+    },
+    {
+      "name": "Veeam",
+      "path": "/trd/veeam/"
+    },
+    {
+      "name": "WordPress",
+      "path": "/trd/wordpress/"
+    }
+  ],
+  "smartDocCategoryList": [
+    {
+      "name": "Containerization",
+      "path": "/smart/container/"
+    },
+    {
+      "name": "Deployment &amp; Upgrade",
+      "path": "/smart/deploy-upgrade/"
+    },
+    {
+      "name": "Desktop Applications",
+      "path": "/smart/desktop/"
+    },
+    {
+      "name": "Network",
+      "path": "/smart/network/"
+    },
+    {
+      "name": "Rancher",
+      "path": "/smart/rancher/"
+    },
+    {
+      "name": "Security",
+      "path": "/smart/security/"
+    },
+    {
+      "name": "SLE Micro in Public Clouds",
+      "path": "/smart/micro-clouds/"
+    },
+    {
+      "name": "Systems Management",
+      "path": "/smart/systems-management/"
+    },
+    {
+      "name": "System Tuning &amp; Performance",
+      "path": "/smart/systemtuning-performance/"
+    },
+    {
+      "name": "Virtualization & Cloud",
+      "path": "/smart/virtualization-cloud/"
+    }
+  ]
+}
