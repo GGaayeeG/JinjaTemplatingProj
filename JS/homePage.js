@@ -300,6 +300,51 @@ function setSortingOptionStyling(oEvent) {
   oEvent.target.classList.add("selectedSorting");
 }
 
+function onSelectProdFamily(oEvent) {
+  if (oEvent.target.tagName !== "BUTTON") return;
+  let selectedOption = oEvent.target;
+  let prodFamOptions = selectedOption.parentElement;
+  let selectedProductFamily = selectedOption.innerText;
+  var cardsContainer = document.querySelector(".productsContainer");
+  var supportOptions = document.querySelector(".support-options");
+
+  //style product fam options
+  Array.from(prodFamOptions.children).forEach((option) => {
+    if (option == selectedOption) {
+      option.classList.add("selected");
+    } else {
+      option.classList.remove("selected");
+    }
+  });
+
+  //hide or show support options
+  if (selectedProductFamily == "All" || selectedProductFamily == "Linux") {
+    supportOptions.classList.remove("hiddenTile");
+  } else {
+    supportOptions.classList.add("hiddenTile");
+  }
+
+  // Get all card elements
+  let cards = Array.from(cardsContainer.querySelectorAll(".tile"));
+  cards.forEach((card) => {
+    if (
+      selectedProductFamily == card.dataset["productFamily"] ||
+      selectedProductFamily == "All"
+    ) {
+      card.classList.remove("hiddenTile");
+    } else {
+      card.classList.add("hiddenTile");
+    }
+  });
+
+  if (selectedProductFamily == "Linux" || selectedProductFamily == "All") {
+    let showSupportedProducts = document.getElementById(
+      "supported-products-checkbox"
+    ).checked;
+    onChangeSupported("", showSupportedProducts);
+  }
+}
+
 function onShowAllProducts(oEvent) {
   var showAllButton = oEvent.target.closest(".explore-list-button");
   var hideAllButton = showAllButton.nextElementSibling;
@@ -519,10 +564,13 @@ const modalEL = window.addEventListener("click", function (oEvent) {
   }
 });
 
-function onChangeSupported(oEvent) {
+function onChangeSupported(oEvent, showSupportedProducts) {
   if (oEvent) {
-    var isSupported = oEvent.target.checked;
+    var showSupportedProducts = oEvent.target.checked;
   }
+  var selectedProductFamily = document.querySelector(
+    ".prod-fam-options .selected"
+  ).innerText;
 
   var cardsContainer = document.querySelector(".productsContainer");
   var cards = Array.from(cardsContainer.querySelectorAll(".tile"));
@@ -531,23 +579,43 @@ function onChangeSupported(oEvent) {
       JSON.parse(card.dataset.supportedVersions).length > 0;
     let hasUnsupportedVersions =
       JSON.parse(card.dataset.unsupportedVersions).length > 0;
+    let productFamily = card.dataset.productFamily;
 
-    if (isSupported) {
-      if (hasSupportedVersions) {
+    if (showSupportedProducts) {
+      if (
+        hasSupportedVersions &&
+        (selectedProductFamily == productFamily ||
+          selectedProductFamily == "All")
+      ) {
         card.classList.remove("hiddenTile");
       } else {
         card.classList.add("hiddenTile");
       }
     }
 
-    if (!isSupported) {
-      if (hasUnsupportedVersions) {
+    if (!showSupportedProducts) {
+      if (
+        hasUnsupportedVersions &&
+        (selectedProductFamily == productFamily ||
+          selectedProductFamily == "All")
+      ) {
         card.classList.remove("hiddenTile");
       } else {
         card.classList.add("hiddenTile");
       }
     }
   });
+}
+
+function fnCheckSupportedVersions(card) {
+  return JSON.parse(card.dataset.supportedVersions).length > 0;
+}
+
+function fnCheckUnupportedVersions(card) {
+  return JSON.parse(card.dataset.unsupportedVersions).length > 0;
+}
+function fnGetProductFamily(card) {
+  return card.dataset.productFamily;
 }
 
 function onAlphabetSelectO(oEvent) {
@@ -748,6 +816,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// function checkWalkthrough() {
+//   // Call the function to start the walkthrough
+//   if (!localStorage.getItem("walkthroughShownHomePage")) {
+//     localStorage.setItem("walkthroughShownHomePage", "true");
+//     startWalkthrough();
+//   }
+// }
+
 function onStartHomepageWalkthrough() {
   startWalkthrough();
 }
@@ -763,6 +839,10 @@ function startWalkthrough() {
     {
       element: "#prod_solution_tab",
       content: translations["products-tab-walkthrough"],
+    },
+    {
+      element: "#prod-fam-options",
+      content: translations["prod-family-options-walkthrough"],
     },
     {
       element: "#sbp_tab",

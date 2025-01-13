@@ -23,6 +23,7 @@
 <link rel="stylesheet" type="text/css" href="../styles/homePageStyles.css">
 {% endblock head_link_css -%}
 
+{% set productFamiliesList = data.productFamilies | sort(attribute='rank') %}
 {% set productsList = data.productsList | sort(attribute='rank') %}
 
 {% set sbpCategoryList = data.sbpCategoryList %}
@@ -49,12 +50,20 @@
 
     <div id="products-content" class="active-content tab-content">
         <div class="switch-bar">
-            <label>Unsupported</label>
-            <label class="switch">
-                <input id='supported-products-checkbox' type="checkbox" checked onChange="onChangeSupported(event)">
-                <span class="slider round"></span>
-            </label>
-            <label>Supported</label>
+            <div class="prod-fam-options" onclick="onSelectProdFamily(event)">
+                <button class="selected">All</button>
+                {% for productFamily in productFamiliesList %}
+                <button>{{productFamily.name}}</button>
+                {%endfor%}
+            </div>
+            <div class="support-options">
+                <label>Unsupported</label>
+                <label class="switch">
+                    <input id='supported-products-checkbox' type="checkbox" checked onChange="onChangeSupported(event)">
+                    <span class="slider round"></span>
+                </label>
+                <label>Supported</label>
+            </div>
         </div>
         <div class="productsContainer">
             {% for product in productsList %}
@@ -66,7 +75,7 @@
 
             {%set hasSupportedVersions = product.supported|length >0 %}
 
-            {{ ProductTile( title=product.name,
+            {{ ProductTile( title=product.name, productFamily=product.productFamily,
             supportedVersions=product.supported, unsupportedVersions=product.unsupported,
             description=productDescriptionObj.description | default(''), acronymn=product.acronymn,
             hidden=not hasSupportedVersions) }}

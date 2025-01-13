@@ -20,7 +20,7 @@ def generate_template():
     data_file_trd = 'data/trd_metadata_corrected.json'
 
     data_file_homepage = 'data/homepage_docserv_bigfile.json'
-    data_file_homepage2 = 'newDataModel/homepagedata.json'
+    data_file_homepage2 = 'newDataModel/homepagedata2.json'
     # data_file_homepage = 'data/homepage-data.json'
     # data_file_homepage = 'data/homePageData.json'
 
@@ -38,6 +38,7 @@ def generate_template():
 
     template_homepage_file_new = 'home2.html.jinja'
     template_index_file_new = 'index.html2.jinja'
+    template_404 = '404.html.jinja'
 
     # Load the Jinja environment
     env = Environment(loader=FileSystemLoader(template_dir, encoding='utf-8'))
@@ -49,6 +50,7 @@ def generate_template():
 
     template_homepage2 = env.get_template(template_homepage_file_new)
     template_index_new = env.get_template(template_index_file_new)
+    template_404_page = env.get_template(template_404)
 
     # Load data
     with open(data_file_sbp, 'r',encoding='utf-8') as f:
@@ -103,11 +105,13 @@ def generate_template():
     # outputCiscoAll = template_index_all.render(data=dataTRD, isTRD=True, partner='Cisco')
     outputSmartDocs = template.render(data=dataSmartDocs,isSmartDocs=True)
 
-    outputHomePage = template_homepage.render(data=dataHome)
-    outputHomePage2 = template_homepage2.render(data=dataHome2,lang='en-us')
+    outputHomePage = template_homepage2.render(data=dataHome2, lang='en-us', translations = data_en_us_translations)
+    outputHomePage2 = template_homepage2.render(data=dataHome2,lang='de-de', translations = data_de_de_translations)
 
-    outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isProduct=True,category='Storage', product="SUSE Linux Enterprise Server",version="15 SP5", lang='en-us', translations=data_en_us_translations)
+    outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='en-us', translations=data_en_us_translations)
+    # outputSLES15SP5 = template_index_new.render(data=dataProductsSLES,isSBP=True, productname="SUSE Best Practices",version="Storage", lang='en-us', translations=data_en_us_translations)
     outputSLES15SP5de = template_index_new.render(data=dataProductsSLES,isProduct=True, product="SUSE Linux Enterprise Server",version="15 SP5", lang='de-de', translations = data_de_de_translations)
+    output404page = template_404_page.render()
 
     # Write the output to a file
     output_path = os.path.join(output_dir, 'systems-management.html')
@@ -222,6 +226,14 @@ def generate_template():
         soup = BeautifulSoup(outputSLES15SP5de, 'html.parser')
         formatted_html = soup.prettify()
         f.write(formatted_html)
+
+    output_path = os.path.join(output_dir, '404.html')
+    with open(output_path, 'w',encoding='utf-8') as f:
+        # f.write(outputSystemsManagement)
+        soup = BeautifulSoup(output404page, 'html.parser')
+        formatted_html = soup.prettify()
+        f.write(formatted_html)
+
 
     print("Output template generated at: {output_path}")
 

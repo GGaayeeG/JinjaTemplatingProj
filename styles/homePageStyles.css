@@ -308,10 +308,38 @@ a.tile {
 /* Switch implementation */
 .switch-bar {
   display: flex;
-  width: 95%;
-  justify-content: flex-end;
+  width: 90%;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 24px;
+  margin-inline: auto;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  padding-inline: 8px;
+  flex-wrap: wrap;
+}
+
+.prod-fam-options button {
+  background: transparent;
+  border: none;
+  padding-inline: 16px;
+  padding-block: 8px;
+  /* border-right: 1px solid; */
+  outline: 2px solid var(--tertiary-mint);
+  outline-offset: 4px;
+  margin-block: 6px;
+}
+
+.prod-fam-options button.selected {
+  background-color: var(--primary-jungle-green);
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid;
+}
+
+.support-options {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
 }
 
 .switch {

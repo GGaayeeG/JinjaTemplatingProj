@@ -1,7 +1,7 @@
-{% macro ProductTile( title, description, supportedVersions, unsupportedVersions, acronymn, hidden) %}
+{% macro ProductTile( title, productFamily, description, supportedVersions, unsupportedVersions, acronymn, hidden) %}
 
 <div class="tile {% if hidden %} hiddenTile{% endif %}" onclick="showVersionPopover(event)"
-    data-supported-versions='{{supportedVersions|tojson|escape}}'
+    data-product-family='{{productFamily}}' data-supported-versions='{{supportedVersions|tojson|escape}}'
     data-unsupported-versions='{{unsupportedVersions|tojson|escape}}' data-acronymn='{{acronymn}}'>
     <label class="tile-header">{{ title }}</label>
     <p class="tile-info">{{description}}</p>
