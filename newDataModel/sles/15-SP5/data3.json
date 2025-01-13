@@ -109,6 +109,39 @@
           "title": "Container und Virtualisierung"
         }
       ]
+    },
+    {
+      "categoryId": "public-cloud",
+      "translations": [
+        { "lang": "en-us", "default": true, "title": "Public cloud" }
+      ]
+    },
+    {
+      "categoryId": "appliance-building",
+      "translations": [
+        { "lang": "en-us", "default": true, "title": "Appliance buildin" }
+      ]
+    },
+
+    {
+      "categoryId": "end-user",
+      "translations": [
+        { "lang": "en-us", "default": true, "title": "End users" },
+        {
+          "lang": "de-de",
+          "title": "Endbenutzer"
+        }
+      ]
+    },
+    {
+      "categoryId": "release-notes",
+      "translations": [
+        { "lang": "en-us", "default": true, "title": "Release notes" },
+        {
+          "lang": "de-de",
+          "title": "Versionshinweise"
+        }
+      ]
     }
   ],
   "documents": [
