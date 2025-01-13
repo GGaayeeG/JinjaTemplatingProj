@@ -1,0 +1,1498 @@
+{
+  "productname": "SUSE Linux Enterprise Server",
+  "acronym": "sles",
+  "version": "15 SP6",
+  "lifecycle": "supported",
+  "hide-productname": false,
+  "descriptions": [
+    {
+      "lang": "en-us",
+      "default": true,
+      "description": "<p>A multimodal operating system that paves the way for IT transformation in the software-defined era.</p><p>The modern and modular OS helps simplify multimodal IT, makes traditional IT infrastructure efficient and provides an engaging platform for developers. As a result, you can easily deploy and transition business-critical workloads across on-premise and public cloud environments.</p><p>SUSE Linux Enterprise Server, based on latest SUSE Linux Enterprise, is another example of our open approach helping you optimize and modernize your multimodal IT infrastructure.</p>"
+    },
+    {
+      "lang": "de-de",
+      "default": false,
+      "description": "<p>Ein multimodales Betriebssystem, das als Wegbereiter für die IT-Transformation im softwaredefinierten Zeitalter fungiert.</p><p>Das moderne, modulare Betriebssystem trägt zur Vereinfachung multimodaler IT bei, verbessert die Effizienz der herkömmlichen IT-Infrastruktur und bietet eine interessante Plattform für Entwickler. In Folge dessen können Sie geschäftskritische Workloads über lokale und Public Cloud-Umgebungen hinweg einfach bereitstellen und übertragen.</p><p>SUSE Linux Enterprise Server basiert auf dem neuesten SUSE Linux Enterprise und ist ein weiteres Beispiel für unseren offenen Ansatz zur Optimierung und Modernisierung Ihrer multimodalen IT-Infrastruktur.</p>"
+    },
+    {
+      "lang": "fr-fr",
+      "default": false,
+      "description": "<p>Un système d’exploitation multimodal qui offre une base idéale pour faire évoluer les systèmes informatiques à l’ère du software-defined.</p><p>Grâce à une architecture moderne et modulaire, le système d’exploitation simplifie l’informatique multimodale, optimise l’infrastructure informatique traditionnelle et fournit une plate-forme attractive pour les développeurs. Il vous est ainsi possible de facilement déployer et assurer la transition des workloads stratégiques dans des environnements de cloud public et sur site.</p><p>SUSE Linux Enterprise Server repose sur la distribution SUSE Linux Enterprise et constitue un autre exemple de notre approche ouverte qui vous permet d’optimiser et de moderniser votre infrastructure informatique multimodale.</p>"
+    },
+    {
+      "lang": "pt-br",
+      "default": false,
+      "description": "<p>Um sistema operacional multimodal que abre caminho para a transformação de TI na era definida por software.</p><p>O sistema operacional moderno e modular ajuda a simplificar a TI multimodal, torna a infraestrutura de TI tradicional eficiente e fornece uma plataforma envolvente para desenvolvedores. Como resultado, você pode facilmente implantar e fazer a transição de cargas de trabalho essenciais em ambientes de nuvem pública e no local.</p><p>O SUSE Linux Enterprise Server, baseado no SUSE Linux Enterprise mais recente, é outro exemplo de nossa abordagem aberta que ajuda a otimizar e a modernizar sua infraestrutura de TI multimodal.</p>"
+    },
+    {
+      "lang": "ja-jp",
+      "default": false,
+      "description": "<p>Software-Defined時代のITトランスフォーメーションの道を拓く、マルチモーダルなOSです。</p><p>最新のモジュラー型OSがマルチモーダルITのシンプル化をサポートし、従来のITインフラストラクチャを効率化し、 開発者にとって魅力あるプラットフォームを提供します。これにより、オンプレミス環境でもパブリッククラウド環境でも、 ビジネスクリティカルなワークロードを容易にデプロイ、移行することが可能になります。</p><p>最新のSUSE Linux EnterpriseベースのSUSE Linux Enterprise Serverは、マルチモーダルIT インフラストラクチャの最適化および最新化を支援する、オープンなSUSEのオープンアプローチの1つの例です。</p>"
+    },
+    {
+      "lang": "zh-cn",
+      "default": false,
+      "description": "<p>一种多模式操作系统，为软件定义时代的 IT 转型奠定了坚实的基础。</p><p>利用这种现代的模块化操作系统，可以简化多模式 IT，使传统 IT 基础设施高效运营，并为开发人员提供一 个有吸引力的平台。因此，您可以跨本地环境和公共云环境轻松地部署和迁移业务关键型工作负载。</p><p>SUSE Linux Enterprise Server 基于最新的 SUSE Linux Enterprise 开发而成， 是我们开放源代码的又一个典范，可帮助您实现多模式 IT 基础设施的优化和现代化。</p>"
+    },
+    {
+      "lang": "es-es",
+      "default": false,
+      "description": "<p>Un sistema operativo multimodo que facilita la transformación de TI en la era definida por software.</p><p>El sistema operativo moderno y modular ayuda a simplificar la TI multimodo para permitir que la infraestructura de TI tradicional sea eficaz y proporcionar una plataforma atractiva para los desarrolladores. Como resultado, puede implantar y transferir fácilmente las cargas de trabajo esenciales para el negocio en los entornos locales y de nube pública.</p><p>SUSE Linux Enterprise Server, basado en la versión más reciente de SUSE Linux Enterprise, es otro ejemplo de nuestro enfoque abierto que le ayuda a optimizar y modernizar su infraestructura de TI multimodo.</p>"
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": "installation-upgrade",
+      "translations": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Installation and upgrade"
+        },
+        {
+          "lang": "de-de",
+          "title": "Versionshinweise"
+        },
+        {
+          "lang": "es-es",
+          "title": "Notas de la versión"
+        },
+        {
+          "lang": "fr-fr",
+          "title": "Notes de version"
+        },
+        {
+          "lang": "ja-jp",
+          "title": "リリースノート"
+        },
+        {
+          "lang": "pt-br",
+          "title": "Detalhes da versão"
+        },
+        {
+          "lang": "zh-cn",
+          "title": "发行说明"
+        }
+      ]
+    },
+    {
+      "categoryId": "administration",
+      "translations": [
+        { "lang": "en-us", "default": true, "title": "Administration" },
+        {
+          "lang": "de-de",
+          "title": "Administration"
+        }
+      ]
+    },
+    {
+      "categoryId": "security",
+      "translations": [
+        { "lang": "en-us", "default": true, "title": "Security" },
+        {
+          "lang": "de-de",
+          "title": "Sicherheit"
+        }
+      ]
+    },
+    {
+      "categoryId": "container-virtualization",
+      "translations": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Containers and virtualization"
+        },
+        {
+          "lang": "de-de",
+          "title": "Container und Virtualisierung"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Administration Guide",
+          "subtitle": "",
+          "description": "How to maintain, monitor and customize an installed SLES system",
+          "dcfile": "DC-SLES-administration",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-administration.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-administration/#book-administration",
+            "pdf": "/sles/15-SP6/pdf/book-administration_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "title": "Verwaltungshandbuch",
+          "subtitle": "",
+          "description": "Wartung, Überwachung und Anpassung eines installierten SLES-Systems",
+          "dcfile": "DC-SLES-administration",
+          "format": {
+            "html": "/de-de/sles/15-SP6/html/SLES-all/book-administration.html",
+            "single-html": "/de-de/sles/15-SP6/single-html/SLES-administration/#book-administration",
+            "pdf": "/de-de/sles/15-SP6/pdf/book-administration_de.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "title": "管理ガイド",
+          "subtitle": "",
+          "description": "インストールされたSLESシステムを保守、監視、およびカスタマイズする方法",
+          "dcfile": "DC-SLES-administration",
+          "format": {
+            "html": "/ja-jp/sles/15-SP6/html/SLES-all/book-administration.html",
+            "single-html": "/ja-jp/sles/15-SP6/single-html/SLES-administration/#book-administration",
+            "pdf": "/ja-jp/sles/15-SP6/pdf/book-administration_ja.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "管理指南",
+          "subtitle": "",
+          "description": "如何维护、监控和自定义安装的 SLES 系统",
+          "dcfile": "DC-SLES-administration",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-administration.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-administration/#book-administration",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-administration_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Automation", "Configuration", "Maintenance"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "administration"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "AutoYaST Guide",
+          "subtitle": "",
+          "description": "How to prepare, install and configure a SLES system with AutoYaST",
+          "dcfile": "DC-SLES-autoyast",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-autoyast.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-autoyast/#book-autoyast",
+            "pdf": "/sles/15-SP6/pdf/book-autoyast_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "AutoYaST 指南",
+          "subtitle": "",
+          "description": "如何使用 AutoYaST 准备、安装和配置 SLES 系统",
+          "dcfile": "DC-SLES-autoyast",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-autoyast.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-autoyast/#book-autoyast",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-autoyast_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Automation", "Configuration", "Deployment", "Installation"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "installation-upgrade"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Deployment Guide",
+          "subtitle": "",
+          "description": "How to install single or multiple systems, and how to exploit the product-inherent capabilities for a deployment infrastructure",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/sles/15-SP6/pdf/book-deployment_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "title": "Installationshandbuch",
+          "subtitle": "",
+          "description": "So installieren Sie einzelne oder mehrere Systeme und nutzen die Produktfunktionen für eine Bereitstellungsinfrastruktur",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/de-de/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/de-de/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/de-de/sles/15-SP6/pdf/book-deployment_de.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "title": "Guía de distribución",
+          "subtitle": "",
+          "description": "Cómo instalar uno o varios sistemas y cómo aprovechar las posibilidades del producto para una infraestructura de distribución",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/es-es/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/es-es/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/es-es/sles/15-SP6/pdf/book-deployment_es.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "title": "Guide de déploiement",
+          "subtitle": "",
+          "description": "Comment installer un ou plusieurs systèmes et exploiter les fonctionnalités inhérentes au produit pour une infrastructure de déploiement",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/fr-fr/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/fr-fr/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/fr-fr/sles/15-SP6/pdf/book-deployment_fr.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "title": "展開ガイド",
+          "subtitle": "",
+          "description": "単一または複数のシステムをインストールする方法、および展開インフラストラクチャに製品本来の機能を活用する方法",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/ja-jp/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/ja-jp/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/ja-jp/sles/15-SP6/pdf/book-deployment_ja.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "title": "배포 가이드",
+          "subtitle": "",
+          "description": "단일 또는 다중 시스템을 설치하는 방법 및 배포 인프라를 위해 제품 고유의 기능을 이용하는 방법",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/ko-kr/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/ko-kr/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/ko-kr/sles/15-SP6/pdf/book-deployment_ko.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "title": "Guia de Implantação",
+          "subtitle": "",
+          "description": "Como instalar um ou vários sistemas e como explorar os recursos inerentes do produto de uma infraestrutura de implantação",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/pt-br/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/pt-br/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/pt-br/sles/15-SP6/pdf/book-deployment_pt_br.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "部署指南",
+          "subtitle": "",
+          "description": "如何安装单个或多个系统，以及如何利用产品继承功能建立部署基础结构",
+          "dcfile": "DC-SLES-deployment",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-deployment.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-deployment/#book-deployment",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-deployment_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Deployment", "Installation"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "installation-upgrade"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "GNOME User Guide",
+          "subtitle": "",
+          "description": "How to use the GNOME desktop on SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-gnome-user",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-gnome-user.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-gnome-user/#book-gnome-user",
+            "pdf": "/sles/15-SP6/pdf/book-gnome-user_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "title": "GNOME-Benutzerhandbuch",
+          "subtitle": "",
+          "description": "So verwenden Sie den GNOME-Desktop auf SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-gnome-user",
+          "format": {
+            "html": "/de-de/sles/15-SP6/html/SLES-all/book-gnome-user.html",
+            "single-html": "/de-de/sles/15-SP6/single-html/SLES-gnome-user/#book-gnome-user",
+            "pdf": "/de-de/sles/15-SP6/pdf/book-gnome-user_de.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "title": "GNOMEユーザガイド",
+          "subtitle": "",
+          "description": "SUSE Linux Enterprise ServerでGNOMEデスクトップを使用する方法",
+          "dcfile": "DC-SLES-gnome-user",
+          "format": {
+            "html": "/ja-jp/sles/15-SP6/html/SLES-all/book-gnome-user.html",
+            "single-html": "/ja-jp/sles/15-SP6/single-html/SLES-gnome-user/#book-gnome-user",
+            "pdf": "/ja-jp/sles/15-SP6/pdf/book-gnome-user_ja.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "title": "Guia do Usuário do GNOME",
+          "subtitle": "",
+          "description": "Como usar a área de trabalho do GNOME no SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-gnome-user",
+          "format": {
+            "html": "/pt-br/sles/15-SP6/html/SLES-all/book-gnome-user.html",
+            "single-html": "/pt-br/sles/15-SP6/single-html/SLES-gnome-user/#book-gnome-user",
+            "pdf": "/pt-br/sles/15-SP6/pdf/book-gnome-user_pt_br.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "GNOME 用户指南",
+          "subtitle": "",
+          "description": "如何在 SUSE Linux Enterprise Server 上使用 GNOME 桌面",
+          "dcfile": "DC-SLES-gnome-user",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-gnome-user.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-gnome-user/#book-gnome-user",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-gnome-user_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Configuration", "Maintenance"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "end-user"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Installation Quick Start",
+          "subtitle": "",
+          "description": "How to install SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/sles/15-SP6/pdf/article-installation_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "title": "Kurzanleitung zur Installation",
+          "subtitle": "",
+          "description": "So installieren Sie SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/de-de/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/de-de/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/de-de/sles/15-SP6/pdf/article-installation_de.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "title": "Guía de inicio rápido de la instalació",
+          "subtitle": "",
+          "description": "Cómo instalar SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/es-es/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/es-es/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/es-es/sles/15-SP6/pdf/article-installation_es.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "title": "Démarrage rapide de l'installation",
+          "subtitle": "",
+          "description": "Comment installer SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/fr-fr/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/fr-fr/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/fr-fr/sles/15-SP6/pdf/article-installation_fr.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "title": "インストールクイックスター",
+          "subtitle": "",
+          "description": "SUSE Linux Enterprise Serverのインストール方法",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/ja-jp/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/ja-jp/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/ja-jp/sles/15-SP6/pdf/article-installation_ja.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "title": "설치 빠른 시작",
+          "subtitle": "",
+          "description": "SUSE Linux Enterprise Server 설치 방법",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/ko-kr/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/ko-kr/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/ko-kr/sles/15-SP6/pdf/article-installation_ko.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "title": "Inicialização Rápida da Instalação",
+          "subtitle": "",
+          "description": "Como instalar o SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/pt-br/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/pt-br/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/pt-br/sles/15-SP6/pdf/article-installation_pt_br.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "安装快速入门",
+          "subtitle": "",
+          "description": "如何安装 SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-installation",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/article-installation.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-installation/#article-installation",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/article-installation_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Installation"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "installation-upgrade"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Modules and Extensions Quick Start",
+          "subtitle": "",
+          "description": "How to use the modules and extensions available for the SUSE Linux Enterprise family",
+          "dcfile": "DC-SLES-modules",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/article-modules.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-modules/#article-modules",
+            "pdf": "/sles/15-SP6/pdf/article-modules_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "模块和扩展快速入门",
+          "subtitle": "",
+          "description": "如何使用适用于 SUSE Linux Enterprise 系列的模块和扩展",
+          "dcfile": "DC-SLES-modules",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/article-modules.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-modules/#article-modules",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/article-modules_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Administration", "Installation"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "installation-upgrade"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "NVIDIA Virtual GPU for KVM Guests",
+          "subtitle": "",
+          "description": "How to configure the NVIDIA Virtual GPU (vGPU) for KVM guests",
+          "dcfile": "DC-SLES-nvidia-vgpu",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/article-nvidia-vgpu.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-nvidia-vgpu/#article-nvidia-vgpu",
+            "pdf": "/sles/15-SP6/pdf/article-nvidia-vgpu_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Virtualization"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "container-virtualization"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Using KubeVirt on SUSE Linux Enterprise",
+          "subtitle": "",
+          "description": "How to use KubeVirt, a virtual machine add-on for Kubernetes",
+          "dcfile": "DC-SLE-kubevirt",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/article-kubevirt.html",
+            "single-html": "/sles/15-SP6/single-html/SLE-kubevirt/#article-kubevirt",
+            "pdf": "/sles/15-SP6/pdf/article-kubevirt_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Containerization", "Virtualization"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "container-virtualization"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Repository Mirroring Tool Guide",
+          "subtitle": "",
+          "description": "How to use Repository Mirroring Tool, a proxy system for SUSE Customer Center with repository and registration targets",
+          "dcfile": "DC-SLES-rmt",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-rmt.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-rmt/#book-rmt",
+            "pdf": "/sles/15-SP6/pdf/book-rmt_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "Repository Mirroring Tool 指南",
+          "subtitle": "",
+          "description": "如何使用 Repository Mirroring Tool。该产品是 SUSE Customer Center 与储存库和注册目标之间的代理系统",
+          "dcfile": "DC-SLES-rmt",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-rmt.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-rmt/#book-rmt",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-rmt_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": [
+        "Maintenance",
+        "Subscription Management",
+        "Upgrade &amp; Update"
+      ],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "administration"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Security and Hardening Guide",
+          "subtitle": "",
+          "description": "How to implement system security and hardening using the security software included with the product",
+          "dcfile": "DC-SLES-security",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-security.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-security/#book-security",
+            "pdf": "/sles/15-SP6/pdf/book-security_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "安全和强化指南",
+          "subtitle": "",
+          "description": "如何使用产品随附的安全性软件实现系统安全和强化",
+          "dcfile": "DC-SLES-security",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-security.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-security/#book-security",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-security_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Auditing", "Security"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "security"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Storage Administration Guide",
+          "subtitle": "",
+          "description": "How to manage storage devices on SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-storage",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-storage.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-storage/#book-storage",
+            "pdf": "/sles/15-SP6/pdf/book-storage_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "title": "ストレージ管理ガイド",
+          "subtitle": "",
+          "description": "SUSE Linux Enterprise Serverでストレージデバイスを管理する方法",
+          "dcfile": "DC-SLES-storage",
+          "format": {
+            "html": "/ja-jp/sles/15-SP6/html/SLES-all/book-storage.html",
+            "single-html": "/ja-jp/sles/15-SP6/single-html/SLES-storage/#book-storage",
+            "pdf": "/ja-jp/sles/15-SP6/pdf/book-storage_ja.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "存储管理指南",
+          "subtitle": "",
+          "description": "如何在 SUSE Linux Enterprise Server 上管理存储设备",
+          "dcfile": "DC-SLES-storage",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-storage.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-storage/#book-storage",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-storage_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Administration", "Configuration", "Monitoring"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "administration"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "System Analysis and Tuning Guide",
+          "subtitle": "",
+          "description": "How to detect and resolve problems on SLES and optimize system performance",
+          "dcfile": "DC-SLES-tuning",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-tuning.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-tuning/#book-tuning",
+            "pdf": "/sles/15-SP6/pdf/book-tuning_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "系统分析和微调指南",
+          "subtitle": "",
+          "description": "如何检测和解决 SLES上的问题并优化系统性能",
+          "dcfile": "DC-SLES-tuning",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-tuning.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-tuning/#book-tuning",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-tuning_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Administration", "Configuration", "Monitoring"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "administration"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Upgrade Guide",
+          "subtitle": "",
+          "description": "How to upgrade SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/sles/15-SP6/pdf/book-upgrade_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "de-de",
+          "default": false,
+          "title": "Upgradehandbuch",
+          "subtitle": "",
+          "description": "So aktualisieren Sie SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/de-de/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/de-de/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/de-de/sles/15-SP6/pdf/book-upgrade_de.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "es-es",
+          "default": false,
+          "title": "Guía de actualización",
+          "subtitle": "",
+          "description": "Cómo actualizar SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/es-es/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/es-es/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/es-es/sles/15-SP6/pdf/book-upgrade_es.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "fr-fr",
+          "default": false,
+          "title": "Guide de mise à niveau",
+          "subtitle": "",
+          "description": "Comment mettre à niveau SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/fr-fr/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/fr-fr/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/fr-fr/sles/15-SP6/pdf/book-upgrade_fr.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ja-jp",
+          "default": false,
+          "title": "アップグレードガイド",
+          "subtitle": "",
+          "description": "SUSE Linux Enterprise Serverのアップグレード方法",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/ja-jp/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/ja-jp/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/ja-jp/sles/15-SP6/pdf/book-upgrade_ja.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "ko-kr",
+          "default": false,
+          "title": "업그레이드 가이드",
+          "subtitle": "",
+          "description": "SUSE Linux Enterprise Server 업그레이드 방법",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/ko-kr/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/ko-kr/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/ko-kr/sles/15-SP6/pdf/book-upgrade_ko.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "pt-br",
+          "default": false,
+          "title": "Guia de Upgrade",
+          "subtitle": "",
+          "description": "Como fazer upgrade do SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/pt-br/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/pt-br/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/pt-br/sles/15-SP6/pdf/book-upgrade_pt_br.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "升级指南",
+          "subtitle": "",
+          "description": "如何升级 SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-upgrade",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-upgrade.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-upgrade/#book-upgrade",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-upgrade_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Upgrade &amp; Update"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "installation-upgrade"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Virtualization Guide",
+          "subtitle": "",
+          "description": "How to manage virtual machines on SUSE Linux Enterprise Server",
+          "dcfile": "DC-SLES-virtualization",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/book-virtualization.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-virtualization/#book-virtualization",
+            "pdf": "/sles/15-SP6/pdf/book-virtualization_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "虚拟化指南",
+          "subtitle": "",
+          "description": "如何在 SUSE Linux Enterprise Server 上管理虚拟机",
+          "dcfile": "DC-SLES-virtualization",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/book-virtualization.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-virtualization/#book-virtualization",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/book-virtualization_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Virtualization"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "container-virtualization"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Virtualization Best Practices",
+          "subtitle": "",
+          "description": "How to choose the optimal virtualization technology based on workload",
+          "dcfile": "DC-SLES-virtualization-best-practices",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-all/article-virtualization-best-practices.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-virtualization-best-practices/#article-virtualization-best-practices",
+            "pdf": "/sles/15-SP6/pdf/article-virtualization-best-practices_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "虚拟化最佳实践",
+          "subtitle": "",
+          "description": "如何根据工作负载选择最佳虚拟化技术",
+          "dcfile": "DC-SLES-virtualization-best-practices",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-all/article-virtualization-best-practices.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-virtualization-best-practices/#article-virtualization-best-practices",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/article-virtualization-best-practices_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Virtualization"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "container-virtualization"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "AMD Secure Encrypted Virtualization (AMD-SEV) Guide",
+          "subtitle": "",
+          "description": "How to enable and configure AMD Secure Encrypted Virtualization",
+          "dcfile": "DC-SLES-amd-sev",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-amd-sev/article-amd-sev.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-amd-sev/#article-amd-sev",
+            "pdf": "/sles/15-SP6/pdf/article-amd-sev_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "AMD 安全加密虚拟化 (AMD-SEV) 指南",
+          "subtitle": "",
+          "description": "如何启用和配置 AMD 安全加密虚拟化",
+          "dcfile": "DC-SLES-amd-sev",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-amd-sev/article-amd-sev.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-amd-sev/#article-amd-sev",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/article-amd-sev_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Virtualization"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "container-virtualization"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Raspberry Pi Quick Start",
+          "subtitle": "",
+          "description": "How to set up SUSE Linux Enterprise Server for Arm on the Raspberry Pi* platform",
+          "dcfile": "DC-SLES-raspberry-pi",
+          "format": {
+            "html": "/sles/15-SP6/html/SLES-raspberry-pi/article-raspberry-pi.html",
+            "single-html": "/sles/15-SP6/single-html/SLES-raspberry-pi/#article-raspberry-pi",
+            "pdf": "/sles/15-SP6/pdf/article-raspberry-pi_en.pdf"
+          },
+          "dateModified": "2024-06-26"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "Raspberry Pi 快速入门",
+          "subtitle": "",
+          "description": "如何在 Raspberry Pi* 平台上设置 SUSE Linux Enterprise Server for Arm",
+          "dcfile": "DC-SLES-raspberry-pi",
+          "format": {
+            "html": "/zh-cn/sles/15-SP6/html/SLES-raspberry-pi/article-raspberry-pi.html",
+            "single-html": "/zh-cn/sles/15-SP6/single-html/SLES-raspberry-pi/#article-raspberry-pi",
+            "pdf": "/zh-cn/sles/15-SP6/pdf/article-raspberry-pi_zh_cn.pdf"
+          },
+          "dateModified": "2024-06-26"
+        }
+      ],
+      "tasks": ["Installation"],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "installation-upgrade"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "High Performance Computing Guide",
+          "subtitle": "",
+          "description": "How to master system administration tasks such as remote administration, workload management and monitoring",
+          "dcfile": "DC-hpc-guide",
+          "format": {
+            "html": "/sle-hpc/15-SP6/html/hpc-guide/book-hpc.html",
+            "single-html": "/sle-hpc/15-SP6/single-html/hpc-guide/#book-hpc",
+            "pdf": "/sle-hpc/15-SP6/pdf/book-hpc_en.pdf"
+          },
+          "dateModified": "2024-06-24"
+        }
+      ],
+      "tasks": ["Administration"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "administration"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Public Cloud Guide",
+          "subtitle": "",
+          "description": "How to use SUSE Linux Enterprise in public clouds",
+          "dcfile": "DC-public-cloud",
+          "format": {
+            "html": "/sle-public-cloud/all/html/public-cloud/public-cloud.html",
+            "single-html": "/sle-public-cloud/all/single-html/public-cloud/#public-cloud",
+            "pdf": "/sle-public-cloud/all/pdf/public-cloud_en.pdf"
+          },
+          "dateModified": "2024-07-04"
+        }
+      ],
+      "tasks": ["Administration", "Cloud", "Deployment"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "public-cloud"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Using the SUSE Distribution Migration System",
+          "subtitle": "",
+          "description": "How to use the SUSE Distribution Migration System to seamlessly transition between SLE releases",
+          "dcfile": "DC-distribution-migration-system",
+          "format": {
+            "html": "/suse-distribution-migration-system/15/html/distribution-migration-system/index.html",
+            "single-html": "/suse-distribution-migration-system/15/single-html/distribution-migration-system/",
+            "pdf": "/suse-distribution-migration-system/15/pdf/distribution-migration-system_en.pdf"
+          },
+          "dateModified": "2023-07-24"
+        }
+      ],
+      "tasks": ["Upgrade &amp; Update"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "public-cloud"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Introduction to SLES Minimal VM",
+          "subtitle": "",
+          "description": "How to set up and use SLES Minimal VM",
+          "dcfile": "DC-minimal-vm",
+          "format": {
+            "html": "/smart/virtualization-cloud/html/minimal-vm/index.html",
+            "pdf": "/smart/virtualization-cloud/pdf/minimal-vm_en.pdf"
+          },
+          "dateModified": "2024-02-09"
+        }
+      ],
+      "tasks": ["Virtualization"],
+      "products": [
+        {
+          "name": "",
+          "versions": [""]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "administration"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Keg Reference Guide",
+          "subtitle": "",
+          "description": "How to create and manage image descriptions for the KIWI appliance builder",
+          "dcfile": "DC-keg",
+          "format": {
+            "html": "/appliance/keg-2/html/keg/index.html",
+            "single-html": "/appliance/keg-2/single-html/keg/",
+            "pdf": "/appliance/keg-2/html/keg/index.html"
+          },
+          "dateModified": "2020-07-21"
+        }
+      ],
+      "tasks": ["Image Building"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "appliance-building"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Building Linux System Appliances with KIWI NG",
+          "subtitle": "",
+          "description": "How to create, configure, and deploy customized Linux system images with KIWI NG",
+          "dcfile": "DC-kiwi",
+          "format": {
+            "html": "/appliance/kiwi-9/html/kiwi/index.html",
+            "single-html": "/appliance/kiwi-9/single-html/kiwi/",
+            "pdf": "/appliance/kiwi-9/pdf/kiwi_en.pdf"
+          },
+          "dateModified": "2024-08-01"
+        }
+      ],
+      "tasks": [],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "appliance-building"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Hardening SUSE Linux Enterprise with OpenSCAP",
+          "subtitle": "",
+          "description": "How to audit and harden SUSE Linux Enterprise Server with OpenSCAP and the SCAP Security Guide",
+          "dcfile": "DC-SLES-openscap",
+          "format": {
+            "html": "/compliance/all/html/SLES-openscap/article-openscap.html",
+            "single-html": "/compliance/all/single-html/SLES-openscap/#article-openscap",
+            "pdf": "/compliance/all/pdf/article-openscap_en.pdf"
+          },
+          "dateModified": "2024-05-27"
+        }
+      ],
+      "tasks": ["Auditing", "Compliance"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "security"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Payment Card Industry Data Security Standard (PCI DSS) Guide",
+          "subtitle": "",
+          "description": "How to configure to comply with the Payment Card Industry Data Security Standard",
+          "dcfile": "DC-SLES-pci-dss",
+          "format": {
+            "html": "/compliance/all/html/SLES-pci-dss/article-security-pcidss.html",
+            "single-html": "/compliance/all/single-html/SLES-pci-dss/#article-security-pcidss",
+            "pdf": "/compliance/all/pdf/article-security-pcidss_en.pdf"
+          },
+          "dateModified": "2020-07-21"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "支付卡行业数据安全标准 (PCI DSS) 指南",
+          "subtitle": "",
+          "description": "如何配置 SLES 以符合支付卡行业数据安全标准",
+          "dcfile": "DC-SLES-pci-dss",
+          "format": {
+            "html": "/zh-cn/compliance/all/html/SLES-pci-dss/article-security-pcidss.html",
+            "single-html": "/zh-cn/compliance/all/single-html/SLES-pci-dss/#article-security-pcidss",
+            "pdf": "/zh-cn/compliance/all/pdf/article-security-pcidss_zh_cn.pdf"
+          },
+          "dateModified": "2020-07-21"
+        }
+      ],
+      "tasks": ["Auditing", "Compliance"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "security"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Container Guide",
+          "subtitle": "",
+          "description": "How to navigate the SUSE Linux Enterprise Server container ecosystem",
+          "dcfile": "DC-Container-guide",
+          "format": {
+            "html": "/container/all/html/Container-guide/index.html",
+            "single-html": "/container/all/single-html/Container-guide/",
+            "pdf": "/container/all/pdf/Container-guide_en.pdf"
+          },
+          "dateModified": "2023-11-17"
+        },
+        {
+          "lang": "zh-cn",
+          "default": false,
+          "title": "容器指南",
+          "subtitle": "",
+          "description": "如何在 SUSE Linux Enterprise Server 容器生态系统中导航",
+          "dcfile": "DC-Container-guide",
+          "format": {
+            "html": "/zh-cn/container/all/html/Container-guide/index.html",
+            "single-html": "/zh-cn/container/all/single-html/Container-guide/",
+            "pdf": "/zh-cn/container/all/pdf/Container-guide_zh_cn.pdf"
+          },
+          "dateModified": "2023-11-17"
+        }
+      ],
+      "tasks": ["Containerization", "Container Management"],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "container-virtualization"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Release Notes",
+          "subtitle": "",
+          "description": "Find the latest updates, including new features, enhancements, bug fixes, and important information about deprecated or removed packages.",
+          "dcfile": "",
+          "format": {
+            "html": "https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP6/"
+          },
+          "dateModified": "2024-09-06"
+        }
+      ],
+      "tasks": [],
+      "products": [
+        {
+          "name": "SUSE Linux Enterprise Server",
+          "versions": ["15 SP6"]
+        }
+      ],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "release-notes"
+    },
+    {
+      "docs": [
+        {
+          "lang": "en-us",
+          "default": true,
+          "title": "Release Notes for HPC",
+          "subtitle": "",
+          "description": "Find the latest updates, including new features, enhancements, bug fixes, and important information about deprecated or removed packages.",
+          "dcfile": "",
+          "format": {
+            "html": "https://www.suse.com/releasenotes/x86_64/SLE-HPC/15-SP6/"
+          },
+          "dateModified": "2024-06-12"
+        }
+      ],
+      "tasks": [],
+      "products": [],
+      "docTypes": [],
+      "isGated": false,
+      "rank": "",
+      "category": "release-notes"
+    }
+  ],
+  "archives": [
+    {
+      "lang": "en-us",
+      "default": true,
+      "zip": "/sles/15-SP6/sles-15-SP6-en-us.zip"
+    },
+    {
+      "lang": "de-de",
+      "default": false,
+      "zip": "/de-de/sles/15-SP6/sles-15-SP6-de-de.zip"
+    },
+    {
+      "lang": "es-es",
+      "default": false,
+      "zip": "/es-es/sles/15-SP6/sles-15-SP6-es-es.zip"
+    },
+    {
+      "lang": "fr-fr",
+      "default": false,
+      "zip": "/fr-fr/sles/15-SP6/sles-15-SP6-fr-fr.zip"
+    },
+    {
+      "lang": "ja-jp",
+      "default": false,
+      "zip": "/ja-jp/sles/15-SP6/sles-15-SP6-ja-jp.zip"
+    },
+    {
+      "lang": "ko-kr",
+      "default": false,
+      "zip": "/ko-kr/sles/15-SP6/sles-15-SP6-ko-kr.zip"
+    },
+    {
+      "lang": "pt-br",
+      "default": false,
+      "zip": "/pt-br/sles/15-SP6/sles-15-SP6-pt-br.zip"
+    },
+    {
+      "lang": "zh-cn",
+      "default": false,
+      "zip": "/zh-cn/sles/15-SP6/sles-15-SP6-zh-cn.zip"
+    }
+  ]
+}
