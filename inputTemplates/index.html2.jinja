@@ -26,7 +26,7 @@
 
 {% block head_link_css -%}
 {{ super() }}
-<link rel="stylesheet" type="text/css" href="../styles/indexPageStyles2.css">
+<link rel="stylesheet" type="text/css" href="../styles/indexPageStyles3.css">
 {% endblock head_link_css -%}
 
 {# Processing logic #}
@@ -40,6 +40,18 @@
 {% if not archivesData %}
 {% set archivesData = data.archives | selectattr('default', 'equalto', true) | first %}
 {% endif %}
+
+{% set categoriesList = [] %}
+{% for categoryObj in data.categories %}
+{% set titleObj = categoryObj.translations | selectattr('lang', 'equalto', lang) | list %}
+{% if not titleObj %}
+{% set titleObj = categoryObj.translations | selectattr('default', 'equalto', true) | list %}
+{% endif %}
+{% if titleObj %}
+{% set titleObj = titleObj[0] %}
+{% set _ = categoriesList.append({'categoryId': categoryObj.categoryId, 'title': titleObj.title}) %}
+{% endif %}
+{% endfor %}
 
 
 {% set articles = [] %}
@@ -71,6 +83,7 @@
 'productsOnly': productsList,
 "docTypes": documentData.docTypes,
 "rank": documentData.rank,
+"category": documentData.category,
 "gated": documentData.isGated
 } %}
 {% set _ = articles.append(article) %}
@@ -242,8 +255,36 @@
         <label class='article-counter'>{{translations['showing-text']}} <span class='article-count'>
                 {{articles|length}}</span>/<span>{{articles|length}} {{translations['articles-text']}}</span></label>
 
-        <div class="articleTilesContainer">
-            {% for article in articles | sort(attribute='title') %}
+        <div class="articleTilesContainer toc-view">
+
+            {% for category in categoriesList %}
+            <div class="section">
+                <label class="section-header">{{category.title}}</label>
+                <div>
+                    {% for article in articles|sort(attribute='title') %}
+                    {% if article.category == category.categoryId %}
+                    <div class="articleRow">
+                        <div class="articleText" data-article-link="{{article.links.html}}"
+                            onclick="onArticleClick(event)">
+                            <a class="articleTitle" href={{article.links.html}}>
+                                {# Article Title {{ loop.index }} : {{ article.title }} #}
+                                {{article.title}}
+                            </a>
+                            <p class="articleDescription">{{article.description}}</p>
+                        </div>
+                        </p>
+                        <label>{{article.dateModified}}</label>
+                        {{Dropdown(article.links)}}
+                    </div>
+
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            <div class="articleTilesContainer"></div>
+
+            {# {% for article in articles | sort(attribute='title') %}
             <div class="articleRow" data-topics="{{ article.tasks }}" data-products="{{ article.productsOnly }}"
                 data-doctypes="{{ article.docTypes }}"
                 data-article-link="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
@@ -279,9 +320,9 @@
                 <label class="date-modified">{{article.dateModified}}</label>
                 {% set dropdown_tooltip = translations['format-tooltip']%}
                 {{Dropdown(article.links, dropdown_tooltip)}}
-                {# {{Dropdown(article.links, translations)}} #}
             </div>
-            {% endfor %}
+            {% endfor %} #}
+
         </div>
         <p class="no-match-text">No matching articles found</p>
     </div>
@@ -302,6 +343,6 @@
 
 <script>
     var translations = {{ filteredTranslations }}</script>
-<script src="../JS/indexPages2.js"></script>
+<script src="../JS/indexPages3.js"></script>
 <script src="../JS/walkThrough.js"></script>
 {% endblock after_body_scripts -%}
