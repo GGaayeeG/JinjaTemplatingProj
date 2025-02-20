@@ -44,6 +44,7 @@
   "categories": [
     {
       "categoryId": "installation-upgrade",
+      "rank": 1,
       "translations": [
         {
           "lang": "en-us",
@@ -78,6 +79,7 @@
     },
     {
       "categoryId": "administration",
+      "rank": 2,
       "translations": [
         { "lang": "en-us", "default": true, "title": "Administration" },
         {
@@ -88,6 +90,7 @@
     },
     {
       "categoryId": "security",
+      "rank": 3,
       "translations": [
         { "lang": "en-us", "default": true, "title": "Security" },
         {
@@ -98,6 +101,7 @@
     },
     {
       "categoryId": "container-virtualization",
+      "rank": 4,
       "translations": [
         {
           "lang": "en-us",
@@ -112,19 +116,22 @@
     },
     {
       "categoryId": "public-cloud",
+      "rank": 5,
       "translations": [
         { "lang": "en-us", "default": true, "title": "Public cloud" }
       ]
     },
     {
       "categoryId": "appliance-building",
+      "rank": 6,
       "translations": [
-        { "lang": "en-us", "default": true, "title": "Appliance buildin" }
+        { "lang": "en-us", "default": true, "title": "Appliance building" }
       ]
     },
 
     {
       "categoryId": "end-user",
+      "rank": 7,
       "translations": [
         { "lang": "en-us", "default": true, "title": "End users" },
         {
@@ -135,6 +142,7 @@
     },
     {
       "categoryId": "release-notes",
+      "rank": 8,
       "translations": [
         { "lang": "en-us", "default": true, "title": "Release notes" },
         {
