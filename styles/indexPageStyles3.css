@@ -73,6 +73,12 @@
   font-size: 14px;
 }
 
+.toc-view .topic-selector,
+.toc-view .product-selector,
+.toc-view .doc-type-selector {
+  display: none;
+}
+
 .select-section {
   margin-right: 16px;
 }
@@ -97,8 +103,16 @@
   outline: none;
 }
 
-#all-articles-content {
+#allArticles-content {
   margin-top: 32px;
+}
+
+.section-header {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 2.5rem;
+  line-height: 3;
 }
 
 .articleRow {
@@ -107,7 +121,11 @@
   justify-content: space-between;
   flex-wrap: wrap;
   /* cursor: pointer; */
-  margin: 8px;
+  margin-block: 8px;
+}
+
+.toc-view .articleRow {
+  margin-block: 0;
 }
 
 .articleRow .articleTitle {

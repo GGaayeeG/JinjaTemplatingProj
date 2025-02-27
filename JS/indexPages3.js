@@ -1,56 +1,109 @@
 window.addEventListener("load", function (event) {
   if (this.document.querySelector(".filters-bar")) {
-    // onApplyFilters();
-    // onSortDocuments();
+    onSortDocuments();
+    onApplyFilters();
   }
 });
 
 // Sort article list -------------------------------------------------------
 function onSortDocuments(oEvent) {
   let selectedOption = document.getElementById("sort-select").value;
-  let articleTilesContainer = document.querySelector(".articleTilesContainer");
-  let docRows = Array.from(
-    articleTilesContainer.querySelectorAll(".articleRow")
+  let articleTilesContainerTOC = document.querySelector(
+    ".articleTilesContainer.toc-view"
   );
-  let rearrangedDocRows = [];
-  if (selectedOption === "Alphabetically") {
-    // ascending order
-    docRows.sort((a, b) =>
-      a
-        .querySelector(".articleTitle")
-        .innerText.localeCompare(b.querySelector(".articleTitle").innerText)
+  let articleTilesContainerGeneric = document.querySelector(
+    ".articleTilesContainer:not(.toc-view)"
+  );
+  let filterBar = document.querySelector(".filters-bar");
+
+  if (selectedOption === "Table of contents") {
+    articleTilesContainerTOC.style.display = "block";
+    articleTilesContainerGeneric.style.display = "none";
+    filterBar.classList.add("toc-view");
+  } else {
+    let docRows = Array.from(
+      articleTilesContainerTOC.querySelectorAll(".articleRow")
     );
-  } else if (selectedOption === "Newest") {
-    //descending order
-    docRows.sort((a, b) =>
-      b
-        .querySelector(".date-modified")
-        .innerText.localeCompare(a.querySelector(".date-modified").innerText)
-    );
-  } else if (selectedOption === "Popular") {
-    // ascending order
-    docRows.sort(
-      (a, b) => a.getAttribute("data-rank") - b.getAttribute("data-rank")
-    );
+
+    if (selectedOption === "Alphabetically") {
+      // ascending order
+      docRows.sort((a, b) =>
+        a
+          .querySelector(".articleTitle")
+          .innerText.localeCompare(b.querySelector(".articleTitle").innerText)
+      );
+    } else if (selectedOption === "Newest") {
+      //descending order
+      docRows.sort((a, b) =>
+        b
+          .querySelector(".date-modified")
+          .innerText.localeCompare(a.querySelector(".date-modified").innerText)
+      );
+    } else if (selectedOption === "Popular") {
+      // ascending order
+      docRows.sort(
+        (a, b) => a.getAttribute("data-rank") - b.getAttribute("data-rank")
+      );
+    }
+    articleTilesContainerTOC.style.display = "none";
+    articleTilesContainerGeneric.style.display = "block";
+    filterBar.classList.remove("toc-view");
+    articleTilesContainerGeneric.innerHTML = "";
+    docRows.forEach((articleRow) => {
+      let clone = articleRow.cloneNode(true);
+      clone.style.display = "flex";
+      articleTilesContainerGeneric.appendChild(clone);
+    });
   }
-  articleTilesContainer.innerHTML = "";
-  docRows.forEach((articleRow) =>
-    articleTilesContainer.appendChild(articleRow)
-  );
+
+  if (oEvent) {
+    fnClearFilters();
+  }
+}
+
+function fnClearFilters() {
+  let topicFilter = document.querySelector("#topic-select");
+  let productFilter = document.querySelector("#product-select");
+  let docTypeFilter = document.querySelector("#doctype-select");
+  //   let langFilter = document.querySelector("#lang-select");
+  let typeFilter = document.querySelector("#type-filter");
+
+  if (topicFilter) topicFilter.selectedIndex = 0;
+  if (productFilter) productFilter.selectedIndex = 0;
+  if (docTypeFilter) docTypeFilter.selectedIndex = 0;
+  //   if (topicSelect) topicSelect.selectedIndex = 0;
+  if (typeFilter) typeFilter.value = "";
+  onApplyFilters();
 }
 
 // Filtering ---------------------------------------------------
 function onApplyFilters() {
+  let isTocView =
+    document.querySelector(".articleTilesContainer.toc-view")?.style.display ==
+    "block";
+
+  if (isTocView) {
+    onApplyFiltersToc();
+  } else {
+    onApplyFiltersNonToc();
+  }
+}
+
+function onApplyFiltersNonToc() {
   let topicFilter = document.querySelector("#topic-select")?.value;
   let productFilter = document.querySelector("#product-select")?.value;
   let docTypeFilter = document.querySelector("#doctype-select")?.value;
   let langFilter = document.querySelector("#lang-select")?.value;
   let keyword =
     document.querySelector("#type-filter").value?.toUpperCase() || "";
+
   let visibleDocCount = 0;
 
-  let documentRowsContainer = document.querySelector("#allArticles-content");
-  let documentRows = documentRowsContainer.querySelectorAll(".articleRow");
+  let mainContainer = document.querySelector("#allArticles-content");
+  let articleTilesContainerTOC = document.querySelector(
+    ".articleTilesContainer:not(.toc-view)"
+  );
+  let documentRows = articleTilesContainerTOC.querySelectorAll(".articleRow");
 
   documentRows.forEach((documentRow) => {
     let topics =
@@ -122,16 +175,155 @@ function onApplyFilters() {
   });
 
   if (!visibleDocCount) {
-    documentRowsContainer.querySelector(".no-match-text").style.display =
-      "block";
+    mainContainer.querySelector(".no-match-text").style.display = "block";
   } else {
-    documentRowsContainer.querySelector(".no-match-text").style.display =
-      "none";
+    mainContainer.querySelector(".no-match-text").style.display = "none";
   }
 
-  documentRowsContainer.querySelector(".article-count").innerText =
-    visibleDocCount;
+  mainContainer.querySelector(".article-count").innerText = visibleDocCount;
 }
+
+function onApplyFiltersToc() {
+  //considering lang filter and type-filter
+  var keyword =
+    document.querySelector("#type-filter").value?.toUpperCase() || "";
+  let langFilter = document.querySelector("#lang-select")?.value;
+
+  var visibleSections = 0;
+  var visibleArticlesCount = 0;
+
+  let mainContainer = document.querySelector("#allArticles-content");
+  let articleTilesContainerTOC = mainContainer.querySelector(
+    ".articleTilesContainer.toc-view"
+  );
+  var articleSections = articleTilesContainerTOC.querySelectorAll(".section");
+
+  Array.from(articleSections).forEach((section) => {
+    var sectionHeader = section
+      .querySelector(".section-header")
+      .innerText?.toUpperCase()
+      .trim();
+    var listItems = section.querySelectorAll(".articleTitle");
+    var listItemsDescriptions = section.querySelectorAll(
+      ".articleText .articleDescription"
+    );
+
+    let sectionVisible = false;
+
+    for (var i = 0; i < listItems.length; i++) {
+      var itemText = (
+        listItems[i].textContent || listItems[i].innerText
+      )?.toUpperCase();
+      var itemDesc = listItemsDescriptions[i]?.innerText?.toUpperCase();
+      let lang = listItems[i].closest(".articleRow").getAttribute("data-lang");
+
+      let show = true;
+
+      if (langFilter && !(langFilter == "All" || langFilter === lang)) {
+        show = false;
+      }
+
+      // Case-insensitive comparison
+      if (
+        itemText.indexOf(keyword) > -1 ||
+        itemDesc.indexOf(keyword) > -1 ||
+        sectionHeader.indexOf(keyword) > -1
+      ) {
+        show = show && true;
+      } else {
+        show = false;
+      }
+
+      if (show) {
+        listItems[i].closest(".articleRow").style.display = "flex";
+        sectionVisible = true;
+        visibleSections++;
+        visibleArticlesCount++;
+      } else {
+        listItems[i].closest(".articleRow").style.display = "none";
+      }
+    }
+
+    if (sectionVisible) {
+      section.style.display = "block";
+    } else {
+      section.style.display = "none";
+    }
+  });
+
+  if (!visibleSections) {
+    mainContainer.querySelector(".no-match-text").style.display = "block";
+  } else {
+    mainContainer.querySelector(".no-match-text").style.display = "none";
+  }
+
+  mainContainer.querySelector(".article-count").innerText =
+    visibleArticlesCount;
+}
+
+// function onApplyFiltersToc() {
+//   //considering lang filter and type-filter
+//   var keyword =
+//     document.querySelector("#type-filter").value?.toUpperCase() || "";
+//   let langFilter = document.querySelector("#lang-select")?.value;
+
+//   var visibleSections = 0;
+//   var visibleArticlesCount = 0;
+
+//   let mainContainer = document.querySelector("#allArticles-content");
+//   let articleTilesContainerTOC = mainContainer.querySelector(
+//     ".articleTilesContainer.toc-view"
+//   );
+//   var articleSections = articleTilesContainerTOC.querySelectorAll(".section");
+
+//   Array.from(articleSections).forEach((section) => {
+//     var sectionHeader = section.querySelector(".section-header").innerText;
+//     var listItems = section.querySelectorAll(".articleTitle");
+//     var listItemsDescriptions = section.querySelectorAll(
+//       ".articleText .articleDescription"
+//     );
+//     var sectionVisible = false;
+
+//     for (var i = 0; i < listItems.length; i++) {
+//       var itemText = listItems[i].textContent || listItems[i].innerText;
+//       var itemDesc = listItemsDescriptions[i]?.innerText;
+//       let lang = listItems[i].closest(".articleRow").getAttribute("data-lang");
+
+//       // Case-insensitive comparison
+//       if (langFilter && !(langFilter == "All" || langFilter === lang)) {
+//         listItems[i].closest(".articleRow").style.display = "none";
+//       } else {
+//         if (
+//           itemText.toUpperCase().indexOf(keyword) > -1 ||
+//           itemDesc.toUpperCase().indexOf(keyword) > -1 ||
+//           sectionHeader.toUpperCase().indexOf(keyword) > -1
+//         ) {
+//           listItems[i].closest(".articleRow").style.display = "flex";
+//           sectionVisible = true;
+//           visibleSections++;
+//           visibleArticlesCount++;
+//         } else {
+//           listItems[i].closest(".articleRow").style.display = "none";
+//         }
+//       }
+//     }
+
+//     if (sectionVisible) {
+//       section.style.display = "block";
+//     } else {
+//       section.style.display = "none";
+//     }
+//   });
+
+//   if (!visibleSections) {
+//     mainContainer.querySelector(".no-match-text").style.display = "block";
+//   } else {
+//     mainContainer.querySelector(".no-match-text").style.display = "none";
+//   }
+
+//   mainContainer.querySelector(".article-count").innerText =
+//     visibleArticlesCount;
+// }
 
 //Dropdown related code-----------------------------------------------------
 function toggleDropdown(event) {

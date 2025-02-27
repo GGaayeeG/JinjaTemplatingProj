@@ -1,6 +1,6 @@
 {% extends "base.html.jinja" %}
 
-{% from 'macros/Dropdown.html' import Dropdown %}
+{% from 'macros/ArticleRow.html' import ArticleRow %}
 {% from 'macros/WalkThroughDialog.html' import WalkThroughDialog%}
 
 {% block head_title -%}
@@ -42,7 +42,7 @@
 {% endif %}
 
 {% set categoriesList = [] %}
-{% for categoryObj in data.categories %}
+{% for categoryObj in data.categories | sort(attribute='rank') %}
 {% set titleObj = categoryObj.translations | selectattr('lang', 'equalto', lang) | list %}
 {% if not titleObj %}
 {% set titleObj = categoryObj.translations | selectattr('default', 'equalto', true) | list %}
@@ -93,7 +93,7 @@
 {# Lang lookup #}
 {%set languages ={
 'en-us':'English',
-'de-de': 'Portuguese',
+'de-de': 'German',
 'fr-fr': 'French',
 'es-es': 'Spanish',
 'ko-kr': 'Korean',
@@ -194,17 +194,18 @@
     </span>
     {%endif%}
 
-    <div class="filters-bar">
+    <div class="filters-bar {% if categoriesList | length > 0 %} toc-view {% endif %}">
         <div class="select-section">
             <label for="sort-select">{{translations['sort-dropdown']}}</label>
             <select id="sort-select" onchange="onSortDocuments(event)" title="{{translations['sort-dropdown']}}">
+                {%if categoriesList|length > 0%}<option>Table of contents</option>{%endif%}
                 <option>Alphabetically</option>
                 <option>Newest</option>
                 {# <option>Popular</option> #}
             </select>
         </div>
         {%if isProduct or isSBP or isSmartDocs %}
-        <div class="select-section">
+        <div class="select-section topic-selector">
             <label for="topic-select">{{translations['topic-dropdown']}}</label>
             <select id="topic-select" onchange="onApplyFilters()" title="{{translations['topic-dropdown']}}">
                 {% for topic in topic_list %}
@@ -214,7 +215,7 @@
         </div>
         {%endif%}
         {%if isSBP or isTRD or isSmartDocs%}
-        <div class="select-section">
+        <div class="select-section product-selector">
             <label for="product-select">{{translations['products-dropdown']}}</label>
             <select id="product-select" onchange="onApplyFilters()" title="{{translations['products-dropdown']}}">
                 {% for product in products_list %}
@@ -224,7 +225,7 @@
         </div>
         {%endif%}
         {%if isTRD%}
-        <div class="select-section">
+        <div class="select-section doc-type-selector">
             <label for="doctype-select">{{translations['doc-type-dropdown']}}</label>
             <select id="doctype-select" onchange="onApplyFilters()" title="{{translations['doc-type-dropdown']}}">
                 {% for docType in doc_type_list %}
@@ -255,75 +256,30 @@
         <label class='article-counter'>{{translations['showing-text']}} <span class='article-count'>
                 {{articles|length}}</span>/<span>{{articles|length}} {{translations['articles-text']}}</span></label>
 
+        {%if categoriesList|length > 0%}
         <div class="articleTilesContainer toc-view">
-
             {% for category in categoriesList %}
             <div class="section">
                 <label class="section-header">{{category.title}}</label>
                 <div>
                     {% for article in articles|sort(attribute='title') %}
                     {% if article.category == category.categoryId %}
-                    <div class="articleRow">
-                        <div class="articleText" data-article-link="{{article.links.html}}"
-                            onclick="onArticleClick(event)">
-                            <a class="articleTitle" href={{article.links.html}}>
-                                {# Article Title {{ loop.index }} : {{ article.title }} #}
-                                {{article.title}}
-                            </a>
-                            <p class="articleDescription">{{article.description}}</p>
-                        </div>
-                        </p>
-                        <label>{{article.dateModified}}</label>
-                        {{Dropdown(article.links)}}
-                    </div>
-
+                    {{ArticleRow(article, languages,translations, isSBP, isTRD, isSmartDocs)}}
                     {% endif %}
                     {% endfor %}
                 </div>
             </div>
             {% endfor %}
-            <div class="articleTilesContainer"></div>
-
-            {# {% for article in articles | sort(attribute='title') %}
-            <div class="articleRow" data-topics="{{ article.tasks }}" data-products="{{ article.productsOnly }}"
-                data-doctypes="{{ article.docTypes }}"
-                data-article-link="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
-                data-rank="{{ article.rank }}" data-lang="{{languages[article.lang]}}">
-                <div class="articleText" onclick="onArticleClick(event)">
-                    <a class="articleTitle"
-                        href="{% if article.links.html %}{{ article.links.html }}{% elif article.links.pdf %}{{ article.links.pdf }}{% endif %}"
-                        data-rank="{{ article.rank }}">
-                        {%if article.subtitle%}
-                        {{article.title}}: {{article.subtitle}}
-                        {%else%}
-                        {{article.title}}
-                        {%endif%}
-                        {%if article.gated%}
-                        <img src="../assets/gated-lock.png" alt="lock" class="gated-icon" title="Premium content" />
-                        {%endif%}
-                    </a>
-                    <p class="articleDescription">{{article.description}}</p>
-
-                    {% set appliesToText = [] %}
-                    {% for productInfo in article.products %}
-                    {% set product_versions = productInfo.versions | join(', ') %}
-                    {% set temp = productInfo.name + ' ' + product_versions %}
-                    {% set _ = appliesToText.append(temp) %}
-                    {% endfor %}
-                    {% set appliesToText = appliesToText | join('; ') %}
-
-                    {%if (isSBP or isTRD or isSmartDocs) and appliesToText%}
-                    <p class="applies-to-text"> <span>{{translations['applies-to-text']}}: </span> {{ appliesToText }}
-                    </p>
-                    {%endif%}
-                </div>
-                <label class="date-modified">{{article.dateModified}}</label>
-                {% set dropdown_tooltip = translations['format-tooltip']%}
-                {{Dropdown(article.links, dropdown_tooltip)}}
-            </div>
-            {% endfor %} #}
-
         </div>
+        <div class="articleTilesContainer"></div>
+        {%else%}
+        <div class="articleTilesContainer">
+            {% for article in articles | sort(attribute='title') %}
+            {{ArticleRow(article, languages,translations, isSBP, isTRD, isSmartDocs)}}
+            {% endfor %}
+        </div>
+        {%endif%}
+
         <p class="no-match-text">No matching articles found</p>
     </div>
     {{WalkThroughDialog()}}
