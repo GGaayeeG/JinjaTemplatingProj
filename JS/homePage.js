@@ -458,7 +458,12 @@ function setUpPopover(oEvent, versions, acronymn, popoverTitle) {
       link.href = "./indexPage.html";
     }
 
-    link.innerText = acronymn + " " + versionObj.name;
+    link.innerText =
+      (versionObj.acronymn ? versionObj.acronymn : acronymn) +
+      " " +
+      versionObj.name;
+
+    // link.innerText = acronymn + " " + versionObj.name;
     listItem.appendChild(link);
     popoverList.appendChild(listItem);
   });
