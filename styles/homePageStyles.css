@@ -1,11 +1,54 @@
 :root {
   --primary-pine-green: #0c322c;
   --primary-jungle-green: #30ba78;
+  --darker-jungle-green: #008657;
   --secondary-midnight-blue: #192072;
   --secondary-waterhole-blue: #2453ff;
   --tertiary-mint: #90ebcd;
   --tertiary-persimmon: #fe7c3f;
+  --fog-color: #efefef;
   --font-size: 16px;
+}
+
+.susecon-survey {
+  width: 100%;
+  display: flex;
+  height: 48px;
+  font-size: 15px;
+  box-shadow: 0 1px 6px #00000029;
+  position: relative;
+  background-color: var(--fog-color);
+  align-items: center;
+}
+
+.news-tag {
+  background-color: var(--primary-pine-green);
+  color: white;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  padding-left: 48px;
+  width: 20%;
+  justify-content: flex-end;
+}
+
+.news-tag::after {
+  border-color: var(--primary-pine-green) var(--fog-color);
+  border-style: solid;
+  border-width: 48px 48px 0 0;
+  content: "";
+  width: 0;
+  margin-left: 20px;
+}
+
+.susecon-survey a {
+  /* color: var(--darker-jungle-green); */
+  color: #025937;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-left: 8px;
 }
 
 .sortingOptions {
@@ -409,5 +452,13 @@ input:checked + .slider:before {
   .alphabeticalSelector {
     flex-wrap: wrap;
     line-height: 2rem;
+  }
+
+  .switch-bar {
+    justify-content: center;
+  }
+
+  .news-tag {
+    display: none;
   }
 }
