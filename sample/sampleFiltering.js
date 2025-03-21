@@ -230,3 +230,11 @@ var appliesToText = article.products
 var supportedVersions = product.supportedVersions.map((version) => {
   return (version.path = lang + "/" + version.path);
 });
+
+//filtering categories
+var categoriesList = categories.map((categoryObj) => {
+  let titleObj = categoryObj.translations.filter((translationObj) => {
+    return translationObj.lang === lang || translationObj.default;
+  });
+  return { categoryId: categoryObj.categoryId, title: titleObj.title };
+});
