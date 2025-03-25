@@ -41,17 +41,23 @@
 
 {% block body_main%}
 <div class="susecon-survey">
-    <div class="news-tag">SUSECON 2025</div>
-    {# <div> #}
-        <a href='https://suselinux.fra1.qualtrics.com/jfe/form/SV_bEiGZbUNzLD8Tcy'>Help shape
-            the documentation - participate in our survey</a>
-        {#
-    </div> #}
+    {# <div class="news-tag">SUSECON 2025</div>
+
+    <a href='https://suselinux.fra1.qualtrics.com/jfe/form/SV_bEiGZbUNzLD8Tcy'>Help shape
+        the documentation - participate in our survey</a> #}
+
+    <div class="news-tag"><label>SPOTLIGHT</label></div>
+    <a href='/cloudnative/suse-private-registry/html/private-registry/'>SUSE Private Registry
+        Documentation
+    </a>
+
 </div>
 <div class="main-container">
     <button class='helpButton' onclick="onStartHomepageWalkthrough()" title="Walk-Through">Help</button>
-    <button class='feedbackButton'><a
-            href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a></button>
+    {# <button class='feedbackButton'> #}
+        <a class='feedbackButton' title="fb"
+            href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a>
+        {# </button> #}
     <h1 class="pageHeading">{{translations['page-title']}}</h1>
     {{GlobalSearch(translations['search-tooltip'],translations['search-placeholder'])}}
     {{HomePageMenuBar(translations['products-tab-tooltip'],translations['sbp-tab-tooltip'],translations['trd-tab-tooltip'],translations['smart-docs-tab-tooltip'])}}
