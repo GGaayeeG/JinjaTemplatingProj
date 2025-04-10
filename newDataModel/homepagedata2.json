@@ -1881,6 +1881,11 @@
         {
           "name": "5.0",
           "path": "/suma/5.0/"
+        },
+        {
+          "name": "5.1",
+          "path": "/multi-linux-manager/5.1/",
+          "acronymn": "SMLM"
         }
       ],
       "unsupported": []
@@ -2252,5 +2257,7 @@
       "name": "Virtualization & Cloud",
       "path": "/smart/virtualization-cloud/"
     }
-  ]
+  ],
+  "spotlightText": "SUSE Private Registry Documentation",
+  "spotlightLink": "/cloudnative/suse-private-registry/html/private-registry/"
 }
