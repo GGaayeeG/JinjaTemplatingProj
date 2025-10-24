@@ -1,0 +1,60 @@
+{% from 'macros/GlobalSearch.html' import GlobalSearch %}
+{% from 'macros/AccordionRN.html' import AccordionRN %}
+{% from 'macros/Divider.html' import Divider %}
+
+
+{#-Jinja template for home page-#}
+{% extends "base.html.jinja" %}
+
+{% block head_title -%}
+<title>Release Notes</title>
+{% endblock head_title %}
+
+{%block head_global%}
+{{super()}}
+{# {% include "./fragments/head_"~lang~".html" %} #}
+{%endblock head_global%}
+
+{% block head_link_css -%}
+{{ super() }}
+{#
+<link rel="stylesheet" type="text/css" href="../styles/indexPageStyles.css"> #}
+<link rel="stylesheet" type="text/css" href="../styles/releaseNotesStyles.css">
+{% endblock head_link_css -%}
+
+
+{% block body_main%}
+<div class="main-container">
+    <button class='helpButton' onclick="onStartHomepageWalkthrough()" title="Walk-Through">Help</button>
+    {# <button class='feedbackButton'> #}
+        <a class='feedbackButton' title="fb"
+            href="https://suselinux.fra1.qualtrics.com/jfe/form/SV_6P5BXUgnoxnlx30">Feedback</a>
+        {# </button> #}
+    <div class="sub-header">
+        <h1>Release Notes</h1>
+        <form method="get" class="formHeader" onsubmit="">
+            <input type="search" class="searchInput filterInput" size="20" placeholder="Filter by product"
+                title="Filter by product" oninput="" />
+            <button type="submit" value="Filter" title="Filter" class="searchButton filterButton">
+                <i class="fa fa-filter"></i>
+            </button>
+        </form>
+    </div>
+
+    <div class="products-content">
+        {% for product in data.products %}
+        {{AccordionRN(title=product.name, releaseNotesList = product.releaseNotes)}}
+        {% endfor %}
+    </div>
+
+
+</div>
+{%endblock body_main%}
+
+{% block after_body_scripts %}
+{{ super() }}
+
+<script src="../JS/releaseNotesPage.js"></script>
+{% endblock after_body_scripts -%}
+
+{# Alphabetical sorter, colour coding versions, grouping versions #}

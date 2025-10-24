@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "name": "SUSE Linux Enterprise Desktop",
+      "releaseNotes": [
+        { "name": "15 SP6", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP5", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP4", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP3", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP2", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP1", "version": "15", "link": "", "supported": false },
+        { "name": "15", "version": "15", "link": "", "supported": false },
+        { "name": "12 SP4", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP3", "version": "12", "link": "", "supported": false },
+        { "name": "12", "version": "12", "link": "", "supported": false },
+        { "name": "11 SP4", "version": "11", "link": "", "supported": false },
+        { "name": "11 SP3", "version": "11", "link": "", "supported": false },
+        { "name": "10 SP4", "version": "10", "link": "", "supported": false }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Server",
+      "releaseNotes": [
+        { "name": "15 SP5", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP6", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP4", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP3", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP2", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP1", "version": "15", "link": "", "supported": false },
+        { "name": "15", "version": "15", "link": "", "supported": false },
+        { "name": "12 SP4", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP3", "version": "12", "link": "", "supported": false },
+        { "name": "12", "version": "12", "link": "", "supported": false },
+        { "name": "11 SP4", "version": "11", "link": "", "supported": false },
+        { "name": "11 SP3", "version": "11", "link": "", "supported": false },
+        { "name": "10 SP4", "version": "10", "link": "", "supported": false },
+        { "name": "9 SP4", "version": "9", "link": "", "supported": false }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Point of Service",
+      "releaseNotes": [
+        { "name": "11 SP3", "version": "11", "link": "", "supported": true },
+        { "name": "10 SP2", "version": "10", "link": "", "supported": false }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Point of Service Image Server",
+      "releaseNotes": [
+        { "name": "12", "version": "12", "link": "", "supported": true }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Server for SAP Applications",
+      "releaseNotes": [
+        { "name": "15 SP6", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP5", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP4", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP3", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP2", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP1", "version": "15", "link": "", "supported": false },
+        { "name": "15", "version": "15", "link": "", "supported": false },
+        { "name": "12 SP5", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP4", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP3", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP2", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP1", "version": "12", "link": "", "supported": false },
+        { "name": "12", "version": "12", "link": "", "supported": false },
+        { "name": "11 SP4", "version": "11", "link": "", "supported": false }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Micro",
+      "releaseNotes": [
+        { "name": "6.1", "version": "6", "link": "", "supported": true },
+        { "name": "6.0", "version": "6", "link": "", "supported": true },
+        { "name": "5.5", "version": "5", "link": "", "supported": false },
+        { "name": "5.4", "version": "5", "link": "", "supported": false },
+        { "name": "5.3", "version": "5", "link": "", "supported": false },
+        { "name": "5.2", "version": "5", "link": "", "supported": false },
+        { "name": "5.1", "version": "5", "link": "", "supported": false }
+      ]
+    },
+    {
+      "name": "SUSE Linux Enterprise Real Time",
+      "releaseNotes": [
+        { "name": "15 SP6", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP5", "version": "15", "link": "", "supported": true },
+        { "name": "15 SP4", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP3", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP2", "version": "15", "link": "", "supported": false },
+        { "name": "15 SP1", "version": "15", "link": "", "supported": false },
+        { "name": "12 SP5", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP4", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP3", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP2", "version": "12", "link": "", "supported": false },
+        { "name": "12 SP1", "version": "12", "link": "", "supported": false },
+        { "name": "11 SP4", "version": "11", "link": "", "supported": false },
+        { "name": "11 SP3", "version": "11", "link": "", "supported": false },
+        { "name": "10 SP3", "version": "10", "link": "", "supported": false },
+        { "name": "10 SP2", "version": "10", "link": "", "supported": false }
+      ]
+    },
+    {
+      "name": "SUSE Enterprise Storage",
+      "releaseNotes": [
+        { "name": "7.1", "version": "7", "link": "", "supported": true },
+        { "name": "7", "version": "7", "link": "", "supported": true },
+        { "name": "6", "version": "6", "link": "", "supported": false },
+        { "name": "5", "version": "5", "link": "", "supported": false },
+        { "name": "4", "version": "4", "link": "", "supported": false },
+        { "name": "3", "version": "3", "link": "", "supported": false }
+      ]
+    }
+  ]
+}
